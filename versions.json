@@ -28,5 +28,10 @@
     "setCode": "LGN",
     "setName": "Legions",
     "creationDay": "2003-03-15"
+  },
+  {
+    "setCode": "SCG",
+    "setName": "Scourge",
+    "creationDay": "2003-05-26"
   }
 ]
