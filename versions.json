@@ -3,5 +3,10 @@
     "setCode": "6ED",
     "setName": "Classic Sixth Edition",
     "creationDay": "1999-04-23"
+  },
+  {
+    "setCode": "BRB",
+    "setName": "Battle Royale Box Set",
+    "creationDay": "1999-11-01"
   }
 ]
