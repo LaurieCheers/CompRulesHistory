@@ -53,5 +53,10 @@
     "setCode": "5DN",
     "setName": "Fifth Dawn",
     "creationDay": "2004-06-01"
+  },
+  {
+    "setCode": "CHK",
+    "setName": "Champions of Kamigawa",
+    "creationDay": "2004-10-01"
   }
 ]
