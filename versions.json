@@ -38,5 +38,10 @@
     "setCode": "8ED",
     "setName": "Eighth Edition",
     "creationDay": "2003-07-01"
+  },
+  {
+    "setCode": "MRD",
+    "setName": "Mirrodin",
+    "creationDay": "2003-12-01"
   }
 ]
