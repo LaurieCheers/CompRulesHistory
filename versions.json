@@ -58,5 +58,10 @@
     "setCode": "CHK",
     "setName": "Champions of Kamigawa",
     "creationDay": "2004-10-01"
+  },
+  {
+    "setCode": "BOK",
+    "setName": "Betrayers of Kamigawa",
+    "creationDay": "2005-02-01"
   }
 ]
