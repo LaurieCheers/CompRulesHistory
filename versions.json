@@ -8,5 +8,10 @@
     "setCode": "BRB",
     "setName": "Battle Royale Box Set",
     "creationDay": "1999-11-01"
+  },
+  {
+    "setCode": "APC",
+    "setName": "Apocalypse",
+    "creationDay": "2001-07-23"
   }
 ]
