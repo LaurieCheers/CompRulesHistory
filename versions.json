@@ -18,5 +18,10 @@
     "setCode": "ODY",
     "setName": "Odyssey",
     "creationDay": "2001-09-24"
+  },
+  {
+    "setCode": "TOR",
+    "setName": "Torment",
+    "creationDay": "2002-02-20"
   }
 ]

@@ -1,6 +1,6 @@
 Magic: The Gathering(R) Comprehensive Rules
 
-These rules are current as of September 24, 2001.
+These rules are current as of February 20, 2002.
 
 Introduction
 
@@ -221,7 +221,7 @@ Two cards have the same name if the English versions of their names are identica
 The mana cost of a card is indicated by mana symbols printed on its upper right corner. Tokens and lands have a mana cost of 0. Paying a card's mana cost requires matching the color of any colored mana symbols as well as paying the generic mana cost indicated.
 
 203.2.
-A card is the color or colors of the mana symbols in its mana cost, regardless of the color of its border. For example, a card with a mana cost of 2W is white, and one with a mana cost of 2WB is both white and black. Cards with no colored mana symbols in their mana costs are colorless. Cards with more than one colored mana symbol in their mana costs are multicolored. Multicolored cards are printed with a gold frame, but this is not a requirement for a card to be multicolored.
+A card is the color or colors of the mana symbols in its mana cost, regardless of the color of its border. For example, a card with a mana cost of 2W is white, and one with a mana cost of 2WB is both white and black. Cards with no colored mana symbols in their mana costs are colorless. Cards with more than one of the five colored mana symbols in their mana costs are multicolored. Multicolored cards are printed with a gold frame, but this is not a requirement for a card to be multicolored.
 
 203.3.
 The converted mana cost of a card is the total amount of mana in the mana cost, regardless of color (For example, a mana cost of 3UU translates to a converted mana cost of 5). The converted mana cost is a generic mana cost--it may be paid with any combination of colored and/or colorless mana, regardless of the colors in the spell's mana cost.
@@ -354,6 +354,9 @@ Example: Merfolk or Wizard is acceptable, but not Merfolk Wizard. Words like "op
 214.7b
 Plurality and gender are ignored when determining creature types.
 Example: Ogre, Ogres, Ogress, and Ogresses all count as the same creature type--Ogre.
+
+214.7c
+A creature's activated ability with the tap symbol in its activation cost can't be played unless the creature has been under its controller's control since the start of his or her most recent turn. A creature can't attack unless it has been under its controller's control since the start of his or her most recent turn.  Ignore this rule for creatures with haste (see rule 502.5).
 
 214.8.
 Enchantments
@@ -582,7 +585,7 @@ When a phase ends (but not a step), any unused mana left in a player's mana pool
 When a phase or step begins, any abilities that trigger "at the beginning of" that phase or step are added to the stack.
 
 300.6.
-Some spells and abilities can give a player extra turns. If a player gets multiple extra turns or if both players get extra turns during a single turn, the extra turns are taken in the order effects created them.
+Some spells and abilities can give a player extra turns. They do this by adding the turns directly after the current turn. If a player gets multiple extra turns or if both players get extra turns during a single turn, the extra turns are added one at a time. The most recently created turn will be taken first.
 
 301. Beginning Phase
 
@@ -639,22 +642,22 @@ As this step begins, triggered abilities (if any) are added to the stack, and th
 308. Declare Attackers Step
 
 308.1.
-The active player declares which, if any, creatures he or she controls are attacking. Only creatures can attack, and the following creatures can't attack: tapped creatures (even those that can attack without tapping), Walls, and creatures the active player didn't control continuously since the beginning of the turn. This declaration is simultaneous, not sequential, and doesn't go on the stack. Any triggered ability generated during this action waits until a player would receive priority.
-
-308.1a
-A creature is considered attacking alone if it's the sole creature declared as an attacker in a given combat phase.
+The active player declares which, if any, creatures he or she controls will attack. Only creatures can attack, and the following creatures can't attack: tapped creatures (even those that can attack without tapping), Walls, and creatures the active player didn't control continuously since the beginning of the turn. This declaration is simultaneous, not sequential, and doesn't go on the stack. Any triggered ability generated during this action waits until a player would receive priority.
 
 308.2.
-The active player determines whether the attack is legal. (See section 5, "Additional Rules.") If it is, he or she taps all attacking creatures. Tapping a creature when it is declared as an attacker is not a cost; attacking simply causes creatures to become tapped. Then the player pays all required costs. Other costs and/or restrictions may also apply. (See rule 409.1f.) The active player may play mana abilities at this time only if an attack cost includes a mana payment.
+The active player determines whether the attack is legal. (See section 5, "Additional Rules.") If it is, he or she taps all creatures that will attack. Tapping a creature when it is declared as an attacker is not a cost; attacking simply causes creatures to become tapped. Then the player pays all required costs. Other costs and/or restrictions may also apply. (See rule 409.1f.) The active player may play mana abilities at this time only if an attack cost includes a mana payment.
 
 308.3.
-If the proposed attack isn't legal or the active player can't pay all required costs, all actions described in rules 308.1 and 308.2 are canceled. Then the active player redeclares attacking creatures. (See rule 422, "Handling Illegal Actions.")
+If the proposed attack isn't legal or the active player can't pay all required costs, all actions described in rules 308.1 and 308.2 are canceled. Then the active player redeclares which creatures will attack. (See rule 422, "Handling Illegal Actions.")
 
 308.4.
 If no creatures are declared as attackers, the game proceeds directly to the end of combat step, skipping the remainder of the declare attackers step as well as the entire declare blockers and combat damage steps.
 
 308.5.
 A creature becomes an attacking creature when it has been declared as part of a legal attack and all attack costs have been paid, but only if it's controlled by the active player. It remains an attacking creature until it's removed from combat or the combat phase ends, whichever comes first. The nonactive player is considered to have been attacked that turn at this time if one or more creatures are attacking.
+
+308.5a
+A creature is considered attacking alone if it's the sole creature declared as an attacker in a given combat phase.
 
 308.6.
 After a legal attack has been declared and all required costs have been paid, the active player receives priority to play spells and abilities.
@@ -664,19 +667,17 @@ After a legal attack has been declared and all required costs have been paid, th
 309.1.
 The defending player declares which, if any, creatures he or she controls are blocking and which attacking creature each one blocks. Tapped creatures and noncreature permanents can't be declared as blockers. Each creature may block only one attacking creature, although any number of creatures may block the same attacking creature. (Note that blocking doesn't cause a creature to tap.) This declaration is simultaneous, not sequential, and doesn't go on the stack. Any triggered ability generated during this action waits until a player would receive priority.
 
-309.1a
-A creature is considered blocking alone if it's the sole creature declared as a blocker in a given combat phase.
-
 309.2.
 The defending player determines whether the block is legal. (See section 5, "Additional Rules.") If it is, he or she pays all required costs. A player may play mana abilities at this time only if a blocking cost that player could pay includes a mana payment.
 
-309.2a. If the proposed block isn't legal or the defending player can't pay all required costs, all actions described in rules 309.1 and 309.2 are canceled. Then the defending player redeclares blocking creatures. (See rule 422, "Handling Illegal Actions.")
-
 309.3.
-A creature becomes a blocking creature when it has been declared as part of a legal block and all block costs have been paid, but only if it's controlled by the defending player. An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no blockers becomes an unblocked creature. The creature's status remains unchanged until the creature is removed from combat or the combat phase ends, whichever comes first.
+If the proposed block isn't legal or the defending player can't pay all required costs, all actions described in rules 309.1 and 309.2 are canceled. Then the defending player redeclares blocking creatures. (See rule 422, "Handling Illegal Actions.")
 
 309.4.
-Once a creature has been declared as a blocker, the block can't be "undone" by playing a spell or ability that removes it from combat, makes the attacking creature unblockable, or would have made the blocker unable to block earlier.
+A creature becomes a blocking creature when it has been declared as part of a legal block and all block costs have been paid, but only if it's controlled by the defending player. An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no blockers becomes an unblocked creature. The creature's status remains unchanged until the creature is removed from combat or the combat phase ends, whichever comes first.
+
+309.4a
+A creature is considered blocking alone if it's the sole creature declared as a blocker in a given combat phase.
 
 309.5.
 After all legal blocks have been declared and all required costs have been paid, the active player receives priority to play spells and abilities.
@@ -783,8 +784,8 @@ Once activated or triggered, an ability exists independently of its source (the 
 A card may have several abilities. Aside from certain defined abilities that may be strung together on a single line (see rule 502, "Keyword Abilities"), each paragraph break in a card's text marks a separate ability. A card may also have multiple instances of the same ability. Each instance functions independently. This may or may not produce more effects than a single instance; refer to the specific ability for more information.
 
 402.8.
-Abilities function only while the permanent with the ability is in play unless the ability states otherwise.
-Example: Black spells and abilities from black sources can target a card with protection from black when it's in a library or graveyard.
+Abilities function only while the permanent with the ability is in play unless the ability states otherwise or unless the ability can only work, trigger, or be played in a zone other than the in- play zone.
+Example: An ability with a cost that includes "discard this card from your hand" can be played only if the card is in your hand.
 
 402.9.
 Some cards have abilities that can be played when the card is not in play. These are clearly marked (for example, "Play this ability only if [this card] is in your graveyard"). These abilities aren't of any particular permanent type--cards not in play aren't permanents. Some cards have abilities that can trigger while the card is in a zone other than the in-play zone. Such abilities specify the zone from which they trigger. They aren't abilities of any particular permanent type because cards not in play aren't permanents.
@@ -939,7 +940,7 @@ Playing a spell or activated ability follows the steps listed below, in order. I
 The player announces that he or she is playing the spell or ability. It goes on the stack and remains there until it's countered or resolves. Spell cards are physically placed on the stack. For abilities, a pseudospell with the text of the ability goes on the stack. All other characteristics of the pseudospell depend on the characteristics of the ability's source. For example, such a pseudospell's color would be continuously determined by the color of its source, not just the source's color when the pseudospell went on the stack.
 
 409.1b
-If the spell or ability is modal (uses the phrase "Choose one --" or "[specified player] chooses one -- "), the player announces the mode choice. If the spell or ability has a variable mana cost (indicated by "X") or some other variable cost, the player announces the value of that variable at this time. If the spell or ability has alternative, additional, or other special costs (such as buyback or kicker costs), the player announces his or her intentions to pay any or all of those costs (see rule 409.1f).
+If the spell or ability is modal (uses the phrase "Choose one --" or "[specified player] chooses one -- "), the player announces the mode choice. If the spell or ability has a variable mana cost (indicated by "X") or some other variable cost, the player announces the value of that variable at this time. If the spell or ability has alternative, additional, or other special costs (such as buyback or kicker costs), the player announces his or her intentions to pay any or all of those costs (see rule 409.1f). Previously made choices (such as choosing to play a spell with flashback from his or her graveyard) may restrict the player's options when making these choices.
 
 409.1c
 If the spell or ability requires any targets, the player first announces how many targets he or she will choose (if the spell or ability has a variable number of targets), then announces the targets themselves. A spell or ability can't be played unless the required number of legal targets are chosen. The same target can't be chosen multiple times. If the spell or ability targets one or more targets only if an alternative, additional, or special cost (such as a buyback or kicker cost) is paid for it, or if a particular mode is chosen for it, its controller chooses those targets only if he or she announced the intention to pay that cost or chose that mode. Otherwise, the spell or ability is played as though it did not have those targets.
@@ -1007,7 +1008,7 @@ An ability that reads "Whenever a creature blocks [this creature]" triggers once
 If an ability triggers when a creature blocks or is blocked by a particular number of creatures, the ability triggers only if the creature blocks or is blocked by that many creatures when the attack or block declaration is made. Effects that add or remove blockers can cause such abilities to trigger, but effects that switch blockers cannot. This also applies to abilities that trigger on a creature blocking or being blocked by at least a certain number of creatures.
 
 410.10.
-Trigger events that involve cards or permanents changing zones are called "zone-change triggers." Many abilities with zone-change triggers attempt to do something to that card after it changes zones. During resolution, these abilities look for the card in the zone that it moved to. If the card leaves the specified zone before the ability resolves, the part of the ability attempting to do something to the card will fail to do anything. (This rule applies even if the card leaves the zone and returns again before the ability resolves.) The most common types of zone-change triggers are comes-into-play triggers and leaves-play triggers.
+Trigger events that involve cards or permanents changing zones are called "zone-change triggers." Many abilities with zone-change triggers attempt to do something to that card after it changes zones. During resolution, these abilities look for the card in the zone that it moved to. If the card is unable to be found in the zone it went to, the part of the ability attempting to do something to the card will fail to do anything. The ability could be unable to find the card because the card never entered the specified zone, because it left the zone before the ability resolved, or because it is in a zone that is hidden from a player, such as a library or an opponent's hand. (This rule applies even if the card leaves the zone and returns again before the ability resolves.) The most common types of zone-change triggers are comes-into-play triggers and leaves-play triggers.
 
 410.10a
 Comes-into-play abilities trigger when a permanent enters the in-play zone. These are written, "When [this card] comes into play, . . . " or "Whenever a [type] comes into play, . . ." Each time an event puts one or more permanents into play, all permanents in play (including the newcomers) are checked for any comes-into-play triggers that match the event.
@@ -1054,10 +1055,10 @@ A static ability may generate a continuous effect or a prevention or replacement
 Many local enchantments have static abilities that modify their enchanted permanent, but those abilities don't target that permanent. If a local enchantment is moved to a different permanent, the ability stops applying to the original permanent and starts modifying the new one.
 
 412.3.
-Some static abilities apply while a spell is on the stack. These are often abilities that refer to countering the spell.
+Some static abilities apply while a spell is on the stack. These are often abilities that refer to countering the spell. Also, abilities that say "As an additional cost to play . . ." and "You may pay [cost] rather than paying [this card]'s mana cost" work while the card is a spell on the stack.
 
 412.4.
-Some static abilities apply while a card is in your hand. These are limited to those that read, "you may play [this spell] . . ." and "you can't play [this spell] . . . ."
+Some static abilities apply while a card is in any zone that you could play it from (usually your hand). These are limited to those that read, "you may play [this card] . . ." and "you can't play [this card] . . . ."
 
 412.5.
 Unlike spells and other kinds of abilities, static abilities can't use a card or permanent's last known information for purposes of determining how their effects are applied.
@@ -1174,7 +1175,7 @@ If the spell or ability creating a continuous effect is variable, the effect is 
 Example: A spell that reads "Target creature gets +X/+X until end of turn, where X is the number of cards in your hand" counts the number of cards in the controller's hand when the spell resolves and grants that bonus for the rest of the turn, even if the hand size changes.
 
 418.3d
-If an effect's duration is over before it would begin, the effect does nothing--it doesn't start and immediately stop again, and it doesn't last forever.
+Some effects from activated or triggered abilities have durations worded "as long as . . ." If the "as long as" duration ends between the end of announcing the activated ability or putting the triggered ability onto the stack and the moment when the effect would first be applied, the effect does nothing. It doesn't start and immediately stop again, and it doesn't last forever.
 Example: Endoskeleton is an artifact with an activated ability that reads "2, T: Target creature gets +0/+3 as long as Endoskeleton remains tapped." If you play this ability and then Endoskeleton becomes untapped before the ability resolves, it does nothing, because its duration--remaining tapped--was over before the effect began.
 
 418.4.
@@ -1247,10 +1248,10 @@ Prevention Effects
 Prevention effects usually apply to damage that would be dealt.
 
 419.7b
-Some prevention effects refer to a specific amount of damage--for example, "Prevent the next 3 damage to target creature or player this turn." These work like ablative shields. Each 1 damage that would be dealt to the "shielded" creature or player instead reduces the shield by 1. Once the shield has been reduced to 0, any remaining damage is dealt normally. Such effects count only the amount of damage; the number of events or sources dealing it doesn't matter.
+Some prevention effects refer to a specific amount of damage--for example, "Prevent the next 3 damage to target creature or player this turn." These work like ablative shields. Each 1 damage that would be dealt to the "shielded" creature or player is prevented. Preventing 1 damage reduces the remaining shield by 1. If damage would be dealt to the shielded creature or player by two or more sources at the same time, the player or the controller of the creature can choose which damage the shield prevents first. Once the shield has been reduced to 0, any remaining damage is dealt normally. Such effects count only the amount of damage; the number of events or sources dealing it doesn't matter.
 
 419.7c
-Some prevention effects apply to damage from a specified source--for example, "The next time a red source of your choice would deal damage to you this turn, prevent that damage." The source is chosen when the spell or ability resolves. If an effect requires a player to choose a source, he or she may choose either a permanent or a spell on the stack (including one that creates a permanent) or any card or permanent referred to by a spell or pseudospell on the stack. If the player chooses a permanent or a permanent spell, the prevention will apply to the next damage from that permanent or the permanent resulting from the spell, regardless of whether it's from one of that permanent's abilities or combat damage dealt by it. It's possible for the source to be out of play by the time the spell or ability resolves. Some abilities that generate prevention effects can affect damage only from a source with certain characteristics, such as a creature or a source of a particular color. When prevention "shields" with these types of restrictions are used, they recheck the source from which they're preventing damage. If the characteristics no longer match, the damage isn't prevented.
+Some prevention effects apply to damage from a specified source--for example, "The next time a red source of your choice would deal damage to you this turn, prevent that damage." The source is chosen when the spell or ability resolves. If an effect requires a player to choose a source, he or she may choose either a permanent or a spell on the stack (including one that creates a permanent) or any card or permanent referred to by a spell or pseudospell on the stack. If the player chooses a permanent or a permanent spell, the prevention will apply to the next damage from that permanent or the permanent resulting from the spell, regardless of whether it's from one of that permanent's abilities or combat damage dealt by it. It's possible for the source to be out of play by the time the spell or ability resolves. Some abilities that generate prevention effects can affect damage only from a source with certain characteristics, such as a creature or a source of a particular color. When the chosen source would deal damage, a prevention "shield" with this type of restriction rechecks the source'. If the characteristics no longer match, the damage isn't prevented. If for any reason the shield prevents no damage, the shield isn't used up.
 
 419.8.
 Interaction of Replacement or Prevention Effects
@@ -1494,7 +1495,7 @@ Banding
 Banding is a static ability that modifies the rules for declaring attackers, declaring blockers, and assigning combat damage.
 
 502.10b
-As a player declares attackers, he or she may declare that any number of attacking creatures with banding, and up to one attacking creature without banding, are all in a "band." (Defending players can't declare bands but may use banding in a different way; see rule 502.10h.)
+As a player declares attackers, he or she may declare that any number of those creatures with banding, and up to one of those creatures without banding, are all in a "band." (Defending players can't declare bands but may use banding in a different way; see rule 502.10h.)
 
 502.10c
 A player may declare as many attacking bands as he or she wants, but each creature may be a member of only one of them.
@@ -1675,13 +1676,22 @@ Flashback is a static ability of some instant and sorcery cards that functions w
 Threshold
 
 502.23a
-Threshold is a static ability, written "Threshold - [text]." The text can be a static ability, activated ability, triggered ability, characteristic-setting text, spell text, or any combination of the five. The phrase "Threshold - [text]" means "As long as you have seven or more cards in your graveyard, this card has '[text].'"
+Threshold is a static ability, written "Threshold -- [text]." The text can be a static ability, activated ability, triggered ability, characteristic-setting text, spell text, or any combination of the five. The phrase "Threshold -- [text]" means "As long as you have seven or more cards in your graveyard, this card has '[text].'"
 
 502.23b
-Cards and permanents with threshold have the threshold text only if their controller has seven or more cards in his or her graveyard. Otherwise, the text after "Threshold -" is treated as though it did not appear on the card or permanent.
+Cards and permanents with threshold have the threshold text only if their controller has seven or more cards in his or her graveyard. Otherwise, the text after "Threshold --" is treated as though it did not appear on the card or permanent.
 
 502.23c
 An instant or sorcery card with threshold has the threshold text only while the card is on the stack (that is, while it's a spell). An artifact, creature, enchantment, or land card with threshold, or any permanent with threshold, has the threshold text only if the card or permanent is in play.
+
+502.24.
+Madness
+
+502.24a
+Madness is a keyword that represents two abilities. The first is a static ability that functions while the card with madness is in a player's hand. The second is a triggered ability that functions when the first ability is applied. The phrase "Madness [cost]" means "If a player would discard this card from his or her hand, that player discards it, but may remove it from the game instead of putting it into his or her graveyard" and "When this card is removed from the game this way, until that player passes next, the player may play it any time he or she could play an instant as though it were in his or her hand by paying [cost] rather than paying its mana cost. When the player passes next, he or she puts it into his or her graveyard."
+
+502.24b
+Playing a spell using its madness ability follows the rules for paying alternative costs in rules 409.1b and 409.1f.
 
 503. Copying Spells and Abilities
 
@@ -1724,7 +1734,7 @@ Example: Quirion Elves comes into play and an Unstable Shapeshifter copies it. T
 
 503.10.
 When copying a spell, all information that is normally copied from a permanent is copied. In addition, all decisions made when the spell was played are copied. These include mode, targets, the value of X, and optional additional costs such as buyback. (See rule 409, "Playing Spells and Activated Abilities.") Choices that are normally made on resolution are not copied.
-Example: A player plays Fork, targeting an Emerald Charm. Fork reads, "Put a copy of target instant or sorcery spell onto the stack, except that it copies Fork's color and you may choose new targets for the copy." Emerald Charm reads, "Choose one - Untap target permanent; or destroy target global enchantment; or target creature loses flying until end of turn." When the Fork resolves, it puts a copy of the Emerald Charm on the stack. The copy has the same mode that was chosen for the original Emerald Charm. It does not necessarily have the same target, but only because Fork allows choosing of new targets.
+Example: A player plays Fork, targeting an Emerald Charm. Fork reads, "Put a copy of target instant or sorcery spell onto the stack, except that it copies Fork's color and you may choose new targets for the copy." Emerald Charm reads, "Choose one -- Untap target permanent; or destroy target global enchantment; or target creature loses flying until end of turn." When the Fork resolves, it puts a copy of the Emerald Charm on the stack. The copy has the same mode that was chosen for the original Emerald Charm. It does not necessarily have the same target, but only because Fork allows choosing of new targets.
 
 503.11.
 If an effect refers to a permanent by name, the effect still tracks that permanent even if it changes names or becomes a copy of something else.
@@ -1874,6 +1884,9 @@ The only colors in Magic are white, blue, black, red, and green. A permanent can
 Colorless
 A card with no color is colorless. Lands are colorless because they have no mana cost. Artifacts are colorless because they have no colored mana in their mana costs. A land or artifact can be given a color by an effect.
 
+Colorless mana
+The numeral mana symbols, X, and Y can represent colorless mana as well as a generic mana cost.
+
 Combat Damage
 Combat damage is dealt during the combat damage step of the combat phase by attacking creatures and blocking creatures. It doesn't include damage dealt by spells and abilities during the combat phase. See rule 310, "Combat Damage Step."
 
@@ -1905,7 +1918,7 @@ Cost
 Playing spells and activated abilities requires paying a cost. Most costs are paid in mana, but they may also include paying life, tapping or sacrificing permanents, discarding cards, and so on. It's illegal to pay a cost without having the necessary resources to pay it fully. For example, a player with only 1 life can't pay a cost of 2 life, and a permanent that's already tapped can't be tapped to pay a cost. See rule 203, "Mana Cost," and rule 403, "Activated Abilities."
 
 Counter
-Counter has two meanings in the Magic game. 1. To counter a spell or ability is to cancel it, removing it from the stack zone. It doesn't resolve and none of its effects occur. A countered spell is put into its owner's graveyard. 2. A counter is a marker placed on a permanent, either modifying its characteristics or interacting with an ability. For example, some creatures come into play with a number of +1/+1 counters, increasing their power and toughness. Counters with the same name or description are interchangeable. Counters may also be given to players. For information about poison counters, see rule 102.8.
+Counter has two meanings in the Magic game. 1. To counter a spell or ability is to cancel it, removing it from the stack zone. It doesn't resolve and none of its effects occur. A countered spell is put into its owner's graveyard. 2. A counter is a marker placed on a permanent, either modifying its characteristics or interacting with an ability. A +X/+Y counter on a permanent, where X and Y are numbers, adds X to that permanent's power and Y to that permanent's toughness. These bonuses are added after permanent- type changing effects and before other power and toughness changing effects. Counters with the same name or description are interchangeable. Counters may also be given to players. For information about poison counters, see rule 102.8.
 
 Counts As (Obsolete)
 Some older cards were printed with text stating that the card "counts as" something. As far as the game rules and other cards are concerned the card is that thing. (Newer Magic cards use "is" instead.) This isn't an ability; it applies even when the card's not in play. For example, a card that "counts as a forest" can be retrieved with a spell that searches the library for a forest card, and once in play it may be tapped for green mana and allows forestwalk.
@@ -1980,7 +1993,7 @@ Event
 Anything that happens in a game is an event. Multiple events may take place during the resolution of a spell or ability. The text of triggered abilities and replacement effects defines the event they're looking for; one "happening" may be treated as a single event by one ability and as multiple events by another. For example, if an attacking creature is blocked by two defending creatures, this is one event for a triggered ability that reads "Whenever [name] becomes blocked" but two events for a triggered ability that reads "Whenever [name] becomes blocked by a creature."
 
 Exchange
-A spell or ability may instruct players to exchange something (for example, life totals or control of two permanents) as part of its resolution. When such a spell or ability resolves, if it can't exchange the chosen things, it has no effect on them. For example, if a spell attempts to exchange control of two target creatures but one of those creatures is destroyed before it resolves, the spell does nothing to the other creature. When life totals are exchanged, each player gains or loses the amount of life necessary to equal the other player's previous life total. Replacement effects may modify these gains and losses, and triggered abilities may trigger on them.
+A spell or ability may instruct two players to exchange something (for example, life totals or control of two permanents) as part of its resolution. When such a spell or ability resolves, if it can't exchange the chosen things, it has no effect on them. For example, if a spell attempts to exchange control of two target creatures but one of those creatures is destroyed before the spell resolves, the spell does nothing to the other creature. Or if a spell attempts to exchange control of two target creatures but both of those creatures are controlled by the same player, the spell does nothing to the two creatures. When control of two permanents is exchanged, each player simultaneously gains control of the permanent that was controlled by the other player. When life totals are exchanged, each player gains or loses the amount of life necessary to equal the other player's previous life total. Replacement effects may modify these gains and losses, and triggered abilities may trigger on them. Some spells or abilities may instruct a player to exchange cards in two different zones (for example, cards removed from the game and cards in a player's hand). These spells and abilities work the same as other "exchange" spells and abilities, except they can exchange the cards only if all the cards are owned by the same player.
 
 Expansion Symbol
 The small icon printed below the right edge of the illustration on a Magic card is the expansion symbol, indicating in which set the card was published. Cards reprinted in the basic set receive its expansion symbol and no longer count as part of their original set. This is important only to spells and abilities that affect cards from a particular expansion. The first five editions of the basic set had no expansion symbol. The expansion symbols to date are:
@@ -2036,6 +2049,10 @@ Planeshift(TM) [symbol]
 Apocalypse(TM) [symbol]
 
 Seventh Edition(TM) [symbol]
+
+Odyssey(TM) [symbol]
+
+Torment(TM) [symbol]
 
 Starter-Level Sets
 
@@ -2189,7 +2206,7 @@ Mana Source (Obsolete)
 Earlier versions of the rules provided support for the "mana source" spell type. All mana source cards are now instant cards. Abilities that read, "Play this ability as a mana source" are now mana abilities.
 
 Mana Symbol
-The mana symbols are W, U, B, R, G, 0, numerals, X, and Y. Each of the colored mana symbols represents one colored mana: W white, U blue, B black, R red, and G green. Numeral symbols (such as 1) are generic mana costs and represent an amount of mana that can be paid with any color of, or colorless, mana. The symbols X and Y represent unspecified amounts of mana; when playing a spell or activated ability with X or Y in its cost, its controller decides the value of that variable. The symbol 0 represents zero mana and is used as a placeholder when a spell or activated ability costs nothing to play. A spell or ability whose cost is 0 must still be played the same way as one with a cost greater than zero; it won't play itself automatically.
+The mana symbols are W, U, B, R, G, 0, numerals, X, and Y. Each of the colored mana symbols represents one colored mana: W white, U blue, B black, R red, and G green. Numeral symbols (such as 1) are generic mana costs and represent an amount of mana that can be paid with any color of, or colorless, mana. The symbols X and Y represent unspecified amounts of mana; when playing a spell or activated ability with X or Y in its cost, its controller decides the value of that variable. Numeral symbols, X, and Y can also represent colorless mana if they appear in the effect of a spell or of a mana ability that reads "add [mana symbol] to your mana pool" or something similar. The symbol 0 represents zero mana and is used as a placeholder when a spell or activated ability costs nothing to play. A spell or ability whose cost is 0 must still be played the same way as one with a cost greater than zero; it won't play itself automatically.
 
 Match
 A match is a series of Magic games and is important only for tournament or league play. A match usually consists of the best two of three games, or sometimes the best three of five. For more information, consult the Magic DCI Floor Rules.
@@ -2396,7 +2413,7 @@ Text Box
 The text box is printed below the illustration on a Magic card and contains rules, reminder text, and flavor text.
 
 Threshold
-Threshold is a static ability. A card with threshold has the text after "Threshold -" if its controller has seven or more cards in his or her graveyard. Otherwise, the text after "Threshold -" is treated as though it did not appear on the card. An instant or sorcery card with threshold has the threshold text only if the card is on the stack. An artifact, creature, enchantment, or land card with threshold, or any permanent with threshold, has the threshold text only if the card or permanent is in play.
+Threshold is a static ability. A card with threshold has the text after "Threshold --" if its controller has seven or more cards in his or her graveyard. Otherwise, the text after "Threshold --" is treated as though it did not appear on the card. An instant or sorcery card with threshold has the threshold text only if the card is on the stack. An artifact, creature, enchantment, or land card with threshold, or any permanent with threshold, has the threshold text only if the card or permanent is in play.
 
 Tie
 If an effect could result in a tie, the text of the spell or ability that created the effect will specify what to do in the event of a tie. The Magic game has no default for ties.
@@ -2406,6 +2423,9 @@ A permanent's timestamp is the time it came into play, with two exceptions: (1) 
 
 Token
 A token is an object in play representing a noncard permanent created by a spell or ability. Tokens can be tapped and untapped just like cards, though an alternative to rotation might be needed to distinguish their status. See rule 216, "Tokens."
+
+Tombstone Icon
+Starting with the Odyssey set, a tombstone icon appears to the left of the name of any card with an ability that's relevant in a player's graveyard. The purpose of the icon is to make those cards stand out when they're in a graveyard. This icon has no effect on game play.
 
 Total Casting Cost (Obsolete)
 Some older cards were printed with the term "total casting cost" to describe the converted mana cost of a spell. In general, cards that were printed with the term "total casting cost" now use the term "converted mana cost."
@@ -2491,11 +2511,11 @@ recognizing good people while being one himself.
 
 
 
-These rules are current as of September 24, 2001.
+These rules are current as of February 20, 2002.
 
 Published by Wizards of the Coast, Inc., P.O. Box 707, Renton WA 98057-0707, U.S.A. All trademarks, 
 including character names and their distinctive likenesses, and the WUBRGT symbols, are property of 
-Wizards. (C)1993-2001 Wizards. U.S.A. patent 5662332.
+Wizards. (C)1993-2002 Wizards. U.S.A. patent 5662332.
 
 
 Questions?
