@@ -23,5 +23,10 @@
     "setCode": "TOR",
     "setName": "Torment",
     "creationDay": "2002-02-20"
+  },
+  {
+    "setCode": "LGN",
+    "setName": "Legions",
+    "creationDay": "2003-03-15"
   }
 ]
