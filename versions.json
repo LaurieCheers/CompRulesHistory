@@ -48,5 +48,10 @@
     "setCode": "DST",
     "setName": "Darksteel",
     "creationDay": "2004-02-01"
+  },
+  {
+    "setCode": "5DN",
+    "setName": "Fifth Dawn",
+    "creationDay": "2004-06-01"
   }
 ]

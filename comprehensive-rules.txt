@@ -1,6 +1,6 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are current as of February 1, 2004.
+These rules are current as of June 1, 2004.
 
 Introduction
 
@@ -124,9 +124,6 @@ There is no maximum deck size.
 100.5.
 Most Magic tournaments have special rules (not included here) and may limit the use of some cards, including barring all cards from some older sets. See the most current Magic: The Gathering DCI(tm) Floor Rules for more information. They can be found at http://www.wizards.com/default.asp?x=dci/utr/intro.
 
-100.6.
-A player can concede the game at any time. A player who concedes leaves the game immediately. He or she loses the game.
-
 101. Starting the Game
 
 101.1.
@@ -165,7 +162,7 @@ If a player would both win and lose simultaneously, he or she loses.
 If the game somehow enters a "loop," repeating a sequence of events with no way to stop, the game is a draw. Loops that contain an optional action don't result in a draw.
 
 102.7.
-A player who concedes a game leaves the game immediately. He or she loses the game.
+A player can concede the game at any time. A player who concedes a game leaves the game immediately. He or she loses the game.
 
 102.8.
 If a player has ten or more poison counters, he or she loses the game the next time a player would receive priority. (This is a state-based effect. See rule 420.)
@@ -173,10 +170,10 @@ If a player has ten or more poison counters, he or she loses the game the next t
 103. The Magic Golden Rules
 
 103.1.
-Whenever a card's text directly contradicts these rules, the card takes precedence. The card overrides only the rule that applies to that specific situation. The only exception is that the rules in section 100, "General," and section 101, "Starting the Game," can't be overridden by the cards. Those rules apply at all times, regardless of what the cards say.
+Whenever a card's text directly contradicts these rules, the card takes precedence. The card overrides only the rule that applies to that specific situation. The only exception is that a player can concede the game at any time, regardless of what other cards say (see rule 102.7).
 
 103.2.
-When one effect says something can happen and another says it can't, the "can't" effect wins. For example, if one effect reads "You may play an additional land this turn" and another reads "You can't play land cards this turn," the effect that keeps you from playing lands wins out. Note that adding abilities to objects and removing abilities from objects don't fall under this rule. See rule 407, "Adding and Removing Abilities."
+When a rule or effect says something can happen and another effect says it can't, the "can't" effect wins. For example, if one effect reads "You may play an additional land this turn" and another reads "You can't play land cards this turn," the effect that keeps you from playing lands wins out. Note that adding abilities to objects and removing abilities from objects don't fall under this rule. See rule 407, "Adding and Removing Abilities."
 
 103.3.
 If an instruction requires taking an impossible action, it's ignored. (In many cases the card will specify consequences for this; if it doesn't, there's no effect.)
@@ -308,7 +305,7 @@ Two cards have the same name if the English versions of their names are identica
 203. Mana Cost and Color
 
 203.1.
-The mana cost of a card is indicated by mana symbols printed on its upper right corner. Tokens and lands have a mana cost of {o0}. Paying an object's mana cost requires matching the color of any colored mana symbols as well as paying the generic mana cost indicated.
+The mana cost of a card is indicated by mana symbols printed on its upper right corner. Tokens and lands have a mana cost of {o0} unless otherwise specified. Paying an object's mana cost requires matching the color of any colored mana symbols as well as paying the generic mana cost indicated.
 
 203.2.
 An object is the color or colors of the mana symbols in its mana cost, regardless of the color of its frame.
@@ -638,7 +635,7 @@ Legend is a creature type; legendary is not. If a legendary noncreature permanen
 216. Tokens
 
 216.1.
-Some effects put token creatures into play. A token is controlled by whomever put it into play and owned by the controller of the spell or ability that created it. The spell or ability may define any number of characteristics for the token. A token doesn't have any characteristics not defined by the spell or ability that created it. The spell or ability that creates the token sets both its name and creature type at the same time. A "Goblin creature token," for example, is named "Goblin" and has the creature subtype Goblin. If a token's name is two words or more, it has the creature subtype for each of those words. For example, a "Goblin Scout creature token" is named "Goblin Scout" and has two creature subtypes: Goblin and Scout. Once a token is in play, changing its name doesn't change its creature type, and vice versa.
+Some effects put token creatures into play. A token is controlled by whomever put it into play and owned by the controller of the spell or ability that created it. The spell or ability may define any number of characteristics for the token. A token doesn't have any characteristics not defined by the spell or ability that created it. The spell or ability that creates the token sets both its name and creature type at the same time. If the spell or ability doesn't specify the name of the token, its name is the same as its creature type. A "Goblin creature token," for example, is named "Goblin" and has the creature subtype Goblin. If a token's name is two words or more, it has the creature subtype for each of those words. For example, a "Goblin Scout creature token" is named "Goblin Scout" and has two creature subtypes: Goblin and Scout. Once a token is in play, changing its name doesn't change its creature type, and vice versa.
 
 216.2.
 A token is subject to anything that affects permanents in general or that affects the token's type or subtype. A token isn't a card (even if represented by cards from other games or Unglued cards).
@@ -828,7 +825,7 @@ The beginning phase consists of three steps, in this order: untap, upkeep, and d
 Next the active player determines which permanents he or she controls will untap. Then he or she untaps them all simultaneously (this game action doesn't use the stack). Normally, all of a player's permanents untap, but effects can keep one or more of a player's permanents from untapping.
 
 302.3.
-No player receives priority during the untap step, so no spells or abilities can be played or resolved. Any ability that triggers during this step will be held until a player would receive priority during the upkeep step. (See rule 303, "Upkeep Step.")
+No player receives priority during the untap step, so no spells or abilities can be played or resolved. Any ability that triggers during this step will be held until the next time a player would receive priority, which is usually during the upkeep step. (See rule 303, "Upkeep Step.")
 
 303. Upkeep Step
 
@@ -960,6 +957,7 @@ An unblocked attacking creature will assign all its combat damage to the defendi
 
 310.2c
 A blocked creature will assign combat damage, divided as its controller chooses, to the creatures blocking it. If no creatures are currently blocking it (if, for example, they were destroyed or removed from combat), it will assign no combat damage.
+
 310.2d
 A blocking creature will assign combat damage, divided as its controller chooses, to the attacking creatures it's blocking. If it isn't currently blocking any creatures (if, for example, they were destroyed or removed from combat), it will assign no combat damage.
 
@@ -1266,7 +1264,7 @@ If the spell or ability affects several targets in different ways, the player an
 The player determines the total cost of the spell or ability. Usually this is just the mana cost (for spells) or activation cost (for abilities). Some cards list additional or alternative costs in their text, and some effects may increase or reduce the cost to pay. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost, activation cost, or alternative cost, plus all cost increases and minus all cost reductions. Once the total cost is determined, it becomes "locked in." If effects would change the total cost after this time, they have no effect.
 
 409.1g
-The player then has a chance to play mana abilities (see rule 411, "Playing Mana Abilities"). Mana abilities must be played before costs are paid.
+If the total cost includes a mana payment, the player then has a chance to play mana abilities (see rule 411, "Playing Mana Abilities"). Mana abilities must be played before costs are paid.
 
 409.1h
 The player pays the total cost in any order. Partial payments are not allowed.
@@ -1356,7 +1354,7 @@ Example: A permanent's ability reads, "Whenever you have no cards in hand, draw 
 To play a mana ability, the player announces that he or she is playing it and pays the activation cost, following the steps in rules 409.1b-i. It resolves immediately after it is played and doesn't go on the stack. (See rule 408.2e.)
 
 411.2.
-A player may play an activated mana ability whenever he or she has priority. A player may also play one whenever a rule or effect asks for a mana payment, even in the middle of playing or resolving a spell or ability.
+A player may play an activated mana ability whenever he or she has priority, or whenever he or she is playing a spell or activated ability that requires a mana payment. A player may also play one whenever a rule or effect asks for a mana payment, even in the middle of playing or resolving a spell or ability.
 
 411.3.
 Triggered mana abilities trigger when an activated mana ability is played. These abilities resolve immediately after the mana ability that triggered them, without waiting for priority. If an activated or triggered ability produces both mana and another effect, both the mana and the other effect resolve immediately.
@@ -1529,7 +1527,7 @@ The values of an object's characteristics are determined by starting with the ac
 Example: Crusade is an enchantment that reads "White creatures get +1/+1." Crusade and a 2/2 black creature are in play. If an effect then turns the creature white, it gets +1/+1 from Crusade, becoming 3/3. If the creature's color is later changed to red, Crusade's effect stops applying to it, and it will return to being a 2/2.
 
 418.5b
-If an effect other than a type-, subtype-, and supertype-changing effect should be applied in different layers, the parts of the effect each apply in their appropriate layers. If a type-, subtype-, and supertype-changing effect should be applied in different layers, all are applied only in layer four (type-, subtype- and supertype changing effects). 
+If an effect other than a type-, subtype-, and supertype-changing effect should be applied in different layers, the parts of the effect each apply in their appropriate layers. If a type-, subtype-, and supertype-changing effect should be applied in different layers, all are applied only in layer four (type-, subtype- and supertype changing effects).
 Example: A player plays an ability that reads "{o2}: Until end of turn, Chimeric Sphere becomes a 3/2 artifact creature," which is a both a type-changing effect and a power- and toughness-changing effect. Since it's a type-changing effect, the entire effect is applied when type-changing effects are applied, in layer four, even though power- and toughness-changing effects are normally applied in layer six. Later in the turn, Chimeric Sphere is affected by an ability that reads "Target creature becomes 0/2 until end of turn," which is applied only in layer six since it's solely a power- and toughness-changing effect. At this point, playing Chimeric Sphere's (layer 4) ability again won't do anything, as the layer-six effect will always be applied after it. The artifact creature remains 0/2.
 Example: An effect that reads "Wild Mongrel gets +1/+1 and becomes the color of your choice until end of turn" is both a power- and toughness changing effect and an "other" kind of effect. The "becomes the color of your choice" part is applied in layer five, and then the "gets +1/+1" part is applied in layer six.
 Example: Grab the Reins has an effect that reads "Until end of turn, you gain control of target creature and it gains haste." This is both a control-changing effect and an "other" effect. The "you gain control" part is applied in layer two, and then the "it gains haste" part is applied in layer five.
@@ -1689,7 +1687,7 @@ A player with 0 or less life loses the game.
 A creature with toughness 0 or less is put into its owner's graveyard. Regeneration can't replace this event.
 
 420.5c
-A creature with lethal damage, but greater than 0 toughness, is destroyed. Lethal damage is an amount of damage greater than or equal to a creature's toughness. Regeneration does replace this event.
+A creature with lethal damage, but greater than 0 toughness, is destroyed. Lethal damage is an amount of damage greater than or equal to a creature's toughness. Regeneration can replace this event.
 
 420.5d
 A local enchantment that enchants an illegal or nonexistent permanent is put into its owner's graveyard.
@@ -2110,7 +2108,7 @@ Threshold is a characteristic-setting ability, written "Threshold -- [text]." It
 Spells and permanents with threshold have the threshold text only if their controller has seven or more cards in his or her graveyard. Otherwise, the text after "Threshold --" is treated as though it did not appear on the spell or permanent.
 
 502.23c
-An instant or sorcery with threshold has the threshold text only while the spell is on the stack. An artifact, creature, enchantment, or land with threshold has the threshold text only if the permanent is in play. 
+An instant or sorcery with threshold has the threshold text only while the spell is on the stack. An artifact, creature, enchantment, or land with threshold has the threshold text only if the permanent is in play.
 
 502.24.
 Madness
@@ -2249,6 +2247,31 @@ Modular represents both a static ability and a triggered ability. "Modular X" me
 
 502.35b
 If a creature has multiple instances of modular, each one works separately.
+
+502.36.
+Scry
+
+502.36a
+Scry is a static ability that functions while a spell or ability is resolving. "Scry X" means "Look at the top X cards of your library. Put any number of them on the bottom of your library in any order and the rest on top of your library in any order."
+
+502.35b
+If a spell or ability has multiple instances of scry, each one works separately.
+
+502.37.
+Sunburst
+
+502.37a
+Sunburst is a static ability that functions as a spell is resolving. "Sunburst" means "If this spell is a creature spell, it comes into play with a +1/+1 counter on it for each color of mana used to pay its cost. If this spell is a noncreature spell, it comes into play with a charge counter on it for each color of mana used to pay its cost."
+
+502.37b
+Sunburst applies only as the spell is resolving and only if one or more colored mana was paid for its costs. Mana paid for additional or alternative costs applies.
+
+502.37c
+Sunburst can also be used to set a variable number for another ability. If the keyword is used in this way, it doesn't matter whether the ability is on a creature spell or on a noncreature spell.
+Example: The ability "Modular-Sunburst" means "This permanent comes into play with a +1/+1 counter on it for each color of mana used to pay its cost" and "When this permanent is put into a graveyard from play, you may put a +1/+1 counter on target artifact creature for each +1/+1 counter on this permanent."
+
+502.37d
+If a creature has multiple instances of sunburst, each one works separately.
 
 503. Copying Objects
 
@@ -2499,7 +2522,7 @@ Basic
 Basic is a supertype. Any land with the supertype basic is a basic land. Any land without that supertype is a nonbasic land. See rule 205.4, "Supertypes."
 
 Basic Land Type
-There are five basic land types: Plains, Island, Swamp, Mountain, and Forest. Every basic land type has a mana ability associated with it. (See rule 212.6, "Lands.") 
+There are five basic land types: Plains, Island, Swamp, Mountain, and Forest. Every basic land type has a mana ability associated with it. (See rule 212.6, "Lands.")
 
 Becomes
 Some trigger events use the word "becomes" (for example, "becomes tapped" or "becomes blocked"). These trigger only at the time the named event happens--they don't trigger if that state already exists or retrigger if it persists. For example, "becomes tapped" triggers only once and only when a permanent's status changes from untapped to tapped.
@@ -2628,15 +2651,15 @@ Counter has two meanings in the Magic game.
      2. A counter is a marker placed on an object, either modifying its characteristics or interacting with an effect. A +X/+Y counter on a permanent, where X and Y are numbers, adds X to that permanent's power and Y to that permanent's toughness. These bonuses are added after permanent-type changing effects and before other power and toughness changing effects. Similarly, -X/-Y counters subtract from power and toughness. Counters with the same name or description are interchangeable. Counters may also be given to players. For information about poison counters, see rule 102.8.
 
 Counts As (Obsolete)
-Some older cards were printed with text stating that the card "counts as" something. As far as the game rules and other cards are concerned the card is that thing. (Newer Magic cards use "is" instead.) 
+Some older cards were printed with text stating that the card "counts as" something. As far as the game rules and other cards are concerned the card is that thing. (Newer Magic cards use "is" instead.)
 
 Creature
 Creature is a type. The active player can play creatures only during his or her main phase when the stack is empty. When a creature spell resolves, its controller puts it into play under his or her control. See rule 212.3, "Creatures."
 
 Creature Type
 Creature subtypes are always a single word and are listed after a long dash: "Creature - Minotaur," "Artifact Creature - Golem Legend," etc. Creature subtypes are also called creature types. Creatures may have multiple subtypes.
-     The list of creature types, updated through the Darksteel(tm) set, is as follows:
-     Abomination, Aboroth, Advisor, Aladdin, Albatross, Alchemist, Ali-Baba, Ali-from-Cairo, Alligator, Ambush-Party, Ancestor, Angel, Ant, Antelope, Ape, Archaeologist, Archer, Artificer, Asp, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Avenger, Avizoa, Badger, Ball-Lightning, Bandit, Banshee, Barbarian, Barishi, Basilisk, Bat, Bear, Beast, Bee, Beeble, Behemoth, Being, Berserker, Bird, Blinkmoth, Boar, Bodyguard, Brood, Brother, Brownie, Brushwagg, Bull, Bureaucrat, Butterfly, Camarid, Camel, Caravan, Caribou, Carnivore, Carriage, Carrier, Cat, Cavalry, Cave-People, Centaur, Cephalid, Cheetah, Chicken, Chimera, Citizen, Clamfolk, Cleric, Clone, Cobra, Cockatrice, Constable, Cow, Crab, Crocodile, Crusader, Dandan, Demon, Dervish, Deserter, Devil, Devouring-Deep, Dinosaur, Djinn, Dog, Doppelganger, Dragon, Dragonfly, Drake, Drill-Sergeant, Drone, Druid, Dryad, Dwarf, Eater, Eel, Effigy, Efreet, Egg, Elder, Elemental, Elephant, Elf, El-Hajjaj, Enchantress, Entity, Erne, Essence, Exorcist, Faerie, Fallen, Farmer, Ferret, Fiend, Fish, Flagbearer, Flying-Men, Force, Fox, Frog, Frostbeast, Fungus, Fungusaur, Gaea's-Avenger, Gaea's-Liege, Gargoyle, Gatekeeper, General, Ghost, Ghoul, Giant, Gnome, Goat, Goblin, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guardian, Gus, Gypsy, Hag, Harlequin, Hell's-Caretaker, Heretic, Hero, Hipparion, Hippo, Homarid, Hornet, Horror, Horse, Horseman, Hound, Human, Hunter, Hydra, Hyena, Illusion, Imp, Incarnation, Infernal-Denizen, Inquisitor, Insect, Island-Fish, Jackal, Jellyfish, Kavu, Keeper, Kelp, King, Kithkin, Knight, Kobold, Kraken, Lady-of-Proper-Etiquette, Leech, Legend, Legionnaire, Lemure, Leper, Leviathan, Lhurgoyf, Lichenthrope, Licid, Lion, Lizard, Lord, Lurker, Lycanthrope, Mage, Maggot, Maiden, Mammoth, Manticore, Mantis, Marid, Martyr, Master, Medusa, Meerkat, Mercenary, Merchant, Merfolk, Mindsucker, Minion, Minor, Minotaur, Miracle-Worker, Mist, Mistfolk, Mob, Mold-Demon, Monger, Mongoose, Monkey, Monster, Mosquito, Mummy, Murk-Dwellers, Mutant, Myr, Mystic, Nameless-Race, Narwhal, Necrosavant, Nekrataal, Niall-Silvain, Nightmare, Nightstalker, Noble, Nomad, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Paladin, Peacekeeper, Pegasus, Pentavite, People-of-the-Woods, Pest, Phantasm, Phelddagrif, Phoenix, Pig, Pikemen, Pirate, Pixie-Queen, Plant, Poison-Snake, Poltergeist, Pony, Preacher, Priest, Prism, Pyknite, Rabbit, Raider, Ranger, Rat, Rebel, Reflection, Rhino, Robber, Roc, Rock-Sled, Rogue, Rukh, Sage, Salamander, Sand, Saproling, Satyr, Scavenger, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Shark, Sheep, Ship, Shyft, Sindbad, Singing-Tree, Sister, Skeleton, Slith, Sliver, Slug, Smith, Snake, Soldier, Sorceress, Spawn, Speaker, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Sponge, Sprite, Spuzzem, Spy, Squire, Squirrel, Stangg-Twin, Starfish, Stone, Strider, Survivor, Swarm, Tactician, Tarpan, Taskmaster, Tetravite, Thief, The-Biggest-Baddest-Nastiest-Scariest-Creature-You'll-Ever-See, Thopter, Thrull, Thundermare, Tiger, Titan, Toad, Tombspawn, Tortoise, Townsfolk, Tracker, Treefolk, Troll, Turtle, Twin, Uncle-Istvan, Undead, Unicorn, Vampire, Vedalken, Viashino, Villain, Viper, Volver, Vulture, Walking-Dead, Wall, War-Rider, Warrior, Warthog, Wasp, Wave, Whale, Whippoorwill, Wight, Wiitigo, Wildebeest, Will-o'-the-Wisp, Wirefly, Witch, Wizard, Wolf, Wolverine, Wolverine-Pack, Wolves-of-the-Hunt, Wombat, Wood, Worm, Wraith, Wretched, Wurm, Yeti, Zombie
+     The list of creature types, updated through the Fifth Dawn(tm) set, is as follows:
+     Abomination, Aboroth, Advisor, Aladdin, Albatross, Alchemist, Ali-Baba, Ali-from-Cairo, Alligator, Ambush-Party, Ancestor, Angel, Ant, Antelope, Ape, Archaeologist, Archer, Artificer, Asp, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Avenger, Avizoa, Badger, Ball-Lightning, Bandit, Banshee, Barbarian, Barishi, Basilisk, Bat, Bear, Beast, Bee, Beeble, Behemoth, Being, Berserker, Bird, Blinkmoth, Boar, Bodyguard, Bringer, Brother, Brownie, Brushwagg, Bull, Bureaucrat, Butterfly, Camarid, Camel, Caravan, Caribou, Carnivore, Carriage, Carrier, Cat, Cavalry, Cave-People, Centaur, Cephalid, Cheetah, Chicken, Chimera, Citizen, Clamfolk, Cleric, Clone, Cobra, Cockatrice, Constable, Cow, Crab, Crocodile, Crusader, Dandan, Demon, Dervish, Deserter, Devil, Devouring-Deep, Dinosaur, Djinn, Dog, Doppelganger, Dragon, Dragonfly, Drake, Drill-Sergeant, Drone, Druid, Dryad, Dwarf, Eater, Eel, Effigy, Efreet, Egg, Elder, Elemental, Elephant, Elf, El-Hajjaj, Enchantress, Entity, Erne, Essence, Exorcist, Faerie, Fallen, Farmer, Ferret, Fiend, Fish, Flagbearer, Flying-Men, Force, Fox, Frog, Frostbeast, Fungus, Fungusaur, Gaea's-Avenger, Gaea's-Liege, Gargoyle, Gatekeeper, General, Ghost, Ghoul, Giant, Gnome, Goat, Goblin, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guardian, Gus, Gypsy, Hag, Harlequin, Hell's-Caretaker, Heretic, Hero, Hipparion, Hippo, Homarid, Hornet, Horror, Horse, Horseman, Hound, Human, Hunter, Hydra, Hyena, Illusion, Imp, Incarnation, Infernal-Denizen, Inquisitor, Insect, Island-Fish, Jackal, Jellyfish, Kavu, Keeper, Kelp, King, Kithkin, Knight, Kobold, Kraken, Lady-of-Proper-Etiquette, Leech, Legend, Legionnaire, Lemure, Leper, Leviathan, Lhurgoyf, Lichenthrope, Licid, Lion, Lizard, Lord, Lurker, Lycanthrope, Mage, Maggot, Maiden, Mammoth, Manticore, Mantis, Marid, Martyr, Master, Medusa, Meerkat, Mercenary, Merchant, Merfolk, Mindsucker, Minion, Minor, Minotaur, Miracle-Worker, Mist, Mistfolk, Mob, Mold-Demon, Monger, Mongoose, Monkey, Monster, Mosquito, Mummy, Murk-Dwellers, Mutant, Myr, Mystic, Nameless-Race, Narwhal, Necrosavant, Nekrataal, Niall-Silvain, Nightmare, Nightstalker, Noble, Nomad, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Paladin, Peacekeeper, Pegasus, Pentavite, People-of-the-Woods, Pest, Phantasm, Phelddagrif, Phoenix, Pig, Pikemen, Pincher, Pirate, Pixie-Queen, Plant, Poison-Snake, Poltergeist, Pony, Preacher, Priest, Prism, Pyknite, Rabbit, Raider, Ranger, Rat, Rebel, Reflection, Rhino, Robber, Roc, Rock-Sled, Rogue, Rukh, Sage, Salamander, Sand, Saproling, Satyr, Scavenger, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Shark, Sheep, Ship, Shyft, Sindbad, Singing-Tree, Sister, Skeleton, Slith, Sliver, Slug, Smith, Snake, Soldier, Sorceress, Spawn, Speaker, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Sponge, Sprite, Spuzzem, Spy, Squire, Squirrel, Stangg-Twin, Starfish, Stone, Strider, Survivor, Swarm, Tactician, Tarpan, Taskmaster, Tetravite, Thief, The-Biggest-Baddest-Nastiest-Scariest-Creature-You'll-Ever-See, Thopter, Thrull, Thundermare, Tiger, Titan, Toad, Tombspawn, Tortoise, Townsfolk, Tracker, Treefolk, Troll, Turtle, Twin, Uncle-Istvan, Undead, Unicorn, Vampire, Vedalken, Viashino, Villain, Viper, Volver, Vulture, Walking-Dead, Wall, War-Rider, Warrior, Warthog, Wasp, Wave, Whale, Whippoorwill, Wight, Wiitigo, Wildebeest, Will-o'-the-Wisp, Wirefly, Witch, Wizard, Wolf, Wolverine, Wolverine-Pack, Wolves-of-the-Hunt, Wombat, Wood, Worm, Wraith, Wretched, Wurm, Yeti, Zombie
 
 Cumulative Upkeep
 Cumulative upkeep is a triggered ability. "Cumulative upkeep [cost]" means "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice this permanent unless you pay [cost] for each age counter on it." Note that if a permanent has more than one instance of cumulative upkeep, each creates a separate triggered ability at the beginning of upkeep that counts all the age counters on the permanent from both abilities. See rule 502.13, "Cumulative Upkeep."
@@ -2701,7 +2724,7 @@ Draw Step
 The draw step is the third step of the beginning phase. As the draw step begins, the active player draws a card (this game action does not use the stack). Then the active player gets priority and players may play spells and abilities. See rule 304, "Draw Step."
 
 Dual Land (Informal)
-Ten "dual land" cards were printed in early Magic editions; each of these has two basic land types. For example, Taiga has the land types Forest and Mountain. Dual land cards have the default abilities of both basic land types and are treated as both by all spells and abilities that specifically refer to those types. However, they are not basic lands. A dual land card doesn't count as two lands while in play--it's just one land with multiple land types. 
+Ten "dual land" cards were printed in early Magic editions; each of these has two basic land types. For example, Taiga has the land types Forest and Mountain. Dual land cards have the default abilities of both basic land types and are treated as both by all spells and abilities that specifically refer to those types. However, they are not basic lands. A dual land card doesn't count as two lands while in play-it's just one land with multiple land types.
 
 During (Obsolete)
 Some older cards used the phrase "during [phase], [action]." These abilities were called "phase abilities. In general, cards that were printed with phase abilities now have abilities that trigger at the beginning of a step or phase. "During" still appears in current card text, but only in its normal English sense and not as game terminology.
@@ -2718,19 +2741,19 @@ An enchant artifact is a local enchantment. It can enchant only a permanent that
 Enchant Artifact Creature
 An enchant artifact creature is a local enchantment. It can enchant only a permanent that's both an artifact and a creature. It is treated as an enchant artifact creature, an enchant artifact, and an enchant creature. See also Local Enchantment.
 
-Enchant Creature 
+Enchant Creature
 An enchant creature is a local enchantment. It can enchant only a permanent that's a creature. See also Local Enchantment.
 
-Enchant Enchantment 
+Enchant Enchantment
 An enchant enchantment is a local enchantment. It can enchant only a permanent that's an enchantment. See also Local Enchantment.
 
-Enchant Land 
+Enchant Land
 An enchant land is a local enchantment. It can enchant only a permanent that's a land. See also Local Enchantment.
 
-Enchant Permanent 
+Enchant Permanent
 An enchant permanent is a local enchantment. It can enchant any type of permanent. See also Local Enchantment.
 
-Enchant Player 
+Enchant Player
 An enchant player is a local enchantment. It can enchant only a player. See also Local Enchantment.
 
 Enchant World
@@ -2977,7 +3000,7 @@ Mana
 Mana is the energy used to play spells and is usually produced by lands. Mana is created by mana abilities (and sometimes by spells), and it can be used to pay costs immediately or can stay in the player's mana pool. See rule 406, "Mana Abilities."
      Colored mana costs, represented by colored mana symbols, can be paid only with the appropriate color of mana. Generic mana costs can be paid with any color of, or with colorless, mana. See rule 104.3.
      The spell or ability that adds mana to a mana pool may restrict how it can be used. An ability might produce mana that can be used only to play creature spells or only to pay activation costs.
-     The type of mana a permanent "could produce" is the type of mana that any ability of that permanent can generate, taking into account any applicable replacement effects. If the type of mana can't be defined, there's no type of mana that that permanent could produce. The "type" of mana includes both its color (if any) and any restrictions placed upon it.
+     The type of mana a permanent "could produce" is the type of mana that any ability of that permanent can generate, taking into account any applicable replacement effects. If the type of mana can't be defined, there's no type of mana that that permanent could produce. The "type" of mana is its color, or lack thereof (for colorless mana).
 
 Mana Ability
 A mana ability is either activated or triggered. A mana ability doesn't go on the stack--it resolves immediately. See rule 411, "Playing Mana Abilities."
@@ -3013,7 +3036,7 @@ Modal, Mode
 A spell or ability is modal if it is written "Choose one --" or "[a specified player] chooses one --." Modal spells and abilities offer a choice of effects. A modal spell or ability's controller must choose the mode as part of playing the spell or ability or as part of putting the ability on the stack (in the case of triggered abilities). See rule 409.1b.
 
 Modular
-Modular represents both a static ability and a triggered ability. "Modular X" means "This permanent comes into play with X +1/+1 counters on it" and "When this permanent is put into a graveyard from play, you may put a +1/+1 counter on target artifact creature for each +1/+1 counter on this permanent."
+Modular represents both a static ability and a triggered ability. "Modular X" means "This permanent comes into play with X +1/+1 counters on it" and "When this permanent is put into a graveyard from play, you may put a +1/+1 counter on target artifact creature for each +1/+1 counter on this permanent." See rule 502.35, "Modular."
 
 Mono Artifact (Obsolete)
 Some older cards  used the term "mono artifact" on the card's type line. They were artifacts that had activated abilities that included the tap symbol. Cards that were printed with the term "mono artifact" now simply use "artifact."
@@ -3031,7 +3054,7 @@ Mountainwalk
 See Landwalk.
 
 Move
-To move a local enchantment, Equipment, or a counter means to take it from one object and put it onto another. If the enchantment, Equipment, or counter no longer exists or the new permanent is no longer in play when the effect would move it, nothing happens. Similarly, an enchantment or Equipment can't be moved onto a permanent it couldn't enchant or equip; if this kind of move is attempted, the enchantment or Equipment stays where it is.
+To move a local enchantment, Equipment, or a counter means to take it from where it currently is and put it onto an object or player. If the enchantment, Equipment, or counter no longer exists or the object it will move onto is no longer in the correct zone when the effect would move it, nothing happens. Similarly, an enchantment or Equipment can't be moved onto a permanent it couldn't enchant or equip; if this kind of move is attempted, the enchantment or Equipment stays where it is.
      A moved enchantment stops enchanting the previous permanent and starts enchanting the new one, and it receives a new timestamp. Nothing else about the enchantment changes. The enchantment never left play, so no comes-into-play or leaves-play triggered abilities will trigger. If an ability of the moved enchantment affecting "enchanted [permanent]" was on the stack when the enchantment moved, it will affect the new enchanted permanent when it resolves, not the old one. The same is true for moved Equipment.
      The equip ability can move Equipment onto a creature or from one creature to another.
 
@@ -3158,14 +3181,14 @@ Priority
 The player who has the option to play a spell or ability at any given time has priority. See rule 408, "Timing of Spells and Abilities."
      Each time a spell, an ability (other than a mana ability), or combat damage resolves, and at the beginning of most phases and steps, the active player receives priority. After a player plays a spell, ability, or land, or takes a special action, he or she again receives priority. When a player passes, his or her opponent receives priority.
      If both players pass in succession, the spell, ability, or combat damage on top of the stack resolves or, if the stack is empty, the phase or step ends.
-     Each time a player would get priority, all applicable state-based effects resolve first as a single event (see rule 420). Then, if any new state-based effects have been generated, they resolve as a single event. This process repeats until no more applicable state-based effects are generated. Then triggered abilities are added to the stack (see rule 410). These steps repeat in order until no further state-based effects or triggered abilities are generated. 
+     Each time a player would get priority, all applicable state-based effects resolve first as a single event (see rule 420). Then, if any new state-based effects have been generated, they resolve as a single event. This process repeats until no more applicable state-based effects are generated. Then triggered abilities are added to the stack (see rule 410). These steps repeat in order until no further state-based effects or triggered abilities are generated.
 
 Protection
 Protection is a static ability, written "Protection from [quality]." See rule 502.7, "Protection."
      A permanent with protection can't be targeted by spells with the stated quality and can't be targeted by abilities from a source with the stated quality.
      A permanent with protection can't be enchanted by enchantments that have the stated quality. Such enchantments enchanting the permanent with protection will be put into their owners' graveyards as a state-based effect. (See rule 420, "State-Based Effects.")
      A permanent with protection can't be equipped by Equipment that has the stated quality. Such Equipment stops equipping that permanent, but remains in play. (See rule 420, "State-Based Effects.")
-     Any damage that would be dealt by sources that have the stated quality to a permanent that has protection is prevented. 
+     Any damage that would be dealt by sources that have the stated quality to a permanent that has protection is prevented.
      Any damage that would be dealt to a permanent with protection from sources having that quality is prevented.
      If a creature with protection attacks, it can't be blocked by creatures that have the stated quality.
 
@@ -3219,6 +3242,9 @@ An object's rules text defines many of that object's properties. Changing an obj
 
 Sacrifice
 To sacrifice a permanent, its controller moves it from the in-play zone directly to its owner's graveyard. A player can't sacrifice something that isn't a permanent, or something that's a permanent he or she doesn't control. If an effect instructs a player to sacrifice a permanent that he or she doesn't control, nothing happens. Sacrificing a permanent doesn't destroy it, so regeneration or other effects that replace destruction can't affect it.
+
+Scry
+Scry is a static ability that functions while a spell or ability is resolving. "Scry X" means "Look at the top X cards of your library. Put any number of them on the bottom of your library in any order and the rest on top of your library in any order." See rule 502.36, "Scry."
 
 Sealed-Deck
 For sealed deck or draft play, only forty cards are required in a deck, and a player may use as many duplicates of a card as he or she has. Each player still needs small items to represent any tokens and counters, and some way to clearly track life totals. See rule 100.3.
@@ -3307,6 +3333,9 @@ Older creature cards were printed with the type "Summon [creature type]." All "S
 Summoning Sickness (Informal)
 The term "summoning sickness" is an informal term which describes a creature's inability to attack or to use activated abilities that include the tap symbol when it has come under a player's control since the beginning of that player's most recent turn. See rule 212.3d. See also Haste.
 
+Sunburst
+Sunburst is a static ability that functions as a spell is resolving. "Sunburst" means "If this spell is a creature spell, it comes into play with a +1/+1 counter on it for each color of mana used to pay its cost. If this spell is a noncreature spell, it comes into play with a charge counter on it for each color of mana used to pay its cost." See rule 502.37, "Sunburst."
+
 Supertype
 A card can have one or more "supertypes." These are printed directly before the card's types. If an object's types or subtypes change, any supertypes it has are kept, although they may not be relevant to the new type. See rule 205.4, "Supertypes."
 
@@ -3367,7 +3396,7 @@ The number after the slash printed on the lower right corner of a creature card 
      Some objects have toughness represented by * instead of a number. The object has a characteristic-setting ability that sets its toughness according to some stated condition. The * is 0 while the object isn't in play.
 
 Tournament
-A tournament is an organized event where players compete against other players to win prizes. See the Tournament Locator on the DCI home page (www.wizards.com/default.asp?x=dci) to find tournaments in your area.
+A tournament is an organized event where players compete against other players to win prizes. See the Tournament Locator on the MagicTheGathering.com Tournament Center page (www.wizards.com/default.asp?x=mtgcom/tournamentcenter) to find tournaments in your area.
 
 Trample
 Trample is a static ability modifying the combat damage step of the combat phase. It lets an attacking creature "trample over" blocking creatures and assign part of its combat damage to the defending player. See rule 502.9, "Trample."
@@ -3382,13 +3411,16 @@ Type
 The word "type" has two meanings:
      1. A card's type (and subtype, if applicable) is printed directly below the illustration on the card, on its type line. Cards, tokens, permanents, and spells all have types. Abilities don't have types. See rule 205, "Type Line," and rule 212, "Type, Supertype, and Subtype."
      When an effect changes an object's type, the new type replaces all previous types. If the effect is adding a type, or allowing an object to retain its types, it will say so. See rule 212.1c.
-     2. The "type" of mana includes both its color (if any) and any restrictions placed upon it (for example, mana that can be used only to play artifact spells). See also Mana.
+     2. The "type" of mana is its color, or lack thereof (for colorless mana). See also Mana.
 
 Type-Changing Effect
 A type-changing effect is an effect that changes the type of an object. It's generated by a type-changing ability. See rule 418.5a.
 
 Type Line
 The type (and subtype and supertype, if applicable) of a card is printed directly below the illustration. See rule 205, "Type Line," and rule 212, "Type, Supertype, and Subtype."
+
+Unattach
+An Equipment becomes unattached if it was attached to a creature and then is not. If an Equipment leaves play while attached to a creature, it becomes unattached.
 
 Unblockable
 If an attacking creature "is unblockable," no creature can legally block it. Spells or abilities may still cause it to become blocked.
@@ -3445,7 +3477,7 @@ Trigger events that involve objects changing zones are called "zone-change trigg
 Credits
 
 Magic: The Gathering Original Game Design: Richard Garfield
-Comprehensive Rules Design and Development: Paul Barclay, Beth Moursund, and Bill Rose, with contributions from Charlie Camino, Elaine Chase, Laurie Cheers, Stephen D'Angelo, Dave DeLaney, Brady Dommermuth, Mike Donais, Skaff Elias, Mike Elliott, Richard Garfield, Dan Gray, Robert Gutschera, Collin Jackson, William Jockusch, Jeff Jordan, Jim Lin, Steve Lord, Michael Phoenix, Mark Rosewater, David Sachs, Henry Stern, Ingo Warnke, Tom Wylie, Donald X, and Bryan Zembruski
+Comprehensive Rules Design and Development: Paul Barclay, Beth Moursund, and Bill Rose, with contributions from Charlie Camino, John Carter, Elaine Chase, Laurie Cheers, Stephen D'Angelo, Dave DeLaney, Brady Dommermuth, Mike Donais, Skaff Elias, Mike Elliott, Richard Garfield, Mark L. Gottlieb, Dan Gray, Robert Gutschera, Collin Jackson, William Jockusch, Jeff Jordan, Yonemura Kaoru, Jim Lin, Steve Lord, Sheldon Menery, Michael Phoenix, Mark Rosewater, David Sachs, Henry Stern, Ingo Warnke, Tom Wylie, Donald X, and Bryan Zembruski
 Editing: Del Laugel and Justin Webb
 Magic Rules Manager: Paul Barclay
 
@@ -3464,9 +3496,9 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are current as of February 1, 2004.
+These rules are current as of June 1, 2004.
 
-Published by Wizards of the Coast, Inc., P.O. Box 707, Renton WA 98057-0707, U.S.A. Wizards of the Coast, Magic: The Gathering, Magic, DCI, Oracle, Ice Age, Vanguard, Exodus, Portal Three Kingdoms, Odyssey, Judgment, and Darksteel are trademarks of Wizards of the Coast, Inc. in the U.S.A. and other countries. (c)1993-2004 Wizards. U.S. Pat. No. RE 37,957.
+Published by Wizards of the Coast, Inc., P.O. Box 707, Renton WA 98057-0707, U.S.A. Wizards of the Coast, Magic: The Gathering, Magic, DCI, Oracle, Ice Age, Vanguard, Exodus, Portal Three Kingdoms, Odyssey, Judgment, and Fifth Dawn are trademarks of Wizards of the Coast, Inc. in the U.S.A. and other countries. (c)1993-2004 Wizards. U.S. Pat. No. RE 37,957.
 
 
 Questions?
