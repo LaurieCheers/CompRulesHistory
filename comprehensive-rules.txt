@@ -1,6 +1,6 @@
 Magic: The Gathering(R) Comprehensive Rules
 
-These rules are current as of July 23, 2001.
+These rules are current as of September 24, 2001.
 
 Introduction
 
@@ -199,7 +199,10 @@ When a rule or text on a card refers to a "card," it means a Magic card with a M
 201. Parts of a Card
 
 201.1.
-The parts of a card are: name, mana cost, illustration, type, expansion symbol, text box, power and toughness, credit, legal text, and collector number. Some cards may have more than one of any or all of these characteristics.
+The parts of a card are name, mana cost, illustration, type, expansion symbol, text box, power and toughness, credit, legal text, and collector number. Some cards may have more than one of any or all of these parts.
+
+201.2.
+A card, spell, or permanent's characteristics are name, mana cost, color, type and subtype, expansion symbol, rules text, power, and toughness. Any other information about a card, spell, or permanent isn't a characteristic. Characteristics don't include any other information, such as whether a permanent is tapped, a spell's target, a spell or permanent's controller, what a local enchantment enchants, and so on.
 
 202. Name
 
@@ -310,7 +313,7 @@ A spell's spell type is the same as its card type. Its subtypes are the same as 
 214. Permanent Type
 
 214.1.
-A permanent is a card or token in play. Permanents stay in play unless moved to another zone by an effect or rule. There are four types of permanents: artifacts, creatures, enchantments, and lands.
+A permanent is a card or token in play. Permanents stay in play unless moved to another zone by an effect or rule. There are four types of permanents: artifacts, creatures, enchantments, and lands. Instant and sorcery cards can't come into play.
 
 214.2.
 A nontoken permanent's type(s) and subtype(s) are the same as those printed on its card. A token's type(s) and subtype(s) are set by the spell or ability that created it.
@@ -362,7 +365,7 @@ A global enchantment simply has "enchantment" as its type. Local enchantments co
 A global enchantment is put into play on the side of the player who controlled the spell that created it, like any other spell that creates a permanent.
 
 214.8c
-A local-enchantment spell requires a target, whose type is indicated by the enchantment subtype. The local-enchantment permanent the spell puts into play must enchant that type of permanent and comes into play attached to the permanent the spell targeted. Additional targeting requirements are indicated by the phrase "[This card] can enchant only a [permanent with specified characteristics]." These restrictions apply to playing the spell, and they become restrictions on what the resulting permanent can enchant. Similar restrictions can limit what a permanent can be enchanted by. For example, a permanent might have an ability that reads "[This card] can't be enchanted by [local enchantments with specified characteristics]."
+A local-enchantment spell requires a target whose type is indicated by the enchantment subtype. The local-enchantment permanent the spell puts into play must enchant that type of permanent and comes into play attached to the permanent the spell targeted. Any additional targeting requirements are indicated by phrases like "[This card] can enchant only a [permanent with specified characteristics]." These restrictions apply to playing the spell, and they become restrictions on what the resulting permanent can enchant. Similar restrictions can limit what a permanent can be enchanted by. For example, a permanent might have an ability that reads "[This card] can't be enchanted by [local enchantments with specified characteristics]."
 Example: An enchant creature spell requires a target creature; a creature enchantment in play must enchant a creature. (See rules 420.5d and 214.8g.)
 
 214.8d
@@ -384,7 +387,7 @@ A local enchantment's abilities don't target the permanent it enchants unless th
 A local enchantment's controller is separate from the enchanted permanent's controller; the two need not be the same. Changing control of the permanent doesn't change control of the enchantment, and vice versa. Only the enchantment's controller can play its abilities. However, if the enchantment adds an ability to the enchanted permanent (with "gains" or "has"), that enchanted permanent's controller is the only one who can play that ability.
 
 214.8k
-A card with the enchant world subtype is a global enchantment.
+An enchant world card is a global enchantment.
 
 214.9.
 Lands
@@ -423,7 +426,7 @@ The word Legend or Legendary may appear in a card's type or subtype. The permane
 "Legend" is a creature type; "legendary" is not. If a "legendary" noncreature permanent becomes a creature, it gets the creature type "Legend" for as long as it's a creature. If a creature of type "Legend" becomes a noncreature permanent, it's a "legendary" permanent of the new type. In other words, they mean the same thing, except that one refers to creatures and the other to noncreatures.
 
 215.3.
-If an effect makes a non-Legend creature into a Legend, and the creature then becomes another permanent type, such as an enchantment, the resulting permanent will not be legendary.
+If an effect makes a non-Legend creature into a Legend, and the creature then becomes another permanent type, such as an enchantment, that effect may no longer apply (if the permanent is no longer a creature). If it doesn't, the resulting permanent will not be legendary.
 
 216. Tokens
 
@@ -442,7 +445,7 @@ A token in a zone other than the in-play zone ceases to exist. This is a state-b
 A zone is a place that Magic cards can be during a game. There are six basic zones: library, hand, graveyard, in play, stack, and removed from the game. Each player has his or her own set of zones, except for the in-play and stack zones, which are shared.
 
 217.1a
-If a card would go to any library, graveyard, or hand other than its owner's, it goes to the corresponding zone of its owner's instead.
+If a card would go to any library, graveyard, or hand other than its owner's, it goes to the corresponding zone of its owner's instead. If an instant or sorcery card would come into play, it's removed from the game instead.
 
 217.1b
 The order of cards in a library, a graveyard, or on the stack can't be changed except when effects allow it. Cards in other zones can be arranged however their owners wish, although who controls those cards, whether they're tapped, and what enchants them must remain clear to both players.
@@ -514,7 +517,7 @@ Stack
 When a spell or ability is played, it goes on top of the stack and waits to resolve. The stack keeps track of the order that spells and/or abilities were added to it. (See rule 408, "Timing of Spells and Abilities," and rule 409.1.)
 
 217.6b
-When a spell is played, it goes on the stack face up. Other spells or abilities played in response go on top of it. Abilities that go on the stack are represented by imaginary cards called pseudospells. Each pseudospell from an activated or triggered ability has the text of the ability that created it and is controlled by the player who played the ability. The controller of a pseudospell from a triggered ability is the player who controlled the ability's source when it triggered.
+When a spell is played, it goes on the stack face up. Other spells or abilities played in response go on top of it. Abilities that go on the stack are represented by imaginary cards called pseudospells. Each pseudospell from an activated or triggered ability has the text of the ability that created it. The controller of a pseudospell from an activated ability is the player who played the ability. The controller of a pseudospell from a triggered ability is the player who controlled the ability's source when it triggered.
 
 217.6c
 When both players pass in succession, the top (last-played) spell or ability resolves. If the stack is empty when both players pass, the current step or phase ends and the next begins.
@@ -1162,7 +1165,7 @@ Continuous Effects from Spells or Abilities
 A continuous effect generated by the resolution of a spell or ability lasts as long as stated by the spell or ability creating it (such as "until end of turn"). If no duration is stated, it lasts until the end of the game.
 
 418.3b
-Continuous effects from spells, activated abilities, and triggered abilities that modify the characteristics of one or more cards and/or permanents don't affect cards and/or permanents that weren't affected when the continuous effect began. Note that these work differently than continuous effects from static abilities. Continuous effects that don't modify characteristics of cards and/or permanents modify the rules of the game, so they can affect cards and/or permanents that weren't affected when the continuous effect began.
+Continuous effects from spells, activated abilities, and triggered abilities that modify the characteristics or change the controller of one or more cards and/or permanents don't affect cards and/or permanents that weren't affected when the continuous effect began. Note that these work differently than continuous effects from static abilities. Continuous effects that don't modify characteristics of cards and/or permanents modify the rules of the game, so they can affect cards and/or permanents that weren't affected when the continuous effect began.
 Example: An effect that reads "All white creatures get +1/+1 until end of turn" gives the bonus to all permanents that are white creatures when the spell or ability resolves--even if they change color later--and doesn't affect those that come into play or turn white afterward.
 Example: An effect that reads "Prevent all damage creatures would deal this turn" doesn't modify any card's or permanent's characteristics, so it's modifying the rules of the game. That means the effect will apply even to creatures that weren't in play when the continuous effect began. It also affects permanents that become creatures later in the turn.
 
@@ -1219,7 +1222,7 @@ Replacement or prevention effects must exist before the appropriate event occurs
 Example: A player can play a regeneration ability in response to a spell that would destroy a creature he or she controls.
 
 419.5.
-If an event is prevented or replaced, it never happens. Instead of a replaced event, a modified event occurs, which may in turn trigger abilities. Note that the modified event may contain instructions that can't be carried out, in which case the player simply ignores the impossible instruction. If a source would deal 0 damage, it does not deal damage at all. That means abilities that trigger on damage being dealt won't trigger on 0 damage. It also means that replacement effects that increase damage dealt have no event to replace when 0 damage is dealt, so they have no effect.
+If an event is prevented or replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities. Note that the modified event may contain instructions that can't be carried out, in which case the player simply ignores the impossible instruction. If a source would deal 0 damage, it does not deal damage at all. That means abilities that trigger on damage being dealt won't trigger. It also means that replacement effects that increase damage dealt have no event to replace when 0 damage is dealt, so they have no effect. Some abilities read, "Whenever [X], you may [Y]. If you do, [Z]." The "if you do" clause refers to doing any part of the event Y. If Y is replaced entirely or in part by a different event, the "if you do" clause refers to the event that replaced Y.
 
 419.6.
 Replacement Effects
@@ -1326,7 +1329,7 @@ If the loop contains at least one optional action controlled by each player and 
 422. Handling Illegal Actions
 
 422.1.
-If a player realizes that he or she can't legally take an action after starting to do so, the entire action is reversed and any payments already made are canceled. No abilities trigger as a result of an undone action. If the action was playing a spell, the spell card returns to the zone it came from. The player may also reverse any legal mana abilities played while making the illegal play, although players may not reverse those that moved cards to or from a library or involved a random choice or random zone change.
+If a player realizes that he or she can't legally take an action after starting to do so, the entire action is reversed and any payments already made are canceled. No abilities trigger as a result of an undone action. If the action was playing a spell, the spell card returns to the zone it came from. The player may also reverse any legal mana abilities played while making the illegal play, unless mana from them or from any triggered mana abilities they triggered was spent on another mana ability that wasn't reversed. Players may not reverse actions that moved cards to or from a library or that involved a random choice or random zone change.
 
 422.2.
 When reversing illegal spells and abilities, the player who had priority retains it and may take another action or pass. The player may redo the reversed action in a legal way or take any other action allowed by the rules.
@@ -1543,10 +1546,10 @@ If a creature has multiple instances of rampage, each triggers separately.
 Cumulative Upkeep
 
 502.13a
-Cumulative upkeep is a triggered ability that imposes an increasing cost on a permanent. The phrase "Cumulative upkeep [cost]" means "At the beginning of your upkeep, put a cumulative upkeep counter on this permanent, then sacrifice this permanent unless you pay [cost] for each cumulative upkeep counter on the permanent."
+Cumulative upkeep is a triggered ability that imposes an increasing cost on a permanent. The phrase "Cumulative upkeep [cost]" means "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice this permanent unless you pay [cost] for each age counter on it."
 
 502.13b
-If a permanent has multiple instances of cumulative upkeep, each triggers separately. However, the cumulative upkeep counters are not linked to any particular ability; each cumulative upkeep ability will count the total number of cumulative upkeep counters on the permanent at the time that ability resolves.
+If a permanent has multiple instances of cumulative upkeep, each triggers separately. However, the age counters are not linked to any particular ability; each cumulative upkeep ability will count the total number of age counters on the permanent at the time that ability resolves.
 Example: A creature has two instances of "Cumulative upkeep--Pay 1 life." The creature currently has no counters but both cumulative upkeep abilities trigger. When the first ability resolves, the controller adds a counter and then chooses to pay 1 life. When the second ability resolves, the controller adds another counter and then chooses to pay an additional 2 life.
 
 502.14.
@@ -1662,6 +1665,24 @@ If spell text that depends on a kicker cost being paid targets one or more perma
 502.21d
 A card with kicker may contain the phrases "if you paid the [A] kicker cost" and "if you paid the [B] kicker cost," where A and B are the first and second kicker costs listed on the card, respectively. This text just refers to one kicker cost or the other, regardless of what the spell's controller actually spent when paying the cost. In other words, read "if you paid the [A] kicker cost" as "if you paid the first kicker cost listed," and read "if you paid the [B] kicker cost" as "if you paid the second kicker cost listed."
 
+502.22.
+Flashback
+
+502.22a
+Flashback is a static ability of some instant and sorcery cards that functions while the card is in a player's graveyard. The phrase "Flashback [cost]" means "You may play this card from your graveyard by paying [cost] rather than paying its mana cost. If you do, remove this card from the game instead of putting it anywhere else any time it would leave the stack." Playing a spell using its flashback ability follows the rules for paying alternative costs in rules 409.1b and 409.1f.
+
+502.23.
+Threshold
+
+502.23a
+Threshold is a static ability, written "Threshold - [text]." The text can be a static ability, activated ability, triggered ability, characteristic-setting text, spell text, or any combination of the five. The phrase "Threshold - [text]" means "As long as you have seven or more cards in your graveyard, this card has '[text].'"
+
+502.23b
+Cards and permanents with threshold have the threshold text only if their controller has seven or more cards in his or her graveyard. Otherwise, the text after "Threshold -" is treated as though it did not appear on the card or permanent.
+
+502.23c
+An instant or sorcery card with threshold has the threshold text only while the card is on the stack (that is, while it's a spell). An artifact, creature, enchantment, or land card with threshold, or any permanent with threshold, has the threshold text only if the card or permanent is in play.
+
 503. Copying Spells and Abilities
 
 503.1.
@@ -1703,7 +1724,7 @@ Example: Quirion Elves comes into play and an Unstable Shapeshifter copies it. T
 
 503.10.
 When copying a spell, all information that is normally copied from a permanent is copied. In addition, all decisions made when the spell was played are copied. These include mode, targets, the value of X, and optional additional costs such as buyback. (See rule 409, "Playing Spells and Activated Abilities.") Choices that are normally made on resolution are not copied.
-Example: A player plays Fork, targeting an Emerald Charm. Fork reads, "Put a copy of target instant or sorcery spell onto the stack, except that it copies Fork's color and you may choose new targets for the copy." Emerald Charm reads, "Choose one -- Untap target permanent; or destroy target global enchantment; or target creature loses flying until end of turn." When the Fork resolves, it puts a pseudospell copy of the Emerald Charm on the stack. The copy has the same mode that was chosen for the original Emerald Charm. It does not necessarily have the same target, but only because Fork allows choosing of new targets.
+Example: A player plays Fork, targeting an Emerald Charm. Fork reads, "Put a copy of target instant or sorcery spell onto the stack, except that it copies Fork's color and you may choose new targets for the copy." Emerald Charm reads, "Choose one - Untap target permanent; or destroy target global enchantment; or target creature loses flying until end of turn." When the Fork resolves, it puts a copy of the Emerald Charm on the stack. The copy has the same mode that was chosen for the original Emerald Charm. It does not necessarily have the same target, but only because Fork allows choosing of new targets.
 
 503.11.
 If an effect refers to a permanent by name, the effect still tracks that permanent even if it changes names or becomes a copy of something else.
@@ -1842,7 +1863,7 @@ Casting Cost (Obsolete)
 Some older cards used the term "casting cost" to describe the mana cost of a spell. In general, cards that were printed with the term "casting cost" now use the term "mana cost." Cards that used the term "total casting cost" now use the term "converted mana cost."
 
 Characteristics
-A card's characteristics are exclusively: name, mana cost, color, type and subtype, expansion symbol, abilities, power, and toughness. A card's characteristics at any given time start with the initial values, then are adjusted by any counters (on a permanent), then by continuous effects. Characteristics don't include other information about a card, such as being tapped or untapped, its controller, its target, what it enchants, and so on.
+A card, spell, or permanent's characteristics are name, mana cost, color, type and subtype, expansion symbol, rules text, power, and toughness. A card, spell, or permanent's characteristics at any given time start with the initial values, then are adjusted by any counters (on a permanent), then by continuous effects. Characteristics don't include any other information, such as whether a permanent is tapped, a spell or permanent's controller, a spell's target, what a local enchantment enchants, and so on.
 
 Cleanup
 Cleanup is the second and final step of the end phase. Spells and abilities may be played during this step only if the conditions for any state-based effects exist or if any abilities have triggered. In that case, the step repeats. See rule 314, "Cleanup Step."
@@ -1893,7 +1914,7 @@ Creature
 Creature is both a card type and permanent type. The active player can play creature spells only during his or her main phase when the stack is empty. See rule 214.7, "Creatures."
 
 Cumulative Upkeep
-Cumulative upkeep is an upkeep-triggered ability. "Cumulative upkeep [cost]" means "At the beginning of your upkeep, put a cumulative upkeep counter on this permanent. You may pay [cost] for each cumulative upkeep counter on the permanent. If you don't, sacrifice it." Note that if a permanent has more than one instance of cumulative upkeep, each creates a separate triggered ability at the beginning of upkeep that counts all the cumulative upkeep counters on the permanent from both abilities. See rule 502.13, "Cumulative Upkeep."
+Cumulative upkeep is an upkeep-triggered ability. "Cumulative upkeep [cost]" means "At the beginning of your upkeep, put an age counter on this permanent. You may pay [cost] for each age counter on the permanent. If you don't, sacrifice it." Note that if a permanent has more than one instance of cumulative upkeep, each creates a separate triggered ability at the beginning of upkeep that counts all the age counters on the permanent from both abilities. See rule 502.13, "Cumulative Upkeep."
 
 Cycling
 Cycling is an activated ability. "Cycling [cost]" means "[Cost], Discard this card from your hand: Draw a card. Play this ability only if this card is in your hand." See rule 502.18, "Cycling."
@@ -2052,6 +2073,9 @@ In earlier versions of the rules, the term "fizzle" was used when a spell or abi
 
 Flanking
 Flanking is a triggered ability that triggers during the declare blockers step of the combat phase. The word "flanking" in a creature card's rules text means "Whenever this creature becomes blocked by a creature without flanking, the blocking creature gets -1/-1 until end of turn." See rule 502.3, "Flanking."
+
+Flashback
+Flashback is a static ability of some instant and sorcery cards that functions while the card is in its owner's graveyard. The card's owner can play the spell from his or her graveyard by paying its flashback cost. If a spell is played this way, it's removed from the game instead of being put anywhere else any time it would leave the stack. Playing a spell using its flashback ability follows the rules for paying alternative costs in rules 409.1b and 409.1f.
 
 Flavor Text
 This is text in italics appearing below the rules text on a card. It provides a mood or gives interesting background detail for the game world but has no effect on play.
@@ -2371,6 +2395,9 @@ Whenever the word target appears in the rules text of a spell or ability, the co
 Text Box
 The text box is printed below the illustration on a Magic card and contains rules, reminder text, and flavor text.
 
+Threshold
+Threshold is a static ability. A card with threshold has the text after "Threshold -" if its controller has seven or more cards in his or her graveyard. Otherwise, the text after "Threshold -" is treated as though it did not appear on the card. An instant or sorcery card with threshold has the threshold text only if the card is on the stack. An artifact, creature, enchantment, or land card with threshold, or any permanent with threshold, has the threshold text only if the card or permanent is in play.
+
 Tie
 If an effect could result in a tie, the text of the spell or ability that created the effect will specify what to do in the event of a tie. The Magic game has no default for ties.
 
@@ -2464,7 +2491,7 @@ recognizing good people while being one himself.
 
 
 
-These rules are current as of July 23, 2001.
+These rules are current as of September 24, 2001.
 
 Published by Wizards of the Coast, Inc., P.O. Box 707, Renton WA 98057-0707, U.S.A. All trademarks, 
 including character names and their distinctive likenesses, and the WUBRGT symbols, are property of 

@@ -13,5 +13,10 @@
     "setCode": "APC",
     "setName": "Apocalypse",
     "creationDay": "2001-07-23"
+  },
+  {
+    "setCode": "ODY",
+    "setName": "Odyssey",
+    "creationDay": "2001-09-24"
   }
 ]
