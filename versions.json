@@ -68,5 +68,10 @@
     "setCode": "9ED",
     "setName": "Ninth Edition",
     "creationDay": "2005-08-01"
+  },
+  {
+    "setCode": "RAV",
+    "setName": "Ravnica: City of Guilds",
+    "creationDay": "2005-10-01"
   }
 ]
