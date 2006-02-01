@@ -1,6 +1,6 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are current as of October 1, 2005.
+These rules are current as of February 1, 2006.
 
 Introduction
 
@@ -17,7 +17,6 @@ We at Wizards of the Coast recognize that no matter how detailed the rules, situ
 In response to play issues and to keep these rules as current as possible, changes may have been made to this document since its publication. See the Wizards of the Coast website for the current version of the official rules.
 
 www.wizards.com/default.asp?x=magic/rules
-
 
 Contents
 
@@ -118,7 +117,6 @@ Glossary
 Credits
 
 Questions?
-
 1. The Game
 
 100. General
@@ -159,7 +157,7 @@ Once the starting player has been determined, each player sets his or her life t
 A player who is dissatisfied with his or her initial hand may mulligan. First, the starting player takes any mulligans. To take a mulligan, that player shuffles his or her hand back into the deck and then draws a new hand of six cards. He or she may repeat this process as many times as desired, drawing one fewer card each time, until the hand size reaches zero cards. Once the starting player has decided to keep a hand, those cards become his or her opening hand. Then each other player (in turn order) may take any number of mulligans. A player can't take any mulligans once he or she has decided to keep an opening hand.
 
 101.5.
-Once all players are satisfied with their hands, the starting player takes his or her turn.
+Once all players have kept their opening hands, the starting player takes his or her first turn.
 
 101.5a
 In a two-player game, the player who plays first skips the draw step (see rule 304, "Draw Step") of his or her first turn. 
@@ -278,7 +276,6 @@ The tap symbol is {T}. The tap symbol in an activation cost means "Tap this perm
 104.5.
 A tombstone icon appears to the left of the name of many Odyssey(TM) block cards with abilities that are relevant in a player's graveyard. The purpose of the icon is to make those cards stand out when they're in a graveyard. This icon has no effect on game play.
 
-
 2. Parts of the Game
 
 200. General
@@ -357,11 +354,11 @@ The name of a card is printed on its upper left corner.
 Text that refers to the object it's on by name means just that particular object and not any other duplicates of it, regardless of any name changes caused by game effects.
 
 202.2a
-If an ability of an object uses a phrase such as "this [something]" to identify an object, where [something] is a category or characteristic, it is referring to that particular object, even if it isn't the appropriate category or characteristic at the time.
+If an ability of an object uses a phrase such as "this [something]" to identify an object, where [something] is a characteristic, it is referring to that particular object, even if it isn't the appropriate characteristic at the time.
 Example: An ability reads "Target creature gets +2/+2 until end of turn. Destroy that creature at end of turn." The ability will destroy the object it gave +2/+2 at the end of the turn, even if that object isn't a creature anymore.
 
 202.2b
-If an object grants to another object an ability that includes the first object's name, the name refers only to the object granting the ability, not to any other object with the same name.
+If an object grants to another object an ability that refers to the first object by name, the name refers only to the object granting the ability, not to any other object with the same name.
 Example: Saproling Burst has an ability that reads "Remove a fade counter from Saproling Burst: Put a green Saproling creature token into play. It has 'This creature's power and toughness are each equal to the number of fade counters on Saproling Burst.'" The ability granted to the token only looks at the Saproling Burst that created the token, not at any other Saproling Burst in play.
 
 202.3.
@@ -863,7 +860,6 @@ A few cards have the text "Remove [this card] from your deck before playing if y
 217.9d
 To ante an object is to put that object into the ante zone from whichever zone it's currently in. The owner of an object is the only person who can ante that object.
 
-
 3. Turn Structure
 
 300. General
@@ -1099,7 +1095,6 @@ After discarding, the following actions happen simultaneously: all damage is rem
 314.3.
 If the conditions for any state-based effects exist or if any triggered abilities are waiting to be put onto the stack, the active player gets priority and players may play spells and abilities. Once the stack is empty and all players pass, another cleanup step begins. Otherwise, no player receives priority and the step ends.
 
-
 4. Spells, Abilities, and Effects
 
 400. General
@@ -1160,17 +1155,36 @@ An additional cost or alternative cost to play a card is an ability of the card.
 An ability isn't a spell and therefore can't be countered by anything that counters only spells. Abilities can be countered by effects that specifically counter abilities, as well as by the rules (for example, an ability with one or more targets is countered if all its targets become illegal).
 
 402.6.
-Once activated or triggered, an ability exists independently of its source as an ability on the stack. Destruction or removal of the source after that time won't affect the ability. Note that some abilities cause a source to do something (for example, "Prodigal Sorcerer deals 1 damage to target creature or player") rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source will check that information when the ability resolves, or will use the source's last known information if it's no longer in play.
+Once activated or triggered, an ability exists independently of its source as an ability on the stack. Destruction or removal of the source after that time won't affect the ability. Note that some abilities cause a source to do something (for example, "Prodigal Sorcerer deals 1 damage to target creature or player") rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source because the effect needs to be divided checks that information when the ability is put onto the stack. Otherwise, it will check that information when it resolves. In both instances, if the source is no longer in play, its last known information is used. 
 
 402.7.
 An object may have multiple abilities. Aside from certain defined abilities that may be strung together on a single line (see rule 502, "Keyword Abilities"), each paragraph break in a card's text marks a separate ability. An object may also have multiple instances of the same ability. Each instance functions independently. This may or may not produce more effects than a single instance; refer to the specific ability for more information.
 
 402.8.
-Abilities function only while the permanent with the ability is in play unless the ability is a characteristic-setting ability that sets type, subtype, supertype, or color; an ability of an instant or sorcery; an additional cost; an alternative cost; or a play restriction. Abilities can also function in other zones if they state otherwise or if the ability can only trigger or be played in a zone other than the in-play zone. An ability whose cost or effect specifies that it moves the object it's on out of a particular zone functions only in that zone.
-Example: You can play an ability with a cost that includes "Discard this card" only if the card is in your hand.
+Abilities of an instant or sorcery usually function only while the object is on the stack. Abilities of all other objects usually function only while that object is in play. The exceptions are as follows:
 
-402.9.
-Some objects have activated abilities that can be played when the object is not in play. Some objects have triggered abilities that can trigger while the object is in a zone other than the in-play zone.
+402.8a
+A characteristic-setting ability that sets type, subtype, supertype, or color functions in all zones.
+
+402.8b
+An ability that states which zones it functions in functions only from those zones.
+
+402.8c
+An ability of an object that modifies what it costs to play functions on the stack.
+
+402.8d
+An object's ability that restricts or modifies how that object can be played functions in any zone from which it could be played.
+
+402.8e
+An object's activated ability that has a cost that can't be paid while the object is in play functions from any zone in which its cost can be paid.
+
+402.8f
+A trigger condition that can trigger only in a zone other than the in-play zone triggers from that zone. Other trigger conditions of the same triggered ability may function in different zones.
+Example: Absolver Thrull has the ability "When Absolver Thrull comes into play or the creature it haunts is put into a graveyard, destroy target enchantment." The first trigger condition triggers from the in-play zone and the second trigger condition functions from the removed-from-the-game zone.
+
+402.8g
+An ability whose cost or effect specifies that it moves the object it's on out of a particular zone functions only in that zone.
+Example: Necrosavant says "{3}{B}{B}, Sacrifice a creature: Return Necrosavant from your graveyard to play. Play this ability only during your upkeep." A player may play this ability only if Necrosavant is in his or her graveyard.
 
 403. Activated Abilities
 
@@ -1510,10 +1524,10 @@ Example: A spell's instruction reads, "You may sacrifice a creature. If you don'
 Some spells and abilities have multiple steps or actions, denoted by separate sentences or clauses. In these cases, the choices for the first action are made in APNAP order, and then the first action is processed simultaneously. Then the choices for the second action are made in APNAP order, and then that action is processed simultaneously, and so on. See rule 103.4.
 
 413.2e
-If an effect gives a player the option to pay mana, he or she may play mana abilities as part of the action. No other spells or abilities can be played during resolution.
+If an effect gives a player the option to pay mana, he or she may play mana abilities as part of the action. No other spells or abilities can normally be played during resolution.
 
 413.2f
-If an effect requires information from the game (such as the number of creatures in play), the answer is determined only once, when the effect is applied. The effect uses the current information of a specific permanent if that permanent is still in play, or of a specific card in the stated zone; otherwise, the effect uses the last known information the object had before leaving that zone. The exception is that static abilities can't use last known information; see rule 412.5. If the ability text states that an object does something, it's the object as it exists (or most recently existed) that does it, not the ability.
+If an effect requires information from the game (such as the number of creatures in play), the answer is determined only once, when the effect is applied. The effect uses the current information of a specific permanent if that permanent is still in play, or of a specific card in the stated zone; otherwise, the effect uses the last known information the object had before leaving that zone. There are two exceptions. If an effect deals damage divided among some number of creatures or players, the amount and division were determined as the spell or ability was put into the stack; see rule 402.6. Also, static abilities can't use last known information; see rule 412.5. If the ability text states that an object does something, it's the object as it exists (or most recently existed) that does it, not the ability.
 
 413.2g
 An effect that refers to characteristics of an object checks only for the value of the specified characteristics, regardless of any related ones the object may also have.
@@ -1714,7 +1728,7 @@ If an event is prevented or replaced, it never happens. A modified event occurs 
 If a source would deal 0 damage, it does not deal damage at all. That means abilities that trigger on damage being dealt won't trigger. It also means that replacement effects that increase damage dealt have no event to replace, so they have no effect.
 
 419.5b
-Some abilities read, "you may [X]. If you do, [Y]." An "if you do" clause that follows an "if you may [X]" clause refers to choosing to do the event X, regardless of what events actually occur as a result of that decision. If X is replaced entirely or in part by a different event, the "if you do" clause refers to the event that replaced X.
+Some abilities read, "you may [X]. If you do, [Y]." An "if you do" clause that follows a "you may [X]" clause refers to choosing to do the event X, regardless of what events actually occur as a result of that decision. If X is replaced entirely or in part by a different event, the "if you do" clause refers to the event that replaced X.
 
 419.6.
 Replacement Effects
@@ -1841,7 +1855,7 @@ If a loop contains optional actions controlled by two players and actions by bot
 Example: In a two-player game, one player controls a creature with the ability "{0}: [This creature] gains flying," and another player controls a permanent with the ability "{0}: Target creature loses flying." The "infinity rule" ensures that regardless of which player initiated the gain/lose flying ability, the nonactive player will always have the final choice and therefore be able to determine whether the creature has flying. (Note that this assumes that the first player attempted to give the creature flying at least once.)
 
 421.4.
-If the loop contains only mandatory actions, the game ends in a draw. (See rule 102.6.)
+If the loop contains only mandatory actions, the game ends in a draw. (See rule 102.4b.)
 
 421.5.
 If the loop contains optional actions controlled by different players and these actions don't depend on one another, the active player chooses a number. In APNAP order, the nonactive players can each either agree to that number or choose a higher number. Note that this rule applies even if the actions could exist in separate loops rather than in a single loop.
@@ -1853,7 +1867,6 @@ If a player realizes that he or she can't legally take an action after starting 
 
 422.2.
 When reversing illegal spells and abilities, the player who had priority retains it and may take another action or pass. The player may redo the reversed action in a legal way or take any other action allowed by the rules.
-
 
 5. Additional Rules
 
@@ -2004,7 +2017,7 @@ Trample
 Trample is a static ability that modifies the rules for assigning an attacking creature's combat damage. A creature with trample has no special abilities when blocking or dealing noncombat damage. (See rule 310, "Combat Damage Step.")
 
 502.9b
-The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it. If all those blocking creatures are assigned lethal damage, any remaining damage is assigned as its controller chooses among the blocking creatures and the defending player. When checking for assigned lethal damage, take into account damage already on the creature and damage from other creatures that will be assigned at the same time (see rule 502.9e). The controller need not assign lethal damage to all blocking creatures but in that case can't assign any damage to the defending player.
+The controller of an attacking creature with trample first assigns damage to the creature(s) blocking it. If all those blocking creatures are assigned lethal damage, any remaining damage is assigned as its controller chooses among those blocking creatures and the defending player. When checking for assigned lethal damage, take into account damage already on the creature and damage from other creatures that will be assigned at the same time (see rule 502.9e). The controller need not assign lethal damage to all those blocking creatures but in that case can't assign any damage to the defending player.
 
 502.9c
 If all the creatures blocking an attacking creature with trample are removed from combat before the combat damage step, all its damage is assigned to the defending player.
@@ -2517,10 +2530,44 @@ Transmute is an activated ability that functions only while the card with transm
 502.48b
 Although the transmute ability is playable only if the card is in a player's hand, it continues to exist while the object is in play and in all other zones. Therefore objects with transmute will be affected by effects that depend on objects having one or more activated abilities.
 
-502.49 Substance
+502.49.
+Substance
 
 502.49a
 Substance is a static ability with no effect.
+
+502.50.
+Bloodthirst
+
+502.50a
+Bloodthirst is a static ability. "Bloodthirst N" means "If an opponent was dealt damage this turn, this permanent comes into play with N +1/+1 counters on it."
+
+502.50b
+"Bloodthirst X" is a special form of bloodthirst. "Bloodthirst X" means "This permanent comes into play with X +1/+1 counters on it, where X is the total damage your opponents have been dealt this turn."
+
+502.50c
+If an object has multiple instances of bloodthirst, each applies separately.
+
+502.51.
+Haunt
+
+502.51a
+Haunt is a triggered ability. "Haunt" on a permanent means "When this permanent is put into a graveyard from play, remove it from the game haunting target creature." "Haunt" on an instant or sorcery spell means "When this spell is put into a graveyard during its resolution, remove it from the game haunting target creature."
+
+502.51b
+Cards that are in the removed-from-the-game zone as the result of a haunt ability "haunt" the creature targeted by that ability. The phrase "creature it haunts" refers to the object targeted by the haunt ability, regardless of whether or not that object is still a creature.
+
+502.51c
+Triggered abilities of cards with haunt that refer to the haunted creature can trigger in the removed-from-the-game zone.
+
+502.52.
+Replicate
+
+502.52a
+Replicate is a keyword that represents two abilities. The first is a static ability that functions while the spell is on the stack. The second is a triggered ability that functions while the spell is on the stack. "Replicate [cost]" means "As an additional cost to play this spell, you may pay [cost] any number of times" and "When you play this spell, if a replicate cost was paid for it, copy it for each time its replicate cost was paid. If the spell has any targets, you may choose new targets for any number of the copies." Paying a spell's replicate cost follows the rules for paying additional costs in rules 409.1b and 409.1f-h.
+
+502.52b
+If a spell has multiple instances of replicate, each is paid separately and triggers based on the payments made for it, not any other instance of replicate.
 
 503. Copying Objects
 
@@ -2528,7 +2575,7 @@ Substance is a static ability with no effect.
 Some objects create or become a "copy" of a spell, permanent, or card. (Certain older cards were printed with the phrase "search for a copy." This section doesn't cover those cards, which have received new text in the Oracle card reference.)
 
 503.2.
-When copying an object, the copy acquires the copiable values of the original object's characteristics (name, mana cost, color, type, supertype, subtype, expansion symbol, rules text, power, and toughness) and, for an object on the stack, choices made when playing it (mode, targets, the value of X, whether a kicker cost was paid, how it will affect multiple targets, and so on). The "copiable values" are the values that are printed on the object, as modified by other copy effects, plus any values set for face-down spells or permanents and any values set by "comes into play as" abilities. Other effects (including type-changing effects) and counters are not copied.
+When copying an object, the copy acquires the copiable values of the original object's characteristics (name, mana cost, color, type, supertype, subtype, expansion symbol, rules text, power, and toughness) and, for an object on the stack, choices made when playing it (mode, targets, the value of X, whether a kicker cost was paid, how it will affect multiple targets, and so on). The "copiable values" are the values that are printed on the object, as modified by other copy effects, "comes into play as" abilities, and any values set for face-down spells or permanents. Other effects (including type-changing effects) and counters are not copied.
 Example: Chimeric Staff is an artifact that reads "{X}: Chimeric Staff becomes an X/X artifact creature until end of turn." Clone is a creature that reads, "As Clone comes into play, you may choose a creature in play. If you do, Clone comes into play as a copy of that creature." After a Staff has become a 5/5 artifact creature, a Clone comes into play as a copy of it. The Clone is an artifact, not a 5/5 artifact creature. (The copy has the Staff's ability, however, and will become a creature if that ability is activated.)
 
 503.3.
@@ -2562,8 +2609,9 @@ Some copy effects give an ability to the copy as part of the copying process. Th
 Example: Quirion Elves comes into play and an Unstable Shapeshifter copies it. The copiable values of the Shapeshifter now match those of the Elves, except that the Shapeshifter also has the ability "Whenever a creature comes into play, Unstable Shapeshifter becomes a copy of that creature and gains this ability." Then a Clone comes into play as a copy of the Unstable Shapeshifter. The Clone copies the new copiable values of the Shapeshifter, including the ability that the Shapeshifter gave itself when it copied the Elves.
 
 503.10.
-To copy a spell means to put a copy of the spell onto the stack; a copy of a spell isn't "played." In addition to copying the characteristics of the spell, all decisions made when the spell was played are copied. These include mode, targets, the value of X, and optional additional costs such as buyback. (See rule 409, "Playing Spells and Activated Abilities.") Choices that are normally made on resolution are not copied. A copy of a spell is controlled by the player who put it on the stack. A copy of a spell is itself a spell, but it has no spell card associated with it. It works just like a normal spell: it can be countered or it can resolve, and it uses the same timing rules as normal spells.
+To copy a spell means to put a copy of the spell onto the stack; a copy of a spell isn't "played." In addition to copying the characteristics of the spell, all decisions made when the spell was played are copied. These include mode, targets, the value of X, and optional additional costs such as buyback. (See rule 409, "Playing Spells and Activated Abilities.") Choices that are normally made on resolution are not copied. If an effect of the copy refers to objects used to pay its costs, it uses the objects used to pay the costs of the original spell. A copy of a spell is controlled by the player who put it on the stack. A copy of a spell is itself a spell, but it has no spell card associated with it. It works just like a normal spell: it can be countered or it can resolve, and it uses the same timing rules as normal spells.
 Example: A player plays Fork, targeting an Emerald Charm. Fork reads, "Put a copy of target instant or sorcery spell onto the stack, except that it copies Fork's color and you may choose new targets for the copy." Emerald Charm reads, "Choose one -- Untap target permanent; or destroy target non-Aura enchantment; or target creature loses flying until end of turn." When the Fork resolves, it puts a copy of the Emerald Charm on the stack. The copy has the same mode that was chosen for the original Emerald Charm. It does not necessarily have the same target, but only because Fork allows choosing of new targets.
+Example: Fling is an instant that reads, "As an additional cost to play Fling, sacrifice a creature. / Fling deals damage equal to the sacrificed creature's power to target creature or player." When determining how much damage a copy of Fling deals, it checks the power of the creature sacrificed to pay for the original Fling.
 
 503.10a
 A copy of a spell in a zone other than the stack ceases to exist. A copy of a card in any zone other than the stack or the in-play zone ceases to exist. This is a state-based effect. See rule 420.
@@ -2734,7 +2782,6 @@ No player gets priority during this process, so triggered abilities are not put 
 
 509.3.
 Even though the turn ends, "at end of turn" triggered abilities don't trigger because the end of turn step is skipped.
-
 6. Multiplayer Rules
 
 600. General
@@ -2851,9 +2898,10 @@ If a replacement effect tries to cause a spell or ability to affect an object or
 Example: Alex plays Lava Axe ("Lava Axe deals 5 damage to target player") targeting Rob. In response, Rob plays Captain's Maneuver ("The next X damage that would be dealt to target creature or player this turn is dealt to another target creature or player instead.") with X = 3, targeting Carissa. Carissa isn't in Alex's range of influence. When Lava Axe resolves, it deals only 2 damage to Rob and no damage to Carissa.
 
 601.14b
-If an effect from a spell or ability creates an effect that prevents damage that would be dealt by a source, it can affect only sources within the spell or ability's controller's range of influence. If a spell or ability creates an effect that prevents damage that would be dealt to a creature or player, it can affect only creatures and players within the spell or ability's controller's range of influence.
+If a spell or ability creates an effect that prevents damage that would be dealt by a source, it can affect only sources within the spell or ability's controller's range of influence. If a spell or ability creates an effect that prevents damage that would be dealt to a creature or player, it can affect only creatures and players within the spell or ability's controller's range of influence. If a spell or ability creates an effect that prevents damage, but neither the source nor the would-be recipient of the damage is specified, it prevents damage only if both the source and recipient of that damage are within the spell or ability's controller's range of influence.
 Example: Rob is within Alex's range of influence, but Carissa is not. Alex controls an enchantment that says, "Prevent all damage that would be dealt by creatures." Carissa attacks Rob with a creature. The creature deals combat damage to Rob.
-Example: Rob is within Alex's range of influence, but Carissa is not. Alex plays Lightning Blast ("Lightning Blast deals 4 damage to target creature or player") targeting Rob. In response, Carissa plays Honorable Passage ("The next time a source of your choice would deal damage to target creature or player this turn, prevent that damage. If damage from a red source is prevented this way, Honorable Passage deals damage equal to the damage prevented this way to the source's controller.") targeting Rob. The damage to Rob is prevented, but Honorable Damage can't deal damage to Alex.
+Example: Rob is within Alex's range of influence, but Carissa is not. Carissa plays Lightning Blast ("Lightning Blast deals 4 damage to target creature or player") targeting Rob. In response, Alex plays Honorable Passage ("The next time a source of your choice would deal damage to target creature or player this turn, prevent that damage. If damage from a red source is prevented this way, Honorable Passage deals damage equal to the damage prevented this way to the source's controller.") targeting Rob. The damage to Rob is prevented, but Honorable Damage can't deal damage to Carissa.
+Example: Rob is within Alex's range of influence, but Carissa is not. Carissa attacks Rob with a creature, and Rob blocks with a creature. Alex plays Holy Day ("Prevent all combat damage that would be dealt this turn.") Carissa and Rob's creatures deal combat damage to each other.
 
 602. Attack Multiple Players Option
 
@@ -3126,7 +3174,6 @@ Team games use the normal rules for winning and losing the game (see rule 102).
 
 609.6 In the Teams variant, a team's resources (cards in hand, mana, and so on) are not shared. Teammates can't review each other's hands unless they are sitting next to each other. Teammates may discuss strategies at any time. Teammates can't manipulate each other's cards or permanents.
 
-
 Glossary
 
 Ability
@@ -3172,7 +3219,7 @@ APNAP Order
 See Active Player, Nonactive Player Order.
 
 Artifact
-Artifact is a type. The active player can play artifacts only during his or her main phase when the stack is empty. When an artifact spell resolves, its controller puts it into play under his or her control. See rule 212.2, "Artifacts."
+Artifact is a type. The active player may play artifacts during his or her main phase when the stack is empty. When an artifact spell resolves, its controller puts it into play under his or her control. See rule 212.2, "Artifacts."
 
 Artifact Creature
 An artifact creature is a combination of artifact and creature, and it's subject to the rules for both. (See rule 212.2, "Artifacts.") Some artifact creatures don't have a creature type. Those that do will say "Artifact Creature -- [creature type]"; for example, "Artifact Creature -- Golem." "Artifact" isn't a creature type.
@@ -3182,7 +3229,7 @@ An artifact land is a combination of artifact and land, and it's subject to the 
 
 Artifact Type
 Artifact subtypes are always a single word and are listed after a long dash: "Artifact -- Equipment." Artifact subtypes are also called artifact types. However, if an artifact creature card has subtypes printed on its type line, those subtypes are creature types. If an artifact land card has subtypes printed on its type line, those types are land types.
-     The list of artifact types, updated through the Ravnica: City of Guilds(TM) set, is as follows: Equipment.
+     The list of artifact types, updated through the Guildpact(TM) set, is as follows: Equipment.
 
 "As though"
 Text that states a player may do something "as though" some condition were true or a creature can do something "as though" some condition were true applies only to the stated action. For purposes of that action, treat the game exactly as if the stated condition were true. For all other purposes, treat the game normally.
@@ -3250,6 +3297,9 @@ An attacking creature becomes a blocked creature when another creature blocks it
 
 Blocking Creature
 A creature becomes a blocking creature when (a) it's declared as part of a legal block during the combat phase and (b) all costs to block, if any, have been paid. It remains a blocking creature until it's removed from combat, it stops being a creature, its controller changes, or the combat phase ends. Blocking creatures don't exist outside of the combat phase. See rule 309, "Declare Blockers Step."
+
+Bloodthirst
+Bloodthirst is a static ability. "Bloodthirst N" means "If an opponent was dealt damage this turn, this permanent comes into play with N +1/+1 counters on it." See rule 502.50, "Bloodthirst."
 
 Bury (Obsolete)
 Some older cards were printed with the term "bury," which meant to put a permanent into its owner's graveyard. In general, cards that were printed with the term "bury" now read, "Destroy [a permanent]. It can't be regenerated," or "Sacrifice [a permanent]."
@@ -3324,7 +3374,8 @@ Constructed
 In constructed play, each player needs his or her own deck of at least sixty cards, small items to represent any tokens and counters, and some way to clearly track life totals. A constructed deck can have any number of basic land cards and no more than four of any card with a particular English name other than basic land cards. See rule 100.2.
 
 Continuous Effect
-Continuous effects are usually active as long as the permanent with the associated static ability remains in play or the object with the associated static ability remains in the appropriate zone. A spell or ability can also create a continuous effect that doesn't depend on a permanent; these last as long as the spell or ability specifies. See rule 418, "Continuous Effects."
+Continuous effects are usually active as long as the permanent with the associated static ability remains in play or the object with the associated static ability remains in the appropriate zone.
+     A spell or ability can create a continuous effect that doesn't depend on a permanent. These last as long as the spell or ability specifies. If no duration is specified, a continuous effect lasts the rest of the game. See rule 418, "Continuous Effects."
 
 Continuous Artifact (Obsolete)
 Some older cards used the term "continuous artifact" on the card's type line. They were artifacts without activated abilities. Cards that were printed with the term "continuous artifact" now simply use "artifact."
@@ -3363,12 +3414,12 @@ Counts As (Obsolete)
 Some older cards were printed with text stating that the card "counts as" something. As far as the game rules and other cards are concerned, the card is that thing. (Newer Magic cards use "is" instead.)
 
 Creature
-Creature is a type. The active player can play creatures only during his or her main phase when the stack is empty. When a creature spell resolves, its controller puts it into play under his or her control. See rule 212.3, "Creatures."
+Creature is a type. The active player may play creatures during his or her main phase when the stack is empty. When a creature spell resolves, its controller puts it into play under his or her control. See rule 212.3, "Creatures."
 
 Creature Type
 Creature subtypes are always a single word and are listed after a long dash: "Creature -- Human Soldier," "Artifact Creature -- Golem," and so on. Creature subtypes are also called creature types. Creatures may have multiple subtypes.
-     The list of creature types, updated through the Ravnica: City of Guilds set, is as follows:
-     Abomination, Aboroth, Advisor, Aladdin, Albatross, Alchemist, Ali-Baba, Ali-from-Cairo, Alligator, Ambush-Party, Angel, Ant, Antelope, Ape, Archaeologist, Archer, Archon, Artificer, Asp, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Avenger, Avizoa, Badger, Ball-Lightning, Bandit, Banshee, Barbarian, Barishi, Basilisk, Bat, Bear, Beast, Bee, Beeble, Being, Berserker, Bird, Blinkmoth, Boar, Bodyguard, Bringer, Brother, Brownie, Brushwagg, Bull, Bureaucrat, Butterfly, Camarid, Camel, Caravan, Caribou, Carnivore, Carriage, Carrier, Cat, Cavalry, Cave-People, Centaur, Cephalid, Cheetah, Chicken, Child, Chimera, Citizen, Clamfolk, Cleric, Cobra, Cockatrice, Constable, Cow, Crab, Crocodile, Crusader, Dandan, Demon, Dervish, Deserter, Designer, Devil, Devouring-Deep, Dinosaur, Djinn, Dog, Donkey, Doppelganger, Dragon, Dragonfly, Drake, Dreadnought, Drill-Sergeant, Drone, Druid, Dryad, Dwarf, Eater, Eel, Effigy, Efreet, Egg, Elder, Elemental, Elephant, Elf, El-Hajjaj, Enchantress, Entity, Erne, Essence, Exorcist, Expansion-Symbol, Faerie, Fallen, Farmer, Ferret, Fiend, Fish, Flagbearer, Flying-Men, Fox, Frog, Frostbeast, Fungus, Fungusaur, Gaea's-Avenger, Gaea's-Liege, Gamer, Gargoyle, Gatekeeper, General, Ghost, Ghoul, Giant, Gnome, Goat, Goblin, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guardian, Gus, Gypsy, Hag, Harlequin,Heretic, Hero, Hipparion, Hippo, Homarid, Hornet, Horror, Horse, Horseman, Hound, Human, Hunter, Hydra, Hyena, Illusion, Imp, Incarnation, Infernal-Denizen, Inquisitor, Insect, Island-Fish, Jackal, Jellyfish, Kavu, Keeper, Kelp, King, Kirin, Kithkin, Knight, Kobold, Kraken, Lady-of-Proper-Etiquette, Lammasu, Leech, Legionnaire, Lemure, Leper, Leviathan, Lhurgoyf, Lichenthrope, Licid, Lion, Lizard, Lord, Lurker, Lycanthrope, Mage, Maiden, Mammoth, Manticore, Marid, Martyr, Master, Medusa, Mercenary, Merchant, Merfolk, Mime, Mindsucker, Minion, Minor, Minotaur, Miracle-Worker, Mist, Mistfolk, Mob, Mold-Demon, Monger, Mongoose, Monk, Monster, Moonfolk, Mosquito, Mummy, Murk-Dwellers, Mutant, Myr, Mystic, Nameless-Race, Narwhal, Necrosavant, Niall-Silvain, Nightmare, Nightstalker, Ninja, Noble, Nomad, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Paladin, Paratrooper, Peacekeeper, Pegasus, Penguin, Pentavite, People-of-the-Woods, Pest, Phantasm, Phelddagrif, Phoenix, Pig, Pikemen, Pincher, Pirate, Pixie-Queen, Plant, Poison-Snake, Poltergeist, Pony, Preacher, Priest, Prism, Pyknite, Rabbit, Raider, Ranger, Rat, Rebel, Reflection, Rhino, Robber, Roc, Rock-Sled, Rogue, Sage, Salamander, Samurai, Sand, Saproling, Satyr, Scavenger, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Shark, Sheep, Ship, Shyft, Sindbad, Singing-Tree, Sister, Skeleton, Slith, Sliver, Slug, Smith, Snake, Soldier, Sorceress, Spawn, Speaker, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Sponge, Sprite, Spuzzem, Spy, Squire, Squirrel, Stangg-Twin, Starfish, Strider, Survivor, Swarm, Tactician, Tarpan, Taskmaster, Teddy, Tetravite, Thief, The-Biggest-Baddest-Nastiest-Scariest-Creature-You'll-Ever-See, Thopter, Thrull, Thundermare, Tiger, Titan, Toad, Tortoise, Townsfolk, Tracker, Treefolk, Troll, Turtle, Twin, Uncle-Istvan, Undead, Unicorn, Vampire, Vedalken, Viashino, Villain, Viper, Volver, Vulture, Waiter, Walking-Dead, Wall, War-Rider, Warrior, Warthog, Wasp, Whale, Whippoorwill, Wight, Wiitigo, Wildebeest, Wirefly, Witch, Wizard, Wolf, Wolverine, Wolverine-Pack, Wolves-of-the-Hunt, Wombat, Worm, Wraith, Wretched, Wurm, Yeti, Zombie, Zubera
+     The list of creature types, updated through the Guildpact set, is as follows:
+     Abomination, Aboroth, Advisor, Aladdin, Albatross, Alchemist, Ali-Baba, Ali-from-Cairo, Alligator, Ambush-Party, Angel, Ant, Antelope, Ape, Archaeologist, Archer, Archon, Artificer, Asp, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Avenger, Avizoa, Badger, Ball-Lightning, Bandit, Banshee, Barbarian, Barishi, Basilisk, Bat, Bear, Beast, Bee, Beeble, Being, Berserker, Bird, Blinkmoth, Boar, Bodyguard, Bringer, Brother, Brownie, Brushwagg, Bull, Bureaucrat, Camarid, Camel, Caravan, Caribou, Carnivore, Carriage, Carrier, Cat, Cavalry, Cave-People, Centaur, Cephalid, Cheetah, Chicken, Child, Chimera, Citizen, Clamfolk, Cleric, Cobra, Cockatrice, Constable, Construct, Cow, Crab, Crocodile, Crusader, Cyclops, Dandan, Demon, Dervish, Deserter, Designer, Devil, Devouring-Deep, Dinosaur, Djinn, Dog, Donkey, Doppelganger, Dragon, Dragonfly, Drake, Dreadnought, Drill-Sergeant, Drone, Druid, Dryad, Dwarf, Eater, Eel, Effigy, Efreet, Egg, Elder, Elemental, Elephant, Elf, El-Hajjaj, Enchantress, Entity, Erne, Essence, Exorcist, Expansion-Symbol, Faerie, Fallen, Farmer, Ferret, Fiend, Fish, Flagbearer, Flying-Men, Fox, Frog, Frostbeast, Fungus, Fungusaur, Gaea's-Avenger, Gaea's-Liege, Gamer, Gargoyle, Gatekeeper, General, Ghost, Ghoul, Giant, Gnome, Goat, Goblin, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guardian, Gus, Gypsy, Hag, Harlequin,Heretic, Hero, Hipparion, Hippo, Homarid, Hornet, Horror, Horse, Horseman, Hound, Human, Hunter, Hydra, Hyena, Illusion, Imp, Incarnation, Infernal-Denizen, Inquisitor, Insect, Island-Fish, Jackal, Jellyfish, Juggernaut, Kavu, Keeper, Kelp, King, Kirin, Kithkin, Knight, Kobold, Kraken, Lady-of-Proper-Etiquette, Lammasu, Leech, Legionnaire, Lemure, Leper, Leviathan, Lhurgoyf, Licid, Lizard, Lord, Lurker, Lycanthrope, Mage, Maiden, Mammoth, Manticore, Marid, Martyr, Master, Medusa, Mercenary, Merchant, Merfolk, Mime, Minion, Minor, Minotaur, Miracle-Worker, Mist, Mistfolk, Mob, Mold-Demon, Monger, Mongoose, Monk, Monster, Moonfolk, Mosquito, Mummy, Murk-Dwellers, Mutant, Myr, Mystic, Nameless-Race, Narwhal, Nephilim, Niall-Silvain, Nightmare, Nightstalker, Ninja, Noble, Nomad, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Paladin, Paratrooper, Peacekeeper, Pegasus, Penguin, Pentavite, People-of-the-Woods, Pest, Phantasm, Phelddagrif, Phoenix, Pig, Pikemen, Pincher, Pirate, Pixie-Queen, Plant, Poison-Snake, Poltergeist, Pony, Preacher, Priest, Prism, Pyknite, Rabbit, Raider, Ranger, Rat, Rebel, Reflection, Rhino, Robber, Roc, Rock-Sled, Rogue, Sage, Salamander, Samurai, Sand, Saproling, Satyr, Scavenger, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Shark, Sheep, Ship, Shyft, Sindbad, Singing-Tree, Sister, Skeleton, Slith, Sliver, Slug, Smith, Snake, Soldier, Sorceress, Spawn, Speaker, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Sponge, Sprite, Spuzzem, Spy, Squire, Squirrel, Stangg-Twin, Starfish, Strider, Survivor, Swarm, Tactician, Tarpan, Taskmaster, Teddy, Tetravite, Thief, The-Biggest-Baddest-Nastiest-Scariest-Creature-You'll-Ever-See, Thopter, Thrull, Thundermare, Tiger, Titan, Toad, Tortoise, Townsfolk, Tracker, Treefolk, Troll, Turtle, Twin, Uncle-Istvan, Undead, Unicorn, Vampire, Vedalken, Viashino, Villain, Viper, Volver, Vulture, Waiter, Walking-Dead, Wall, War-Rider, Warrior, Wasp, Weird, Whale, Whippoorwill, Wight, Wiitigo, Wirefly, Witch, Wizard, Wolf, Wolverine, Wolverine-Pack, Wolves-of-the-Hunt, Wombat, Worm, Wraith, Wretched, Wurm, Yeti, Zombie, Zubera
 
 Cumulative Upkeep
 Cumulative upkeep is a triggered ability that imposes an increasing cost on a permanent. "Cumulative upkeep [cost]" means "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice this permanent unless you pay [cost] for each age counter on it." Note that if a permanent has more than one instance of cumulative upkeep, each creates a separate triggered ability at the beginning of upkeep that counts all the age counters on the permanent from both abilities. See rule 502.13, "Cumulative Upkeep."
@@ -3423,7 +3474,7 @@ Distribute
 Distribute has its normal English meaning in the Magic game. If a spell or ability requires a player to distribute something (such as counters) as he or she chooses among one or more targets, or among any number of untargeted objects or players, then each of these targets, objects, or players must receive at least one of whatever is being distributed. See rules 409.1e and 310.2.
 
 Divide
-Divide has its normal English meaning in the Magic game. If a spell or ability requires a player to divide something (such as damage or counters) as he or she chooses among one or more targets, or any number of untargeted objects or players, each of these targets, objects, or players must receive at least one of whatever is being divided. This doesn't apply to dividing combat damage. See rules 409.1e and 310.2.
+Divide has its normal English meaning in the Magic game. If a spell or ability requires a player to divide something (such as damage or counters) as he or she chooses among one or more targets, or any number of untargeted objects or players, then each of these targets, objects, or players must receive at least one of whatever is being divided. This doesn't apply to dividing combat damage. See rules 409.1e and 310.2.
 
 Double Strike
 Double strike is a static ability that modifies the rules for the combat damage step. Creatures with double strike deal combat damage in both the first-strike combat damage step and the normal combat damage step. See rule 502.28, "Double Strike."
@@ -3440,7 +3491,7 @@ Dredge
 Dredge is a static ability that functions only while the card with dredge is in a player's graveyard. "Dredge N" means "As long as you have at least N cards in your library, if you would draw a card, you may instead put N cards from the top of your library into your graveyard and return this card from your graveyard to your hand." A player with fewer cards in his or her library than the number required by a dredge ability can't put any of them into his or her graveyard this way. See rule 502.47, "Dredge."
 
 Dual Land (Informal)
-The Ravnica: City of Guilds set and early Magic core sets contain "dual lands"; each of these has two basic land types. For example, Temple Garden has the land types Forest and Plains. Dual land cards have the default abilities of both basic land types and are treated as both by all spells and abilities that specifically refer to those types. However, they are not basic lands. A dual land doesn't count as two lands while in play--it's just one land with multiple land types. 
+The Ravnica: City of Guilds(TM) and Guildpact sets and early Magic core sets contain "dual lands"; each of these has two basic land types. For example, Temple Garden has the land types Forest and Plains. Dual land cards have the default abilities of both basic land types and are treated as both by all spells and abilities that specifically refer to those types. However, they are not basic lands. A dual land doesn't count as two lands while in play--it's just one land with multiple land types. 
 
 During (Obsolete)
 Some older cards used the phrase "during [phase], [action]." These abilities were called "phase abilities." In general, cards that were printed with phase abilities now have abilities that trigger at the beginning of a step or phase. "During" still appears in current card text, but only in its normal English sense and not as game terminology.
@@ -3462,11 +3513,11 @@ Enchant Player
 Auras with the "enchant player" ability can target and be attached to players. Such Auras can't target permanents and can't be attached to permanents. Rules 212.4d-i apply to an Aura with enchant player in relation to players as they normally would for permanents. See also Aura, Enchant.
 
 Enchantment
-Enchantment is a type. The active player can play enchantments only during his or her main phase when the stack is empty. See rule 212.4, "Enchantments." See also Aura.
+Enchantment is a type. The active player may play enchantments during his or her main phase when the stack is empty. See rule 212.4, "Enchantments." See also Aura.
 
 Enchantment Type
 Enchantment subtypes are always a single word and are listed after a long dash: "Enchantment -- Shrine." Enchantment subtypes are also called enchantment types.
-     The list of enchantment types, updated through the Ravnica: City of Guilds set, is as follows: Aura, Shrine.
+     The list of enchantment types, updated through the Guildpact set, is as follows: Aura, Shrine.
 
 End of Combat Step
 The end of combat step is the fifth step of the combat phase. A player may play spells and abilities during this step whenever he or she has priority. See rule 311, "End of Combat Step."
@@ -3601,6 +3652,9 @@ The hand is the zone where a player holds cards that haven't been played yet. Se
 Haste
 Normally a creature can't attack or use activated abilities with costs that include the tap symbol unless it's been controlled by the player continuously since the beginning of that controller's most recent turn. Haste is a static ability that allows a creature to ignore this rule. See rule 502.5, "Haste."
 
+Haunt
+Haunt is a triggered ability. "Haunt" on a permanent means "When this permanent is put into a graveyard from play, remove it from the game haunting target creature." "Haunt" on an instant or sorcery spell means "When this spell is put into a graveyard during its resolution, remove it from the game haunting target creature." A card with haunt typically has another ability that triggers "when the creature this card haunts is put into a graveyard." See rule 502.51, "Haunt."
+
 Hidden Information (Informal)
 Some information within a Magic game isn't known by all players. For example, face-down cards in any zone and the contents of players' libraries and hands are hidden information. If an effect "reveals" a card that's normally hidden, the card is public information as long as it remains revealed. See also Public Information.
 
@@ -3645,7 +3699,7 @@ Instant is a type. A player may play instants whenever he or she has priority. A
 
 Instant Type
 Instant subtypes are always a single word and are listed after a long dash: "Instant -- Arcane." Instant subtypes are also called instant types. An instant subtype that's also a sorcery subtype is also called a spell type.
-     The list of instant types, updated through the Ravnica: City of Guilds set, is as follows: Arcane.
+     The list of instant types, updated through the Guildpact set, is as follows: Arcane.
 
 Instead
 Effects that use the word "instead" are replacement effects. Most replacement effects use the word "instead" to indicate what events will be replaced with other events. See rule 419, "Replacement and Prevention Effects."
@@ -3681,7 +3735,7 @@ Land is a type. Lands aren't spells and don't go on the stack; they are simply p
 
 Land Type
 Land subtypes are always a single word and are listed after a long dash: "Land -- Locus, Land -- Urza's Mine," etc. Land subtypes are also called land types. Lands may have multiple subtypes. Note that "basic," "legendary," and "nonbasic" aren't land types. See rule 212.6, "Lands." See also Basic Land Type.
-     The list of land types, updated through the Ravnica: City of Guilds set, is as follows:
+     The list of land types, updated through the Guildpact set, is as follows:
      Desert, Forest, Island, Lair, Locus, Mine, Mountain, Plains, Power-Plant, Swamp, Tower, Urza's
 
 Landcycling
@@ -3693,7 +3747,7 @@ Landwalk
      Landwalk is an evasion ability. A creature with landwalk is unblockable as long as the defending player controls at least one land which has the specified subtype or supertype. See rule 502.6, "Landwalk."
 
 Last Known Information
-The last known information about an object is the information that it had just before it left the zone it was in. Effects from resolving spells and abilities use last known information if the object they require information from isn't in the zone it's expected to be in. See rule 413.2f.
+The last known information about an object is the information that it had just before it left the zone it was in. Effects from resolving spells and abilities use last known information if the object they require information from isn't in the zone it's expected to be in (unless the effect divides damage). See rule 413.2f.
 
 Layer
 Continuous effects are applied in order, in six layers: (1) copy effects (see rule 503, "Copying Objects"); (2) control-changing effects; (3) text-changing effects; (4) type-, subtype-, and supertype-changing effects; (5) all other continuous effects, except those that change power and/or toughness, and (6) power- and/or toughness-changing effects. Inside layer 6, effects are applied in a series of sublayers. See rule 418.5, "Interaction of Continuous Effects."
@@ -3986,6 +4040,9 @@ A card removed from the game is out of play. The effect that removed the card ma
 Replacement Effect
 A replacement effect is a type of continuous effect that "watches" for a specified event and replaces it with a different one. See rule 419, "Replacement and Prevention Effects."
 
+Replicate
+Replicate is a keyword that represents two abilities. The first is a static ability that functions while the spell is on the stack. The second is a triggered ability that functions while the spell is on the stack. "Replicate [cost]" means "As an additional cost to play this spell, you may pay [cost] any number of times" and "When you play this spell, if a replicate cost was paid for it, copy it for each time its replicate cost was paid. If the spell has any targets, you may choose new targets for any number of the copies." See rule 502.52, "Replicate."
+
 Requirement
 A requirement to attack or block is any effect that forces one or more creatures to attack or block. All attacks and blocks must still be legal. See rule 500, "Legal Attacks and Blocks."
 
@@ -4045,11 +4102,11 @@ Snow-Covered Landwalk
 Snow-covered landwalk is a special form of landwalk. A creature with snow-covered landwalk is unblockable as long as the defending player controls at least one snow-covered land of the specified subtype. See rule 502.6, "Landwalk," and rule 205.4e.
 
 Sorcery
-Sorcery is a type. The active player can play sorceries only during his or her main phase when the stack is empty. A sorcery spell is put into its owner's graveyard as part of its resolution. See rule 212.7, "Sorceries."
+Sorcery is a type. The active player may play sorceries during his or her main phase when the stack is empty. A sorcery spell is put into its owner's graveyard as part of its resolution. See rule 212.7, "Sorceries."
 
 Sorcery Type
 Sorcery subtypes are always a single word and are listed after a long dash: "Sorcery -- Arcane." Sorcery subtypes are also called sorcery types. A sorcery subtype that's also an instant subtype is also called a spell type.
-     The list of sorcery types, updated through the Ravnica: City of Guilds set, is as follows: Arcane.
+     The list of sorcery types, updated through the Guildpact set, is as follows: Arcane.
 
 Soulshift
 Soulshift is a triggered ability. "Soulshift N" means "When this permanent is put into a graveyard from play, you may return target Spirit card with converted mana cost N or less from your graveyard to your hand."
@@ -4089,7 +4146,7 @@ State Triggers
 State triggers are triggered abilities that watch for a game state rather than an event and trigger as soon as the game state matches the condition. Once a state trigger has triggered, it won't trigger again until the ability it created has resolved, has been countered, or has otherwise left the stack. See rule 410.11.
 
 Static Ability
-Static abilities do something all the time rather than being played at specific times. Static abilities create continuous effects, which are active as long as the permanent with the ability remains in play and has the ability, or as long as the object with the ability remains in the appropriate zone. A spell or ability can also create a continuous effect; these may last a specified length of time or for the rest of the game. See rule 412, "Handling Static Abilities."
+Static abilities do something all the time rather than being played at specific times. Static abilities create continuous effects, which are active as long as the permanent with the ability remains in play and has the ability, or as long as the object with the ability remains in the appropriate zone. See rule 412, "Handling Static Abilities."
 
 Step
 Some phases of the turn are further subdivided into steps. See section 3, "Turn Structure."
@@ -4125,7 +4182,7 @@ Sunburst is a static ability that functions as an object is coming into play fro
 Supertype
 A card can have one or more "supertypes." These are printed directly before the card's types. If an object's types or subtypes change, any supertypes it has are kept, although they may not be relevant to the new type. See rule 205.4, "Supertypes."
      An object's supertype is independent of its type and subtype. Changing an object's type or subtype won't change its supertype. Changing an object's supertype won't change its type or subtype. When an object gains or loses a supertype, it retains any other supertypes it had. See rule 212. "Type, Supertype, and Subtype."
-     The list of supertypes, updates through the Ravnica: City of Guilds set, is as follows: basic, legendary, snow-covered, and world.
+     The list of supertypes, updates through the Guildpact set, is as follows: basic, legendary, snow-covered, and world.
 
 Swamp
 "Swamp" is one of the five basic land types. Any land with the land type Swamp has the ability "{T}: Add {B} to your mana pool." See rule 212.6d.
@@ -4290,12 +4347,11 @@ Trigger events that involve objects changing zones are called "zone-change trigg
 
 
 
-
 Credits
 
 Magic: The Gathering Original Game Design: Richard Garfield
-Comprehensive Rules Design and Development: Paul Barclay, Beth Moursund, and Bill Rose, with contributions from Charlie Camino, John Carter, Elaine Chase, Laurie Cheers, Stephen D'Angelo, Dave DeLaney, Brady Dommermuth, Mike Donais, Skaff Elias, Mike Elliott, Richard Garfield, Mark L. Gottlieb, Dan Gray, Robert Gutschera, Collin Jackson, William Jockusch, Jeff Jordan, Yonemura Kaoru, Jim Lin, Steve Lord, Sheldon Menery, Michael Phoenix, Mark Rosewater, David Sachs, Henry Stern, Ingo Warnke, Tom Wylie, Donald X, and Bryan Zembruski
-Editing: Del Laugel
+Comprehensive Rules Design and Development: Paul Barclay, Beth Moursund, and Bill Rose, with contributions from Charlie Camino, John Carter, Elaine Chase, Laurie Cheers, Stephen D'Angelo, Dave DeLaney, Brady Dommermuth, Mike Donais, Skaff Elias, Mike Elliott, Richard Garfield, Mark L. Gottlieb, Dan Gray, Robert Gutschera, Collin Jackson, William Jockusch, Jeff Jordan, Yonemura Kaoru, Russell Linnemann, Jim Lin, Steve Lord, Sheldon Menery, Michael Phoenix, Mark Rosewater, David Sachs, Henry Stern, Ingo Warnke, Tom Wylie, Donald X, and Bryan Zembruski
+Editing: Del Laugel and Michael Mikaelian
 Magic Rules Manager: Mark L. Gottlieb
 
 The Magic: The Gathering game was designed by Richard Garfield, with contributions from Charlie Camino, Skaff Elias, Don Felice, Tom Fontaine, Jim Lin, Joel Mick, Chris Page, Dave Pettey, Barry "Bit" Reich, Bill Rose, and Elliott Segal. The mana symbols were designed by Christopher Rush.
@@ -4313,10 +4369,9 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are current as of October 1, 2005.
+These rules are current as of February 1, 2006.
 
-Published by Wizards of the Coast, Inc., P.O. Box 707, Renton WA 98057-0707, U.S.A. Wizards of the Coast, Magic: The Gathering, Magic, DCI, Oracle, Ice Age, Vanguard, Exodus, Unglued, Portal Three Kingdoms, Odyssey, Judgment, Champions of Kamigawa, Ravnica: City of Guilds, and Ravnica are trademarks of Wizards of the Coast, Inc. in the U.S.A. and other countries. (C)1993-2005 Wizards. U.S. Pat. No. RE 37,957.
-
+Published by Wizards of the Coast, Inc., P.O. Box 707, Renton WA 98057-0707, U.S.A. Wizards of the Coast, Magic: The Gathering, Magic, DCI, Oracle, Ice Age, Vanguard, Exodus, Unglued, Portal Three Kingdoms, Odyssey, Judgment, Champions of Kamigawa, Ravnica: City of Guilds, Guildpact, and Ravnica are trademarks of Wizards of the Coast, Inc. in the U.S.A. and other countries. (C)1993-2006 Wizards. U.S. Pat. No. RE 37,957.
 
 Questions?
 Contact the office nearest you.
@@ -4347,4 +4402,3 @@ Tel: +32.70.233.277
 Email: custserv@hasbro.be
 
 Visit our website: magicthegathering.com
-

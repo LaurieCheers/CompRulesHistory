@@ -73,5 +73,10 @@
     "setCode": "RAV",
     "setName": "Ravnica: City of Guilds",
     "creationDay": "2005-10-01"
+  },
+  {
+    "setCode": "GPT",
+    "setName": "Guildpact",
+    "creationDay": "2006-02-01"
   }
 ]
