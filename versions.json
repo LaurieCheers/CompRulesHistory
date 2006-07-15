@@ -83,5 +83,10 @@
     "setCode": "DIS",
     "setName": "Dissension",
     "creationDay": "2006-05-01"
+  },
+  {
+    "setCode": "CSP",
+    "setName": "Coldsnap",
+    "creationDay": "2006-07-15"
   }
 ]
