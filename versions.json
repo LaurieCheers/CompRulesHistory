@@ -88,5 +88,10 @@
     "setCode": "CSP",
     "setName": "Coldsnap",
     "creationDay": "2006-07-15"
+  },
+  {
+    "setCode": "TSP",
+    "setName": "Time Spiral",
+    "creationDay": "2006-10-01"
   }
 ]

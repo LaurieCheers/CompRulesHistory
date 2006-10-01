@@ -1,12 +1,12 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are current as of July 15, 2006.
+These rules are current as of October 1, 2006.
 
 Introduction
 
 This booklet is designed for people who've moved beyond the basics of the Magic: The Gathering(r) game. If you're a beginning Magic(tm) player, you'll probably find these rules intimidating. They're intended to be the ultimate authority for the game, and you won't usually need to refer to them except in specific cases or during competitive games.
 
-For casual play and most ordinary situations, you'll find what you need in the general rulebook included in the Magic: The Gathering core game. You can download a copy of that rulebook from the Wizards of the Coast(r) Magic rules website at www.wizards.com/default.asp?x=magic/rules. If you're sure this is where you want to be, keep reading.
+For casual play and most ordinary situations, you'll find what you need in the general rulebook included in the Magic: The Gathering core game. You can download a copy of that rulebook from the Wizards of the Coast(tm) Magic rules website at www.wizards.com/default.asp?x=magic/rules. If you're sure this is where you want to be, keep reading.
 
 This document includes a series of numbered rules followed by a glossary. Many of the numbered rules are divided into subrules, and each separate rule and subrule of the game has its own number. The glossary defines many of the words and phrases used in these rules, along with a few concepts that don't really fit anywhere among the numbered rules. So if you can't find what you're looking for, check the glossary.
 
@@ -88,6 +88,7 @@ Contents
 420. State-Based Effects
 421. Handling "Infinite" Loops
 422. Handling Illegal Actions
+423. Drawing a Card
 
 5. Additional Rules
 500. Legal Attacks and Blocks
@@ -160,6 +161,10 @@ Once the starting player has been determined, each player sets his or her life t
 101.4.
 A player who is dissatisfied with his or her initial hand may mulligan. First, the starting player takes any mulligans. To take a mulligan, that player shuffles his or her hand back into the deck and then draws a new hand of six cards. He or she may repeat this process as many times as desired, drawing one fewer card each time, until the hand size reaches zero cards. Once the starting player has decided to keep a hand, those cards become his or her opening hand. Then each other player (in turn order) may take any number of mulligans. A player can't take any mulligans once he or she has decided to keep an opening hand.
 
+101.4a
+The Two-Headed Giant variant uses the standard mulligan rule, with some modifications. First, the starting team takes any mulligans. For a team to take a mulligan, each player on that team decides whether or not to take a mulligan, then all players who chose to do so take their mulligans at the same time. The first time a player takes a mulligan, he or she draws a new hand of seven cards. After each player on that team who took a mulligan looks at his or her new hand, the team repeats the process. (Subsequent hands decrease by one card as normal.) Once a player has decided to keep a hand, those cards become his or her opening hand. That player can't take any more mulligans, but his or her teammate may. Once each player on the starting team decides to keep an opening hand, the other team may take mulligans.
+Example: Bob and Clare are the starting team in a Two-Headed Giant game. They've each draw seven cards. After reviewing each other's hands, both Bob and Clare decide to mulligan. Each shuffles his or her hand into his or her deck and draws seven cards. Clare isn't sure about Bob's new hand, but he decides to keep it. Clare decides to take another mulligan. Bob's hand becomes his opening hand, and Clare shuffles her hand into her deck and draws six cards. Then only Clare has the option to mulligan. She decides to keep her hand of six cards and that becomes her opening hand. After that, the other team decides whether to take mulligans.
+
 101.5.
 Once all players have kept their opening hands, the starting player takes his or her first turn.
 
@@ -167,7 +172,7 @@ Once all players have kept their opening hands, the starting player takes his or
 In a two-player game, the player who plays first skips the draw step (see rule 304, "Draw Step") of his or her first turn. 
 
 101.5b
-In most multiplayer games, no player skips the draw step of his or her first turn. The Two-Headed Giant variant is the exception. See rule 606, "Two-Headed Giant Variant."
+In multiplayer games, no player skips the draw step of his or her first turn. However, the Two-Headed Giant variant has a special rule: Although the starting team's first draw step isn't skipped, only the secondary player on that team draws a card during that step. See rule 606, "Two-Headed Giant Variant."
 
 102. Winning and Losing
 
@@ -253,7 +258,7 @@ Example: If a 3/3 creature gets -5/-0, it deals 0 damage in combat. But to raise
 Example: If you control no permanents, the "highest converted mana cost among permanents you control" can't be determined, so 0 is used instead.
 
 104.3.
-The mana symbols are {W}, {U}, {B}, {R}, {G}; {X}, {Y}, {Z}; the numerals {0}, {1}, {2}, {3}, {4}, and so on; the hybrid symbols {W/U}, {W/B}, {U/B}, {U/R}, {B/R}, {B/G}, {R/G}, {R/W}, {G/W}, and {G/U}; and the snow symbol {S}.
+The mana symbols are {W}, {U}, {B}, {R}, {G}, {X}, {Y}, and {Z}; the numerals {0}, {1}, {2}, {3}, {4}, and so on; the hybrid symbols {W/U}, {W/B}, {U/B}, {U/R}, {B/R}, {B/G}, {R/G}, {R/W}, {G/W}, and {G/U}; and the snow symbol {S}.
 
 104.3a
 Each of the colored mana symbols represents one colored mana: {W} is white, {U} blue, {B} black, {R} red, and {G} green.
@@ -471,13 +476,13 @@ Any permanent with the supertype "snow" is a snow permanent. Any permanent that 
 206. Expansion Symbol
 
 206.1.
-The expansion symbol indicates which Magic set a card is from. It's printed below the right edge of the illustration.
+The expansion symbol indicates which Magic set a card is from. It's normally printed below the right edge of the illustration.
 
 206.2.
-The color of the expansion symbol indicates the rarity of the card within its set. A gold symbol signifies the card is rare; silver, uncommon; and black, common or basic land. (Prior to the Exodus(tm) set, all expansion symbols were black, regardless of rarity. Also, prior to the Sixth Edition core set, Magic core sets didn't have expansion symbols at all.)
+The color of the expansion symbol indicates the rarity of the card within its set. A gold symbol indicates the card is rare. A silver expansion symbol indicates the card is uncommon. A black or white expansion symbol indicates the card is common or is a basic land. A purple expansion symbol signifies a special rarity; to date, only the Time Spiral(tm) "timeshifted" cards, which were rarer than that set's rare cards, have had purple expansion symbols. (Prior to the Exodus(tm) set, all expansion symbols were black, regardless of rarity. Also, prior to the Sixth Edition core set, Magic core sets didn't have expansion symbols at all.)
 
 206.3.
-A spell or ability that affects cards from a particular set "looks" only for that set's expansion symbol. A card reprinted in the core set receives the core set's expansion symbol; any reprinted version of the card no longer counts as part of its original set unless it was reprinted with that set's expansion symbol. The first five editions of the core set had no expansion symbol.
+A spell or ability that affects cards from a particular set "looks" only for that set's expansion symbol. A card reprinted in the core set receives the core set's expansion symbol. Any reprinted version of the card no longer counts as part of its original set unless it was reprinted with that set's expansion symbol. The first five editions of the core set had no expansion symbol.
 
 207. Text Box
 
@@ -693,7 +698,7 @@ If a spell, ability, or effect states that a player can do something only "any t
 Every nonland card is a spell while it's being played (see rule 409, "Playing Spells and Activated Abilities") and while it's on the stack. Once it's played, a card remains a spell until it resolves, is countered, or otherwise leaves the stack. For more information, see rule 401, "Spells on the Stack."
 
 213.1a
-An object with no mana cost can't be played as a spell.
+A nonexistent mana cost can't be paid.
 
 213.2.
 A spell's type, supertype, and subtype are the same as those of its card.
@@ -717,12 +722,15 @@ A permanent is a card or token in play. Permanents stay in play unless moved to 
 Permanent type is the type of a card or token that's in play. A nontoken permanent's types, supertypes, and subtypes are the same as those printed on its card. A token's types, supertypes, and subtypes are set by the spell or ability that created it.
 
 214.3.
-A card or token becomes a permanent when it comes into play and it stops being a permanent when it leaves play. Permanents come into play untapped. The term "permanent" is used to refer to a card or token while it's in play. The term "card" isn't used to refer to a card that's in play as a permanent. It's only used to refer to a card that's not in play and not on the stack, such as a creature card in a player's hand. For more information, see rule 217, "Zones."
+A card or token becomes a permanent when it comes into play and it stops being a permanent when it leaves play. Permanents come into play untapped. The term "permanent" is used to refer to a card or token while it's in play. The term "card" isn't typically used to refer to a card that's in play as a permanent; rather, it's nearly always used to refer to a card that's not in play and not on the stack, such as a creature card in a player's hand. For more information, see rule 217, "Zones."
 
 214.4.
-Every permanent has a controller and is either tapped or untapped. By default, a permanent's controller is the player who put it into play.
+Every permanent has a controller. By default, a permanent's controller is the player who put it into play.
 
-215. This section is now empty. See rule 205.4c and rule 420.5e about legendary permanents. 
+214.5.
+Every permanent has a value in each of three status categories: tapped/untapped, flipped/unflipped, and face up/face down. By default, a permanent comes into play untapped, unflipped, and face up. For more information, see rule 510, "Status."
+
+215. This section is now empty. See rule 205.4c and rule 420.5e about legendary permanents.
 
 216. Tokens
 
@@ -744,10 +752,10 @@ A zone is a place where objects can be during a game. There are normally six zon
 If an object would go to any library, graveyard, or hand other than its owner's, it goes to the corresponding zone of its owner's instead. If an instant or sorcery card would come into play, it remains in its previous zone instead.
 
 217.1b
-The order of objects in a library, in a graveyard, or on the stack can't be changed except when effects or rules allow it. Objects in other zones can be arranged however their owners wish, although who controls those objects, whether they're tapped, and what enchants or equips them must remain clear to all players.
+The order of objects in a library, in a graveyard, or on the stack can't be changed except when effects or rules allow it. Objects in other zones can be arranged however their owners wish, although who controls those objects, whether they're tapped or flipped, and what enchants or equips them must remain clear to all players.
 
 217.1c
-An object that moves from one zone to another is treated as a new object. Effects connected with its previous location will no longer affect it. There are two exceptions to this rule: Effects that edit the characteristics of an artifact, creature, or enchantment spell on the stack will continue to apply to the permanent that spell creates, and abilities that trigger when an object moves from one zone to another (for example, "When Rancor is put into a graveyard from play") can find the object in the zone it moved to when the ability triggered.
+An object that moves from one zone to another is treated as a new object. Effects connected with its previous location will no longer affect it. There are three exceptions to this rule: (1) Effects that change the characteristics of an artifact, creature, or enchantment spell on the stack will continue to apply to the permanent that spell creates. (2) Abilities that trigger when an object moves from one zone to another (for example, "When Rancor is put into a graveyard from play") can find the object in the zone it moved to when the ability triggered. (3) Prevention effects that apply to damage from an artifact, creature, or enchantment spell on the stack will continue to apply to damage from the permanent that spell becomes.
 
 217.1d
 If an object would move from one zone to another, first determine what event is moving the object. Then apply any appropriate replacement effects to that event. If an effect or rule tries to do two or more contradictory or mutually exclusive things to a particular object, that object's controller-or its owner if it has no controller-chooses what the effect does to the object. Then the event moves the object.
@@ -846,7 +854,7 @@ Cards in the removed-from-the-game zone are kept face up and may be examined by 
 Cards that might return to play should be kept in separate piles to keep track of their respective ways of returning.
 
 217.7d
-A card may have one ability printed on it that removes one or more cards from the game, and another ability that refers either to "the removed cards" or to cards "removed from the game with [name]." These abilities are linked: the second refers only to cards in the removed-from-the-game zone removed as a result of the first. If another object copies both abilities, the abilities will be similarly linked on that object. They can't be linked to any other ability, regardless of what other abilities the object may currently have or may have had in the past.
+A card may have one ability printed on it that removes one or more cards from the game, and another ability that refers either to "the removed cards" or to cards "removed from the game with [name]." These abilities are linked: the second refers only to cards in the removed-from-the-game zone removed as a result of the first. If another object gains a pair of linked abilities, the abilities will be similarly linked on that object. They can't be linked to any other ability, regardless of what other abilities the object may currently have or may have had in the past.
 Example: Arc-Slogger has the ability "{R}: Remove the top ten cards of your library from the game: Arc-Slogger deals 2 damage to target creature or player." Sisters of Stone Death has the ability "{B}{G}: Remove from the game target creature blocking or blocked by Sisters of Stone Death" and the ability "{2}{B}: Put a creature card removed from the game with Sisters of Stone Death into play under your control." Quicksilver Elemental has the ability "{U}: Quicksilver Elemental gains all activated abilities of target creature until end of turn." If a player has Quicksilver Elemental gain Arc-Slogger's ability, plays it, then has Quicksilver Elemental gain Sisters of Stone Death's abilities, plays the remove-from-game ability, and then plays the return-to-play ability, only the creature card Quicksilver Elemental removed from the game with Sisters of Stone Death's ability can be returned to play. Creature cards Quicksilver Elemental removed from the game with Arc-Slogger's ability can't be returned.
 
 217.8.
@@ -1036,7 +1044,7 @@ Once the player has enough mana in his or her mana pool, he or she pays all cost
 Each chosen creature becomes a blocking creature, but only if it's controlled by the defending player. Each one is blocking the attacking creature chosen for it. It remains a blocking creature until it's removed from combat or the combat phase ends, whichever comes first. See rule 306.2.
 
 309.2f
-An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no blockers becomes an unblocked creature. The creature's state remains unchanged until the creature is removed from combat or the combat phase ends, whichever comes first. (Some effects can change a creature's state.)
+An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no blockers becomes an unblocked creature. This remains unchanged until the creature is removed from combat or the combat phase ends, whichever comes first. (Some effects can change whether a creature is blocked or unblocked.)
 
 309.3.
 Abilities that trigger on a creature blocking trigger only at the point the creature is declared as a blocker. They will not trigger if a creature blocks, and then that creature's characteristics change to match the ability's trigger condition. They will not trigger if a creature is put into play blocking.
@@ -1138,7 +1146,7 @@ A card on the stack is a spell. As the first step of being played, the card beco
 A copy of a spell is also a spell, even if it has no card associated with it.
 
 401.1b
-An object with no mana cost can't be played as a spell.
+A nonexistent mana cost can't be paid.
 
 401.2.
 A spell stops being a spell when it resolves (see rule 413, "Resolving Spells and Abilities"), is countered (see rule 414, "Countering Spells and Abilities"), or otherwise leaves the stack.
@@ -1207,7 +1215,7 @@ A trigger condition that can trigger only in a zone other than the in-play zone 
 Example: Absolver Thrull has the ability "When Absolver Thrull comes into play or the creature it haunts is put into a graveyard, destroy target enchantment." The first trigger condition triggers from the in-play zone and the second trigger condition functions from the removed-from-the-game zone.
 
 402.8g
-An ability whose cost or effect specifies that it moves the object it's on out of a particular zone functions only in that zone.
+An ability whose cost or effect specifies that it moves the object it's on out of a particular zone functions only in that zone, unless that ability's trigger condition, or a previous part of that ability's cost or effect, specifies that the object is put into that zone.
 Example: Necrosavant says "{3}{B}{B}, Sacrifice a creature: Return Necrosavant from your graveyard to play. Play this ability only during your upkeep." A player may play this ability only if Necrosavant is in his or her graveyard.
 
 403. Activated Abilities
@@ -1338,7 +1346,7 @@ Combat damage goes on the stack once it's been assigned. For more information, s
 Static abilities aren't played-they continuously affect the game. Priority doesn't apply to them. (See rule 405, "Static Abilities," rule 418, "Continuous Effects," and rule 419, "Replacement and Prevention Effects.")
 
 408.1i
-Special actions don't use the stack. The special actions are playing a land (see rule 408.2d), turning a face-down creature face up (see rule 408.2h), ending continuous effects or stopping delayed triggered abilities (see rule 408.2i), and ignoring or suspending continuous effects (see rule 408.2j).
+Special actions don't use the stack. The special actions are playing a land (see rule 408.2d), turning a face-down creature face up (see rule 408.2h), ending continuous effects or stopping delayed triggered abilities (see rule 408.2i), ignoring continuous effects (see rule 408.2j), and removing a card with suspend in your hand from the game (see rule 408.2k).
 
 408.2.
 Actions That Don't Use the Stack
@@ -1371,7 +1379,10 @@ The controller of a face-down permanent may turn it face up. This is a special a
 Some effects allow a player to take an action at a later time, usually to end a continuous effect or to stop a delayed triggered ability. This is a special action. A player can end a continuous effect or stop a delayed triggered ability only if the effect or ability allows it and only when he or she has priority. The player who took the action gets priority after this special action.
 
 408.2j
-Some effects from static abilities allow a player to take an action to ignore or suspend the effect from that ability for a duration. This is a special action. A player can take an action to ignore or suspend an effect only when he or she has priority. The player who took the action gets priority after this special action.
+Some effects from static abilities allow a player to take an action to ignore the effect from that ability for a duration. This is a special action. A player can take an action to ignore an effect only when he or she has priority. The player who took the action gets priority after this special action.
+
+408.2k
+A player who has a card with suspend in his or her hand may remove that card from the game. This is a special action. (See rule 502.59, "Suspend.") A player can remove a card with suspend in his or her hand from the game only when he or she has priority. That player gets priority after this special action.
 
 409. Playing Spells and Activated Abilities
 
@@ -1482,7 +1493,7 @@ Example: If an effect reads "All lands are creatures" and a land card is played,
 Leaves-play abilities trigger when a permanent leaves the in-play zone. These are written as, but aren't limited to, "When [this object] leaves play, . . ." or "Whenever [something] is put into a graveyard from play, . . . ." An ability that attempts to do something to the card that left play checks for it only in the first zone that it went to.
 
 410.10d
-Abilities that trigger on one or more permanents leaving play, or on a player losing control of a permanent, must be treated specially because the permanent with the ability may no longer be in play after the event. The game has to "look back in time" to determine what triggered. Each time an event removes from play or changes who controls one or more permanents, all the permanents in play just before the event (with continuous effects that existed at that time) are checked for trigger events that match what just left play or changed control. The same is true for cards with abilities that trigger when they leave a graveyard, as they may move to a zone that is hidden from a player.
+Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities must be treated specially because the object with the ability may no longer be in play, no longer be in a zone visible to all players, or no longer be controlled by the appropriate player. The game has to "look back in time" to determine if these abilities trigger. Abilities that trigger specifically when an object leaves play, when an object leaves any visible zone for a hidden one, or when a player loses control of an object will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward.
 Example: Two creatures are in play along with an artifact that has the ability "Whenever a creature is put into a graveyard from play, you gain 1 life." Someone plays a spell that destroys all artifacts, creatures, and enchantments. The artifact's ability triggers twice, even though the artifact goes to its owner's graveyard at the same time as the creatures.
 
 410.10e
@@ -1544,7 +1555,7 @@ Example: Plague Spores reads, "Destroy target nonblack creature and target land.
 The controller of the spell or ability follows its instructions in the order written. However, replacement effects may modify these actions. In some cases, later text on the card may modify the meaning of earlier text (for example, "Destroy target creature. It can't be regenerated" or "Counter target spell. If you do, put it on top of its owner's library instead of into its owner's graveyard.") Don't just apply effects step by step without thinking in these cases-read the whole text and apply the rules of English to the text.
 
 413.2c
-If an effect offers any choices other than choices already made as part of playing the spell or ability, the player announces these while applying the effect. The player can't choose an option that's illegal or impossible. (For example, a player can't avoid the consequences of not taking an optional action if he or she can't meet all the immediate requirements of that action.)
+If an effect offers any choices other than choices already made as part of playing the spell or ability, the player announces these while applying the effect. The player can't choose an option that's illegal or impossible. (For example, a player can't avoid the consequences of not taking an optional action if he or she can't meet all the immediate requirements of that action.) Drawing a card is never considered an impossible action, even if there are no cards in the affected player's library.
 Example: A spell's instruction reads, "You may sacrifice a creature. If you don't, you lose 4 life." A player who controls no creatures can't choose the sacrifice option.
 
 413.2d
@@ -1738,6 +1749,9 @@ Continuous effects that read "[This permanent] comes into play . . ." or "[Objec
 419.1d
 Effects that use the word "prevent" are prevention effects. Prevention effects use "prevent" to indicate what events will not occur.
 
+419.1e
+Effects that read "As [this permanent] is turned face up . . . ," are replacement effects.
+
 419.2.
 Replacement and prevention effects apply continuously as events happen-they aren't locked in ahead of time.
 
@@ -1781,6 +1795,9 @@ Anything scheduled for a skipped step, phase, or turn won't happen. Anything sch
 
 419.6g
 Some replacement effects say "instead choose one -." Such effects are called modal replacement effects. The mode is chosen as the replacement effect is applied. If a modal replacement effect would apply to multiple events, a different mode may be chosen for each event. A modal replacement effect doesn't invoke itself repeatedly, regardless of which mode was chosen. You may not choose modes that are impossible.
+
+419.6h
+Some effects replace card draws. These effects are applied even if no cards could be drawn because there are no cards in the affected player's library. If an effect replaces a draw within a sequence of card draws, all actions required by the replacement are completed, if possible, before resuming the sequence. If an effect would have a player both draw a card and perform an additional action on that card, and the draw is replaced, the additional action is not performed on any cards that are drawn as a result of that replacement effect.
 
 419.7.
 Prevention Effects
@@ -1855,7 +1872,7 @@ If two or more legendary permanents with the same name are in play, all are put 
 A token in a zone other than the in-play zone ceases to exist.
 
 420.5g
-A player who was required to draw more cards than were in his or her library since the last time state-based effects were checked loses the game.
+A player who attempted to draw a card from an empty library since the last time state-based effects were checked loses the game.
 
 420.5h
 A player with ten or more poison counters loses the game.
@@ -1871,6 +1888,9 @@ An Equipment attached to an illegal permanent becomes unattached from that perma
 
 420.5m
 A non-Aura, non-Equipment permanent attached to another permanent becomes unattached from that permanent but remains in play.
+
+420.5n
+If a permanent has both a +1/+1 counter and a -1/-1 counter on it, N +1/+1 and N -1/-1 counters are removed from it, where N is the smaller of the number of +1/+1 and -1/-1 counters on it.
 
 421. Handling "Infinite" Loops
 
@@ -1897,6 +1917,41 @@ If a player realizes that he or she can't legally take an action after starting 
 
 422.2.
 When reversing illegal spells and abilities, the player who had priority retains it and may take another action or pass. The player may redo the reversed action in a legal way or take any other action allowed by the rules.
+
+423. Drawing a Card
+
+423.1.
+A player draws a card by putting the top card of his or her library into his or her hand. This is done as a game action during each player's draw step. It may also be done as part of a cost or effect of a spell or ability.
+
+423.2.
+Cards may only be drawn one at a time. If a player is instructed to draw multiple cards, that player performs that many individual card draws.
+
+423.2a
+If an effect instructs more than one player to draw cards, the active player performs all of his or her draws first, then each other player in turn order does the same.
+
+432.2b
+If an effect instructs more than one player to draw cards in a Two-Headed Giant game, first the primary player (seated on the right) on the active team performs all of his or her draws, then the secondary player on that team performs all of his or her draws, then the nonactive team does the same.
+
+423.3.
+If there are no cards in a player's library and an effect offers that player the choice to draw a card, that player may choose to do so. See rule 413.2c.
+
+423.4.
+A player who attempts to draw a card from an empty library loses the game the next time a player would receive priority. (This is a state-based effect. See rule 420.5g.)
+
+423.5.
+If an effect moves cards from a player's library to that player's hand without using the word "draw," the player has not drawn those cards. This makes a difference for abilities that trigger on drawing cards or that replace card draws, as well as if the player's library is empty.
+
+423.6.
+Some effects replace card draws.
+
+423.6a
+An effect that replaces a card draw is applied even if no cards could be drawn because there are no cards in the affected player's library.
+
+423.6b
+If an effect replaces a draw within a sequence of card draws, the replacement effect is completed before resuming the sequence.
+
+423.6c
+Some effects perform additional actions on a card after it's drawn. If the draw is replaced, the additional action is not performed on any cards that are drawn as a result of that replacement effect or any subsequent replacement effects.
 
 
 5. Additional Rules
@@ -2197,7 +2252,7 @@ Multiple instances of phasing on the same permanent are redundant.
 Buyback
 
 502.16a
-Buyback is a static ability of some instants and sorceries that functions while the spell is on the stack. "Buyback [cost]" means "You may pay an additional [cost] as you play this spell. If you do, put the spell into your hand instead of into your graveyard as it resolves." Paying a spell's buyback cost follows the rules for paying additional costs in rules 409.1b and 409.1f-h.
+Buyback appears on some instants and sorceries. It represents two static abilities that function while the spell is on the stack. "Buyback [cost]" means "You may pay an additional [cost] as you play this spell" and "If the buyback cost was paid, put this spell into its owner's hand instead of into that player's graveyard as it resolves." Paying a spell's buyback cost follows the rules for paying additional costs in rules 409.1b and 409.1f-h.
 
 502.17.
 Horsemanship
@@ -2227,7 +2282,7 @@ Landcycling is a variant of the cycling ability. "[Land type]cycling [cost]" mea
 Echo
 
 502.19a
-Echo is a triggered ability. "Echo" means "At the beginning of your upkeep, if this permanent came under your control since the beginning of your last upkeep, sacrifice it unless you pay its mana cost."
+Echo is a triggered ability. "Echo [cost]" means "At the beginning of your upkeep, if this permanent came under your control since the beginning of your last upkeep, sacrifice it unless you pay [cost]."
 
 502.20.
 Fading
@@ -2254,25 +2309,19 @@ A card with kicker may contain the phrases "if the [A] kicker cost was paid" and
 Flashback
 
 502.22a
-Flashback is a static ability of some instant and sorcery cards that functions while the card is in a player's graveyard. "Flashback [cost]" means "You may play this card from your graveyard by paying [cost] rather than paying its mana cost. If you do, remove this card from the game instead of putting it anywhere else any time it would leave the stack." Playing a spell using its flashback ability follows the rules for paying alternative costs in rules 409.1b and 409.1f-h.
+Flashback appears on some instants and sorceries. It represents two static abilities: one functions while the card is in a player's graveyard and the other functions while the card is on the stack. "Flashback [cost]" means "You may play this card from your graveyard by paying [cost] rather than paying its mana cost" and  "If the flashback cost was paid, remove this card from the game instead of putting it anywhere else any time it would leave the stack." Playing a spell using its flashback ability follows the rules for paying alternative costs in rules 409.1b and 409.1f-h.
 
 502.23.
 Threshold
 
 502.23a
-Threshold is a characteristic-setting ability, written "Threshold - [text]." It alters the rules text of the object it's on, based on a condition. The text can create any kind of ability. "Threshold - [text]" means "As long as you have seven or more cards in your graveyard, [this object] has '[text].'"
-
-502.23b
-Spells and permanents with threshold have the threshold text only if their controller has seven or more cards in his or her graveyard. Otherwise, the text after "Threshold -" is treated as though it did not appear on the spell or permanent.
-
-502.23c
-An instant or sorcery with threshold has the threshold text only while the spell is on the stack. An artifact, creature, enchantment, or land with threshold has the threshold text only if the permanent is in play. 
+Threshold used to be a keyword ability. It is now an ability word and has no rules meaning. All cards printed with the threshold keyword have received errata. Updated wordings are available in the Oracle card reference.
 
 502.24.
 Madness
 
 502.24a
-Madness is a keyword that represents two abilities. The first is a static ability that functions while the card with madness is in a player's hand. The second is a triggered ability that functions when the first ability is applied. "Madness [cost]" means "If a player would discard this card, that player discards it, but may remove it from the game instead of putting it into his or her graveyard" and "When this card is removed from the game this way, until that player passes next, the player may play it any time he or she could play an instant by paying [cost] rather than paying its mana cost. When the player passes next, he or she puts this card into his or her graveyard."
+Madness is a keyword that represents two abilities. The first is a static ability that functions while the card with madness is in a player's hand. The second is a triggered ability that functions when the first ability is applied. "Madness [cost]" means "If a player would discard this card, that player discards it, but may remove it from the game instead of putting it into his or her graveyard" and "When this card is removed from the game this way, its owner may play it by paying [cost] rather than paying its mana cost. If that player doesn't, he or she puts this card into his or her graveyard."
 
 502.24b
 Playing a spell using its madness ability follows the rules for paying alternative costs in rules 409.1b and 409.1f-h.
@@ -2293,10 +2342,10 @@ Multiple instances of fear on the same creature are redundant.
 Morph
 
 502.26a
-Morph is a static ability that functions in any zone from which you could play the card it's on, and the morph effect works any time the card is face down. "Morph [cost]" means "You may play this card as a 2/2 face-down creature, with no text, no name, no subtypes, no expansion symbol, and a mana cost of {0} by paying {3} rather than its mana cost." Any time you could play an instant, you may show all players the morph cost for any face-down permanent you control, pay that cost, then turn the permanent face up. This action does not use the stack. (See rule 504, "Face-Down Spells and Permanents.")
+Morph is a static ability that functions in any zone from which you could play the card it's on, and the morph effect works any time the card is face down. "Morph [cost]" means "You may play this card as a 2/2 face-down creature, with no text, no name, no subtypes, no expansion symbol, and no mana cost by paying {3} rather than its mana cost." Any time you could play an instant, you may show all players the morph cost for any face-down permanent you control, pay that cost, then turn the permanent face up. This action does not use the stack. (See rule 504, "Face-Down Spells and Permanents.")
 
 502.26b
-To play a card using its morph ability, turn it face down. It becomes a 2/2 face-down creature card, with no text, no name, no subtypes, no expansion symbol, and a mana cost of {0}. These values are the copiable values of that object's characteristics. (See rule 418.5, "Interaction of Continuous Effects," and rule 503, "Copying Objects.") Put it onto the stack (as a face-down spell with the same characteristics), and pay {3} rather than pay its mana cost. This follows the rules for paying alternative costs. You can use morph to play a card from any zone from which you could normally play it. When the spell resolves, it comes into play with the same characteristics the spell had. The morph effect applies to the face-down object wherever it is, and it ends when the permanent is turned face up.
+To play a card using its morph ability, turn it face down. It becomes a 2/2 face-down creature card, with no text, no name, no subtypes, no expansion symbol, and no mana cost. These values are the copiable values of that object's characteristics. (See rule 418.5, "Interaction of Continuous Effects," and rule 503, "Copying Objects.") Put it onto the stack (as a face-down spell with the same characteristics), and pay {3} rather than pay its mana cost. This follows the rules for paying alternative costs. You can use morph to play a card from any zone from which you could normally play it. When the spell resolves, it comes into play with the same characteristics the spell had. The morph effect applies to the face-down object wherever it is, and it ends when the permanent is turned face up.
 
 502.26c
 You can't play a card face down if it doesn't have morph.
@@ -2305,7 +2354,7 @@ You can't play a card face down if it doesn't have morph.
 Any time you could play an instant, you may turn a face-down permanent you control face up. To do this, show all players what the permanent's morph cost will be when the effect ends, pay that cost, then turn the permanent face up. The morph effect on it ends, and it regains its normal characteristics. Any abilities relating to the permanent coming into play don't trigger when it's turned face up and don't have any effect, because the permanent has already come into play.
 
 502.26e
-If a face-up permanent with morph is turned face down by a spell or ability, it becomes a 2/2 face-down creature, with no text, no name, no subtypes, no expansion symbol, and a mana cost of {0}. These values are the copiable values of that object's characteristics. (See rule 418.5, "Interaction of Continuous Effects," and rule 503, "Copying Objects.") The rules for morph and face-down permanents apply to it normally.
+If a face-up permanent is turned face down by a spell or ability, it becomes a 2/2 face-down creature, with no text, no name, no subtypes, no expansion symbol, and no mana cost. These values are the copiable values of that object's characteristics. (See rule 418.5, "Interaction of Continuous Effects," and rule 503, "Copying Objects.") The rules for morph and face-down permanents apply to it normally.
 
 502.26f
 See rule 504, "Face-Down Spells and Permanents," for more information on how to play cards with morph.
@@ -2438,9 +2487,6 @@ Bushido
 Bushido is a triggered ability. "Bushido N" means "Whenever this creature blocks or becomes blocked, it gets +N/+N until end of turn." (See rule 309, "Declare Blockers Step.")
 
 502.38b
-The bushido bonus is calculated only once per combat, when the triggered ability resolves. Adding or removing blockers later in combat won't change the bonus.
-
-502.38c
 If a creature has multiple instances of bushido, each triggers separately.
 
 502.39.
@@ -2536,7 +2582,7 @@ Auras that can enchant a player can target and be attached to players. Such Aura
 Convoke
 
 502.46a
-Convoke is a static ability that functions while the spell is on the stack. "Convoke" means "As an additional cost to play this spell, you may tap any number of untapped creatures you control. Each creature tapped this way reduces the cost to play this spell by {1} or by one mana of any of that creature's colors." Using the convoke ability follows the rules for paying additional costs in rules 409.1b and 4091f-h.
+Convoke is a static ability that functions while the spell is on the stack. "Convoke" means "As an additional cost to play this spell, you may tap any number of untapped creatures you control. Each creature tapped this way reduces the cost to play this spell by {1} or by one mana of any of that creature's colors." Using the convoke ability follows the rules for paying additional costs in rules 409.1b and 409.1f-h.
 Example: You play Guardian of Vitu-Ghazi, a spell with convoke that costs {6}{G}{W}. You announce that you're going to tap a colorless creature, a red creature, and a green-and-white creature to help pay for it. The colorless creature and the red creature each reduce the spell's cost by {1}. You choose whether the green-white creature reduces the spell's cost by {1}, {G}, or {W}. Then the creatures become tapped as you pay Guardian of Vitu-Ghazi's cost.
 
 502.46b
@@ -2635,6 +2681,36 @@ Ripple is a triggered ability that functions only while the card with ripple is 
 502.56b
 If a spell has multiple instances of ripple, each triggers separately.
 
+502.57.
+Flash
+
+502.57a
+Flash is a static ability that functions in any zone from which you could play the card it's on. "Flash" means "You may play this card any time you could play an instant."
+
+502.57b
+Multiple instances of flash on the same object are redundant.
+
+502.58.
+Split Second
+
+502.58a
+Split second is a static ability that functions only while the spell with split second is on the stack. "Split second" means "As long as this spell is on the stack, players can't play other spells or abilities that aren't mana abilities."
+
+502.58b
+Multiple instances of split second on the same spell are redundant.
+
+502.59.
+Suspend
+
+502.59a
+Suspend is a keyword that represents three abilities. The first is a static ability that functions while the card with suspend is in a player's hand. The second and third are triggered abilities that function in the removed-from-the-game zone. "Suspend N-[cost]" means "If you could play this card from your hand, you may pay [cost] and remove it from the game with N time counters on it. This action doesn't use the stack," and "At the beginning of your upkeep, if this card is suspended, remove a time counter from it," and "When the last time counter is removed from this card, if it's removed from the game, play it without paying its mana cost if able. If you can't, it remains removed from the game. If you play a creature spell this way, it gains haste until you lose control of the spell or the permanent it becomes."
+
+502.59b
+A card is "suspended" if it's in the removed-from-the-game zone, has suspend, and has a time counter on it.
+
+502.59c
+Playing a spell as an effect of its suspend ability follows the rules for paying alternative costs in rules 409.1b and 409.1f-h.
+
 503. Copying Objects
 
 503.1.
@@ -2643,14 +2719,14 @@ Some objects create or become a "copy" of a spell, permanent, or card. (Certain 
 503.2.
 When copying an object, the copy acquires the copiable values of the original object's characteristics (name, mana cost, color, type, supertype, subtype, expansion symbol, rules text, power, and toughness) and, for an object on the stack, choices made when playing it (mode, targets, the value of X, whether a kicker cost was paid, how it will affect multiple targets, and so on). The "copiable values" are the values that are printed on the object, as modified by other copy effects, "comes into play as" abilities, and abilities that caused the object to be face down. Other effects (including type-changing and text-changing effects), status, and counters are not copied.
 Example: Chimeric Staff is an artifact that reads "{X}: Chimeric Staff becomes an X/X artifact creature until end of turn." Clone is a creature that reads, "As Clone comes into play, you may choose a creature in play. If you do, Clone comes into play as a copy of that creature." After a Staff has become a 5/5 artifact creature, a Clone comes into play as a copy of it. The Clone is an artifact, not a 5/5 artifact creature. (The copy has the Staff's ability, however, and will become a creature if that ability is activated.)
-Example: Clone comes into play as a copy of a face-down Grinning Demon (a creature with morph {2}{B}{B}). The Clone is a colorless 2/2 creature with no name, no types, no abilities, and a mana cost of {0}. It will still be face up. Its controller can't pay {2}{B}{B} to turn it face up.
+Example: Clone comes into play as a copy of a face-down Grinning Demon (a creature with morph {2}{B}{B}). The Clone is a colorless 2/2 creature with no name, no types, no abilities, and no mana cost. It will still be face up. Its controller can't pay {2}{B}{B} to turn it face up.
 
 503.3.
 The copy's copiable values become the copied information, as modified by the copy's status. Objects that copy the object will use the new copiable values.
 Example: Vesuvan Doppelganger reads, "As Vesuvan Doppelganger comes into play, you may choose a creature in play. If you do, Vesuvan Doppelganger comes into play as a copy of that creature except for its color and gains 'At the beginning of your upkeep, you may have this creature become a copy of target creature except for its color. If you do, this creature gains this ability.'" A Vesuvan Doppelganger comes into play as a copy of Grizzly Bears (a 2/2 green creature with no abilities). Then a Clone comes into play as a copy of the Doppelganger. The Clone is a 2/2 blue Bear named Grizzly Bears that has the Doppelganger's upkeep-triggered ability.
 Example: Tomoya the Revealer (a flipped flip card) becomes a copy of Nezumi Shortfang (an unflipped flip card). Tomoya's characteristics become the characteristics of Stabwhisker the Odious, which is the flipped version of Nezumi Shortfang.
-Example: A face-down Grinning Demon (a creature with morph) becomes a copy of a face-up Branchsnap Lorian (a 4/1 green creature with trample and morph {G}). The Demon's characteristics become the characteristics of Branchsnap Lorian. However, since the creature is face down, it remains a 2/2 colorless creature with no name, types, or abilities, and a mana cost of {0}. It can be turned face up for {G}. If it's turned face up, it will have the characteristics of Branchsnap Lorian.
-Example: A face-down Grinning Demon (a creature with morph) becomes a copy of Wandering Ones (a 1/1 blue Spirit creature that doesn't have morph). It will be a face-down Wandering Ones. It remains a 2/2 colorless creature with no name, types, or abilities, and a mana cost of {0}. Its controller can't turn it face up as a special action. If an effect turns it face up, it will have the characteristics of Wandering Ones.
+Example: A face-down Grinning Demon (a creature with morph) becomes a copy of a face-up Branchsnap Lorian (a 4/1 green creature with trample and morph {G}). The Demon's characteristics become the characteristics of Branchsnap Lorian. However, since the creature is face down, it remains a 2/2 colorless creature with no name, types, or abilities, and no mana cost. It can be turned face up for {G}. If it's turned face up, it will have the characteristics of Branchsnap Lorian.
+Example: A face-down Grinning Demon (a creature with morph) becomes a copy of Wandering Ones (a 1/1 blue Spirit creature that doesn't have morph). It will be a face-down Wandering Ones. It remains a 2/2 colorless creature with no name, types, or abilities, and no mana cost. Its controller can't turn it face up as a special action. If an effect turns it face up, it will have the characteristics of Wandering Ones.
 
 503.4.
 Some effects cause a permanent that's copying a permanent to copy a different permanent while remaining in play. The change doesn't trigger comes-into-play or leaves-play abilities. This also doesn't change any noncopy effects presently affecting the permanent.
@@ -2696,7 +2772,7 @@ An effect that instructs a player to "play a copy" of an object follows the rule
 504. Face-Down Spells and Permanents
 
 504.1.
-One old card (Illusionary Mask) and the morph ability (see rule 502.26) allow spells and permanents to be face down.
+Two cards (Illusionary Mask and Ixidron) and the morph ability (see rule 502.26) allow spells and permanents to be face down.
 
 504.2.
 Face-down spells on the stack, face-down permanents in play, and face-down cards in the phased-out zone have no characteristics other than those listed by the ability or rules that allowed the card, spell, or permanent to be turned face down. Any listed characteristics are the copiable values of that object's characteristics. (See rule 418.5, "Interaction of Continuous Effects," and rule 503, "Copying Objects.") Objects that are put into play face down are turned face down before they come into play, so the permanent's comes-into-play abilities won't trigger (if triggered) or have any effect (if static). Objects that are played face down are turned face down before they are put onto the stack, so effects that care about the characteristics of a spell will see only the face-down spell's characteristics.
@@ -2715,6 +2791,9 @@ If a face-down permanent moves from the in-play zone to any zone other than the 
 
 504.7.
 If a face-down permanent becomes a copy of another permanent, its copiable values become the copiable values of that permanent, as modified by its face-down status. Its characteristics therefore remain the same: the characteristics listed by the ability or rules that allowed it to be turned face down. However, if it is turned face up, its copiable values become the values it copied from the other permanent.
+
+504.8.
+If a face-down permanent would have an "As [this permanent] is turned face up . . ." ability after it's turned face up, that ability is applied while that permanent is being turned face up, not afterward.
 
 505. Split Cards
 
@@ -2735,8 +2814,9 @@ An effect that asks for a particular characteristic of a split card while it's i
 Example: Infernal Genesis has an ability that reads, "At the beginning of each player's upkeep, that player puts the top card from his or her library into his or her graveyard. He or she then puts X 1/1 black Minion creature tokens into play, where X is that card's converted mana cost." If the top card of your library is Assault/Battery when this ability resolves, the game sees its converted mana cost as "1, and 4." You get five creature tokens.
 
 505.6.
-An effect that performs a positive comparison (such as asking if a card is red) or a relative comparison (such as asking if a card's converted mana cost is less than 2) involving characteristics of one or more split cards in any zone other than the stack gets only one answer. This answer is "yes" if either side of those split cards would return a "yes" answer if compared individually.
+An effect that performs a positive comparison (such as asking if a card is red) or a relative comparison (such as asking if a card's converted mana cost is less than 2) involving characteristics of one or more split cards in any zone other than the stack gets only one answer. This answer is "yes" if either side of each split card in the comparison would return a "yes" answer if compared individually.
           An effect that performs a negative comparison (such as asking if cards have different names) involving characteristics of one or more split cards in any zone other than the stack also gets only one answer. This answer is "yes" if performing the comparable positive comparison would return a "no" answer.
+          If an effect performs a comparison involving multiple characteristics of one or more split cards in any zone other than the stack, each characteristic is compared separately. If each of the individual comparisons would return a "yes" answer, the whole comparison returns a "yes" answer.
 Example: Void reads, "Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals his or her hand and discards all nonland cards with converted mana cost equal to the number." If a player plays Void and chooses 1, his or her opponent would discard Assault/Battery because the game sees its converted mana cost as "1, and 4." The same is true if the player chooses 4. If the player chooses 5, however, Assault/Battery would be unaffected.
 
 505.7.
@@ -2745,7 +2825,7 @@ If an effect instructs a player to name a card and the player wants to name a sp
 506. Subgames
 
 506.1.
-Some cards allow players to play a Magic subgame. A "subgame" is the game created by the card's effect. The "main game" is the game in which the spell or ability that created the subgame was played. The main game is suspended while the subgame is in progress. It resumes when the subgame ends.
+Some cards allow players to play a Magic subgame. A "subgame" is the game created by the card's effect. The "main game" is the game in which the spell or ability that created the subgame was played. The main game is temporarily discontinued while the subgame is in progress. It resumes when the subgame ends.
 
 506.2.
 Any main-game abilities that trigger while the subgame is in progress aren't put onto the stack until the subgame is completed.
@@ -2881,7 +2961,7 @@ A permanent that phases out remembers its status, as well as other information a
 511. Flipping a Coin
 
 511.1.
-To flip a coin for an object that cares whether a player wins or loses the flip, the affected player flips the coin and calls "heads" or "tails" while the coin is in the air. If the call matches the result, that player wins the flip. Otherwise, the player loses the flip. Only the player who flips the coin wins or loses the flip; no other players are involved.
+To flip a coin for an object that cares whether a player wins or loses the flip, the affected player flips the coin and calls "heads" or "tails." If the call matches the result, that player wins the flip. Otherwise, the player loses the flip. Only the player who flips the coin wins or loses the flip; no other players are involved.
 
 511.2.
 To flip a coin for an object that cares whether the coin comes up heads or tails, each affected player flips a coin without making a call. No player wins or loses this kind of flip.
@@ -2906,7 +2986,7 @@ Many multiplayer Magic tournaments have additional rules not included here, incl
 600.4.
 Unlike two-player games, multiplayer games can continue after one or more players have left the game.
 
-600.4a. When a player leaves the game, all objects (see rule 200.8) owned by that player leave the game, all spells and abilities controlled by that player on the stack cease to exist, and any change-of-control effects which give that player control of any objects end. Then, if there are any objects still controlled by that player, those objects leave the game. This is not a state-based effect. It happens as soon as the player leaves the game. A player leaving the game doesn't affect combat damage on the stack.
+600.4a. When a player leaves the game, all objects (see rule 200.8) owned by that player leave the game, all spells and abilities controlled by that player on the stack cease to exist, and any change-of-control effects which give that player control of any objects end. Then, if there are any objects still controlled by that player, those objects leave the game. (Any objects leaving the game this way that aren't owned by the player leaving the game are placed in the removed-from-the-game zone.) This is not a state-based effect. It happens as soon as the player leaves the game. A player leaving the game doesn't affect combat damage on the stack.
 Example: Alex plays Control Magic, an Aura that reads, "You control enchanted creature," on Bianca's Wall of Wood. If Alex leaves the game, so does Control Magic, and Wall of Wood reverts to Bianca's control. If, instead, Bianca leaves the game, so does Wall of Wood, and Control Magic is put into Alex's graveyard.
 Example: Alex plays Threaten, which reads, in part, "Untap target creature and gain control of it until end of turn," targeting Bianca's Wall of Wood. If Alex leaves the game, Threaten's change-of-control effect ends and Wall of Wood reverts to Bianca's control.
 Example: Alex plays Bribery, which reads, "Search target opponent's library for a creature card and put that card into play under your control. Then that player shuffles his or her library," targeting Bianca. Alex puts Wall of Wood into play from Bianca's library. If Alex leaves the game, Wall of Wood leaves the game. If, instead, Bianca leaves the game, Wall of Wood still leaves the game.
@@ -3110,22 +3190,28 @@ With the exception of life total, a team's resources (cards in hand, mana, and s
 606.6.
 Timing of Team Turns
 
-606.6a. The starting team skips the draw step of its first turn (see rule 101.5).
+606.6a
+A player who is dissatisfied with his or her initial hand may mulligan. First, the starting team takes any mulligans. For a team to take a mulligan, each player on that team decides whether to shuffle his or her hand back into the deck and then draw a new hand of seven cards. All players on that team who chose to do so take their mulligans at the same time. After each player on that team who took a mulligan looks at his or her new hand, the team repeats the process, resulting in a hand of one fewer card each time, until the hand size reaches zero cards. Teammates may consult during this process, but a player can't see the result of his or her teammate's mulligan before deciding whether to take a mulligan at the same time. Once a player has decided to keep a hand, those cards become his or her opening hand. That player can't take any more mulligans, but his or her teammate may. Once each player on the starting team decides to keep an opening hand, the other team may take mulligans.
 
-606.6b
-Teams have priority, not individual players.
+606.6b. During the draw step of the starting team's first turn, only the secondary player draws a card. The primary player does not (see rule 101.5).
 
 606.6c
-The Active Player, Nonactive Player order rule (see rule 103.4) is modified for Two-Headed Giant play. The team whose turn it is is the active team. The other team is the nonactive team. If both teams would make choices and/or take actions at the same time, first the active team makes any choices required, then the nonactive team makes any choices required. Then the actions happen simultaneously.
+Teams have priority, not individual players.
 
 606.6d
-A player may play a spell or activated ability, or take a special action, only when his or her team has priority. If both players on a team want to take an action at the same time, the primary player decides who takes the action. Each player on a team draws a card during that team's draw step. Each player on a team may play a land during each of that team's turns.
+The Active Player, Nonactive Player order rule (see rule 103.4) is modified for Two-Headed Giant play. The team whose turn it is is the active team. The other team is the nonactive team. If both teams would make choices and/or take actions at the same time, first the active team makes any choices required, then the nonactive team makes any choices required. Then the actions happen simultaneously.
 
 606.6e
-If neither player on a team wishes to do anything, that team passes. If both teams pass in succession (that is, if both teams pass without any player taking any actions in between passing), the top object on the stack resolves, then the active team receives priority. If the stack is empty when both teams pass in succession, the phase or step ends and the next one begins.
+A player may play a spell or activated ability, or take a special action, only when his or her team has priority. If both players on a team want to take an action at the same time, the primary player decides who takes the action. Each player on a team draws a card during that team's draw step. Each player on a team may play a land during each of that team's turns.
 
 606.6f
+If neither player on a team wishes to do anything, that team passes. If both teams pass in succession (that is, if both teams pass without any player taking any actions in between passing), the top object on the stack resolves, then the active team receives priority. If the stack is empty when both teams pass in succession, the phase or step ends and the next one begins.
+
+606.6g
 If an effect gives a player an extra turn or adds a phase or step to that player's turn, that player's team takes the extra turn, phase, or step. If an effect causes a player to skip a step, phase, or turn, that player's team does so. If an effect causes a player to control another player's turn, the controller of that effect controls the affected player's team's turn.
+
+606.6h
+If an effect instructs more than one player to draw cards in a Two-Headed Giant game, first the primary player on the active team performs all of his or her draws, then the secondary player on that team performs all of his or her draws, then the nonactive team does the same.
 
 606.7.
 The Two-Headed Giant variant uses different combat rules than other multiplayer variants.
@@ -3134,9 +3220,11 @@ The Two-Headed Giant variant uses different combat rules than other multiplayer 
 Each team's creatures attack the other team as a group. During the combat phase, the active team is the attacking team and each player on the active team is an attacking player. Likewise, the nonactive team is the defending team and each player on the nonactive team is a defending player.
 
 606.7b. As the declare attackers step begins, the active team declares attackers. If a creature is unable to attack one of the defending players, that creature can't attack the defending team. The active team has one combined attack, and that set of attacking creatures must be legal as a whole.
+Example: One player in a Two-Headed Giant game controls Teferi's Moat, which says "As Teferi's Moat comes into play, choose a color. / Creatures of the chosen color without flying can't attack you." Creatures of the chosen color without flying can't attack that player's team.
 
 606.7c
 As the declare blockers step begins, the defending team declares blockers. Creatures controlled by the defending players can block any attacking creatures. The defending team has one combined block, and that set of blocking creatures must be legal as a whole.
+Example: If an attacking creature has forestwalk and either player on the defending team controls a Forest, the creature can't be blocked.
 
 606.7d
 As the combat damage step begins, the active team announces how each attacking creature will assign its combat damage. If an attacking creature would assign combat damage to the defending team, the active team chooses only one of the defending players for that creature to assign its combat damage to. Then the defending team announces how each blocking creature will assign its combat damage.
@@ -3156,7 +3244,7 @@ Example: In a Two-Headed Giant game, a player controls Platinum Angel, which rea
 If a player concedes, his or her team loses the game.
 
 606.9.
-Damage, loss of life, and gaining life happens to each player individually. The result is applied to the team's shared life total.
+Damage, loss of life, and gaining life happen to each player individually. The result is applied to the team's shared life total.
 Example: In a Two-Headed Giant game, a player plays Flame Rift, which reads, "Flame Rift deals 4 damage to each player." Each team is dealt a total of 8 damage.
 
 606.9a
@@ -3303,10 +3391,10 @@ Active Player
 The active player is the player whose turn it is. The active player gets priority at the start of each phase or step (except for the untap and cleanup steps), after any spell or ability (except a mana ability) resolves, and after combat damage resolves. See rule 200.3.
 
 Active Player, Nonactive Player Order
-Whenever players are instructed to make choices at the same time, the active player makes all his or her choices first, then the nonactive players do so in turn order. This is called the "Active Player, Nonactive Player order" rule, or "APNAP order" rule. See rule 103.4. This rule is modified for Two-Headed Giant play; see rule 606.6c.
+Whenever players are instructed to make choices at the same time, the active player makes all his or her choices first, then the nonactive players do so in turn order. This is called the "Active Player, Nonactive Player order" rule, or "APNAP order" rule. See rule 103.4. This rule is modified for Two-Headed Giant play; see rule 606.6d.
 
 Active Team
-In the Two-Headed Giant variant, the active team is the team whose turn it is. The active team gets priority at the start of each phase or step (except for the untap and cleanup steps), after any spell or ability (except a mana ability) resolves, and after combat damage resolves. See rule 200.3 and rule 606.6c.
+In the Two-Headed Giant variant, the active team is the team whose turn it is. The active team gets priority at the start of each phase or step (except for the untap and cleanup steps), after any spell or ability (except a mana ability) resolves, and after combat damage resolves. See rule 200.3 and rule 606.6d.
 
 Additional Cost
 Some spells have additional costs listed in their text. These are paid at the same time the player pays the spell's mana cost. See rule 409, "Playing Spells and Activated Abilities."
@@ -3337,7 +3425,7 @@ An artifact land is a combination of artifact and land, and it's subject to the 
 
 Artifact Type
 Artifact subtypes are always a single word and are listed after a long dash: "Artifact - Equipment." Artifact subtypes are also called artifact types. However, if an artifact creature card has subtypes printed on its type line, those subtypes are creature types. If an artifact land card has subtypes printed on its type line, those types are land types.
-     The list of artifact types, updated through the Coldsnap(tm) set, is as follows: Equipment.
+     The list of artifact types, updated through the Time Spiral set, is as follows: Equipment.
 
 "As though"
 Text that states a player may do something "as though" some condition were true or a creature can do something "as though" some condition were true applies only to the stated action. For purposes of that action, treat the game exactly as if the stated condition were true. For all other purposes, treat the game normally.
@@ -3413,10 +3501,10 @@ Bury (Obsolete)
 Some older cards were printed with the term "bury," which meant to put a permanent into its owner's graveyard. In general, cards that were printed with the term "bury" now read, "Destroy [a permanent]. It can't be regenerated," or "Sacrifice [a permanent]."
 
 Bushido
-Bushido is a triggered ability. "Bushido N" means "Whenever this creature blocks or becomes blocked, it gets +N/+N until end of turn." The bushido bonus is calculated only once per combat, when the triggered ability resolves. Adding or removing blockers later in combat won't change the bonus. (See rule 309, "Declare Blockers Step.")
+Bushido is a triggered ability. "Bushido N" means "Whenever this creature blocks or becomes blocked, it gets +N/+N until end of turn." (See rule 309, "Declare Blockers Step.")
 
 Buyback
-Buyback is a static ability of some instants and sorceries that functions while the spell is on the stack. "Buyback [cost]" means "You may pay an additional [cost] as you play this spell. If you do, put the spell into your hand instead of into your graveyard as it resolves." Paying a spell's buyback cost follows the rules for paying additional costs in rules 409.1b and 409.1f-h. If the spell goes to some zone other than its owner's graveyard as it resolves, buyback's effect "loses track" of it, and it isn't returned to its owner's hand. See rule 502.16, "Buyback."
+Buyback appears on some instants and sorceries. It represents two static abilities that function while the spell is on the stack. "Buyback [cost]" means "You may pay an additional [cost] as you play this spell" and "If the buyback cost was paid, put this spell into its owner's hand instead of into that player's graveyard as it resolves." Paying a spell's buyback cost follows the rules for paying additional costs in rules 409.1b and 409.1f-h. See rule 502.16, "Buyback."
 
 Cantrip (Informal)
 This is a nickname for any spell that has "Draw a card" as part of its effect.
@@ -3501,7 +3589,7 @@ The converted mana cost of an object is the total amount of mana in its mana cos
 Example: An Air Elemental has a mana cost of {3}{U}{U} and a converted mana cost of 5.
 
 Convoke
-Convoke is a static ability that functions while the spell is on the stack. "Convoke" means "As an additional cost to play this spell, you may tap any number of untapped creatures you control. Each creature tapped this way reduces the cost to play this spell by {1} or by one mana of any of that creature's colors." Using the convoke ability follows the rules for paying additional costs in rules 409.1b and 4091f-h. It can't reduce the cost to play a spell to less than 0. See rule 502.46, "Convoke."
+Convoke is a static ability that functions while the spell is on the stack. "Convoke" means "As an additional cost to play this spell, you may tap any number of untapped creatures you control. Each creature tapped this way reduces the cost to play this spell by {1} or by one mana of any of that creature's colors." Using the convoke ability follows the rules for paying additional costs in rules 409.1b and 409.1f-h. It can't reduce the cost to play a spell to less than 0. See rule 502.46, "Convoke."
 
 Copiable Values
 An object's "copiable values" are the values that are printed on the object, as modified by other copy effects, plus any values set for face-down spells or permanents and any values set by "comes into play as" abilities. Other effects (including type-changing effects) and counters are not copied. See rules 503.2 and 503.3.
@@ -3517,6 +3605,7 @@ Counter
 Counter has two meanings in the Magic game.
      1. To counter a spell or ability is to cancel it, removing it from the stack. It doesn't resolve and none of its effects occur. A countered spell is put into its owner's graveyard. See rule 414, "Countering Spells and Abilities."
      2. A counter is a marker placed on an object, either modifying its characteristics or interacting with an effect. A +X/+Y counter on a permanent, where X and Y are numbers, adds X to that permanent's power and Y to that permanent's toughness. These bonuses are added after permanent-type changing effects and after most other power and toughness changing effects. Similarly, -X/-Y counters subtract from power and toughness. See rule 418.5a. Counters with the same name or description are interchangeable. Counters may also be given to players. For information about poison counters, see rule 102.3d.
+     If a permanent has both a +1/+1 counter and a -1/-1 counter on it, N +1/+1 and N -1/-1 counters are removed from it, where N is the smaller of the number of +1/+1 and -1/-1 counters on it. This is a state-based effect; see rule 420.5n.
 
 Counts As (Obsolete)
 Some older cards were printed with text stating that the card "counts as" something. As far as the game rules and other cards are concerned, the card is that thing. (Newer Magic cards use "is" instead.)
@@ -3526,8 +3615,8 @@ Creature is a type. The active player may play creatures during his or her main 
 
 Creature Type
 Creature subtypes are always a single word and are listed after a long dash: "Creature - Human Soldier," "Artifact Creature - Golem," and so on. Creature subtypes are also called creature types. Creatures may have multiple subtypes.
-     The list of creature types, updated through the Coldsnap set, is as follows:
-     Abomination, Aboroth, Advisor, Aladdin, Albatross, Alchemist, Ali-Baba, Ali-from-Cairo, Alligator, Ambush-Party, Angel, Ant, Antelope, Ape, Archaeologist, Archer, Archon, Artificer, Asp, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Avenger, Avizoa, Badger, Ball-Lightning, Bandit, Banshee, Barbarian, Barishi, Basilisk, Bat, Bear, Beast, Bee, Beeble, Being, Berserker, Bird, Blinkmoth, Boar, Bodyguard, Bringer, Brother, Brownie, Brushwagg, Bull, Bureaucrat, Camarid, Camel, Caravan, Caribou, Carnivore, Carriage, Carrier, Cat, Cavalry, Cave-People, Centaur, Cephalid, Cheetah, Chicken, Child, Chimera, Citizen, Clamfolk, Cleric, Cobra, Cockatrice, Constable, Construct, Cow, Crab, Crocodile, Crusader, Cyclops, Dandn , Demon, Dervish, Deserter, Designer, Devil, Devouring-Deep, Dinosaur, Djinn, Dog, Donkey, Doppelganger, Dragon, Dragonfly, Drake, Dreadnought, Drill-Sergeant, Drone, Druid, Dryad, Dwarf, Eater, Eel, Effigy, Efreet, Egg, Elder, Elemental, Elephant, Elf, El-Hajjj, Enchantress, Entity, Erne, Essence, Exorcist, Expansion-Symbol, Faerie, Fallen, Farmer, Ferret, Fiend, Fish, Flagbearer, Flying-Men, Fox, Frog, Frostbeast, Fungus, Fungusaur, Gaea's-Avenger, Gaea's-Liege, Gamer, Gargoyle, Gatekeeper, General, Ghost, Ghoul, Giant, Gnome, Goat, Goblin, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guardian, Gus, Gypsy, Hag, Harlequin, Heretic, Hero, Hipparion, Hippo, Homarid, Hornet, Horror, Horse, Horseman, Hound, Human, Hunter, Hydra, Hyena, Illusion, Imp, Incarnation, Infernal-Denizen, Inquisitor, Insect, Island-Fish, Jackal, Jellyfish, Juggernaut, Kavu, Keeper, Kelp, King, Kirin, Kithkin, Knight, Kobold, Kraken, Lady-of-Proper-Etiquette, Lammasu, Leech, Legionnaire, Lemure, Leper, Leviathan, Lhurgoyf, Licid, Lizard, Lord, Lurker, Lycanthrope, Mage, Maiden, Mammoth, Manticore, Marid, Martyr, Master, Medusa, Mercenary, Merchant, Merfolk, Mime, Minion, Minor, Minotaur, Miracle-Worker, Mist, Mob, Mold-Demon, Monger, Mongoose, Monk, Monster, Moonfolk, Mosquito, Mummy, Murk-Dwellers, Mutant, Myr, Mystic, Nameless-Race, Narwhal, Nephilim, Niall-Silvain, Nightmare, Nightstalker, Ninja, Noble, Nomad, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Paladin, Paratrooper, Peacekeeper, Pegasus, Penguin, Pentavite, People-of-the-Woods, Pest, Phantasm, Phelddagrif, Phoenix, Pig, Pikemen, Pincher, Pirate, Pixie-Queen, Plant, Poison-Snake, Poltergeist, Pony, Preacher, Priest, Prism, Pyknite, Rabbit, Raider, Ranger, Rat, Rebel, Reflection, Rhino, Robber, Roc, Rock-Sled, Rogue, Sage, Salamander, Samurai, Sand, Saproling, Satyr, Scavenger, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Shark, Sheep, Ship, Shyft, Sindbad, Singing-Tree, Sister, Skeleton, Slith, Sliver, Slug, Smith, Snake, Soldier, Sorceress, Spawn, Speaker, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Sponge, Sprite, Spuzzem, Spy, Squire, Squirrel, Stangg-Twin, Starfish, Strider, Survivor, Swarm, Tactician, Tarpan, Taskmaster, Teddy, Tetravite, Thief, The-Biggest-Baddest-Nastiest-Scariest-Creature-You'll-Ever-See, Thopter, Thrull, Thundermare, Tiger, Titan, Toad, Tortoise, Townsfolk, Tracker, Treefolk, Troll, Turtle, Twin, Uncle-Istvan, Undead, Unicorn, Vampire, Vedalken, Viashino, Villain, Viper, Volver, Vulture, Waiter, Walking-Dead, Wall, War-Rider, Warrior, Wasp, Weird, Whale, Whippoorwill, Wight, Wiitigo, Wirefly, Witch, Wizard, Wolf, Wolverine, Wolverine-Pack, Wolves-of-the-Hunt, Wombat, Worm, Wraith, Wretched, Wurm, Yeti, Zombie, Zubera
+     The list of creature types, updated through the Time Spiral set, is as follows:
+     Abomination, Aboroth, Advisor, Aladdin, Albatross, Alchemist, Ali-Baba, Ali-from-Cairo, Alligator, Ambush-Party, Angel, Ant, Antelope, Ape, Archaeologist, Archer, Archon, Artificer, Asp, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Avenger, Avizoa, Badger, Ball-Lightning, Bandit, Banshee, Barbarian, Barishi, Basilisk, Bat, Bear, Beast, Bee, Beeble, Being, Berserker, Bird, Blinkmoth, Boar, Bodyguard, Bringer, Brother, Brownie, Brushwagg, Bull, Bureaucrat, Camarid, Camel, Caravan, Caribou, Carnivore, Carriage, Carrier, Cat, Cave-People, Centaur, Cephalid, Cheetah, Chicken, Child, Chimera, Citizen, Clamfolk, Cleric, Cobra, Cockatrice, Constable, Construct, Cow, Crab, Crocodile, Crusader, Cyclops, Dauthi, Demon, Deserter, Designer, Devil, Devouring-Deep, Dinosaur, Djinn, Dog, Donkey, Doppelganger, Dragon, Dragonfly, Drake, Dreadnought, Drill-Sergeant, Drone, Druid, Dryad, Dwarf, Eater, Eel, Effigy, Efreet, Egg, Elder, Elemental, Elephant, Elf, El-Hajjj, Enchantress, Entity, Erne, Essence, Exorcist, Expansion-Symbol, Eye, Faerie, Fallen, Farmer, Ferret, Fiend, Fish, Flagbearer, Fox, Frog, Frostbeast, Fungus, Fungusaur, Gaea's-Avenger, Gamer, Gargoyle, Gatekeeper, General, Ghost, Ghoul, Giant, Gnome, Goat, Goblin, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guardian, Gus, Gypsy, Hag, Harlequin, Heretic, Hero, Hipparion, Hippo, Homarid, Hornet, Horror, Horse, Horseman, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Infernal-Denizen, Inquisitor, Insect, Island-Fish, Jackal, Jellyfish, Juggernaut, Kavu, Keeper, Kelp, King, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lady-of-Proper-Etiquette, Lammasu, Leech, Legionnaire, Lemure, Leper, Leviathan, Lhurgoyf, Licid, Lizard, Lord, Lurker, Lycanthrope, Mage, Maiden, Mammoth, Manticore, Marid, Martyr, Master, Medusa, Mercenary, Merchant, Merfolk, Mime, Minion, Minor, Minotaur, Miracle-Worker, Mist, Mob, Mold-Demon, Monger, Mongoose, Monk, Monster, Moonfolk, Mummy, Murk-Dwellers, Mutant, Myr, Mystic, Nameless-Race, Narwhal, Nephilim, Niall-Silvain, Nightmare, Nightstalker, Ninja, Noble, Nomad, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Paladin, Paratrooper, Peacekeeper, Pegasus, Penguin, Pentavite, People-of-the-Woods, Pest, Phantasm, Phelddagrif, Phoenix, Pig, Pikemen, Pincher, Pirate, Pixie-Queen, Plant, Poison-Snake, Poltergeist, Pony, Preacher, Priest, Prism, Pyknite, Rabbit, Raider, Ranger, Rat, Rebel, Reflection, Rhino, Robber, Roc, Rock-Sled, Rogue, Sage, Salamander, Samurai, Sand, Saproling, Satyr, Scavenger, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Shark, Sheep, Ship, Shyft, Singing-Tree, Sister, Skeleton, Slith, Sliver, Slug, Smith, Snake, Soldier, Soltari, Sorceress, Spawn, Speaker, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Spuzzem, Spy, Squirrel, Stangg-Twin, Starfish, Strider, Survivor, Swarm, Tactician, Tarpan, Teddy, Tetravite, Thief, The-Biggest-Baddest-Nastiest-Scariest-Creature-You'll-Ever-See, Thopter, Thrull, Thundermare, Tiger, Titan, Toad, Tortoise, Townsfolk, Tracker, Treefolk, Triskelavite, Troll, Turtle, Twin, Undead, Unicorn, Vampire, Vedalken, Viashino, Villain, Viper, Volver, Vulture, Waiter, Walking-Dead, Wall, War-Rider, Warrior, Wasp, Weird, Whale, Whippoorwill, Wight, Wiitigo, Wirefly, Witch, Wizard, Wolf, Wolverine, Wolverine-Pack, Wolves-of-the-Hunt, Wombat, Worm, Wraith, Wretched, Wurm, Yeti, Zombie, Zubera
 
 Cumulative Upkeep
 Cumulative upkeep is a triggered ability that imposes an increasing cost on a permanent. "Cumulative upkeep [cost]" means "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice this permanent unless you pay [cost] for each age counter on it." If [cost] has choices associated with it, each choice is made separately for each age counter, then either the entire set of costs is paid, or none of them are paid. Partial payments aren't allowed. Note that if a permanent has more than one instance of cumulative upkeep, each creates a separate triggered ability at the beginning of upkeep that counts all the age counters on the permanent from all abilities. See rule 502.13, "Cumulative Upkeep."
@@ -3589,7 +3678,7 @@ Double strike is a static ability that modifies the rules for the combat damage 
 
 Draw
 Draw has two meanings in the Magic game.
-     1. A player draws a card by putting the top card of his or her library into his or her hand. If an instruction tells a player to draw more than one card, the cards are drawn one at a time. An effect may move cards from a player's library to that player's hand without the player "drawing" them; this makes a difference for abilities that trigger on drawing cards or that replace card draws.
+     1. A player draws a card by putting the top card of his or her library into his or her hand. This is done as a game action during each player's draw step. It may also be done as part of a cost or effect of a spell or ability. If an effect moves cards from a player's library to that player's hand without using the word "draw," the player has not drawn those cards. This makes a difference for abilities that trigger on drawing cards or that replace card draws, as well as if the player's library is empty. See rule 423, "Drawing a Card."
      2. A drawn game is a game where the game ends and there is no winner. See rule 102.4.
 
 Draw Step
@@ -3605,7 +3694,7 @@ During (Obsolete)
 Some older cards used the phrase "during [phase], [action]." These abilities were called "phase abilities." In general, cards that were printed with phase abilities now have abilities that trigger at the beginning of a step or phase. "During" still appears in current card text, but only in its normal English sense and not as game terminology.
 
 Echo
-Echo is a triggered ability. "Echo" means "At the beginning of your upkeep, if this permanent came under your control since the beginning of your last upkeep, sacrifice it unless you pay its mana cost." See rule 502.19, "Echo."
+Echo is a triggered ability. "Echo [cost]" means "At the beginning of your upkeep, if this permanent came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost." Urza block cards with the echo ability were printed without an echo cost; these cards have been given errata to have an echo cost equal to their mana cost. See rule 502.19, "Echo."
 
 Effect
 "Ability" and "effect" are often confused with one another. When a spell or ability resolves, it may create one or more one-shot or continuous effects. Static abilities may create one or more continuous effects. Some effects are replacement effects or prevention effects. State-based effects are not created by spells or abilities; they are generated by specific states of the game. See rule 416, "Effects."
@@ -3625,7 +3714,7 @@ Enchantment is a type. The active player may play enchantments during his or her
 
 Enchantment Type
 Enchantment subtypes are always a single word and are listed after a long dash: "Enchantment - Shrine." Enchantment subtypes are also called enchantment types.
-     The list of enchantment types, updated through the Coldsnap set, is as follows: Aura, Shrine.
+     The list of enchantment types, updated through the Time Spiral set, is as follows: Aura, Shrine.
 
 End of Combat Step
 The end of combat step is the fifth step of the combat phase. A player may play spells and abilities during this step whenever he or she has priority. See rule 311, "End of Combat Step."
@@ -3668,7 +3757,7 @@ Example: If a spell attempts to exchange control of two target creatures but one
      If a spell or ability instructs a player to simply exchange two zones, and one of the zones is empty, the cards in the zones are still exchanged.
 
 Expansion Symbol
-The small icon printed below the right edge of the illustration on a Magic card is the expansion symbol. It indicates the set in which the card was published. Cards reprinted in a core set or another expansion receive its expansion symbol. Spells and abilities that affect cards from a particular expansion only affect cards with that set's expansion symbol. The first five editions of the core set had no expansion symbol. See rule 206, "Expansion Symbol. Visit the products section of www.magicthegathering.com for the full list of expansions and expansion symbols (www.wizards.com/default.asp?x=magic/products/cardsets).
+The small icon normally printed below the right edge of the illustration on a Magic card is the expansion symbol. It indicates the set in which the card was published. Cards reprinted in a core set or another expansion receive its expansion symbol. Spells and abilities that affect cards from a particular expansion only affect cards with that set's expansion symbol. The first five editions of the core set had no expansion symbol. See rule 206, "Expansion Symbol. Visit the products section of www.magicthegathering.com for the full list of expansions and expansion symbols (www.wizards.com/default.asp?x=magic/products/cardsets).
      Players may include cards from any printing in their constructed decks if those cards appear in sets allowed in that format (or allowed by the Magic Floor Rules). See the Magic Floor Rules for the current definitions of the constructed formats (www.wizards.com/default.asp?x=dci/doccenter/home).
 
 Extra Turn
@@ -3697,19 +3786,22 @@ The term "fizzle" is an informal term, used when a spell or ability was countere
 Flanking
 Flanking is a triggered ability that triggers during the declare blockers step of the combat phase. "Flanking" means "Whenever this creature becomes blocked by a creature without flanking, the blocking creature gets -1/-1 until end of turn." See rule 502.3, "Flanking."
 
+Flash
+Flash is a static ability that functions in any zone from which you could play the card it's on. "Flash" means "You may play this card any time you could play an instant." See rule 502.57, "Flash."
+
 Flashback
-Flashback is a static ability of some instant and sorcery cards that functions while the card is in a player's graveyard. "Flashback [cost]" means "You may play this card from your graveyard by paying [cost] rather than paying its mana cost. If you do, remove this card from the game instead of putting it anywhere else any time it would leave the stack." Playing a spell using its flashback ability follows the rules for paying alternative costs in rules 409.1b and 409.1f-h. See rule 502.22, "Flashback."
+Flashback appears on some instants and sorceries. It represents two static abilities: one functions while the card is in a player's graveyard and the other functions while the card is on the stack. "Flashback [cost]" means "You may play this card from your graveyard by paying [cost] rather than paying its mana cost" and  "If the flashback cost was paid, remove this card from the game instead of putting it anywhere else any time it would leave the stack." Playing a spell using its flashback ability follows the rules for paying alternative costs in rules 409.1b and 409.1f-h. See rule 502.22, "Flashback."
 
 Flavor Text
 This is text in italics (but not in parentheses) in the text box of a card. It provides a mood or gives interesting background detail for the game world but has no effect on play. See rule 207.2.
 
 Flip a Coin
-To flip a coin for an object that cares whether a player wins or loses the flip, the affected player flips the coin and calls "heads" or "tails" while the coin is in the air. If the call matches the result, that player wins the flip. Otherwise, the player loses the flip. Only the player who flips the coin wins or loses the flip; no other players are involved.
+To flip a coin for an object that cares whether a player wins or loses the flip, the affected player flips the coin and calls "heads" or "tails." If the call matches the result, that player wins the flip. Otherwise, the player loses the flip. Only the player who flips the coin wins or loses the flip; no other players are involved.
      To flip a coin for an object that cares whether the coin comes up heads or tails, each affected player flips a coin without making a call. No player wins or loses this kind of flip.
      If the coin that's being flipped doesn't have an obvious "heads" or "tails," designate one side to be "heads," and the other side to be "tails." Other methods of randomization may be substituted for flipping a coin as long as there are two possible outcomes of equal likelihood and all players agree to the substitution.
 
 Flip Cards
-Flip cards, such as the "heroes" from the Champions of Kamigawa(tm) set, have a two-part card frame on a single card. The text that appears right side up on the card defines the card's normal characteristics. Additional alternative characteristics appear upside down on the card. The back of a flip card is the normal Magic: The Gathering card back. See rule 508, "Flip Cards."
+Flip cards have a two-part card frame on a single card. The text that appears right side up on the card defines the card's normal characteristics. Additional alternative characteristics appear upside down on the card. The back of a flip card is the normal Magic: The Gathering card back. See rule 508, "Flip Cards."
      The top half of a flip card contains the card's normal name, text box, type line, power, and toughness. The text box usually contains an ability that causes the permanent to "flip" if certain conditions are met. The bottom half of a flip card contains an alternative name, text box, type line, power, and toughness. These characteristics are used only if the permanent is in play and only if the permanent is flipped.
      A flip card's color, mana cost, expansion symbol, illustration credit, and legal text don't change if the permanent is flipped. Also, any changes to it by external effects will still apply.
      In every zone other than the in-play zone, and also in the in-play zone before the permanent flips, a flip card has only the normal characteristics of the permanent. Once the flip permanent in the in-play zone is flipped, the normal name, text box, type line, power, and toughness of the flip permanent don't apply and the alternative versions of those characteristics apply instead.
@@ -3815,7 +3907,7 @@ Instant is a type. A player may play instants whenever he or she has priority. A
 
 Instant Type
 Instant subtypes are always a single word and are listed after a long dash: "Instant - Arcane." Instant subtypes are also called instant types. An instant subtype that's also a sorcery subtype is also called a spell type.
-     The list of instant types, updated through the Coldsnap set, is as follows: Arcane.
+     The list of instant types, updated through the Time Spiral set, is as follows: Arcane.
 
 Instead
 Effects that use the word "instead" are replacement effects. Most replacement effects use the word "instead" to indicate what events will be replaced with other events. See rule 419, "Replacement and Prevention Effects."
@@ -3851,12 +3943,12 @@ Land is a type. Lands aren't spells and don't go on the stack; they are simply p
 
 Land Type
 Land subtypes are always a single word and are listed after a long dash: "Land - Locus, Land - Urza's Mine," etc. Land subtypes are also called land types. Lands may have multiple subtypes. Note that "basic," "legendary," and "nonbasic" aren't land types. See rule 212.6, "Lands." See also Basic Land Type.
-     The list of land types, updated through the Coldsnap set, is as follows:
+     The list of land types, updated through the Time Spiral set, is as follows:
      Desert, Forest, Island, Lair, Locus, Mine, Mountain, Plains, Power-Plant, Swamp, Tower, Urza's
 
 Landcycling
 "Landcycling" is a generic term; a card's rules text usually names a specific type of land, such as "plainscycling."
-     Landcycling is an activated ability. "Plainscycling [cost]" means "[Cost], Discard this card: Search your library for a plains card, reveal it, and put it into your hand. Then shuffle your library." See rule 502.18, "Cycling."
+     Landcycling is an activated ability. "Plainscycling [cost]" means "[Cost], Discard this card: Search your library for a Plains card, reveal it, and put it into your hand. Then shuffle your library." See rule 502.18, "Cycling."
 
 Landwalk
 "Landwalk" is a generic term; a card's rules text will give a specific property to look for, such as "islandwalk."
@@ -3904,10 +3996,10 @@ Local Enchantment (Obsolete)
 Some older cards used the term "local enchantment" for enchantments that are attached to other permanents while they're in play. These cards now have the Aura subtype.
 
 Lose the Game
-There are several ways to lose the game. A player can concede the game at any time; a player who concedes loses the game immediately. If a player's life total is 0 or less, he or she loses the game the next time a player would receive priority (this is a state-based effect; see rule 420). When a player is required to draw more cards than are left in his or her library, he or she draws the remaining cards, and then loses the game the next time a player would receive priority (this is a state-based effect; see rule 420). If a player has ten or more poison counters, he or she loses the game the next time a player would receive priority. (this is a state-based effect; see rule 420). If a player would both win and lose simultaneously, he or she loses. In a multiplayer game between teams, a team loses the game if all players on that team have lost. See rule 102, "Winning and Losing."
+There are several ways to lose the game. A player can concede the game at any time; a player who concedes loses the game immediately. If a player's life total is 0 or less, he or she loses the game the next time a player would receive priority (this is a state-based effect; see rule 420). If a player attempts to draw a card from an empty library, he or she loses the game the next time a player would receive priority (this is a state-based effect; see rule 420). If a player has ten or more poison counters, he or she loses the game the next time a player would receive priority. (this is a state-based effect; see rule 420). If a player would both win and lose simultaneously, he or she loses. In a multiplayer game between teams, a team loses the game if all players on that team have lost. See rule 102, "Winning and Losing."
 
 Madness
-Madness is a keyword that represents two abilities. "Madness [cost]" means "If a player would discard this card, that player discards it, but may remove it from the game instead of putting it into his or her graveyard" and "When this card is removed from the game this way, until that player passes next, the player may play it any time he or she could play an instant by paying [cost] rather than paying its mana cost. When the player passes next, he or she puts it into his or her graveyard." See rule 502.24, "Madness."
+Madness is a keyword that represents two abilities. "Madness [cost]" means "If a player would discard this card, that player discards it, but may remove it from the game instead of putting it into his or her graveyard" and "When this card is removed from the game this way, its owner may play it by paying [cost] rather than paying its mana cost. If that player doesn't, he or she puts this card into his or her graveyard." See rule 502.24, "Madness."
 
 Main Game
 Some cards allow players to play a Magic subgame. The "main game" is the game in which the spell or ability that created the subgame was played. See rule 506, "Subgames."
@@ -3938,7 +4030,7 @@ Mana Source (Obsolete)
 Some older cards were printed with the type "mana source." All mana source cards are now instant cards. Abilities that used to read "Play this ability as a mana source" are now mana abilities.
 
 Mana Symbol
-The mana symbols are {W}, {U}, {B}, {R}, {G}; {X}, {Y}, {Z}; the numerals {0}, {1}, {2}, {3}, {4}, and so on; the hybrid symbols {W/U}, {W/B}, {U/B}, {U/R}, {B/R}, {B/G}, {R/G}, {R/W}, {G/W}, and {G/U}; and the snow symbol {S}. See rule 104.3.
+The mana symbols are {W}, {U}, {B}, {R}, {G}, {X}, {Y}, and {Z}; the numerals {0}, {1}, {2}, {3}, {4}, and so on; the hybrid symbols {W/U}, {W/B}, {U/B}, {U/R}, {B/R}, {B/G}, {R/G}, {R/W}, {G/W}, and {G/U}; and the snow symbol {S}. See rule 104.3.
      Each of the colored mana symbols represents one colored mana: {W} white, {U} blue, {B} black, {R} red, and {G} green. See rule 104.3a.
      Numeral symbols (such as {1}) are generic mana costs and represent an amount of mana that can be paid with any color of, or colorless, mana. See rule 104.3b.
      The symbols {X}, {Y} and {Z} represent unspecified amounts of mana; when playing a spell or activated ability with {X}, {Y}, or {Z} in its cost, its controller decides the value of that variable. See rule 104.3c.
@@ -3966,7 +4058,7 @@ Monocolored
 A monocolored card has exactly one color. A colorless card isn't monocolored.
 
 Morph
-Morph is a static ability that functions any time you could play the card it's on, and the morph effect works any time the card is face down. "Morph [cost]" means "You may play this card as a 2/2 face-down creature, with no text, no name, no subtypes, no expansion symbol, and a mana cost of {0} by paying {3} rather than its mana cost." Any time you could play an instant, you may show all players the morph cost for any face-down permanent you control, pay that cost, then turn the permanent face up. This action does not use the stack. See rule 502.26, "Morph."
+Morph is a static ability that functions any time you could play the card it's on, and the morph effect works any time the card is face down. "Morph [cost]" means "You may play this card as a 2/2 face-down creature, with no text, no name, no subtypes, no expansion symbol, and no mana cost by paying {3} rather than its mana cost." Any time you could play an instant, you may show all players the morph cost for any face-down permanent you control, pay that cost, then turn the permanent face up. This action doesn't use the stack. See rule 502.26, "Morph."
 
 Mountain
 "Mountain" is one of the five basic land types. Any land with the land type Mountain has the ability "{T}: Add {R} to your mana pool." See rule 212.6d.
@@ -3983,6 +4075,7 @@ To move a counter means to take it from where it currently is and put it onto an
 
 Mulligan
 A player can "mulligan" by shuffling his or her hand back into his or her library and drawing a new hand with one fewer card before taking the first turn. Any player dissatisfied with his or her starting hand may mulligan as often as he or she wishes, drawing one fewer card each time. See rule 101.4.
+     The Two-Headed Giant variant uses a modified mulligan rule; see rule 606.6a.
 
 Multicolored
 A multicolored card has two or more colors. Most multicolored cards are printed with gold frames to reinforce this. See rule 203.2.
@@ -4124,7 +4217,7 @@ The player who has the option to play a spell or ability at any given time has p
 Protection
 Protection is a static ability, written "Protection from [quality]." See rule 502.7, "Protection."
      A permanent with protection can't be targeted by spells with the stated quality and can't be targeted by abilities from a source with the stated quality.
-     A permanent with protection can't be enchanted by Auras that have the stated quality. Such Aura attached to the permanent with protection will be put into their owners' graveyards as a state-based effect. (See rule 420, "State-Based Effects.")
+     A permanent with protection can't be enchanted by Auras that have the stated quality. Such Auras attached to the permanent with protection will be put into their owners' graveyards as a state-based effect. (See rule 420, "State-Based Effects.")
      A permanent with protection can't be equipped by Equipment that has the stated quality. Such Equipment becomes unattached from that permanent, but remains in play. (See rule 420, "State-Based Effects.")
      Any damage that would be dealt to a permanent with protection from sources having that quality is prevented.
      If a creature with protection attacks, it can't be blocked by creatures that have the stated quality.
@@ -4143,6 +4236,9 @@ Rampage is a triggered ability. "Rampage N" means "When this creature becomes bl
 
 Random
 If a spell, ability, or effect requires a player to choose something at random, that player can use any method of making a random choice (rolling dice, flipping a coin, and so on). The outcome must be truly random.
+
+Recover
+Recover is a triggered ability that functions only while the card with recover is in a player's graveyard. "Recover [cost]" means "When a creature is put into your graveyard from play, you may pay [cost]. If you do, return this card from your graveyard to your hand. Otherwise, remove this card from the game." See rule 502.55, "Recover."
 
 Redirect (Obsolete)
 Some older cards were printed with the term "redirect" to describe the act of dealing damage to a different player or creature than originally specified by a spell, ability, or combat-damage assignment, without changing the source or type of damage. In general, cards that were printed with the term "redirect" now create replacement effects that modify where the damage will be dealt. "Redirect" is still used informally to describe what these replacement effects do.
@@ -4179,6 +4275,9 @@ A restriction on attacking or blocking is any effect that could prevent a creatu
 
 Reveal
 To reveal an object is to show that object to all players. If a one-shot effect reveals a card, the card is returned to its former state after all players have seen it. If the cost to play a spell or ability includes revealing a card, the card remains revealed from the time the spell or ability is announced until it leaves the stack.
+
+Ripple
+Ripple is a triggered ability that functions only while the card with ripple is on the stack. "Ripple N" means "When you play this spell, you may reveal the top N cards of your library, or, if there are fewer than N cards in your library, you may reveal all the cards in your library. If you reveal cards from your library this way, you may play any of those cards with the same name as this spell without paying their mana costs, then put all revealed cards not played this way on the bottom of your library in any order." See rule 502.56, "Ripple."
 
 Rules Text
 An object's rules text defines many of that object's properties. Changing an object's rules text changes the object's properties.
@@ -4234,7 +4333,7 @@ Sorcery is a type. The active player may play sorceries during his or her main p
 
 Sorcery Type
 Sorcery subtypes are always a single word and are listed after a long dash: "Sorcery - Arcane." Sorcery subtypes are also called sorcery types. A sorcery subtype that's also an instant subtype is also called a spell type.
-     The list of sorcery types, updated through the Coldsnap set, is as follows: Arcane.
+     The list of sorcery types, updated through the Time Spiral set, is as follows: Arcane.
 
 Soulshift
 Soulshift is a triggered ability. "Soulshift N" means "When this permanent is put into a graveyard from play, you may return target Spirit card with converted mana cost N or less from your graveyard to your hand."
@@ -4246,7 +4345,7 @@ Source of Damage
 The source of damage is the object that dealt it. If an effect requires a player to choose a source of damage, he or she may choose a permanent, a spell on the stack (including one that creates a permanent), or any object referred to by an object on the stack (including a creature that assigned combat damage on the stack, even if the creature is no longer in play or is no longer a creature). A source doesn't need to be capable of dealing damage to be a legal choice. See rule 419.8, "Sources of Damage."
 
 Special Action
-Special actions don't use the stack. The special actions are playing a land, turning a face-down creature face up, ending continuous effects or stopping delayed triggered abilities, and ignoring or suspending continuous effects. See rule 408.1i and rule 408.2, "Actions That Don't Use the Stack."
+Special actions don't use the stack. The special actions are playing a land, turning a face-down creature face up, ending continuous effects or stopping delayed triggered abilities, ignoring continuous effects, and removing a card with suspend in your hand from the game. See rule 408.1i and rule 408.2, "Actions That Don't Use the Stack."
 
 Spell
 A nonland card becomes a spell when it's put on the stack and remains a spell until it's countered, it resolves, or it otherwise leaves the stack. A copy of a spell is also a spell, even if it has no card associated with it. See rule 213, "Spells," and rule 401, "Spells on the Stack."
@@ -4265,6 +4364,9 @@ Split cards have two card faces on a single card. The back of a split card is th
      An effect that asks for a split card's characteristic while it's in a zone other than the stack gets both answers.
      An effect that performs a positive comparison or a relative comparison involving characteristics of one or more split cards in any zone other than the stack gets only one answer. This answer is "yes" if either side of those split cards would return a "yes" answer if compared individually.
      An effect that performs a negative comparison involving characteristics of one or more split cards in any zone other than the stack also gets only one answer. This answer is "yes" if performing the comparable positive comparison would return a "no" answer.
+
+Split Second
+Split second is a static ability that functions only while the spell with split second is on the stack. "Split second" means "As long as this spell is on the stack, players can't play other spells or abilities that aren't mana abilities." See rule 502.58, "Split Second."
 
 Stack
 A spell or ability goes on top of the stack when it's played or put onto the stack. Combat-damage assignments also go on top of the stack as though they were a single object. Whenever all players pass in succession, the spell, ability, or combat damage on top of the stack resolves and the active player receives priority again. See rule 217.6, "Stack," and rule 408.1, "Timing, Priority, and the Stack."
@@ -4317,7 +4419,13 @@ Sunburst is a static ability that functions as an object is coming into play fro
 Supertype
 A card can have one or more "supertypes." These are printed directly before the card's types. If an object's types or subtypes change, any supertypes it has are kept, although they may not be relevant to the new type. See rule 205.4, "Supertypes."
      An object's supertype is independent of its type and subtype. Changing an object's type or subtype won't change its supertype. Changing an object's supertype won't change its type or subtype. When an object gains or loses a supertype, it retains any other supertypes it had. See rule 212. "Type, Supertype, and Subtype."
-     The list of supertypes, updated through the Coldsnap set, is as follows: basic, legendary, snow, and world.
+     The list of supertypes, updated through the Time Spiral set, is as follows: basic, legendary, snow, and world.
+
+Suspend
+Suspend is a keyword that represents three abilities. The first is a static ability that functions while the card with suspend is in a player's hand. The second and third are triggered abilities that function in the removed-from-the-game zone. "Suspend N-[cost]" means "If you could play this card from your hand, you may pay [cost] and remove it from the game with N time counters on it. This action doesn't use the stack," and "At the beginning of your upkeep, if this card is suspended, remove a time counter from it," and "When the last time counter is removed from this card, if it's removed from the game, play it without paying its mana cost if able. If you can't, it remains removed from the game. If you play a creature spell this way, it gains haste until you lose control of the spell or the permanent it becomes." Playing a spell as an effect of its suspend ability follows the rules for paying alternative costs in rules 409.1b and 409.1f-h. See rule 502.59, "Suspend."
+
+Suspended
+A card is "suspended" if it's in the removed-from-the-game zone, has suspend, and has a time counter on it.
 
 Swamp
 "Swamp" is one of the five basic land types. Any land with the land type Swamp has the ability "{T}: Add {B} to your mana pool." See rule 212.6d.
@@ -4360,7 +4468,7 @@ Text-Changing Effect
 An effect that changes the text of an object changes only words that are used in the correct way (for example, a Magic color word being used as a color word, a land type word used as a land type, or a creature type word used as a creature type). The effect can't change a proper noun, such as a card name, even if that proper noun contains a word or a series of letters that is the same as a Magic color word, basic land type, or creature type. See rule 418.6, "Text-Changing Effects."
 
 Threshold
-Threshold is a characteristic-setting ability. An object with threshold has the text after "Threshold -" if its controller has seven or more cards in his or her graveyard. Otherwise, the text after "Threshold -" is treated as though it did not appear on the object. An instant or sorcery with threshold has the threshold text only if it's on the stack. An artifact, creature, enchantment, or land with threshold has the threshold text only if it's in play. See rule 502.23, "Threshold."
+Threshold used to be a keyword ability. It is now an ability word and has no rules meaning. All cards printed with the threshold keyword have received errata. Updated wordings are available in the Oracle card reference.
 
 Tie
 If an effect could result in a tie, the text of the spell or ability that created the effect will specify what to do in the event of a tie. The Magic game has no default for ties.
@@ -4487,7 +4595,7 @@ Trigger events that involve objects changing zones are called "zone-change trigg
 Credits
 
 Magic: The Gathering Original Game Design: Richard Garfield
-Comprehensive Rules Design and Development: Paul Barclay, Beth Moursund, and Bill Rose, with contributions from Charlie C@ino, John Carter, Elaine Chase, Laurie Cheers, Stephen D'Angelo, Dave DeLaney, Brady Dommermuth, Mike Donais, Skaff Elias, Mike Elliott, Richard Garfield, Mark L. Gottlieb, Dan Gray, Robert Gutschera, Collin Jackson, William Jockusch, Jeff Jordan, Yonemura Kaoru, Russell Linnemann, Jim Lin, Steve Lord, Sheldon Menery, Michael Phoenix, Mark Rosewater, David Sachs, Lee Sharpe, Henry Stern, Ingo Warnke, Tom Wylie, Donald X, and Bryan Zembruski
+Comprehensive Rules Design and Development: Paul Barclay, Beth Moursund, and Bill Rose, with contributions from Charlie C@ino, John Carter, Elaine Chase, Laurie Cheers, Stephen D'Angelo, Dave DeLaney, Brady Dommermuth, Mike Donais, Skaff Elias, Mike Elliott, Richard Garfield, Mark L. Gottlieb, Dan Gray, Robert Gutschera, Collin Jackson, William Jockusch, Jeff Jordan, Yonemura Kaoru, Russell Linnemann, Jim Lin, Steve Lord, Sheldon Menery, Michael Phoenix, Mark Rosewater, David Sachs, Lee Sharpe, Henry Stern, Ingo Warnke, Tom Wylie, Donald X. Vaccarino, and Bryan Zembruski
 Editing: Del Laugel and Michael Mikaelian
 Magic Rules Manager: Mark L. Gottlieb
 
@@ -4506,9 +4614,9 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are current as of July 15, 2006.
+These rules are current as of October 1, 2006.
 
-Published by Wizards of the Coast, Inc., P.O. Box 707, Renton WA 98057-0707, U.S.A. Wizards of the Coast, Magic: The Gathering, Magic, DCI, Oracle, Ice Age, Vanguard, Exodus, Unglued, Portal Three Kingdoms, Odyssey, Judgment, Champions of Kamigawa, Ravnica, and Coldsnap are trademarks of Wizards of the Coast, Inc. in the U.S.A. and other countries. (c)1993-2006 Wizards. U.S. Pat. No. RE 37,957.
+Published by Wizards of the Coast, Inc., P.O. Box 707, Renton WA 98057-0707, U.S.A. Wizards of the Coast, Magic: The Gathering, Magic, DCI, Oracle, Ice Age, Vanguard, Exodus, Unglued, Portal Three Kingdoms, Odyssey, Judgment, Ravnica, and Time Spiral are trademarks of Wizards of the Coast, Inc. in the U.S.A. and other countries. (c)1993-2006 Wizards. U.S. Pat. No. RE 37,957.
 
 
 Questions?
@@ -4525,8 +4633,8 @@ Tel: 1-800-324-6496 (within the U.S.)
 
 U.K., Eire & South Africa
 Hasbro UK Ltd.
-Caswell Way
-Newport, Gwent NP9 0YH
+P.O. Box 43
+Newport, NP19 4YD
 UK
 Tel: + 800 22 427276 
 Email: wizards@hasbro.co.uk
