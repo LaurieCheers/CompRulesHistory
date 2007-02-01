@@ -1,6 +1,6 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are current as of October 1, 2006.
+These rules are current as of February 1, 2007.
 
 Introduction
 
@@ -253,7 +253,7 @@ If a player would make more than one choice at the same time, the player makes t
 The Magic game uses only natural numbers. You can't choose a fractional number, deal fractional damage, and so on. When a spell or ability could generate a fractional number, the spell or ability will tell you whether to round up or down.
 
 104.2.
-If a creature's power or toughness, a mana cost, a player's life total, or an amount of damage would be less than 0, it's treated as 0 for all purposes except changing that total. If anything needs to use a number that can't be determined, it uses 0 instead.
+If a numerical value (such as a creature's power, toughness, or total power and toughness; a mana cost; a player's life total; or an amount of damage) would be less than 0, it's treated as 0 for all purposes except changing that total, if applicable. If anything needs to use a number that can't be determined, it uses 0 instead.
 Example: If a 3/3 creature gets -5/-0, it deals 0 damage in combat. But to raise its power back to 1, you'd have to give it +3/+0 (3 minus 5 plus 3 is 1).
 Example: If you control no permanents, the "highest converted mana cost among permanents you control" can't be determined, so 0 is used instead.
 
@@ -704,7 +704,7 @@ A nonexistent mana cost can't be paid.
 A spell's type, supertype, and subtype are the same as those of its card.
 
 213.3.
-The term "spell" is used to refer to a card while it's on the stack. The term "card" isn't used to refer to a card that's on the stack as a spell. It's only used to refer to a card that's not in play or on the stack, such as a creature card in a player's hand.
+The term "spell" is used to refer to a card or a copy of a card while it's on the stack.
 
 213.4.
 Every spell has a controller. By default, a spell's controller is the player who played it.
@@ -722,7 +722,7 @@ A permanent is a card or token in play. Permanents stay in play unless moved to 
 Permanent type is the type of a card or token that's in play. A nontoken permanent's types, supertypes, and subtypes are the same as those printed on its card. A token's types, supertypes, and subtypes are set by the spell or ability that created it.
 
 214.3.
-A card or token becomes a permanent when it comes into play and it stops being a permanent when it leaves play. Permanents come into play untapped. The term "permanent" is used to refer to a card or token while it's in play. The term "card" isn't typically used to refer to a card that's in play as a permanent; rather, it's nearly always used to refer to a card that's not in play and not on the stack, such as a creature card in a player's hand. For more information, see rule 217, "Zones."
+A card or token becomes a permanent when it comes into play and it stops being a permanent when it leaves play. Permanents come into play untapped. The term "permanent" is used to refer to a card or token while it's in play. The term "card" isn't used to refer to a card that's in play as a permanent; rather, it's used to refer to a card that's not in play, such as a creature card in a player's hand. For more information, see rule 217, "Zones."
 
 214.4.
 Every permanent has a controller. By default, a permanent's controller is the player who put it into play.
@@ -735,13 +735,15 @@ Every permanent has a value in each of three status categories: tapped/untapped,
 216. Tokens
 
 216.1.
-Some effects put token creatures into play. A token is controlled by whomever put it into play and owned by the controller of the spell or ability that created it. The spell or ability may define any number of characteristics for the token. A token doesn't have any characteristics not defined by the spell or ability that created it. The spell or ability that creates the token sets both its name and its creature type. If the spell or ability doesn't specify the name of the token, its name is the same as its creature type(s). A "Goblin Scout creature token," for example, is named "Goblin Scout" and has the creature subtypes Goblin and Scout. Once a token is in play, changing its name doesn't change its creature type, and vice versa.
+Some effects put token creatures into play. A token is controlled by whomever put it into play and owned by the controller of the spell or ability that created it. (If no player controlled the effect that created it, the token is owned by whomever put it into play.) The spell or ability may define any number of characteristics for the token. These characteristics are functionally equivalent to the characteristics that are printed on a card; for example, they define the token's copiable values. A token doesn't have any characteristics not defined by the spell or ability that created it. The spell or ability that creates the token sets both its name and its creature type. If the spell or ability doesn't specify the name of the token, its name is the same as its creature type(s). A "Goblin Scout creature token," for example, is named "Goblin Scout" and has the creature subtypes Goblin and Scout. Once a token is in play, changing its name doesn't change its creature type, and vice versa.
 
 216.2.
 A token is subject to anything that affects permanents in general or that affects the token's type or subtype. A token isn't a card (even if represented by cards from other games or Unglued(tm) cards).
 
 216.3.
-A token in a zone other than the in-play zone ceases to exist. This is a state-based effect. (Note that a token changing zones sets off triggered abilities before the token ceases to exist.) Once a token has left play, it can't be returned to play by any means.
+A token in a zone other than the in-play zone ceases to exist. This is a state-based effect. (Note that a token changing zones sets off triggered abilities before the token ceases to exist.)
+
+216.4 A token that has left play can't come back into play. If such a token would return to play, it remains in its current zone instead. It ceases to exist the next time state-based effects are checked.
 
 217. Zones
 
@@ -762,6 +764,9 @@ If an object would move from one zone to another, first determine what event is 
 
 217.1e
 An object is outside the game if it's in the removed-from-the-game zone, or if it isn't in any of the game's zones. All other objects are inside the game. Outside the game is not a zone.
+
+217.1f
+If an object in the removed-from-the-game zone is removed from the game, it doesn't change zones, but it is treated as a new object that has just been removed from the game.
 
 217.2.
 Library
@@ -845,7 +850,7 @@ Combat damage also uses the stack, in the same way as other objects that use the
 Removed from the Game
 
 217.7a
-Effects can remove objects from the game. Some effects may provide a way for a card to return to a zone and use the term "set aside." Cards that are set aside this way are still removed from the game, even though that removal may be temporary. Objects that aren't cards can't be returned in any way.
+Effects can remove objects from the game. Some effects may provide a way for a card to return to a zone and use the term "set aside." Cards that are set aside this way are still removed from the game, even though that removal may be temporary. Objects that aren't cards that would return to a zone remain removed from the game instead.
 
 217.7b
 Cards in the removed-from-the-game zone are kept face up and may be examined by any player at any time. Cards "removed from the game face down" can't be examined by any player except when instructions allow it.
@@ -856,6 +861,9 @@ Cards that might return to play should be kept in separate piles to keep track o
 217.7d
 A card may have one ability printed on it that removes one or more cards from the game, and another ability that refers either to "the removed cards" or to cards "removed from the game with [name]." These abilities are linked: the second refers only to cards in the removed-from-the-game zone removed as a result of the first. If another object gains a pair of linked abilities, the abilities will be similarly linked on that object. They can't be linked to any other ability, regardless of what other abilities the object may currently have or may have had in the past.
 Example: Arc-Slogger has the ability "{R}: Remove the top ten cards of your library from the game: Arc-Slogger deals 2 damage to target creature or player." Sisters of Stone Death has the ability "{B}{G}: Remove from the game target creature blocking or blocked by Sisters of Stone Death" and the ability "{2}{B}: Put a creature card removed from the game with Sisters of Stone Death into play under your control." Quicksilver Elemental has the ability "{U}: Quicksilver Elemental gains all activated abilities of target creature until end of turn." If a player has Quicksilver Elemental gain Arc-Slogger's ability, plays it, then has Quicksilver Elemental gain Sisters of Stone Death's abilities, plays the remove-from-game ability, and then plays the return-to-play ability, only the creature card Quicksilver Elemental removed from the game with Sisters of Stone Death's ability can be returned to play. Creature cards Quicksilver Elemental removed from the game with Arc-Slogger's ability can't be returned.
+
+217.7e
+If an object in the removed-from-the-game zone is removed from the game, it doesn't change zones, but it is treated as a new object that has just been removed from the game.
 
 217.8.
 Phased Out
@@ -1092,7 +1100,7 @@ The source of the combat damage is the creature as it currently exists, or as it
 If a creature that was supposed to receive combat damage is no longer in play or is no longer a creature, the damage assigned to it isn't dealt.
 
 310.5.
-At the start of the combat damage step, if at least one attacking or blocking creature has first strike (see rule 502.2) or double strike (see rule 502.28), creatures without first strike or double strike don't assign combat damage. Instead of proceeding to end of combat, the phase gets a second combat damage step to handle the remaining creatures. In the second combat damage step, surviving attackers and blockers that didn't assign combat damage in the first step, plus any creatures with double strike, assign their combat damage.
+At the start of the combat damage step, if at least one attacking or blocking creature has first strike (see rule 502.2) or double strike (see rule 502.28), creatures without first strike or double strike don't assign combat damage. Instead of proceeding to end of combat, the phase gets a second combat damage step (see rule 310.1) to handle the remaining creatures. In the second combat damage step, any attackers and blockers that didn't assign combat damage in the first step, plus any creatures with double strike, assign their combat damage.
 
 311. End of Combat Step
 
@@ -1655,7 +1663,7 @@ Continuous Effects from Spells or Abilities
 A continuous effect generated by the resolution of a spell or ability lasts as long as stated by the spell or ability creating it (such as "until end of turn"). If no duration is stated, it lasts until the end of the game.
 
 418.3b
-Continuous effects from spells, activated abilities, and triggered abilities that modify the characteristics or change the controller of one or more objects don't affect objects that weren't affected when the continuous effect began. Note that these work differently than continuous effects from static abilities. Continuous effects that don't modify characteristics or change the controller of objects modify the rules of the game, so they can affect objects that weren't affected when the continuous effect began.
+The set of objects that are affected by continuous effects from spells, activated abilities, and triggered abilities that modify the characteristics or change the controller of those objects is determined when that continuous effect begins. After that point, the set won't change. Note that these work differently than continuous effects from static abilities. Continuous effects that don't modify characteristics or change the controller of objects modify the rules of the game, so they can affect objects that weren't affected when the continuous effect began.
 Example: An effect that reads "All white creatures get +1/+1 until end of turn" gives the bonus to all permanents that are white creatures when the spell or ability resolves-even if they change color later-and doesn't affect those that come into play or turn white afterward.
 Example: An effect that reads "Prevent all damage creatures would deal this turn" doesn't modify any object's characteristics, so it's modifying the rules of the game. That means the effect will apply even to damage from creatures that weren't in play when the continuous effect began. It also affects damage from permanents that become creatures later in the turn.
 
@@ -1681,16 +1689,17 @@ Interaction of Continuous Effects
 
 418.5a
 The values of an object's characteristics are determined by starting with the actual object, then applying continuous effects in a series of layers in the following order: (1) copy effects (see rule 503, "Copying Objects"); (2) control-changing effects; (3) text-changing effects; (4) type-, subtype-, and supertype-changing effects; (5) all other continuous effects, except those that change power and/or toughness; and (6) power- and/or toughness-changing effects.
-          Inside each layer from 1 through 5, apply effects from characteristic-setting abilities first, then all other effects. Inside layer 6, apply effects in a series of sublayers in the following order: (6a) effects from characteristic-setting abilities; (6b) all other effects not specifically applied in 6c, 6d, or 6e; (6c) changes from counters; (6d) effects from static abilities that modify power and/or toughness but don't set power and/or toughness to a specific number or value; and (6e) effects that switch a creature's power and toughness. See also the rules for timestamp order and dependency (rules 418.5b-418.5g).
-Example: Crusade is an enchantment that reads "White creatures get +1/+1." Crusade and a 2/2 black creature are in play. If an effect then turns the creature white, it gets +1/+1 from Crusade, becoming 3/3. If the creature's color is later changed to red, Crusade's effect stops applying to it, and it will return to being a 2/2.
-Example: Gray Ogre, a 2/2 creature, is in play. An effect puts a +1/+1 counter on it, making it 3/3. An effect that says "Target creature gets +4/+4 until end of turn" is applied to it, making it 7/7. An enchantment that says "Creatures you control get +0/+2" enters play, making it a 7/9. An effect that says "Target creature becomes 0/1 until end of turn" is applied to it, making it a 1/4 (0/1, plus +1/+1 from the counter, plus +0/+2 from the enchantment).
-Example: Svogthos, the Restless Tomb, is in play. An effect that says "Until end of turn, target land becomes a 3/3 creature that's still a land" is applied to it. An effect that says "Target creature gets +1/+1 until end of turn" is applied to it, making it a 4/4 land creature. Then you activate Svogthos's ability ("Until end of turn, Svogthos, the Restless Tomb becomes a black and green Plant Zombie creature with 'This creature's power and toughness are each equal to the number of creature cards in your graveyard.' It's still a land.") while you have ten creature cards in your graveyard. It becomes a 10/10 land creature. If a creature card enters or leaves your graveyard, Svogthos's power and toughness will be modified accordingly. If the first effect is applied to it again, it will become a 3/3 land creature again.
+          Inside each layer from 1 through 5, apply effects from characteristic-setting abilities first, then all other effects in timestamp order. Inside layer 6, apply effects in a series of sublayers in the following order: (6a) effects from characteristic-setting abilities; (6b) all other effects not specifically applied in 6c, 6d, or 6e; (6c) changes from counters; (6d) effects from static abilities that modify power and/or toughness but don't set power and/or toughness to a specific number or value; and (6e) effects that switch a creature's power and toughness. Within each sublayer, apply effects in timestamp order. Note that dependency may alter the order in which effects are applied within a layer or sublayer. See also the rules for timestamp order and dependency (rules 418.5b-418.5g).
+Example: Crusade is an enchantment that reads "White creatures get +1/+1." Crusade and a 2/2 black creature are in play. If an effect then turns the creature white (layer 5), it gets +1/+1 from Crusade (layer 6d), becoming 3/3. If the creature's color is later changed to red (layer 5), Crusade's effect stops applying to it, and it will return to being a 2/2.
+Example: Gray Ogre, a 2/2 creature, is in play. An effect puts a +1/+1 counter on it (layer 6c), making it 3/3. An effect that says "Target creature gets +4/+4 until end of turn" is applied to it (layer 6b), making it 7/7. An enchantment that says "Creatures you control get +0/+2" enters play (layer 6d), making it a 7/9. An effect that says "Target creature becomes 0/1 until end of turn" is applied to it (layer 6b), making it a 1/4 (0/1, plus +1/+1 from the counter, plus +0/+2 from the enchantment).
 
 418.5b
 If an effect should be applied in different layers, the parts of the effect each apply in their appropriate layers. If an effect starts to apply in one layer, it will continue to be applied to the same set of objects in each other applicable layer, even if the ability generating the effect is removed during this process.
 Example: An effect that reads "Wild Mongrel gets +1/+1 and becomes the color of your choice until end of turn" is both a power- and toughness-changing effect and an "other" kind of effect. The "becomes the color of your choice" part is applied in layer 5, and then the "gets +1/+1" part is applied in layer 6.
 Example: Grab the Reins has an effect that reads "Until end of turn, you gain control of target creature and it gains haste." This is both a control-changing effect and an "other" effect. The "you gain control" part is applied in layer 2, and then the "it gains haste" part is applied in layer 5.
 Example: An effect that reads "All noncreature artifacts become 2/2 artifact creatures until end of turn" is both a type-changing effect and a power- and toughness-setting effect. The type-changing effect is applied to all noncreature artifacts in layer 4 and the power- and toughness-setting effect is applied to those same permanents in layer 6, even though those permanents aren't noncreature artifacts by then.
+Example: Svogthos, the Restless Tomb, is in play. An effect that says "Until end of turn, target land becomes a 3/3 creature that's still a land" is applied to it (layers 4 and 6b). An effect that says "Target creature gets +1/+1 until end of turn" is applied to it (layer 6b), making it a 4/4 land creature. Then you activate Svogthos's ability ("Until end of turn, Svogthos, the Restless Tomb becomes a black and green Plant Zombie creature with 'This creature's power and toughness are each equal to the number of creature cards in your graveyard.' It's still a land.") while you have ten creature cards in your graveyard (layers 4, 5, and 6b). It becomes a 10/10 land creature. If a creature card enters or leaves your graveyard, Svogthos's power and toughness will be modified accordingly. If the first effect is applied to it again, it will become a 3/3 land creature again.
+
 
 418.5c
 An effect is said to "depend on" another if (a) it's applied in the same layer (and, if applicable, sublayer) as the other effect (see rule 418.5a) and (b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to. Otherwise, the effect is considered to be independent of the other effect.
@@ -1716,6 +1725,9 @@ Example: One effect reads, "White creatures get +1/+1," and another, "Enchanted 
 Some effects switch a creature's power and toughness. When they're applied, they take the value of power and apply it to the object's toughness, and take the object's toughness and apply it to the object's power. These effects are applied after all other effects that affect power and toughness. (See rule 418.5a.)
 Example: A 1/3 creature is given +0/+1 by an effect. Then another effect switches the creature's power and toughness. Its new power and toughness is 4/1. A new effect gives the creature +5/+0. Its "unswitched" power and toughness would be 6/4, so its actual power and toughness is 4/6.
 Example: A 1/3 creature is given +0/+1 by an effect. Then another effect switches the creature's power and toughness. Its new power and toughness is 4/1. If the +0/+1 effect ends before the switch effect ends, the creature becomes a 3/1.
+
+418.5j
+Some continuous effects affect players rather than objects. For example, effects may modify a player's maximum hand size. All such effects are applied in timestamp order following the determination of objects' characteristics. See also the rules for timestamp order and dependency (rules 418.5b-418.5g).
 
 418.6.
 Text-Changing Effects
@@ -2661,7 +2673,7 @@ A forecast ability may be played only during the upkeep step of the card's owner
 Graft
 
 502.54a
-Graft represents both a static ability and a triggered ability. "Graft N" means "This permanent comes into play with N +1/+1 counters on it" and "Whenever another creature comes into play, you may move a +1/+1 counter from this permanent onto that creature."
+Graft represents both a static ability and a triggered ability. "Graft N" means "This permanent comes into play with N +1/+1 counters on it" and "Whenever another creature comes into play, if this permanent has a +1/+1 counter on it, you may move a +1/+1 counter from this permanent onto that creature."
 
 502.54b
 If a creature has multiple instances of graft, each one works separately.
@@ -2711,6 +2723,18 @@ A card is "suspended" if it's in the removed-from-the-game zone, has suspend, an
 502.59c
 Playing a spell as an effect of its suspend ability follows the rules for paying alternative costs in rules 409.1b and 409.1f-h.
 
+502.60.
+Vanishing
+
+502.60a
+Vanishing is a keyword that represents three abilities. "Vanishing N" means "This permanent comes into play with N time counters on it," "At the beginning of your upkeep, if this permanent has a time counter on it, remove a time counter from it," and "When the last time counter is removed from this permanent, sacrifice it."
+
+502.60b
+Vanishing without a number means "At the beginning of your upkeep, if this permanent has a time counter on it, remove a time counter from it" and "When the last time counter is removed from this permanent, sacrifice it."
+
+502.60c
+If a permanent has multiple instances of vanishing, each works separately.
+
 503. Copying Objects
 
 503.1.
@@ -2734,7 +2758,7 @@ Example: Unstable Shapeshifter reads, "Whenever a creature comes into play, Unst
 
 503.5.
 An object that comes into play "as a copy" of another permanent becomes a copy as it comes into play. It doesn't come into play, and then become a copy of that permanent. If the text that's being copied includes any abilities that replace the comes-into-play event (such as "comes into play with" or "as [this] comes into play" abilities), those abilities will take effect. Also, any comes-into-play triggered abilities of the copy will have a chance to trigger.
-Example: Skyshroud Behemoth reads, "Fading 2 (This creature comes into play with two fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.) / Skyshroud Behemoth comes into play tapped." A Clone that comes into play as a copy of a Skyshroud Behemoth will also come into play tapped with two fade counters on it.
+Example: Skyshroud Behemoth reads, "Fading 2 (This creature comes into play with two fade counters on it. At the beginning of your upkeep, remove a fade counter from it. If you can't, sacrifice it.)" and "Skyshroud Behemoth comes into play tapped." A Clone that comes into play as a copy of a Skyshroud Behemoth will also come into play tapped with two fade counters on it.
 Example: Striped Bears reads, "When Striped Bears comes into play, draw a card." A Clone comes into play as a copy of Striped Bears. The Clone has the Bears' comes-into-play triggered ability, so the Clone's controller draws a card.
 
 503.6.
@@ -2742,11 +2766,11 @@ When copying a permanent, any choices that have been made for that permanent are
 Example: A Clone comes into play as a copy of Chameleon Spirit. Chameleon Spirit reads, in part, "As Chameleon Spirit comes into play, choose a color." The Clone won't copy the color choice of the Spirit; rather, the controller of the Clone will get to make a new choice.
 
 503.7.
-Because any choices that have been made for a permanent aren't copied, sometimes a copy card will gain an ability that refers to a choice that was never made. In that case, the choice is considered to be "zero" or "undefined."
-Example: Voice of All comes into play and Unstable Shapeshifter copies it. Voice of All reads, in part, "As Voice of All comes into play, choose a color. / Voice of All has protection from the chosen color." Unstable Shapeshifter never got a chance to choose a color, because it didn't come into play as a Voice of All card, so the Shapeshifter's protection ability doesn't protect it from anything at all.
+Because any choices that have been made for a permanent aren't copied, sometimes a copy card will gain an ability that refers to a choice that was never made. In that case, the choice is considered to be "undefined." If an ability refers to an undefined choice, that part of the ability has no effect.
+Example: Voice of All comes into play and Unstable Shapeshifter copies it. Voice of All reads, in part, "As Voice of All comes into play, choose a color." and "Voice of All has protection from the chosen color." Unstable Shapeshifter never got a chance to choose a color, because it didn't come into play as a Voice of All card, so the Shapeshifter's protection ability doesn't protect it from anything at all.
 
 503.8.
-If an ability causes a player to make a choice as a copy comes into play, the copy will "remember" that choice and continue to use it for its abilities if appropriate. If the choice is not appropriate, it is considered to be "zero" or "undefined."
+If an ability causes a player to make a choice as a copy comes into play, the copy will "remember" that choice and continue to use it for its abilities if appropriate. If the choice is not appropriate, it is considered to be "undefined." If an ability refers to an undefined choice, that part of the ability has no effect.
 Example: A Vesuvan Doppelganger comes into play as a copy of Chameleon Spirit, and the Doppelganger's controller chooses blue. Later, the Doppelganger copies Quirion Elves. The Elves has the ability, "{T}: Add one mana of the chosen color to your mana pool." If the mana ability of the Doppelganger is played, it will produce blue mana.
 Example: A Vesuvan Doppelganger comes into play as a copy of Caller of the Hunt. Caller of the Hunt reads, in part, "As Caller of the Hunt comes into play, choose a creature type." The Doppelganger's controller chooses Goblin. Later, the Doppelganger copies Quirion Elves. If the mana ability of the Doppelganger is played, it will fail to produce any mana. It won't produce Goblin mana.
 
@@ -2757,10 +2781,13 @@ Example: Quirion Elves comes into play and an Unstable Shapeshifter copies it. T
 503.10.
 To copy a spell means to put a copy of the spell onto the stack; a copy of a spell isn't "played." In addition to copying the characteristics of the spell, all decisions made when the spell was played are copied. These include mode, targets, the value of X, and optional additional costs such as buyback. (See rule 409, "Playing Spells and Activated Abilities.") Choices that are normally made on resolution are not copied. If an effect of the copy refers to objects used to pay its costs, it uses the objects used to pay the costs of the original spell. A copy of a spell is controlled by the player who put it on the stack. A copy of a spell is itself a spell, but it has no spell card associated with it. It works just like a normal spell: it can be countered or it can resolve, and it uses the same timing rules as normal spells.
 Example: A player plays Fork, targeting an Emerald Charm. Fork reads, "Put a copy of target instant or sorcery spell onto the stack, except that it copies Fork's color and you may choose new targets for the copy." Emerald Charm reads, "Choose one - Untap target permanent; or destroy target non-Aura enchantment; or target creature loses flying until end of turn." When the Fork resolves, it puts a copy of the Emerald Charm on the stack. The copy has the same mode that was chosen for the original Emerald Charm. It does not necessarily have the same target, but only because Fork allows choosing of new targets.
-Example: Fling is an instant that reads, "As an additional cost to play Fling, sacrifice a creature. / Fling deals damage equal to the sacrificed creature's power to target creature or player." When determining how much damage a copy of Fling deals, it checks the power of the creature sacrificed to pay for the original Fling.
+Example: Fling is an instant that reads, "As an additional cost to play Fling, sacrifice a creature." and "Fling deals damage equal to the sacrificed creature's power to target creature or player." When determining how much damage a copy of Fling deals, it checks the power of the creature sacrificed to pay for the original Fling.
 
 503.10a
 A copy of a spell in a zone other than the stack ceases to exist. A copy of a card in any zone other than the stack or the in-play zone ceases to exist. This is a state-based effect. See rule 420.
+
+503.10b
+Some effects copy a spell and state that its controller may choose new targets for the copy. The player may leave any number of the targets unchanged, even if those targets would be illegal. If the player chooses to change some or all of the targets, the new targets must be legal. Once the player has decided what the copy's targets will be, the copy is put onto the stack with those targets.
 
 503.11.
 If an effect refers to a permanent by name, the effect still tracks that permanent even if it changes names or becomes a copy of something else.
@@ -2804,7 +2831,7 @@ Split cards have two card faces on a single card. The back of a split card is th
 In every zone except the stack, split cards have two sets of characteristics and two converted mana costs. As long as a split card is a spell on the stack, only the characteristics of the half being played exist. The other half's characteristics are treated as though they didn't exist.
 
 505.3.
-Because every split card consists of two halves with different colored mana symbols in their mana costs, each split card is a multicolored card while it's not a spell on the stack. While it's a spell on the stack, it's only the color or colors of the half being played.
+Each split card that consists of two halves with different colored mana symbols in their mana costs is a multicolored card while it's not a spell on the stack. While it's a spell on the stack, it's only the color or colors of the half being played.
 
 505.4.
 Although split cards have two playable halves, each split card is only one card. For example, a player who has drawn or discarded a split card has drawn or discarded one card, not two.
@@ -2815,7 +2842,7 @@ Example: Infernal Genesis has an ability that reads, "At the beginning of each p
 
 505.6.
 An effect that performs a positive comparison (such as asking if a card is red) or a relative comparison (such as asking if a card's converted mana cost is less than 2) involving characteristics of one or more split cards in any zone other than the stack gets only one answer. This answer is "yes" if either side of each split card in the comparison would return a "yes" answer if compared individually.
-          An effect that performs a negative comparison (such as asking if cards have different names) involving characteristics of one or more split cards in any zone other than the stack also gets only one answer. This answer is "yes" if performing the comparable positive comparison would return a "no" answer.
+          An effect that performs a negative comparison (such as asking if cards have different names) involving characteristics of one or more split cards in any zone other than the stack also gets only one answer. This answer is "yes" if performing the analogous positive comparison would return a "no" answer.
           If an effect performs a comparison involving multiple characteristics of one or more split cards in any zone other than the stack, each characteristic is compared separately. If each of the individual comparisons would return a "yes" answer, the whole comparison returns a "yes" answer.
 Example: Void reads, "Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals his or her hand and discards all nonland cards with converted mana cost equal to the number." If a player plays Void and chooses 1, his or her opponent would discard Assault/Battery because the game sees its converted mana cost as "1, and 4." The same is true if the player chooses 4. If the player chooses 5, however, Assault/Battery would be unaffected.
 
@@ -2986,7 +3013,7 @@ Many multiplayer Magic tournaments have additional rules not included here, incl
 600.4.
 Unlike two-player games, multiplayer games can continue after one or more players have left the game.
 
-600.4a. When a player leaves the game, all objects (see rule 200.8) owned by that player leave the game, all spells and abilities controlled by that player on the stack cease to exist, and any change-of-control effects which give that player control of any objects end. Then, if there are any objects still controlled by that player, those objects leave the game. (Any objects leaving the game this way that aren't owned by the player leaving the game are placed in the removed-from-the-game zone.) This is not a state-based effect. It happens as soon as the player leaves the game. A player leaving the game doesn't affect combat damage on the stack.
+600.4a. When a player leaves the game, all objects (see rule 200.8) owned by that player leave the game, all spells and abilities controlled by that player on the stack cease to exist, and any change-of-control effects which give that player control of any objects end. Then, if there are any objects still controlled by that player, those objects leave the game. (Any objects leaving the game this way that aren't owned by the player leaving the game are placed in the removed-from-the-game zone.) This is not a state-based effect. It happens as soon as the player leaves the game. If the player who left the game had priority at the time he or she left, priority passes to the next player in turn order who's still in the game. A player leaving the game doesn't affect combat damage on the stack.
 Example: Alex plays Control Magic, an Aura that reads, "You control enchanted creature," on Bianca's Wall of Wood. If Alex leaves the game, so does Control Magic, and Wall of Wood reverts to Bianca's control. If, instead, Bianca leaves the game, so does Wall of Wood, and Control Magic is put into Alex's graveyard.
 Example: Alex plays Threaten, which reads, in part, "Untap target creature and gain control of it until end of turn," targeting Bianca's Wall of Wood. If Alex leaves the game, Threaten's change-of-control effect ends and Wall of Wood reverts to Bianca's control.
 Example: Alex plays Bribery, which reads, "Search target opponent's library for a creature card and put that card into play under your control. Then that player shuffles his or her library," targeting Bianca. Alex puts Wall of Wood into play from Bianca's library. If Alex leaves the game, Wall of Wood leaves the game. If, instead, Bianca leaves the game, Wall of Wood still leaves the game.
@@ -3000,6 +3027,9 @@ Example: Astral Slide is an enchantment that reads, "Whenever a player cycles a 
 
 600.4d
 If an object requires a player who has left the game to make a choice, the controller of the object chooses another player to make that choice. If the original choice was to be made by an opponent of the controller of the object, that player chooses another opponent if possible.
+
+600.4e
+If a player leaves the game during his or her turn, that turn continues to its completion without an active player. If the active player would receive priority, instead the next player in turn order receives priority, or the top object on the stack resolves, or the phase or step ends, whichever is appropriate.
 
 601. Limited Range of Influence Option
 
@@ -3218,9 +3248,10 @@ The Two-Headed Giant variant uses different combat rules than other multiplayer 
 
 606.7a
 Each team's creatures attack the other team as a group. During the combat phase, the active team is the attacking team and each player on the active team is an attacking player. Likewise, the nonactive team is the defending team and each player on the nonactive team is a defending player.
+          Any one-shot effect or characteristic-setting ability that refers to the "defending player" refers to one specific defending player, not to both of the defending players. The controller of the effect or of the object with the characteristic-setting ability chooses which one the spell or ability refers to. The same is true for any one-shot effect that refers to the "attacking player."
 
-606.7b. As the declare attackers step begins, the active team declares attackers. If a creature is unable to attack one of the defending players, that creature can't attack the defending team. The active team has one combined attack, and that set of attacking creatures must be legal as a whole.
-Example: One player in a Two-Headed Giant game controls Teferi's Moat, which says "As Teferi's Moat comes into play, choose a color. / Creatures of the chosen color without flying can't attack you." Creatures of the chosen color without flying can't attack that player's team.
+606.7b. As the declare attackers step begins, the active team declares attackers. If an effect of an object controlled by a defending player prohibits a creature from attacking him or her, that creature can't attack the defending team. The active team has one combined attack, and that set of attacking creatures must be legal as a whole.
+Example: One player in a Two-Headed Giant game controls Teferi's Moat, which says "As Teferi's Moat comes into play, choose a color." and "Creatures of the chosen color without flying can't attack you." Creatures of the chosen color without flying can't attack that player's team.
 
 606.7c
 As the declare blockers step begins, the defending team declares blockers. Creatures controlled by the defending players can block any attacking creatures. The defending team has one combined block, and that set of blocking creatures must be legal as a whole.
@@ -3616,7 +3647,7 @@ Creature is a type. The active player may play creatures during his or her main 
 Creature Type
 Creature subtypes are always a single word and are listed after a long dash: "Creature - Human Soldier," "Artifact Creature - Golem," and so on. Creature subtypes are also called creature types. Creatures may have multiple subtypes.
      The list of creature types, updated through the Time Spiral set, is as follows:
-     Abomination, Aboroth, Advisor, Aladdin, Albatross, Alchemist, Ali-Baba, Ali-from-Cairo, Alligator, Ambush-Party, Angel, Ant, Antelope, Ape, Archaeologist, Archer, Archon, Artificer, Asp, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Avenger, Avizoa, Badger, Ball-Lightning, Bandit, Banshee, Barbarian, Barishi, Basilisk, Bat, Bear, Beast, Bee, Beeble, Being, Berserker, Bird, Blinkmoth, Boar, Bodyguard, Bringer, Brother, Brownie, Brushwagg, Bull, Bureaucrat, Camarid, Camel, Caravan, Caribou, Carnivore, Carriage, Carrier, Cat, Cave-People, Centaur, Cephalid, Cheetah, Chicken, Child, Chimera, Citizen, Clamfolk, Cleric, Cobra, Cockatrice, Constable, Construct, Cow, Crab, Crocodile, Crusader, Cyclops, Dauthi, Demon, Deserter, Designer, Devil, Devouring-Deep, Dinosaur, Djinn, Dog, Donkey, Doppelganger, Dragon, Dragonfly, Drake, Dreadnought, Drill-Sergeant, Drone, Druid, Dryad, Dwarf, Eater, Eel, Effigy, Efreet, Egg, Elder, Elemental, Elephant, Elf, El-Hajjj, Enchantress, Entity, Erne, Essence, Exorcist, Expansion-Symbol, Eye, Faerie, Fallen, Farmer, Ferret, Fiend, Fish, Flagbearer, Fox, Frog, Frostbeast, Fungus, Fungusaur, Gaea's-Avenger, Gamer, Gargoyle, Gatekeeper, General, Ghost, Ghoul, Giant, Gnome, Goat, Goblin, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guardian, Gus, Gypsy, Hag, Harlequin, Heretic, Hero, Hipparion, Hippo, Homarid, Hornet, Horror, Horse, Horseman, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Infernal-Denizen, Inquisitor, Insect, Island-Fish, Jackal, Jellyfish, Juggernaut, Kavu, Keeper, Kelp, King, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lady-of-Proper-Etiquette, Lammasu, Leech, Legionnaire, Lemure, Leper, Leviathan, Lhurgoyf, Licid, Lizard, Lord, Lurker, Lycanthrope, Mage, Maiden, Mammoth, Manticore, Marid, Martyr, Master, Medusa, Mercenary, Merchant, Merfolk, Mime, Minion, Minor, Minotaur, Miracle-Worker, Mist, Mob, Mold-Demon, Monger, Mongoose, Monk, Monster, Moonfolk, Mummy, Murk-Dwellers, Mutant, Myr, Mystic, Nameless-Race, Narwhal, Nephilim, Niall-Silvain, Nightmare, Nightstalker, Ninja, Noble, Nomad, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Paladin, Paratrooper, Peacekeeper, Pegasus, Penguin, Pentavite, People-of-the-Woods, Pest, Phantasm, Phelddagrif, Phoenix, Pig, Pikemen, Pincher, Pirate, Pixie-Queen, Plant, Poison-Snake, Poltergeist, Pony, Preacher, Priest, Prism, Pyknite, Rabbit, Raider, Ranger, Rat, Rebel, Reflection, Rhino, Robber, Roc, Rock-Sled, Rogue, Sage, Salamander, Samurai, Sand, Saproling, Satyr, Scavenger, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Shark, Sheep, Ship, Shyft, Singing-Tree, Sister, Skeleton, Slith, Sliver, Slug, Smith, Snake, Soldier, Soltari, Sorceress, Spawn, Speaker, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Spuzzem, Spy, Squirrel, Stangg-Twin, Starfish, Strider, Survivor, Swarm, Tactician, Tarpan, Teddy, Tetravite, Thief, The-Biggest-Baddest-Nastiest-Scariest-Creature-You'll-Ever-See, Thopter, Thrull, Thundermare, Tiger, Titan, Toad, Tortoise, Townsfolk, Tracker, Treefolk, Triskelavite, Troll, Turtle, Twin, Undead, Unicorn, Vampire, Vedalken, Viashino, Villain, Viper, Volver, Vulture, Waiter, Walking-Dead, Wall, War-Rider, Warrior, Wasp, Weird, Whale, Whippoorwill, Wight, Wiitigo, Wirefly, Witch, Wizard, Wolf, Wolverine, Wolverine-Pack, Wolves-of-the-Hunt, Wombat, Worm, Wraith, Wretched, Wurm, Yeti, Zombie, Zubera
+     Abomination, Aboroth, Advisor, Aladdin, Albatross, Alchemist, Ali-Baba, Ali-from-Cairo, Alligator, Ambush-Party, Angel, Ant, Antelope, Ape, Archaeologist, Archer, Archon, Artificer, Asp, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Avenger, Avizoa, Badger, Ball-Lightning, Bandit, Banshee, Barbarian, Barishi, Basilisk, Bat, Bear, Beast, Bee, Beeble, Being, Berserker, Bird, Blinkmoth, Boar, Bodyguard, Bringer, Brother, Brownie, Brushwagg, Bull, Bureaucrat, Camarid, Camel, Caravan, Caribou, Carnivore, Carriage, Carrier, Cat, Cave-People, Centaur, Cephalid, Cheetah, Chicken, Child, Chimera, Citizen, Clamfolk, Cleric, Cobra, Cockatrice, Constable, Construct, Cow, Crab, Crocodile, Crusader, Cyclops, Dauthi, Demon, Deserter, Designer, Devil, Devouring-Deep, Dinosaur, Djinn, Dog, Donkey, Doppelganger, Dragon, Dragonfly, Drake, Dreadnought, Drill-Sergeant, Drone, Druid, Dryad, Dwarf, Eater, Eel, Effigy, Efreet, Egg, Elder, Elemental, Elephant, Elf, El-Hajjj, Enchantress, Entity, Erne, Essence, Exorcist, Expansion-Symbol, Eye, Faerie, Fallen, Farmer, Ferret, Fiend, Fish, Flagbearer, Fox, Frog, Frostbeast, Fungus, Fungusaur, Gaea's-Avenger, Gamer, Gargoyle, Gatekeeper, General, Ghost, Ghoul, Giant, Gnome, Goat, Goblin, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guardian, Gus, Gypsy, Hag, Harlequin, Hellion, Heretic, Hero, Hipparion, Hippo, Homarid, Hornet, Horror, Horse, Horseman, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Infernal-Denizen, Inquisitor, Insect, Island-Fish, Jackal, Jellyfish, Juggernaut, Kavu, Keeper, Kelp, King, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lady-of-Proper-Etiquette, Lammasu, Leech, Legionnaire, Lemure, Leper, Leviathan, Lhurgoyf, Licid, Lizard, Lord, Lurker, Lycanthrope, Mage, Maiden, Mammoth, Manticore, Marid, Martyr, Master, Medusa, Mercenary, Merchant, Merfolk, Mime, Minion, Minor, Minotaur, Miracle-Worker, Mist, Mob, Mold-Demon, Monger, Mongoose, Monk, Monster, Moonfolk, Mummy, Murk-Dwellers, Mutant, Myr, Mystic, Nameless-Race, Narwhal, Nephilim, Niall-Silvain, Nightmare, Nightstalker, Ninja, Noble, Nomad, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Paladin, Paratrooper, Peacekeeper, Pegasus, Penguin, Pentavite, People-of-the-Woods, Pest, Phantasm, Phelddagrif, Phoenix, Pig, Pikemen, Pincher, Pirate, Pixie-Queen, Plant, Poison-Snake, Poltergeist, Pony, Preacher, Priest, Prism, Pyknite, Rabbit, Raider, Ranger, Rat, Rebel, Reflection, Rhino, Robber, Roc, Rock-Sled, Rogue, Sage, Salamander, Samurai, Sand, Saproling, Satyr, Scavenger, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Shark, Sheep, Ship, Shyft, Singing-Tree, Sister, Skeleton, Slith, Sliver, Slug, Smith, Snake, Soldier, Soltari, Sorceress, Spawn, Speaker, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Spuzzem, Spy, Squirrel, Stangg-Twin, Starfish, Strider, Survivor, Swarm, Tactician, Tarpan, Teddy, Tetravite, Thief, The-Biggest-Baddest-Nastiest-Scariest-Creature-You'll-Ever-See, Thopter, Thrull, Thundermare, Tiger, Titan, Toad, Tortoise, Townsfolk, Tracker, Treefolk, Triskelavite, Troll, Turtle, Twin, Undead, Unicorn, Vampire, Vedalken, Viashino, Villain, Viper, Volver, Vulture, Waiter, Walking-Dead, Wall, War-Rider, Warrior, Wasp, Weird, Whale, Whippoorwill, Wight, Wiitigo, Wirefly, Witch, Wizard, Wolf, Wolverine, Wolverine-Pack, Wolves-of-the-Hunt, Wombat, Worm, Wraith, Wretched, Wurm, Yeti, Zombie, Zubera
 
 Cumulative Upkeep
 Cumulative upkeep is a triggered ability that imposes an increasing cost on a permanent. "Cumulative upkeep [cost]" means "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice this permanent unless you pay [cost] for each age counter on it." If [cost] has choices associated with it, each choice is made separately for each age counter, then either the entire set of costs is paid, or none of them are paid. Partial payments aren't allowed. Note that if a permanent has more than one instance of cumulative upkeep, each creates a separate triggered ability at the beginning of upkeep that counts all the age counters on the permanent from all abilities. See rule 502.13, "Cumulative Upkeep."
@@ -3842,7 +3873,7 @@ Global Enchantment (Obsolete)
 Some older cards used the term "global enchantment." These cards now say "non-Aura enchantment." See also Aura and Enchantment.
 
 Graft
-Graft represents both a static ability and a triggered ability. "Graft N" means "This permanent comes into play with N +1/+1 counters on it" and "Whenever another creature comes into play, you may move a +1/+1 counter from this permanent onto that creature." If a creature has multiple instances of graft, each one works separately.
+Graft represents both a static ability and a triggered ability. "Graft N" means "This permanent comes into play with N +1/+1 counters on it" and "Whenever another creature comes into play, if this permanent has a +1/+1 counter on it, you may move a +1/+1 counter from this permanent onto that creature." If a creature has multiple instances of graft, each one works separately.
 
 Grand Melee
 The Grand Melee variant is a modification of the Free-for-All variant. Grand Melee is normally used only in games begun with ten or more players. The Grand Melee variant allows multiple players to take turns at the same time. Moving turn markers keep track of which players are currently taking turns. Each turn marker represents an active player's turn. See rule 608, "Grand Melee Variant."
@@ -4095,7 +4126,7 @@ Any land that doesn't have the supertype "basic" is nonbasic. Use the Oracle car
 
 Number
 The Magic game uses only natural numbers. You may not choose a fractional number, deal fractional damage, and so on. When a spell or ability could generate a fractional number, the spell or ability will tell you whether to round up or down. See rule 104, "Numbers and Symbols."
-     If a creature's power or toughness, a mana cost, a player's life total, or an amount of damage is less than zero, it's treated as zero for all purposes except changing that total. If anything needs to use a number that can't be determined, it uses 0 instead.
+     If a numerical value (such as a creature's power, toughness, or total power and toughness; a mana cost; a player's life total; or an amount of damage) is less than 0, it's treated as 0 for all purposes except changing that total, if applicable. If anything needs to use a number that can't be determined, it uses 0 instead.
 Example: If a 3/3 creature gets -5/-0, it deals 0 damage in combat. But to raise its power back to 1, you'd have to give it +3/+0 (3 minus 5 plus 3 is 1).
 
 Object
@@ -4358,8 +4389,8 @@ Splice is a static ability that functions while a card is in your hand. "Splice 
      The spell loses any splice changes once it leaves the stack (for example, when it's countered, it's removed from the game, or it resolves).
 
 Split Cards
-Split cards have two card faces on a single card. The back of a split card is the normal, full-size Magic card back. Split cards have two sets of characteristics: two names, two mana costs, and so on. They always have both sets, except when they're spells on the stack. When you play a split card, you announce which side you're playing. While it's on the stack, the other side is ignored completely. See rule 505, "Split Cards."
-     Split cards have two mana costs with different colors of mana in them. That means they are multicolored cards while they're not on the stack. A split card is a multicolored card on the stack only if the half that's been played is multicolored.
+Split cards have two card faces on a single card. The back of a split card is the normal, full-size Magic card back. Split cards have two sets of characteristics (two names, two mana costs, and so on) and two converted mana costs. They always have both sets, except when they're spells on the stack. When you play a split card, you announce which side you're playing. While it's on the stack, the other side is ignored completely. See rule 505, "Split Cards."
+     If a split card's two mana costs have different colors of mana in them, it's a multicolored card while it's not on the stack. A split card is a multicolored card on the stack only if the half that's been played is multicolored.
      If an effect tells you to name a card, you must name all of a split card's names.
      An effect that asks for a split card's characteristic while it's in a zone other than the stack gets both answers.
      An effect that performs a positive comparison or a relative comparison involving characteristics of one or more split cards in any zone other than the stack gets only one answer. This answer is "yes" if either side of those split cards would return a "yes" answer if compared individually.
@@ -4558,6 +4589,9 @@ The upkeep step is the second step of the beginning phase. Some cards have abili
 Vanguard and Avatars
 The Vanguard(tm) supplements consist of oversized placards and online avatars that modify the game. A Vanguard placard or avatar is selected before the game begins, adjusting a player's starting and maximum hand size and starting life total. A Vanguard placard or avatar has no color or type, and it can't be affected by spells or abilities.
 
+Vanishing
+Vanishing is a keyword that represents three abilities. "Vanishing N" means "This permanent comes into play with N time counters on it," "At the beginning of your upkeep, if this permanent has a time counter on it, remove a time counter from it," and "When the last time counter is removed from this permanent, sacrifice it." See rule 502.60, "Vanishing."
+
 Vigilance
 Vigilance is a static ability that modifies the rules for the declare attackers step. Attacking doesn't cause creatures with vigilance to tap. See rule 502.14, "Vigilance."
 
@@ -4596,7 +4630,7 @@ Credits
 
 Magic: The Gathering Original Game Design: Richard Garfield
 Comprehensive Rules Design and Development: Paul Barclay, Beth Moursund, and Bill Rose, with contributions from Charlie C@ino, John Carter, Elaine Chase, Laurie Cheers, Stephen D'Angelo, Dave DeLaney, Brady Dommermuth, Mike Donais, Skaff Elias, Mike Elliott, Richard Garfield, Mark L. Gottlieb, Dan Gray, Robert Gutschera, Collin Jackson, William Jockusch, Jeff Jordan, Yonemura Kaoru, Russell Linnemann, Jim Lin, Steve Lord, Sheldon Menery, Michael Phoenix, Mark Rosewater, David Sachs, Lee Sharpe, Henry Stern, Ingo Warnke, Tom Wylie, Donald X. Vaccarino, and Bryan Zembruski
-Editing: Del Laugel and Michael Mikaelian
+Editing: Del Laugel, Michael Mikaelian, and Kelly Digges
 Magic Rules Manager: Mark L. Gottlieb
 
 The Magic: The Gathering game was designed by Richard Garfield, with contributions from Charlie C@ino, Skaff Elias, Don Felice, Tom Fontaine, Jim Lin, Joel Mick, Chris Page, Dave Pettey, Barry "Bit" Reich, Bill Rose, and Elliott Segal. The mana symbols were designed by Christopher Rush.
@@ -4614,9 +4648,9 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are current as of October 1, 2006.
+These rules are current as of February 1, 2007.
 
-Published by Wizards of the Coast, Inc., P.O. Box 707, Renton WA 98057-0707, U.S.A. Wizards of the Coast, Magic: The Gathering, Magic, DCI, Oracle, Ice Age, Vanguard, Exodus, Unglued, Portal Three Kingdoms, Odyssey, Judgment, Ravnica, and Time Spiral are trademarks of Wizards of the Coast, Inc. in the U.S.A. and other countries. (c)1993-2006 Wizards. U.S. Pat. No. RE 37,957.
+Published by Wizards of the Coast, Inc., P.O. Box 707, Renton WA 98057-0707, U.S.A. Wizards of the Coast, Magic: The Gathering, Magic, DCI, Oracle, Ice Age, Vanguard, Exodus, Unglued, Portal Three Kingdoms, Odyssey, Judgment, Ravnica, and Time Spiral are trademarks of Wizards of the Coast, Inc. in the U.S.A. and other countries. (c)1993-2007 Wizards. U.S. Pat. No. RE 37,957.
 
 
 Questions?
