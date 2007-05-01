@@ -98,5 +98,10 @@
     "setCode": "PLC",
     "setName": "Planar Chaos",
     "creationDay": "2007-02-01"
+  },
+  {
+    "setCode": "FUT",
+    "setName": "Future Sight",
+    "creationDay": "2007-05-01"
   }
 ]
