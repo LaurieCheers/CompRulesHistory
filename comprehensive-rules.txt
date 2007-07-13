@@ -1,12 +1,12 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are current as of May 1, 2007.
+These rules are current as of July 13, 2007.
 
 Introduction
 
 This booklet is designed for people who've moved beyond the basics of the Magic: The Gathering(r) game. If you're a beginning Magic(tm) player, you'll probably find these rules intimidating. They're intended to be the ultimate authority for the game, and you won't usually need to refer to them except in specific cases or during competitive games.
 
-For casual play and most ordinary situations, you'll find what you need in the general rulebook included in the Magic: The Gathering core game. You can download a copy of that rulebook from the Wizards of the Coast(r) Magic rules website at www.wizards.com/default.asp?x=magic/rules. If you're sure this is where you want to be, keep reading.
+For casual play and most ordinary situations, you'll find what you need in the Magic: The Gathering basic rulebook. You can download a copy of that rulebook from the Wizards of the Coast(r) Magic rules website at www.wizards.com/default.asp?x=magic/rules. If you're sure this is where you want to be, keep reading.
 
 This document includes a series of numbered rules followed by a glossary. Many of the numbered rules are divided into subrules, and each separate rule and subrule of the game has its own number. The glossary defines many of the words and phrases used in these rules, along with a few concepts that don't really fit anywhere among the numbered rules. So if you can't find what you're looking for, check the glossary.
 
@@ -167,16 +167,22 @@ In a Two-Headed Giant game, each team starts with a shared life total of 30 inst
 A player who is dissatisfied with his or her initial hand may mulligan. First, the starting player takes any mulligans. To take a mulligan, that player shuffles his or her hand back into the deck and then draws a new hand of six cards. He or she may repeat this process as many times as desired, drawing one fewer card each time, until the hand size reaches zero cards. Once the starting player has decided to keep a hand, those cards become his or her opening hand. Then each other player (in turn order) may take any number of mulligans. A player can't take any mulligans once he or she has decided to keep an opening hand.
 
 101.4a
-The Two-Headed Giant variant uses the standard mulligan rule, with some modifications. First, the starting team takes any mulligans. For a team to take a mulligan, each player on that team decides whether or not to take a mulligan, then all players who chose to do so take their mulligans at the same time. The first time a player takes a mulligan, he or she draws a new hand of seven cards. After each player on that team who took a mulligan looks at his or her new hand, the team repeats the process. (Subsequent hands decrease by one card as normal.) Once a player has decided to keep a hand, those cards become his or her opening hand. That player can't take any more mulligans, but his or her teammate may. Once each player on the starting team decides to keep an opening hand, the other team may take mulligans.
+In a multiplayer game, the first time a player takes a mulligan, he or she draws a new hand of seven cards rather than six cards. Subsequent hands decrease by one card as normal.
+
+101.4b
+The Two-Headed Giant variant uses the multiplayer mulligan rule, with some modifications. First, the starting team takes any mulligans. For a team to take a mulligan, each player on that team decides whether or not to take a mulligan, then all players who chose to do so take their mulligans at the same time. The first time a player takes a mulligan, he or she draws a new hand of seven cards. After each player on that team who took a mulligan looks at his or her new hand, the team repeats the process. (Subsequent hands decrease by one card as normal.) Once a player has decided to keep a hand, those cards become his or her opening hand. That player can't take any more mulligans, but his or her teammate may. Once each player on the starting team decides to keep an opening hand, the other team may take mulligans.
 Example: Bob and Clare are the starting team in a Two-Headed Giant game. They've each draw seven cards. After reviewing each other's hands, both Bob and Clare decide to mulligan. Each shuffles his or her hand into his or her deck and draws seven cards. Clare isn't sure about Bob's new hand, but he decides to keep it. Clare decides to take another mulligan. Bob's hand becomes his opening hand, and Clare shuffles her hand into her deck and draws six cards. Then only Clare has the option to mulligan. She decides to keep her hand of six cards and that becomes her opening hand. After that, the other team decides whether to take mulligans.
 
 101.5.
-Once all players have kept their opening hands, the starting player takes his or her first turn.
+Once all players have kept their opening hands, if any cards in the starting player's hand allow that player to begin the game with those cards in play, he or she may put any or all of them into play. Then each other player, in turn order, may do the same.
 
-101.5a
+101.6.
+The starting player takes his or her first turn.
+
+101.6a
 In a two-player game, the player who plays first skips the draw step (see rule 304, "Draw Step") of his or her first turn. 
 
-101.5b
+101.6b
 In a Two-Headed Giant game, the team who plays first skips the draw step of their first turn. In all other multiplayer games, no player skips the draw step of his or her first turn. 
 
 102. Winning and Losing
@@ -296,11 +302,13 @@ If an effect would add one mana represented by a hybrid mana symbol to a player'
 The snow mana symbol {S} represents a cost that can be paid with one mana produced by a snow permanent. This is a generic mana cost that can be paid with any color of, or colorless, mana. Effects that reduce the amount of generic mana you pay don't affect {S} costs.
 
 104.4.
-The tap symbol is {T}. The tap symbol in an activation cost means "Tap this permanent." A permanent that's already tapped can't be tapped again to pay the cost. Creatures that haven't been under a player's control continuously since the beginning of his or her most recent turn can't use any ability with the tap symbol in the cost. See rule 212.3d.
+The tap symbol is {T}. The tap symbol in an activation cost means "Tap this permanent." A permanent that's already tapped can't be tapped again to pay the cost. Creatures that haven't been under a player's control continuously since the beginning of his or her most recent turn can't use any ability with the tap symbol in the cost. See rule 212.3f.
 
 104.5.
 A tombstone icon appears to the left of the name of many Odyssey(tm) block cards with abilities that are relevant in a player's graveyard. The purpose of the icon is to make those cards stand out when they're in a graveyard. This icon has no effect on game play.
 
+104.6.
+A type icon appears in the upper left corner of each card from the Future Sight(tm) set printed with an alternate "timeshifted" frame. If the card has a single card type, this icon indicates what it is: claw marks for creature, a flame for sorcery, a lightning bolt for instant, a sunrise for enchantment, a chalice for artifact, and a pair of mountain peaks for land. If the card has multiple card types, that's indicated by a black and white cross. This icon has no effect on game play.
 
 2. Parts of the Game
 
@@ -393,7 +401,7 @@ Two cards have the same name if the English versions of their names are identica
 203. Mana Cost and Color
 
 203.1.
-The mana cost of a card is indicated by mana symbols near the top of the card. On most cards, these symbols are printed in the upper right corner. Some cards from the Future Sight(tm) set have alternate frames in which the mana symbols appear to the left of the art. Paying an object's mana cost requires matching the color of any colored mana symbols as well as paying the generic mana indicated in the cost.
+The mana cost of a card is indicated by mana symbols near the top of the card. On most cards, these symbols are printed in the upper right corner. Some cards from the Future Sight set have alternate frames in which the mana symbols appear to the left of the art. Paying an object's mana cost requires matching the color of any colored mana symbols as well as paying the generic mana indicated in the cost.
 
 203.1a
 A copy of an object copies that object's mana cost. See rule 503, "Copying Objects."
@@ -694,7 +702,7 @@ Lands
 A player may play a land card from his or her hand only during a main phase of his or her turn, and only when he or she has priority and the stack is empty. A land card isn't a spell card, and at no time is it a spell. When a player plays a land card, it's simply put into play. The land card doesn't go on the stack, so players can't respond to it with instants or activated abilities.
 
 212.6b
-A player may play only one land card during each of his or her own turns. Effects may allow the playing of additional lands; playing an additional land in this way doesn't prevent a player from taking the normal action of playing a land. Players can't begin to play a land that an effect prohibits from being played. As a player plays a land, he or she announces whether he or she is using the once-per-turn action of playing a land. If not, he or she specifies which effect is allowing the additional land play. Effects may also allow you to "put" lands into play. This isn't the same as "playing a land" and doesn't count as the player's one land played during his or her turn. A player may not play a land during another player's turn, even if an effect would seem to allow the player to do so.
+A player may play only one land card during each of his or her own turns. Effects may allow the playing of additional lands; playing an additional land in this way doesn't prevent a player from taking the normal action of playing a land. Players can't begin to play a land that an effect prohibits from being played. As a player plays a land, he or she announces whether he or she is using the once-per-turn action of playing a land. If not, he or she specifies which effect is allowing the additional land play. Effects may also allow you to "put" lands into play. This isn't the same as "playing a land" and doesn't count as the player's one land played during his or her turn. A player may not play a land unless it's his or her turn, even if an effect would seem to allow the player to do so.
 
 212.6c
 Land subtypes are always a single word and are listed after a long dash. Land subtypes are also called land types. Lands may have multiple subtypes. (You can find the complete list of land subtypes under "Land Types" in the glossary at the end of this document.)
@@ -810,7 +818,7 @@ Some effects put tokens into play. A token is controlled by whomever put it into
 A spell or ability that creates a creature token sets both its name and its creature type. If the spell or ability doesn't specify the name of the creature token, its name is the same as its creature type(s). A "Goblin Scout creature token," for example, is named "Goblin Scout" and has the creature subtypes Goblin and Scout. Once a token is in play, changing its name doesn't change its creature type, and vice versa.
 
 216.2.
-A token is subject to anything that affects permanents in general or that affects the token's type or subtype. A token isn't a card (even if represented by cards from other games or Unglued(tm) cards).
+A token is subject to anything that affects permanents in general or that affects the token's type or subtype. A token isn't a card (even if represented by a card that has a Magic back or that came from a Magic booster pack).
 
 216.3.
 A token in a zone other than the in-play zone ceases to exist. This is a state-based effect. (Note that a token changing zones sets off triggered abilities before the token ceases to exist.)
@@ -889,7 +897,7 @@ If an effect or rule puts two or more cards into the same graveyard at the same 
 In Play
 
 217.5a
-Most of the area between the players represents the in-play zone. The in-play zone starts out empty. Permanents a player controls (other than Auras attached to another player's permanents) are kept in front of him or her in the in-play zone.
+Most of the area between the players represents the in-play zone. The in-play zone starts out empty. Permanents a player controls are normally kept in front of him or her in the in-play zone, though there are some cases (such as an Aura attached to another player's permanent) when a permanent one player controls is kept closer to a different player.
 
 217.5b
 A spell or ability affects and checks only the in-play zone unless it specifically mentions a player or another zone. Permanents exist only in the in-play zone.
@@ -1098,7 +1106,7 @@ Abilities that trigger on a creature attacking trigger only at the point the cre
 Example: A permanent has the ability "Whenever a green creature attacks, destroy that creature at end of combat." If a blue creature attacks and is later turned green, the ability will not trigger.
 
 308.4.
-If no creatures are declared as attackers, finish the declare attackers step, but skip the declare blockers and combat damage steps.
+If no creatures are declared as attackers, skip the declare blockers and combat damage steps.
 
 309. Declare Blockers Step
 
@@ -1160,7 +1168,7 @@ An effect that states a creature deals its combat damage in a different manner t
 Although combat-damage assignments go on the stack as an object, they aren't spells or abilities, so they can't be countered.
 
 310.4.
-Combat damage resolves as an object on the stack. When it resolves, it's all dealt at once, as originally assigned. After combat damage finishes resolving, the active player gets priority.
+Combat damage resolves as an object on the stack. When it resolves, it's all dealt at once, as originally assigned. The combat damage object is then removed from the stack and ceases to exist. After combat damage finishes resolving, the active player gets priority.
 
 310.4a
 Combat damage is dealt as it was originally assigned even if the creature dealing damage is no longer in play, its power has changed, or the creature receiving damage has left combat.
@@ -1522,7 +1530,7 @@ Because they aren't played, triggered abilities can trigger even when it isn't l
 Whenever a game event or game state matches a triggered ability's trigger event, that ability triggers. When a phase or step begins, all abilities that trigger "at the beginning of" that phase or step trigger. The ability is controlled by the player who controlled its source at the time it triggered. It has the text of the ability that created it, and no other characteristics. The ability doesn't do anything when it triggers, but it's automatically put on the stack by its controller as soon as a player would receive priority.
 
 410.2a
-If a triggered ability's trigger event is met, but the object with that triggered ability is at no time visible to all players, the ability does not trigger.
+If a triggered ability's trigger condition is met, but the object with that triggered ability is at no time visible to all players, the ability does not trigger.
 
 410.3.
 If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. (See rule 103.4.) Then players once again check for and resolve state-based effects until none are generated, then abilities that triggered during this process go on the stack. This process repeats until no new state-based effects are generated and no abilities trigger. Then the appropriate player gets priority.
@@ -1662,7 +1670,7 @@ If an ability's effect refers to a specific untargeted object that has been prev
 Example: Wall of Tears says "Whenever Wall of Tears blocks a creature, return that creature to its owner's hand at end of combat." If Wall of Tears blocks a creature, then that creature ceases to be a creature before the triggered ability resolves, the permanent will still be returned to its owner's hand.
 
 413.2i
-A spell is put into play from the stack under the control of the spell's controller (for permanents) or is put into its owner's graveyard from the stack (for instants and sorceries) as the final step of the spell's resolution.
+A spell is put into play from the stack under the control of the spell's controller (for permanents) or is put into its owner's graveyard from the stack (for instants and sorceries) as the final step of the spell's resolution. An ability is removed from the stack and ceases to exist as the final step of its resolution.
 
 413.2j
 If an effect could result in a tie, the text of the spell or ability that created the effect will specify what to do in the event of a tie. The Magic game has no default for ties.
@@ -1772,7 +1780,7 @@ Interaction of Continuous Effects
 
 418.5a
 The values of an object's characteristics are determined by starting with the actual object, then applying continuous effects in a series of layers in the following order: (1) copy effects (see rule 503, "Copying Objects"); (2) control-changing effects; (3) text-changing effects; (4) type-, subtype-, and supertype-changing effects; (5) all other continuous effects, except those that change power and/or toughness; and (6) power- and/or toughness-changing effects.
-          Inside each layer from 1 through 5, apply effects from characteristic-defining abilities first, then all other effects in timestamp order. Inside layer 6, apply effects in a series of sublayers in the following order: (6a) effects from characteristic-setting abilities; (6b) all other effects not specifically applied in 6c, 6d, or 6e; (6c) changes from counters; (6d) effects from static abilities that modify power and/or toughness but don't set power and/or toughness to a specific number or value; and (6e) effects that switch a creature's power and toughness. Within each sublayer, apply effects in timestamp order. Note that dependency may alter the order in which effects are applied within a layer or sublayer. See also the rules for timestamp order and dependency (rules 418.5b-418.5g).
+          Inside each layer from 1 through 5, apply effects from characteristic-defining abilities first, then all other effects in timestamp order. Inside layer 6, apply effects in a series of sublayers in the following order: (6a) effects from characteristic-defining abilities; (6b) all other effects not specifically applied in 6c, 6d, or 6e; (6c) changes from counters; (6d) effects from static abilities that modify power and/or toughness but don't set power and/or toughness to a specific number or value; and (6e) effects that switch a creature's power and toughness. Within each sublayer, apply effects in timestamp order. Note that dependency may alter the order in which effects are applied within a layer or sublayer. See also the rules for timestamp order and dependency (rules 418.5b-418.5g).
 Example: Crusade is an enchantment that reads "White creatures get +1/+1." Crusade and a 2/2 black creature are in play. If an effect then turns the creature white (layer 5), it gets +1/+1 from Crusade (layer 6d), becoming 3/3. If the creature's color is later changed to red (layer 5), Crusade's effect stops applying to it, and it will return to being a 2/2.
 Example: Gray Ogre, a 2/2 creature, is in play. An effect puts a +1/+1 counter on it (layer 6c), making it 3/3. An effect that says "Target creature gets +4/+4 until end of turn" is applied to it (layer 6b), making it 7/7. An enchantment that says "Creatures you control get +0/+2" enters play (layer 6d), making it a 7/9. An effect that says "Target creature becomes 0/1 until end of turn" is applied to it (layer 6b), making it a 1/4 (0/1, plus +1/+1 from the counter, plus +0/+2 from the enchantment).
 
@@ -1812,7 +1820,7 @@ Example: A 1/3 creature is given +0/+1 by an effect. Then another effect switche
 Some continuous effects affect players rather than objects. For example, an effect might give a player protection from red. All such effects are applied in timestamp order after the determination of objects' characteristics. See also the rules for timestamp order and dependency (rules 418.5b-418.5g).
 
 418.5k
-Some continuous effects affect game rules rather than objects. For example, effects may modify a player's maximum hand size. These effects are applied after all other continuous effects have been applied. Continuous effects that affect the costs of spells or abilities are applied according to the order specified in rule 419.1f. All other such effects are applied in timestamp order. See also the rules for timestamp order and dependency (rules 418.5b-g).
+Some continuous effects affect game rules rather than objects. For example, effects may modify a player's maximum hand size. These effects are applied after all other continuous effects have been applied. Continuous effects that affect the costs of spells or abilities are applied according to the order specified in rule 409.1f. All other such effects are applied in timestamp order. See also the rules for timestamp order and dependency (rules 418.5b-g).
 
 418.6.
 Text-Changing Effects
@@ -1824,7 +1832,7 @@ An effect that changes the text of an object changes only those words that are u
 Effects that add or remove abilities don't change the text of the objects they affect, so any abilities that are granted to an object can't be changed by effects that change the text of that object.
 
 418.6c
-Spells and abilities that create creature tokens use creature types to define both the creature types and the names of the tokens. These words can be changed, because they are being used as creature types, even though they're also being used as names.
+Most spells and abilities that create creature tokens use creature types to define both the creature types and the names of the tokens. These words can be changed, because they are being used as creature types, even though they're also being used as names.
 
 418.6d
 A creature token's creature type and rules text are defined by the spell or ability that created the token. These characteristics can be changed by text-changing effects.
@@ -1897,7 +1905,7 @@ Some replacement effects say "instead choose one -." Such effects are called mod
 Some effects replace card draws. These effects are applied even if no cards could be drawn because there are no cards in the affected player's library. If an effect replaces a draw within a sequence of card draws, all actions required by the replacement are completed, if possible, before resuming the sequence. If an effect would have a player both draw a card and perform an additional action on that card, and the draw is replaced, the additional action is not performed on any cards that are drawn as a result of that replacement effect.
 
 419.6i
-Some replacement effects modify how a permanent would be put into play. (See rules 419.1b-c.) Such effects check only the copiable characteristics of that permanent as it would exist in play. Continuous effects that affected its characteristics in its previous zone or that will affect its characteristics once it's in play are not taken into account. Replacement effects that have already modified how it would be put into play are taken into account, however. (See rule 503.5.) If, once the permanent is in play, it would have a static ability whose effect would modify how permanents are put into play, it does not affect itself or other permanents coming into play at the same time.
+Some replacement effects modify how a permanent would be put into play. (See rules 419.1b-c.) Such effects check only the copiable values of the characteristics of that permanent as it would exist in play. Continuous effects that affected its characteristics in its previous zone or that will affect its characteristics once it's in play are not taken into account. Replacement effects that have already modified how it would be put into play are taken into account, however. (See rule 503.5.) Some permanents have static abilities that modify how a general subset of permanents would be put into play; such an ability doesn't affect the permanent itself or any permanents coming into play at the same time as it.
 Example: Voice of All says "As Voice of All comes into play, choose a color" and "Voice of All has protection from the chosen color." An effect creates a token that's a copy of Voice of All. As that token is put into play, its controller chooses a color for it.
 Example: Yixlid Jailer says "Cards in graveyards have no abilities." Scarwood Treefolk says "Scarwood Treefolk is put into play tapped." A Scarwood Treefolk that's put into play from a graveyard is put into play tapped.
 Example: Orb of Dreams is an artifact that says "Permanents come into play tapped." It will not affect itself, so Orb of Dreams is put into play untapped.
@@ -2071,7 +2079,7 @@ A player can't pay a cost unless he or she has the necessary resources to pay it
 Unpayable costs can't be paid. (See rule 203.1b.)
 
 424.4.
-What a player actually needs to do to pay a cost may be changed or reduced by effects. If the mana component of a cost is reduced to nothing by cost reduction effects, it is considered to be {0}. Paying a cost altered by an effect counts as paying the original cost.
+What a player actually needs to do to pay a cost may be changed or reduced by effects. If the mana component of a cost is reduced to nothing by cost reduction effects, it is considered to be {0}. Paying a cost changed or reduced by an effect counts as paying the original cost.
 Example: You play a spell with mana cost {W} that has kicker {1}. You choose to pay the kicker, but a cost reduction effect means you spend only {W} when paying for the spell. The spell's "if the kicker cost was paid" effect will be applied.
 
 424.5.
@@ -2217,7 +2225,7 @@ Haste
 Haste is a static ability.
 
 502.5b
-A creature with haste can attack or use activated abilities whose cost includes the tap symbol even if it hasn't been controlled by its controller continuously since the beginning of his or her most recent turn. (See rule 212.3d.)
+A creature with haste can attack or use activated abilities whose cost includes the tap symbol even if it hasn't been controlled by its controller continuously since the beginning of his or her most recent turn. (See rule 212.3f.)
 
 502.5c
 Multiple instances of haste on the same creature are redundant.
@@ -2338,10 +2346,10 @@ Bands with Other
 Bands with other is a special form of banding. If an effect causes a permanent to lose banding, the permanent loses all bands with other abilities as well.
 
 502.11b
-An attacking creature with "bands with other [creature type]" can form an attacking band with other creatures that have the same "bands with other [creature type]" ability. Creatures with banding can also join this band, but creatures without banding can't. The creatures in this band don't have to have the creature type specified in the "bands with other [creature type]" ability. Blocking this band follows the same general rules as for banding.
+An attacking creature with "bands with other [quality]" can form an attacking band with other creatures that have the same "bands with other [quality]" ability. Creatures with banding can also join this band, but creatures without banding can't. The creatures in this band don't have to have the creature type specified in the "bands with other [quality]" ability. Blocking this band follows the same general rules as for banding.
 
 502.11c
-If an attacking creature is blocked by at least two creatures with the same "bands with other [creature type]" ability, the defending player chooses how the attacking creature's damage is assigned. Similarly, if a blocking creature blocks at least two attacking creatures with the same "bands with other [creature type]" ability, the attacking player chooses how the blocking creature's damage is assigned.
+If an attacking creature is blocked by at least two creatures with the same "bands with other [quality]" ability, the defending player chooses how the attacking creature's damage is assigned. Similarly, if a blocking creature blocks at least two attacking creatures with the same "bands with other [quality]" ability, the attacking player chooses how the blocking creature's damage is assigned.
 
 502.11d
 Multiple instances of bands with other of the same type on the same creature are redundant.
@@ -3058,7 +3066,7 @@ Some copy effects give an ability to the copy as part of the copying process. Th
 Example: Quirion Elves comes into play and an Unstable Shapeshifter copies it. The copiable values of the Shapeshifter now match those of the Elves, except that the Shapeshifter also has the ability "Whenever a creature comes into play, Unstable Shapeshifter becomes a copy of that creature and gains this ability." Then a Clone comes into play as a copy of the Unstable Shapeshifter. The Clone copies the new copiable values of the Shapeshifter, including the ability that the Shapeshifter gave itself when it copied the Elves.
 
 503.10.
-To copy a spell means to put a copy of the spell onto the stack; a copy of a spell isn't "played." In addition to copying the characteristics of the spell, all decisions made when the spell was played are copied. These include mode, targets, the value of X, and optional additional costs such as buyback. (See rule 409, "Playing Spells and Activated Abilities.") Choices that are normally made on resolution are not copied. If an effect of the copy refers to objects used to pay its costs, it uses the objects used to pay the costs of the original spell. A copy of a spell is controlled by the player who put it on the stack. A copy of a spell is itself a spell, but it has no spell card associated with it. It works just like a normal spell: it can be countered or it can resolve, and it uses the same timing rules as normal spells.
+To copy a spell means to put a copy of the spell onto the stack; a copy of a spell isn't "played." In addition to copying the characteristics of the spell, all decisions made when the spell was played are copied. These include mode, targets, the value of X, and optional additional costs such as buyback. (See rule 409, "Playing Spells and Activated Abilities.") Choices that are normally made on resolution are not copied. If an effect of the copy refers to objects used to pay its costs, it uses the objects used to pay the costs of the original spell. A copy of a spell is owned by the player who controlled the spell or ability that created it. A copy of a spell is controlled by the player who put it on the stack. A copy of a spell is itself a spell, but it has no spell card associated with it. It works just like a normal spell: it can be countered or it can resolve, and it uses the same timing rules as normal spells.
 Example: A player plays Fork, targeting an Emerald Charm. Fork reads, "Put a copy of target instant or sorcery spell onto the stack, except that it copies Fork's color and you may choose new targets for the copy." Emerald Charm reads, "Choose one - Untap target permanent; or destroy target non-Aura enchantment; or target creature loses flying until end of turn." When the Fork resolves, it puts a copy of the Emerald Charm on the stack. The copy has the same mode that was chosen for the original Emerald Charm. It does not necessarily have the same target, but only because Fork allows choosing of new targets.
 Example: Fling is an instant that reads, "As an additional cost to play Fling, sacrifice a creature." and "Fling deals damage equal to the sacrificed creature's power to target creature or player." When determining how much damage a copy of Fling deals, it checks the power of the creature sacrificed to pay for the original Fling.
 
@@ -3131,32 +3139,32 @@ If an effect instructs a player to name a card and the player wants to name a sp
 506. Subgames
 
 506.1.
-Some cards allow players to play a Magic subgame. A "subgame" is the game created by the card's effect. The "main game" is the game in which the spell or ability that created the subgame was played. The main game is temporarily discontinued while the subgame is in progress. It resumes when the subgame ends.
+Some cards allow players to play a Magic subgame.
+
+506.1a
+A "subgame" is a completely separate Magic game created by a card's effect. The "main game" is the game in which the spell or ability that created the subgame was played. The main game is temporarily discontinued while the subgame is in progress. It resumes when the subgame ends.
+
+506.1b
+No effects or definitions created in either the main game or the subgame have any meaning in the other, except as defined by the effect that created the subgame. For example, the effect may say that something happens in the main game to the winner or loser of the subgame.
 
 506.2.
-Any main-game abilities that trigger while the subgame is in progress aren't put onto the stack until the subgame is completed.
+As the subgame starts, an entirely new set of game zones is created. Each player takes all the cards in his or her main-game library, moves them to his or her subgame library, and shuffles them. No other cards in a main-game zone are moved to their corresponding subgame zone. Randomly determine which player goes first. The subgame proceeds like a normal game, following all other rules in section 101, "Starting the Game."
 
 506.3.
-To start the subgame, each player removes his or her library from the game face down. It becomes that player's deck in the subgame. Abilities that trigger on cards being removed from the main game face down will trigger.
-
-506.3a
-A player's deck in the subgame may have less than the minimum number of cards. If a player's deck contains less than seven cards, the player will lose the game as soon as it starts, even if he or she mulligans. (See rule 420, "State-Based Effects.")
+Any rules regarding the size of a player's deck are ignored for the subgame. However, because each player draws seven cards when a game begins, any player with fewer than seven cards in his or her deck will lose the subgame when state-based effects are checked during the upkeep step of the first turn, regardless of any mulligans that player takes. (See rule 420, "State-Based Effects.")
 
 506.4.
-The subgame proceeds like a normal game. Randomly determine which player goes first.
-
-506.5.
 All objects in the main game and all cards outside the main game are considered outside the subgame (except those specifically brought into the subgame). All players not currently in the subgame are considered outside the subgame.
 
-506.5a
-Some effects can bring cards into a game from outside of it. Cards brought into a subgame from a main game are considered to be removed from the main game. Abilities in the main game that trigger on objects being removed from the main game will trigger.
+506.4a
+Some effects can bring cards into a game from outside of it. If a card is brought into a subgame from a main game, abilities in the main game that trigger on objects leaving a main-game zone will trigger, but they won't be put onto the stack until the main game resumes.
 
-506.6.
-At the end of a subgame, each player puts all objects he or she owns that were brought into the subgame into his or her library in the main game, then shuffles that library. Cards removed from the game in the subgame are not put into the player's main-game library. Instead they remain removed from the game in the main game.
+506.5.
+At the end of a subgame, each player puts all cards he or she owns that are in the subgame into his or her library in the main game, then shuffles them. This includes cards in the subgame's removed-from-the-game zone. (This is a change from previous rules.) All other objects in the subgame cease to exist, as do the zones created for the subgame. The main game continues from the point at which it was discontinued: First, the spell or ability that created the subgame finishes resolving, even if it was created by a spell card that's no longer on the stack. Then, if any main-game abilities triggered while the subgame was in progress due to cards being removed from the main game, those abilities are put onto the stack.
 Example: If a card was brought into the subgame either from the main game or from outside the main game, that card will be put into its owner's main-game library when the subgame ends.
 
-506.7.
-If another subgame is created during a subgame, there can be multiple subgames and main games. Each main game has one subgame, and each subgame has one main game. In this case, some games will be considered both a main game and a subgame at the same time.
+506.6.
+A subgame can be created within a subgame. The existing subgame becomes the main game in relation to the new subgame.
 
 507. Controlling Another Player's Turn
 
@@ -3309,6 +3317,8 @@ If an object requires a player who has left the game to make a choice, the contr
 
 600.4e
 If a player leaves the game during his or her turn, that turn continues to its completion without an active player. If the active player would receive priority, instead the next player in turn order receives priority, or the top object on the stack resolves, or the phase or step ends, whichever is appropriate.
+
+600.5 In a multiplayer game, the first time a player takes a mulligan, he or she draws a new hand of seven cards rather than six cards. Subsequent hands decrease by one card as normal. The Two-Headed Giant variant employs more extensive changes to the mulligan rule; see rule 606.6a.
 
 601. Limited Range of Influence Option
 
@@ -3530,7 +3540,7 @@ The Two-Headed Giant variant uses different combat rules than other multiplayer 
 
 606.7a
 Each team's creatures attack the other team as a group. During the combat phase, the active team is the attacking team and each player on the active team is an attacking player. Likewise, the nonactive team is the defending team and each player on the nonactive team is a defending player.
-          Any one-shot effect or characteristic-defining ability that refers to the "defending player" refers to one specific defending player, not to both of the defending players. The controller of the effect or of the object with the characteristic-setting ability chooses which one the spell or ability refers to. The same is true for any one-shot effect that refers to the "attacking player."
+          Any one-shot effect or characteristic-defining ability that refers to the "defending player" refers to one specific defending player, not to both of the defending players. The controller of the effect or of the object with the characteristic-defining ability chooses which one the spell or ability refers to. The same is true for any one-shot effect that refers to the "attacking player."
           All other cases in which the "defending player" is referred to actually refer to both defending players. If the reference involves a positive comparison (such as asking whether the defending player controls an Island) or a relative comparison (such as asking whether you control more creatures than the defending player), it gets only one answer. This answer is "yes" if either defending player in the comparison would return a "yes" answer if compared individually. If the reference involves a negative comparison (such as asking whether the defending player controls no black permanents), it also gets only one answer. This answer is "yes" if performing the analogous positive comparison would return a "no" answer. The same is true for all other cases that refer to the "attacking player."
 
 606.7b. As the declare attackers step begins, the active team declares attackers. If an effect of an object controlled by a defending player prohibits a creature from attacking him or her, that creature can't attack the defending team. The active team has one combined attack, and that set of attacking creatures must be legal as a whole.
@@ -3549,7 +3559,8 @@ The Two-Headed Giant variant uses the normal rules for winning or losing the gam
 606.8a
 If a team's life total is 0 or less, the team loses the game the next time a team would receive priority. (This is a state-based effect. See rule 420.)
 
-606. 8b Players win and lose the game only as a team, not as individuals. If either player on a team loses the game, the team loses the game. If either player on a team wins the game, the entire team wins the game. If an effect would prevent a player from winning the game, that player's team can't win the game. If an effect would prevent a player from losing the game, that player's team can't lose the game.
+606.8b
+Players win and lose the game only as a team, not as individuals. If either player on a team loses the game, the team loses the game. If either player on a team wins the game, the entire team wins the game. If an effect would prevent a player from winning the game, that player's team can't win the game. If an effect would prevent a player from losing the game, that player's team can't lose the game.
 Example: In a Two-Headed Giant game, a player controls Transcendence, which reads, in part, "You don't lose the game for having 0 or less life." If that player's team's life total is 0 or less, that team doesn't lose the game.
 Example: In a Two-Headed Giant game, a player attempts to draw a card while there are no cards in that player's library. That player loses the game, so that player's entire team loses the game.
 Example: In a Two-Headed Giant game, a player controls Platinum Angel, which reads, "You can't lose the game and your opponents can't win the game." Neither that player nor his or her teammate can lose the game while Platinum Angel is in play, and neither player on the opposing team can win the game.
@@ -3742,7 +3753,7 @@ An artifact land is a combination of artifact and land, and it's subject to the 
 
 Artifact Type
 Artifact subtypes are always a single word and are listed after a long dash: "Artifact - Equipment." Artifact subtypes are also called artifact types.
-     The list of artifact types, updated through the Future Sight set, is as follows: Contraption, Equipment, Fortification.
+     The list of artifact types, updated through the Tenth Edition set, is as follows: Contraption, Equipment, Fortification.
 
 "As though"
 Text that states a player may do something "as though" some condition were true or a creature can do something "as though" some condition were true applies only to the stated action. For purposes of that action, treat the game exactly as if the stated condition were true. For all other purposes, treat the game normally.
@@ -3935,8 +3946,8 @@ Creature is a type. The active player may play creatures during his or her main 
 
 Creature Type
 Creatures and tribals share the same set of subtypes. These subtypes are always a single word and are listed after a long dash: "Creature - Human Soldier," "Artifact Creature - Golem," and so on. These subtypes are also called creature types.
-     The list of creature types, updated through the Future Sight set, is as follows:
-     Abomination, Advisor, Aladdin, Albatross, Alchemist, Ali-Baba, Ali-from-Cairo, Alligator, Ambush-Party, Angel, Ant, Antelope, Ape, Archaeologist, Archer, Archon, Artificer, Asp, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Avenger, Badger, Ball-Lightning, Bandit, Banshee, Barbarian, Basilisk, Bat, Bear, Beast, Bee, Beeble, Being, Berserker, Bird, Blinkmoth, Boar, Bodyguard, Bringer, Brother, Brownie, Brushwagg, Bull, Bureaucrat, Camarid, Camel, Caravan, Caribou, Carnivore, Carriage, Carrier, Cat, Cave-People, Centaur, Cephalid, Cheetah, Chicken, Child, Chimera, Citizen, Clamfolk, Cleric, Cobra, Cockatrice, Constable, Construct, Cow, Coward, Crab, Crocodile, Crusader, Cyclops, Dauthi, Demon, Deserter, Designer, Devil, Devouring-Deep, Dinosaur, Djinn, Dog, Donkey, Doppelganger, Dragon, Dragonfly, Drake, Dreadnought, Drill-Sergeant, Drone, Druid, Dryad, Dwarf, Eater, Eel, Effigy, Efreet, Egg, Elder, Elemental, Elephant, Elf, El-Hajjj, Enchantress, Entity, Erne, Essence, Exorcist, Expansion-Symbol, Eye, Faerie, Fallen, Farmer, Ferret, Fiend, Fish, Flagbearer, Fox, Frog, Frostbeast, Fungus, Fungusaur, Gaea's-Avenger, Gamer, Gargoyle, General, Ghost, Ghoul, Giant, Gnome, Goat, Goblin, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guardian, Gus, Gypsy, Hag, Harlequin, Hellion, Heretic, Hero, Hipparion, Hippo, Homarid, Hornet, Horror, Horse, Horseman, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Infernal-Denizen, Inquisitor, Insect, Island-Fish, Jackal, Jellyfish, Juggernaut, Kavu, Keeper, Kelp, King, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lady-of-Proper-Etiquette, Lammasu, Leech, Legionnaire, Lemure, Leper, Leviathan, Lhurgoyf, Licid, Lizard, Lord, Lurker, Lycanthrope, Mage, Maiden, Mammoth, Manticore, Marid, Martyr, Master, Medusa, Mercenary, Merchant, Merfolk, Mime, Minion, Minor, Minotaur, Miracle-Worker, Mist, Mob, Mold-Demon, Monger, Mongoose, Monk, Monster, Moonfolk, Mummy, Murk-Dwellers, Mutant, Myr, Mystic, Nameless-Race, Narwhal, Nephilim, Niall-Silvain, Nightmare, Nightstalker, Ninja, Noble, Nomad, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Paladin, Paratrooper, Pegasus, Penguin, Pentavite, People-of-the-Woods, Pest, Phantasm, Phelddagrif, Phoenix, Pig, Pikemen, Pincher, Pirate, Pixie-Queen, Plant, Poison-Snake, Poltergeist, Pony, Preacher, Priest, Prism, Pyknite, Rabbit, Raider, Ranger, Rat, Rebel, Reflection, Rhino, Rigger, Robber, Roc, Rock-Sled, Rogue, Sage, Salamander, Samurai, Sand, Saproling, Satyr, Scavenger, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Shark, Sheep, Ship, Shyft, Singing-Tree, Sister, Skeleton, Slith, Sliver, Slug, Smith, Snake, Soldier, Soltari, Sorceress, Spawn, Speaker, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Spuzzem, Spy, Squirrel, Stangg-Twin, Starfish, Strider, Survivor, Swarm, Tactician, Tarpan, Teddy, Tetravite, Thief, The-Biggest-Baddest-Nastiest-Scariest-Creature-You'll-Ever-See, Thopter, Thrull, Tiger, Titan, Toad, Tortoise, Townsfolk, Tracker, Treefolk, Triskelavite, Troll, Turtle, Twin, Unicorn, Vampire, Vedalken, Viashino, Villain, Viper, Volver, Vulture, Waiter, Walking-Dead, Wall, War-Rider, Warrior, Wasp, Weird, Whale, Whippoorwill, Wight, Wiitigo, Wirefly, Witch, Wizard, Wolf, Wolverine, Wolverine-Pack, Wolves-of-the-Hunt, Wombat, Worm, Wraith, Wretched, Wurm, Yeti, Zombie, Zubera
+     The list of creature types, updated through the Tenth Edition set, is as follows:
+     Abomination, Advisor, Aladdin, Albatross, Alchemist, Ali-Baba, Ali-from-Cairo, Alligator, Ambush-Party, Angel, Ant, Antelope, Ape, Archaeologist, Archer, Archon, Artificer, Asp, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Avenger, Badger, Ball-Lightning, Bandit, Banshee, Barbarian, Basilisk, Bat, Bear, Beast, Bee, Beeble, Being, Berserker, Bird, Blinkmoth, Boar, Bodyguard, Bringer, Brother, Brownie, Brushwagg, Bull, Bureaucrat, Camarid, Camel, Caravan, Caribou, Carnivore, Carriage, Carrier, Cat, Cave-People, Centaur, Cephalid, Cheetah, Chicken, Child, Chimera, Citizen, Clamfolk, Cleric, Cobra, Cockatrice, Constable, Construct, Cow, Coward, Crab, Crocodile, Crusader, Cyclops, Dauthi, Demon, Deserter, Designer, Devil, Devouring-Deep, Dinosaur, Djinn, Dog, Donkey, Doppelganger, Dragon, Dragonfly, Drake, Dreadnought, Drill-Sergeant, Drone, Druid, Dryad, Dwarf, Eater, Eel, Effigy, Efreet, Egg, Elder, Elemental, Elephant, Elf, El-Hajjj, Enchantress, Entity, Erne, Essence, Exorcist, Expansion-Symbol, Eye, Faerie, Fallen, Farmer, Ferret, Fiend, Fish, Flagbearer, Fox, Frog, Frostbeast, Fungus, Fungusaur, Gaea's-Avenger, Gamer, Gargoyle, General, Ghost, Ghoul, Giant, Gnome, Goat, Goblin, Golem, Gorgon, Graveborn, Gremlin, Griffin, Guardian, Gus, Gypsy, Hag, Harlequin, Hellion, Heretic, Hero, Hipparion, Hippo, Homarid, Homunculus, Hornet, Horror, Horse, Horseman, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Infernal-Denizen, Inquisitor, Insect, Island-Fish, Jackal, Jellyfish, Juggernaut, Kavu, Keeper, Kelp, King, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lady-of-Proper-Etiquette, Lammasu, Leech, Legionnaire, Lemure, Leper, Leviathan, Lhurgoyf, Licid, Lizard, Lord, Lurker, Lycanthrope, Mage, Maiden, Mammoth, Manticore, Marid, Master, Masticore, Medusa, Mercenary, Merchant, Merfolk, Metathran, Mime, Minion, Minor, Minotaur, Miracle-Worker, Mist, Mob, Mold-Demon, Monger, Mongoose, Monk, Monster, Moonfolk, Mummy, Murk-Dwellers, Mutant, Myr, Mystic, Nameless-Race, Narwhal, Nephilim, Niall-Silvain, Nightmare, Nightstalker, Ninja, Noble, Nomad, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Paladin, Paratrooper, Pegasus, Penguin, Pentavite, People-of-the-Woods, Pest, Phantasm, Phelddagrif, Phoenix, Pig, Pikemen, Pincher, Pirate, Pixie-Queen, Plant, Poison-Snake, Poltergeist, Pony, Preacher, Priest, Prism, Pyknite, Rabbit, Raider, Ranger, Rat, Rebel, Reflection, Rhino, Rigger, Robber, Roc, Rock-Sled, Rogue, Sage, Salamander, Samurai, Sand, Saproling, Satyr, Scavenger, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Shark, Sheep, Ship, Shyft, Singing-Tree, Sister, Skeleton, Slith, Sliver, Slug, Smith, Snake, Soldier, Soltari, Sorceress, Spawn, Speaker, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Spuzzem, Spy, Squirrel, Stangg-Twin, Starfish, Strider, Survivor, Swarm, Tactician, Tarpan, Teddy, Tetravite, Thief, The-Biggest-Baddest-Nastiest-Scariest-Creature-You'll-Ever-See, Thopter, Thrull, Tiger, Titan, Toad, Tortoise, Townsfolk, Tracker, Treefolk, Triskelavite, Troll, Turtle, Twin, Unicorn, Vampire, Vedalken, Viashino, Villain, Viper, Volver, Vulture, Waiter, Walking-Dead, Wall, War-Rider, Warrior, Weird, Whale, Whippoorwill, Wight, Wiitigo, Wirefly, Witch, Wizard, Wolf, Wolverine, Wolverine-Pack, Wolves-of-the-Hunt, Wombat, Worm, Wraith, Wretched, Wurm, Yeti, Zombie, Zubera
 
 Cumulative Upkeep
 Cumulative upkeep is a triggered ability that imposes an increasing cost on a permanent. "Cumulative upkeep [cost]" means "At the beginning of your upkeep, put an age counter on this permanent, then sacrifice this permanent unless you pay [cost] for each age counter on it." If [cost] has choices associated with it, each choice is made separately for each age counter, then either the entire set of costs is paid, or none of them are paid. Partial payments aren't allowed. Note that if a permanent has more than one instance of cumulative upkeep, each creates a separate triggered ability at the beginning of upkeep that counts all the age counters on the permanent from all abilities. See rule 502.13, "Cumulative Upkeep."
@@ -4040,7 +4051,7 @@ Enchantment is a type. The active player may play enchantments during his or her
 
 Enchantment Type
 Enchantment subtypes are always a single word and are listed after a long dash: "Enchantment - Shrine." Enchantment subtypes are also called enchantment types.
-     The list of enchantment types, updated through the Future Sight set, is as follows: Aura, Shrine.
+     The list of enchantment types, updated through the Tenth Edition set, is as follows: Aura, Shrine.
 
 End of Combat Step
 The end of combat step is the fifth step of the combat phase. A player may play spells and abilities during this step whenever he or she has priority. See rule 311, "End of Combat Step."
@@ -4151,7 +4162,7 @@ Forest
 "Forest" is one of the five basic land types. Any land with the land type Forest has the ability "{T}: Add {G} to your mana pool." See rule 212.6d.
 
 Forestcycling
-See Landcycling.
+See Typecycling.
 
 Forestwalk
 See Landwalk.
@@ -4261,7 +4272,7 @@ Island
 "Island" is one of the five basic land types. Any land with the land type Island has the ability "{T}: Add {U} to your mana pool." See rule 212.6d.
 
 Islandcycling
-See Landcycling.
+See Typecycling.
 
 Islandhome (Obsolete)
 Some older cards were printed with the term islandhome, which means "This creature can't attack unless the defending player controls an Island" and "When you control no Islands, sacrifice this creature." Cards that previously had islandhome now simply have the two parts of islandhome written out without using the keyword.
@@ -4285,7 +4296,7 @@ Land is a type. Lands aren't spells and don't go on the stack; they are simply p
 
 Land Type
 Land subtypes are always a single word and are listed after a long dash: "Land - Locus, Land - Urza's Mine," etc. Land subtypes are also called land types. Note that "basic," "legendary," and "nonbasic" aren't land types. See rule 212.6, "Lands." See also Basic Land Type.
-     The list of land types, updated through the Future Sight set, is as follows:
+     The list of land types, updated through the Tenth Edition set, is as follows:
      Desert, Forest, Island, Lair, Locus, Mine, Mountain, Plains, Power-Plant, Swamp, Tower, Urza's
 
 Landwalk
@@ -4405,7 +4416,7 @@ Mountain
 "Mountain" is one of the five basic land types. Any land with the land type Mountain has the ability "{T}: Add {R} to your mana pool." See rule 212.6d.
 
 Mountaincycling
-See Landcycling.
+See Typecycling.
 
 Mountainwalk
 See Landwalk.
@@ -4416,7 +4427,7 @@ To move a counter means to take it from where it currently is and put it onto an
 
 Mulligan
 A player can "mulligan" by shuffling his or her hand back into his or her library and drawing a new hand with one fewer card before taking the first turn. Any player dissatisfied with his or her starting hand may mulligan as often as he or she wishes, drawing one fewer card each time. See rule 101.4.
-     The Two-Headed Giant variant uses a modified mulligan rule; see rule 606.6a.
+     In a multiplayer game, the first time a player takes a mulligan, he or she draws a new hand of seven cards rather than six cards. Subsequent hands decrease by one card as normal. The Two-Headed Giant variant employs more extensive changes to the mulligan rule; see rule 606.6a.
 
 Multicolored
 A multicolored card has two or more colors. Most multicolored cards are printed with gold frames to reinforce this. See rule 203.2.
@@ -4467,7 +4478,7 @@ Outside the Game
 An object is "outside the game" if it's in the removed-from-the-game zone, or if it isn't in any of the game's zones. All other objects are inside the game. "Outside the game" is not a zone. See rule 217.1e.
 
 Owner
-The owner of a card is the player who started the game with that card in his or her deck or, for cards that didn't start the game in a player's deck, the player who brought the card into the game. (Legal ownership is irrelevant to the game rules, except for the rules for ante.) The owner of a token is the controller of the effect that created it. See rule 200.1a.
+The owner of a card is the player who started the game with that card in his or her deck or, for cards that didn't start the game in a player's deck, the player who brought the card into the game. (Legal ownership is irrelevant to the game rules, except for the rules for ante.) See rule 200.1a. The owner of a token, or of a copy of a spell, is the controller of the effect that created it. 
      An effect can change a permanent's controller but never its owner. (A few cards have the text "Remove [this card] from your deck before playing if you're not playing for ante." These are the only cards that can change a card's owner. See rule 217.9, "Ante.")
      A card is always put into its owner's library, hand, or graveyard, regardless of who controlled the card in its previous zone. See rule 217.1a.
 
@@ -4506,7 +4517,7 @@ Plains
 "Plains" is one of the five basic land types. Any land with the land type Plains has the ability "{T}: Add {W} to your mana pool." See rule 212.6d.
 
 Plainscycling
-See Landcycling.
+See Typecycling.
 
 Plainswalk
 See Landwalk.
@@ -4667,6 +4678,9 @@ To skip an event, step, phase, or turn is to proceed past it as though it didn't
      Once a step, phase, or turn has started, it can no longer be skipped-any skip effects will wait until the next occurrence.
      Anything scheduled for a skipped step, phase, or turn won't happen. Anything scheduled for the "next" occurrence of something waits for the first occurrence that isn't skipped. If two effects each cause a player to skip his or her next occurrence, that player must skip the next two; one effect will be satisfied in skipping the first occurrence, while the other will remain until another occurrence can be skipped. See rule 419.6f.
 
+Slivercycling
+See Typecycling.
+
 Snow
 Snow is a supertype. When a card refers to a "snow permanent," it means a permanent with the snow supertype. When a card refers to a "snow Forest," it means a Forest with the snow supertype, and so on. Some older cards were printed with the term "snow-covered" in their rules text. Except for card names, all instances of "snow-covered" are now "snow." See rule 205.4e.
 
@@ -4699,7 +4713,7 @@ A nonland card becomes a spell when it's put on the stack and remains a spell un
 
 Spell Type
 Instants and sorceries share the same set of subtypes. These subtypes are always a single word and are listed after a long dash: "Instant - Arcane." These subtypes are also called spell types.
-     The list of spell types, updated through the Future Sight set, is as follows: Arcane.
+     The list of spell types, updated through the Tenth Edition set, is as follows: Arcane.
 
 Splice
 Splice is a static ability that functions while a card is in your hand. "Splice onto [type or subtype] [cost]" means "You may reveal this card from your hand as you play a [type or subtype] spell. If you do, copy this card's text box onto that spell and pay [cost] as an additional cost to play that spell." Paying a card's splice cost follows the rules for paying additional costs in rules 409.1b and 409.1f-h.
@@ -4761,7 +4775,7 @@ Summon (Obsolete)
 Older creature cards were printed with the type "Summon [creature type]." All "Summon [creature type]" cards should be read as "Creature - [creature type]."
 
 Summoning Sickness (Informal)
-The term "summoning sickness" is an informal term which describes a creature's inability to attack or to use activated abilities that include the tap symbol when it has come under a player's control since the beginning of that player's most recent turn. See rule 212.3d. See also Haste.
+The term "summoning sickness" is an informal term which describes a creature's inability to attack or to use activated abilities that include the tap symbol when it has come under a player's control since the beginning of that player's most recent turn. See rule 212.3f. See also Haste.
 
 Sunburst
 Sunburst is a static ability that functions as an object is coming into play from the stack. "Sunburst" means "If this object is coming into play from the stack as a creature, it comes into play with a +1/+1 counter on it for each color of mana used to pay its cost. If this object is coming into play from the stack and isn't coming into play as a creature, it comes into play with a charge counter on it for each color of mana used to pay its cost." See rule 502.37, "Sunburst."
@@ -4769,7 +4783,7 @@ Sunburst is a static ability that functions as an object is coming into play fro
 Supertype
 A card can have one or more "supertypes." These are printed directly before the card's types. If an object's types or subtypes change, any supertypes it has are kept, although they may not be relevant to the new type. See rule 205.4, "Supertypes."
      An object's supertype is independent of its type and subtype. Changing an object's type or subtype won't change its supertype. Changing an object's supertype won't change its type or subtype. When an object gains or loses a supertype, it retains any other supertypes it had. See rule 212. "Type, Supertype, and Subtype."
-     The list of supertypes, updated through the Future Sight set, is as follows: basic, legendary, snow, and world.
+     The list of supertypes, updated through the Tenth Edition set, is as follows: basic, legendary, snow, and world.
 
 Suspend
 Suspend is a keyword that represents three abilities. The first is a static ability that functions while the card with suspend is in a player's hand. The second and third are triggered abilities that function in the removed-from-the-game zone. "Suspend N-[cost]" means "If you could play this card from your hand, you may pay [cost] and remove it from the game with N time counters on it. This action doesn't use the stack," and "At the beginning of your upkeep, if this card is suspended, remove a time counter from it," and "When the last time counter is removed from this card, if it's removed from the game, play it without paying its mana cost if able. If you can't, it remains removed from the game. If you play a creature spell this way, it gains haste until you lose control of the spell or the permanent it becomes." Playing a spell as an effect of its suspend ability follows the rules for paying alternative costs in rules 409.1b and 409.1f-h. See rule 502.59, "Suspend."
@@ -4781,7 +4795,7 @@ Swamp
 "Swamp" is one of the five basic land types. Any land with the land type Swamp has the ability "{T}: Add {B} to your mana pool." See rule 212.6d.
 
 Swampcycling
-See Landcycling.
+See Typecycling.
 
 Swampwalk
 See Landwalk.
@@ -4930,6 +4944,9 @@ Wall is a creature type with no particular rules meaning. Many older cards with 
 Win the Game
 A game immediately ends when a player wins. See rule 102, "Winning and Losing."
 
+Wizardcycling
+See Typecycling.
+
 World
 World is a supertype that normally applies to enchantments.
      If two or more permanents have the supertype world, all except the one that has been a permanent with the world supertype for the shortest amount of time are put into their owners' graveyards. In the event of a tie for the shortest amount of time, all are put into their owners' graveyards. This "world rule" is a state-based effect. See rule 420.5.
@@ -4978,7 +4995,7 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are current as of May 1, 2007.
+These rules are current as of July 13, 2007.
 
 Published by Wizards of the Coast, Inc., P.O. Box 707, Renton WA 98057-0707, U.S.A. Wizards of the Coast, Magic: The Gathering, Magic, Magic Online, DCI, Oracle, Ice Age, Vanguard, Exodus, Unglued, Portal Three Kingdoms, Odyssey, Judgment, Ravnica, Time Spiral, and Future Sight are trademarks of Wizards of the Coast, Inc. in the U.S.A. and other countries. (c)1993-2007 Wizards. U.S. Pat. No. RE 37,957.
 

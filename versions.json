@@ -103,5 +103,10 @@
     "setCode": "FUT",
     "setName": "Future Sight",
     "creationDay": "2007-05-01"
+  },
+  {
+    "setCode": "10E",
+    "setName": "Tenth Edition",
+    "creationDay": "2007-07-13"
   }
 ]
