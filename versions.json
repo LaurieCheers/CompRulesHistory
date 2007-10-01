@@ -113,5 +113,10 @@
     "setCode": "ME1",
     "setName": "Masters Edition",
     "creationDay": "2007-09-07"
+  },
+  {
+    "setCode": "LRW",
+    "setName": "Lorwyn",
+    "creationDay": "2007-10-01"
   }
 ]
