@@ -123,5 +123,10 @@
     "setCode": "MOR",
     "setName": "Morningtide",
     "creationDay": "2008-02-01"
+  },
+  {
+    "setCode": "SHM",
+    "setName": "Shadowmoor",
+    "creationDay": "2008-05-01"
   }
 ]
