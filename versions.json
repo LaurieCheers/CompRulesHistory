@@ -128,5 +128,10 @@
     "setCode": "SHM",
     "setName": "Shadowmoor",
     "creationDay": "2008-05-01"
+  },
+  {
+    "setCode": "EVE",
+    "setName": "Eventide",
+    "creationDay": "2008-07-15"
   }
 ]
