@@ -133,5 +133,10 @@
     "setCode": "EVE",
     "setName": "Eventide",
     "creationDay": "2008-07-15"
+  },
+  {
+    "setCode": "ALA",
+    "setName": "Shards of Alara",
+    "creationDay": "2008-10-01"
   }
 ]
