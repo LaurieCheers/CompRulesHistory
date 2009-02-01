@@ -138,5 +138,10 @@
     "setCode": "ALA",
     "setName": "Shards of Alara",
     "creationDay": "2008-10-01"
+  },
+  {
+    "setCode": "CON",
+    "setName": "Conflux",
+    "creationDay": "2009-02-01"
   }
 ]
