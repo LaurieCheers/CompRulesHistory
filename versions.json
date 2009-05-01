@@ -143,5 +143,10 @@
     "setCode": "CON",
     "setName": "Conflux",
     "creationDay": "2009-02-01"
+  },
+  {
+    "setCode": "ARB",
+    "setName": "Alara Reborn",
+    "creationDay": "2009-05-01"
   }
 ]
