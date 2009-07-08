@@ -148,5 +148,10 @@
     "setCode": "ARB",
     "setName": "Alara Reborn",
     "creationDay": "2009-05-01"
+  },
+  {
+    "setCode": "M10",
+    "setName": "Magic 2010",
+    "creationDay": "2009-07-08"
   }
 ]
