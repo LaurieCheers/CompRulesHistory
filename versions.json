@@ -158,5 +158,10 @@
     "setCode": "ZEN",
     "setName": "Zendikar",
     "creationDay": "2009-10-05"
+  },
+  {
+    "setCode": "WWK",
+    "setName": "Worldwake",
+    "creationDay": "2010-02-01"
   }
 ]
