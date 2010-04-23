@@ -163,5 +163,10 @@
     "setCode": "WWK",
     "setName": "Worldwake",
     "creationDay": "2010-02-01"
+  },
+  {
+    "setCode": "ROE",
+    "setName": "Rise of the Eldrazi",
+    "creationDay": "2010-04-23"
   }
 ]
