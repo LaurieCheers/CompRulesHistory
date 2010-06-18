@@ -168,5 +168,10 @@
     "setCode": "ROE",
     "setName": "Rise of the Eldrazi",
     "creationDay": "2010-04-23"
+  },
+  {
+    "setCode": "ARC",
+    "setName": "Archenemy",
+    "creationDay": "2010-06-18"
   }
 ]
