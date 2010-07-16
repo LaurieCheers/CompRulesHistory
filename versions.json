@@ -173,5 +173,10 @@
     "setCode": "ARC",
     "setName": "Archenemy",
     "creationDay": "2010-06-18"
+  },
+  {
+    "setCode": "M11",
+    "setName": "Magic 2011",
+    "creationDay": "2010-07-16"
   }
 ]
