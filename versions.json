@@ -178,5 +178,10 @@
     "setCode": "M11",
     "setName": "Magic 2011",
     "creationDay": "2010-07-16"
+  },
+  {
+    "setCode": "MBS",
+    "setName": "Mirrodin Besieged",
+    "creationDay": "2011-02-04"
   }
 ]
