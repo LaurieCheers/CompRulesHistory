@@ -183,5 +183,10 @@
     "setCode": "MBS",
     "setName": "Mirrodin Besieged",
     "creationDay": "2011-02-04"
+  },
+  {
+    "setCode": "DDG",
+    "setName": "Duel Decks: Knights vs. Dragons",
+    "creationDay": "2011-04-01"
   }
 ]
