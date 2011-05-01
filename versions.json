@@ -188,5 +188,10 @@
     "setCode": "DDG",
     "setName": "Duel Decks: Knights vs. Dragons",
     "creationDay": "2011-04-01"
+  },
+  {
+    "setCode": "NPH",
+    "setName": "New Phyrexia",
+    "creationDay": "2011-05-01"
   }
 ]
