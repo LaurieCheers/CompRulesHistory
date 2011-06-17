@@ -193,5 +193,10 @@
     "setCode": "NPH",
     "setName": "New Phyrexia",
     "creationDay": "2011-05-01"
+  },
+  {
+    "setCode": "PC2",
+    "setName": "Planechase 2012",
+    "creationDay": "2011-06-17"
   }
 ]
