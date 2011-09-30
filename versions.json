@@ -198,5 +198,10 @@
     "setCode": "PC2",
     "setName": "Planechase 2012",
     "creationDay": "2011-06-17"
+  },
+  {
+    "setCode": "ISD",
+    "setName": "Innistrad",
+    "creationDay": "2011-09-30"
   }
 ]
