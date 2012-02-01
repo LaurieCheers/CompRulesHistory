@@ -203,5 +203,10 @@
     "setCode": "ISD",
     "setName": "Innistrad",
     "creationDay": "2011-09-30"
+  },
+  {
+    "setCode": "DKA",
+    "setName": "Dark Ascension",
+    "creationDay": "2012-02-01"
   }
 ]
