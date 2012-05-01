@@ -1,18 +1,18 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are effective as of February 1, 2012.
+These rules are effective as of May 1, 2012.
 
 Introduction
 
-This document is designed for people who've moved beyond the basics of the Magic: The Gathering (R) game. If you're a beginning Magic (TM) player, you'll probably find these rules intimidating. They're intended to be the ultimate authority for the game, and you won't usually need to refer to them except in specific cases or during competitive games.
+This document is designed for people who've moved beyond the basics of the Magic: The Gathering(R) game. If you're a beginning Magic(TM) player, you'll probably find these rules intimidating. They're intended to be the ultimate authority for the game, and you won't usually need to refer to them except in specific cases or during competitive games.
 
-For casual play and most ordinary situations, you'll find what you need in the Magic: The Gathering basic rulebook. You can download a copy of that rulebook from the Wizards of the Coast (R) Magic rules website at <www.wizards.com/Magic/rules>. If you're sure this is where you want to be, keep reading.
+For casual play and most ordinary situations, you'll find what you need in the Magic: The Gathering basic rulebook. You can download a copy of that rulebook from the Wizards of the Coast(R) Magic rules website at www.wizards.com/Magic/rules. If you're sure this is where you want to be, keep reading.
 
 This document includes a series of numbered rules followed by a glossary. Many of the numbered rules are divided into subrules, and each separate rule and subrule of the game has its own number. (Note that subrules skip the letters "l" and "o" due to potential confusion with the numbers "1" and "0"; subrule 704.5k is followed by 704.5m, then 704.5n, then 704.5p, for example.)
 
-We at Wizards of the Coast recognize that no matter how detailed the rules, situations will arise in which the interaction of specific cards requires a precise answer. If you have questions, you can get the answers from us at <www.wizards.com/customerservice>. Additional contact information is on the last page of these rules.
+We at Wizards of the Coast recognize that no matter how detailed the rules, situations will arise in which the interaction of specific cards requires a precise answer. If you have questions, you can get the answers from us at www.wizards.com/customerservice. Additional contact information is on the last page of these rules.
 
-In response to play issues and to keep these rules as current as possible, changes may have been made to this document since its publication. See the Wizards of the Coast Magic rules website at <www.wizards.com/Magic/rules> for the current version of the official rules.
+In response to play issues and to keep these rules as current as possible, changes may have been made to this document since its publication. See the Wizards of the Coast Magic rules website at www.wizards.com/Magic/rules for the current version of the official rules.
 
 
 Contents
@@ -208,13 +208,13 @@ In limited play involving other multiplayer team variants, each card a team open
 There is no maximum deck size.
 
 100.6.
-Most Magic tournaments (organized play activities where players compete against other players to win prizes) have additional rules covered in the Magic: The Gathering Tournament Rules (found at <www.wizards.com/wpn/Events/Rules.aspx>). These rules may limit the use of some cards, including barring all cards from some older sets.
+Most Magic tournaments (organized play activities where players compete against other players to win prizes) have additional rules covered in the Magic: The Gathering Tournament Rules (found at www.wizards.com/wpn/Events/Rules.aspx). These rules may limit the use of some cards, including barring all cards from some older sets.
 
 100.6a
 Tournaments usually consist of a series of matches. A two-player match usually involves playing until one player has won two games. A multiplayer match usually consists of only one game.
 
 100.6b
-Players can use the Magic Store & Event Locator at <www.wizards.com/locator> to find tournaments in their area.
+Players can use the Magic Store & Event Locator at www.wizards.com/locator to find tournaments in their area.
 
 101. The Magic Golden Rules
 
@@ -591,10 +591,10 @@ The text box of a leveler card contains two level symbols, each of which is a ke
 "{LEVEL N3+} [Abilities] [P/T]" means "As long as this creature has N3 or more level counters on it, it's [P/T] and has [abilities]."
 
 107.9.
-A tombstone icon appears to the left of the name of many Odyssey (TM) block cards with abilities that are relevant in a player's graveyard. The purpose of the icon is to make those cards stand out when they're in a graveyard. This icon has no effect on game play.
+A tombstone icon appears to the left of the name of many Odyssey(TM) block cards with abilities that are relevant in a player's graveyard. The purpose of the icon is to make those cards stand out when they're in a graveyard. This icon has no effect on game play.
 
 107.10.
-A type icon appears in the upper left corner of each card from the Future Sight (R) set printed with an alternate "timeshifted" frame. If the card has a single card type, this icon indicates what it is: claw marks for creature, a flame for sorcery, a lightning bolt for instant, a sunrise for enchantment, a chalice for artifact, and a pair of mountain peaks for land. If the card has multiple card types, that's indicated by a black and white cross. This icon has no effect on game play.
+A type icon appears in the upper left corner of each card from the Future Sight(R) set printed with an alternate "timeshifted" frame. If the card has a single card type, this icon indicates what it is: claw marks for creature, a flame for sorcery, a lightning bolt for instant, a sunrise for enchantment, a chalice for artifact, and a pair of mountain peaks for land. If the card has multiple card types, that's indicated by a black and white cross. This icon has no effect on game play.
 
 107.11.
 The Planeswalker symbol is {PW}. It appears on one face of the planar die used in the Planechase casual variant. See rule 901, "Planechase."
@@ -614,7 +614,7 @@ A color indicator is a circular symbol that appears to the left of the type line
 108. Cards
 
 108.1.
-Use the Oracle (TM) card reference when determining a card's wording. A card's Oracle text can be found using the Gatherer card database at <http://gatherer.wizards.com>.
+Use the Oracle(TM) card reference when determining a card's wording. A card's Oracle text can be found using the Gatherer card database at http://gatherer.wizards.com.
 
 108.2.
 When a rule or text on a card refers to a "card," it means only a Magic card. Most Magic games use only traditional Magic cards, which measure approximately 2.5 inches (6.3 cm) by 3.5 inches (8.8 cm). Certain formats also use nontraditional Magic cards, oversized cards that may have different backs. Tokens aren't considered cards -- even a card that represents a token isn't considered a card for rules purposes.
@@ -682,7 +682,7 @@ In a Vanguard game, each vanguard card is controlled by its owner. See rule 902.
 In an Archenemy game, each scheme card is controlled by its owner. See rule 904.7.
 
 109.5.
-The words "you" and "your" on an object refer to the object's controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it's on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it's a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d - f.
+The words "you" and "your" on an object refer to the object's controller, its would-be controller (if a player is attempting to play, cast, or activate it), or its owner (if it has no controller). For a static ability, this is the current controller of the object it's on. For an activated ability, this is the player who activated the ability. For a triggered ability, this is the controller of the object when the ability triggered, unless it's a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d-f.
 
 110. Permanents
 
@@ -763,7 +763,7 @@ A copy of a spell is also a spell, even if it has no card associated with it. Se
 Some effects allow a player to cast a copy of a card; if the player does, that copy is a spell as well. See rule 706.12.
 
 111.2.
-A spell's owner is the same as the owner of the card that represents it, unless it's a copy. In that case, the owner of the spell is the player under whose control it was put on the stack. A spell's controller is, by default, the player under whose control it was put on the stack. (For noncopy spells, that's the player who cast it.) Every spell has a controller.
+A spell's owner is the same as the owner of the card that represents it, unless it's a copy. In that case, the owner of the spell is the player under whose control it was put on the stack. A spell's controller is, by default, the player who put it on the stack. Every spell has a controller.
 
 111.3.
 A noncopy spell's characteristics are the same as those printed on its card, as modified by any continuous effects. See rule 613, "Interaction of Continuous Effects."
@@ -859,19 +859,19 @@ An ability whose cost or effect specifies that it moves the object it's on out o
 Example: Reassembling Skeleton says "{1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped." A player may activate this ability only if Reassembling Skeleton is in his or her graveyard.
 
 112.6m
-An ability that modifies the rules for deck construction functions before the game begins. Such an ability modifies not just the Comprehensive Rules, but also the Magic: The Gathering Tournament Rules and any other documents that set the deck construction rules for a specific Constructed format. However, such an ability can't affect the format legality of a card, including whether it's banned or restricted. The current Magic: The Gathering Tournament Rules can be found at <www.wizards.com/wpn/Events/Rules.aspx>.
+An ability that modifies the rules for deck construction functions before the game begins. Such an ability modifies not just the Comprehensive Rules, but also the Magic: The Gathering Tournament Rules and any other documents that set the deck construction rules for a specific Constructed format. However, such an ability can't affect the format legality of a card, including whether it's banned or restricted. The current Magic: The Gathering Tournament Rules can be found at www.wizards.com/wpn/Events/Rules.aspx.
 
 112.6n
 Abilities of emblems, plane cards, vanguard cards, and scheme cards function in the command zone. See rule 113, "Emblems"; rule 901, "Planechase"; rule 902, "Vanguard"; and rule 904, "Archenemy."
 
 112.7.
-The source of an ability is the object that generated it. The source of an activated ability on the stack is the object whose ability was activated. The source of a triggered ability (other than a delayed triggered ability) on the stack, or one that has triggered and is waiting to be put on the stack, is the object whose ability triggered. To determine the source of a delayed triggered ability, see rules 603.7d - f.
+The source of an ability is the object that generated it. The source of an activated ability on the stack is the object whose ability was activated. The source of a triggered ability (other than a delayed triggered ability) on the stack, or one that has triggered and is waiting to be put on the stack, is the object whose ability triggered. To determine the source of a delayed triggered ability, see rules 603.7d-f.
 
 112.7a
 Once activated or triggered, an ability exists on the stack independently of its source. Destruction or removal of the source after that time won't affect the ability. Note that some abilities cause a source to do something (for example, "Prodigal Pyromancer deals 1 damage to target creature or player") rather than the ability doing anything directly. In these cases, any activated or triggered ability that references information about the source because the effect needs to be divided checks that information when the ability is put onto the stack. Otherwise, it will check that information when it resolves. In both instances, if the source is no longer in the zone it's expected to be in at that time, its last known information is used. The source can still perform the action even though it no longer exists.
 
 112.8.
-The controller of an activated ability on the stack is the player who activated it. The controller of a triggered ability on the stack (other than a delayed triggered ability) is the player who controlled the ability's source when it triggered, or, if it had no controller, the player who owned the ability's source when it triggered. To determine the controller of a delayed triggered ability, see rules 603.7d - f.
+The controller of an activated ability on the stack is the player who activated it. The controller of a triggered ability on the stack (other than a delayed triggered ability) is the player who controlled the ability's source when it triggered, or, if it had no controller, the player who owned the ability's source when it triggered. To determine the controller of a delayed triggered ability, see rules 603.7d-f.
 
 112.9.
 Activated and triggered abilities on the stack aren't spells, and therefore can't be countered by anything that counters only spells. Activated and triggered abilities on the stack can be countered by effects that specifically counter abilities, as well as by the rules (for example, an ability with one or more targets is countered if all its targets become illegal). Static abilities don't use the stack and thus can't be countered at all.
@@ -1073,7 +1073,7 @@ If a player with priority casts a spell or activates an activated ability while 
 A cost is an action or payment necessary to take another action or to stop another action from taking place. To pay a cost, a player carries out the instructions specified by the spell, ability, or effect that contains that cost.
 
 117.2.
-If a cost includes a mana payment, the player paying the cost has a chance to activate mana abilities. Paying the cost to cast a spell or activate an activated ability follows the steps in rules 601.2e - g.
+If a cost includes a mana payment, the player paying the cost has a chance to activate mana abilities. Paying the cost to cast a spell or activate an activated ability follows the steps in rules 601.2e-g.
 
 117.3.
 A player can't pay a cost unless he or she has the necessary resources to pay it fully. For example, a player with only 1 life can't pay a cost of 2 life, and a permanent that's already tapped can't be tapped to pay a cost. See rule 202, "Mana Cost and Color," and rule 602, "Activating Activated Abilities."
@@ -1157,7 +1157,7 @@ Example: A player controls Psychic Vortex, an enchantment with a cumulative upke
 
 117.12.
 Some spells, activated abilities, and triggered abilities read, "[Do something]. If [a player] [does or doesn't], [effect]." or "[A player] may [do something]. If [that player] [does or doesn't], [effect]." The action [do something] is a cost, paid when the spell or ability resolves. The "If [a player] [does or doesn't]" clause checks whether the player chose to pay an optional cost or started to pay a mandatory cost, regardless of what events actually occurred.
-Example: You control Hesitation, an enchantment that says "When a player casts a spell, sacrifice Hesitation. If you do, counter that spell." A spell is cast, causing Hesitation's ability to trigger. Then an ability is activated that exiles Hesitation. When Hesitation's ability resolves, you're unable to pay the "sacrifice Hesitation" cost. The spell is not countered.
+Example: You control Standstill, an enchantment that says "When a player casts a spell, sacrifice Standstill. If you do, each of that player's opponents draws three cards." A spell is cast, causing Standstill's ability to trigger. Then an ability is activated that exiles Standstill. When Standstill's ability resolves, you're unable to pay the "sacrifice Standstill" cost. No player will draw cards.
 Example: Your opponent has cast Gather Specimens, a spell that says "If a creature would enter the battlefield under an opponent's control this turn, it enters the battlefield under your control instead." You control a face-down Dermoplasm, a creature with morph that says "When Dermoplasm is turned face up, you may put a creature card with morph from your hand onto the battlefield face up. If you do, return Dermoplasm to its owner's hand." You turn Dermoplasm face up, and you choose to put a creature card with morph from your hand onto the battlefield. Due to Gather Specimens, it enters the battlefield under your opponent's control instead of yours. However, since you chose to pay the cost, Dermoplasm is still returned to its owner's hand.
 
 117.12a
@@ -1199,10 +1199,10 @@ If an effect sets a player's life total to a specific number, the player gains o
 If a player has 0 or less life, that player loses the game as a state-based action. See rule 704.
 
 118.7.
-If an effect says that a player can't gain life, that player can't exchange life totals with a player who has a higher life total; in that case, the exchange won't happen. In addition, a cost that involves having that player gain life can't be paid, and a replacement effect that would replace a life gain event affecting that player won't do anything.
+If an effect says that a player can't gain life, that player can't make an exchange such that the player's life total would become higher; in that case, the exchange won't happen. In addition, a cost that involves having that player gain life can't be paid, and a replacement effect that would replace a life gain event affecting that player won't do anything.
 
 118.8.
-If an effect says that a player can't lose life, that player can't exchange life totals with a player who has a lower life total; in that case, the exchange won't happen. In addition, a cost that involves having that player pay life can't be paid.
+If an effect says that a player can't lose life, that player can't make an exchange such that the player's life total would become lower; in that case, the exchange won't happen. In addition, a cost that involves having that player pay life can't be paid.
 
 118.9.
 Some triggered abilities are written, "Whenever [a player] gains life, . . . ." Such abilities are treated as though they are written, "Whenever a source causes [a player] to gain life, . . . ." If a player gains 0 life, no life gain event has occurred, and these abilities won't trigger.
@@ -1488,11 +1488,11 @@ A card can have one or more subtypes printed on its type line.
 
 205.3b
 Subtypes of each card type except plane are always single words and are listed after a long dash. Each word after the dash is a separate subtype; such objects may have multiple types. Subtypes of planes are also listed after a long dash, but may be multiple words; all words after the dash are, collectively, a single subtype.
-Example: "Basic Land  --  Mountain" means the card is a land with the subtype Mountain. "Creature  --  Goblin Wizard" means the card is a creature with the subtypes Goblin and Wizard. "Artifact  --  Equipment" means the card is an artifact with the subtype Equipment.
+Example: "Basic Land --  Mountain" means the card is a land with the subtype Mountain. "Creature --  Goblin Wizard" means the card is a creature with the subtypes Goblin and Wizard. "Artifact --  Equipment" means the card is an artifact with the subtype Equipment.
 
 205.3c
 If a card with multiple card types has one or more subtypes, each subtype is correlated to its appropriate card type.
-Example: Dryad Arbor's type line says "Land Creature  --  Forest Dryad." Forest is a land type, and Dryad is a creature type.
+Example: Dryad Arbor's type line says "Land Creature --  Forest Dryad." Forest is a land type, and Dryad is a creature type.
 
 205.3d
 An object can't gain a subtype that doesn't correspond to one of that object's types.
@@ -1515,7 +1515,7 @@ Lands have their own unique set of subtypes; these subtypes are called land type
           Of that list, Forest, Island, Mountain, Plains, and Swamp are the basic land types. See rule 305.6.
 
 205.3j
-Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Bolas, Chandra, Elspeth, Garruk, Gideon, Jace, Karn, Koth, Liliana, Nissa, Sarkhan, Sorin, Tezzeret, and Venser.
+Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Bolas, Chandra, Elspeth, Garruk, Gideon, Jace, Karn, Koth, Liliana, Nissa, Sarkhan, Sorin, Tamiyo, Tezzeret, Tibalt, and Venser.
           If two or more planeswalkers that share a planeswalker type are on the battlefield, all are put into their owners' graveyards. This "planeswalker uniqueness rule" is a state-based action. See rule 704.
 
 205.3k
@@ -1562,16 +1562,16 @@ Any scheme card with the supertype "ongoing" is exempt from the state-based acti
 The expansion symbol indicates which Magic set a card is from. It's a small icon normally printed below the right edge of the illustration.
 
 206.2.
-The color of the expansion symbol indicates the rarity of the card within its set. A red-orange symbol indicates the card is mythic rare. A gold symbol indicates the card is rare. A silver symbol indicates the card is uncommon. A black or white symbol indicates the card is common or is a basic land. A purple symbol signifies a special rarity; to date, only the Time Spiral (R) "timeshifted" cards, which were rarer than that set's rare cards, have had purple expansion symbols. (Prior to the Exodus (TM) set, all expansion symbols were black, regardless of rarity. Also, prior to the Sixth Edition core set, with the exception of the Simplified Chinese Fifth Edition core set, Magic core sets didn't have expansion symbols at all.)
+The color of the expansion symbol indicates the rarity of the card within its set. A red-orange symbol indicates the card is mythic rare. A gold symbol indicates the card is rare. A silver symbol indicates the card is uncommon. A black or white symbol indicates the card is common or is a basic land. A purple symbol signifies a special rarity; to date, only the Time Spiral(R) "timeshifted" cards, which were rarer than that set's rare cards, have had purple expansion symbols. (Prior to the Exodus(TM) set, all expansion symbols were black, regardless of rarity. Also, prior to the Sixth Edition core set, with the exception of the Simplified Chinese Fifth Edition core set, Magic core sets didn't have expansion symbols at all.)
 
 206.3.
 A spell or ability that affects cards from a particular set checks only for that set's expansion symbol. A card reprinted in the core set or another expansion receives that set's expansion symbol. Any reprinted version of the card no longer counts as part of its original set unless it was reprinted with that set's expansion symbol.
 
 206.4.
-Players may include cards from any printing in their constructed decks if those cards appear in sets allowed in that format (or those cards are specifically allowed by the Magic Tournament Rules). See the Magic Tournament Rules for the current definitions of the constructed formats (<www.wizards.com/wpn/Events/Rules.aspx>).
+Players may include cards from any printing in their constructed decks if those cards appear in sets allowed in that format (or those cards are specifically allowed by the Magic Tournament Rules). See the Magic Tournament Rules for the current definitions of the constructed formats (www.wizards.com/wpn/Events/Rules.aspx).
 
 206.5.
-The full list of expansions and expansion symbols can be found in the Magic Products section of the Wizards of the Coast website (<www.wizards.com/Magic/TCG/Article.aspx?x=mtg/tcg/products/allproducts>).
+The full list of expansions and expansion symbols can be found in the Magic Products section of the Wizards of the Coast website (www.wizards.com/Magic/TCG/Article.aspx?x=mtg/tcg/products/allproducts).
 
 207. Text Box
 
@@ -1591,7 +1591,7 @@ Flavor text is italicized text that, like the illustration, adds artistic appeal
 An ability word appears in italics at the beginning of some abilities on cards. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are channel, chroma, domain, fateful hour, grandeur, hellbent, imprint, join forces, kinship, landfall, metalcraft, morbid, radiance, sweep, and threshold.
 
 207.3.
-A guild icon appears in the text box of many Ravnica (R) block cards. These cards either have the specified guild's exclusive mechanic or somehow relate to the two colors associated with that guild. Guild icons have no effect on game play. Similarly, a faction icon appears in the text box of most Scars of Mirrodin (TM) block cards. These faction icons have no effect on game play.
+A guild icon appears in the text box of many Ravnica(R) block cards. These cards either have the specified guild's exclusive mechanic or somehow relate to the two colors associated with that guild. Guild icons have no effect on game play. Similarly, a faction icon appears in the text box of most Scars of Mirrodin(TM) block cards. These faction icons have no effect on game play.
 
 207.4.
 The chaos symbol {C} appears in the text box of each plane card to the left of a triggered ability that triggers whenever {C} is rolled on the planar die. The symbol itself has no special rules meaning.
@@ -1672,7 +1672,7 @@ A player who has priority may cast an artifact card from his or her hand during 
 When an artifact spell resolves, its controller puts it onto the battlefield under his or her control.
 
 301.3.
-Artifact subtypes are always a single word and are listed after a long dash: "Artifact  --  Equipment." Artifact subtypes are also called artifact types. Artifacts may have multiple subtypes. See rule 205.3g for the complete list of artifact types.
+Artifact subtypes are always a single word and are listed after a long dash: "Artifact --  Equipment." Artifact subtypes are also called artifact types. Artifacts may have multiple subtypes. See rule 205.3g for the complete list of artifact types.
 
 301.4.
 Artifacts have no characteristics specific to their card type. Most artifacts have no colored mana symbols in their mana costs, and are therefore colorless. However, there is no correlation between being colorless and being an artifact: artifacts may be colored, and colorless objects may be card types other than artifact.
@@ -1693,7 +1693,7 @@ An Equipment that's also a creature can't equip a creature. An Equipment that lo
 An Equipment's controller is separate from the equipped creature's controller; the two need not be the same. Changing control of the creature doesn't change control of the Equipment, and vice versa. Only the Equipment's controller can activate its abilities. However, if the Equipment grants an ability to the equipped creature (with "gains" or "has"), the equipped creature's controller is the only one who can activate that ability.
 
 301.6.
-Some artifacts have the subtype "Fortification." A Fortification can be attached to a land. It can't legally be attached to an object that isn't a land. Fortification's analog to the equip keyword ability is the fortify keyword ability. Rules 301.5a - d apply to Fortifications in relation to lands just as they apply to Equipment in relation to creatures, with one clarification relating to rule 301.5c: a Fortification that's also a creature (not a land) can't fortify a land. (See rule 702.65, "Fortify.")
+Some artifacts have the subtype "Fortification." A Fortification can be attached to a land. It can't legally be attached to an object that isn't a land. Fortification's analog to the equip keyword ability is the fortify keyword ability. Rules 301.5a-d apply to Fortifications in relation to lands just as they apply to Equipment in relation to creatures, with one clarification relating to rule 301.5c: a Fortification that's also a creature (not a land) can't fortify a land. (See rule 702.65, "Fortify.")
 
 301.7.
 If a non-Equipment permanent has an ability that refers to the "equipped creature," that phrase doesn't refer to any creature. Similarly, a non-Fortification permanent that has an ability that refers to the "fortified land" doesn't refer to any land.
@@ -1707,8 +1707,8 @@ A player who has priority may cast a creature card from his or her hand during a
 When a creature spell resolves, its controller puts it onto the battlefield under his or her control.
 
 302.3.
-Creature subtypes are always a single word and are listed after a long dash: "Creature  --  Human Soldier," "Artifact Creature  --  Golem," and so on. Creature subtypes are also called creature types. Creatures may have multiple subtypes. See rule 205.3m for the complete list of creature types.
-Example: "Creature  --  Goblin Wizard" means the card is a creature with the subtypes Goblin and Wizard.
+Creature subtypes are always a single word and are listed after a long dash: "Creature --  Human Soldier," "Artifact Creature --  Golem," and so on. Creature subtypes are also called creature types. Creatures may have multiple subtypes. See rule 205.3m for the complete list of creature types.
+Example: "Creature --  Goblin Wizard" means the card is a creature with the subtypes Goblin and Wizard.
 
 302.4.
 Power and toughness are characteristics only creatures have.
@@ -1740,19 +1740,19 @@ A player who has priority may cast an enchantment card from his or her hand duri
 When an enchantment spell resolves, its controller puts it onto the battlefield under his or her control.
 
 303.3.
-Enchantment subtypes are always a single word and are listed after a long dash: "Enchantment  --  Shrine." Each word after the dash is a separate subtype. Enchantment subtypes are also called enchantment types. Enchantments may have multiple subtypes. See rule 205.3h for the complete list of enchantment types.
+Enchantment subtypes are always a single word and are listed after a long dash: "Enchantment --  Shrine." Each word after the dash is a separate subtype. Enchantment subtypes are also called enchantment types. Enchantments may have multiple subtypes. See rule 205.3h for the complete list of enchantment types.
 
 303.4.
-Some enchantments have the subtype "Aura." An Aura enters the battlefield attached to an object or player. What an Aura can be attached to is restricted by its enchant keyword ability (see rule 702.5, "Enchant"). Other effects can limit what a permanent can be enchanted by.
+Some enchantments have the subtype "Aura." An Aura enters the battlefield attached to an object or player. What an Aura can be attached to is defined by its enchant keyword ability (see rule 702.5, "Enchant"). Other effects can limit what a permanent can be enchanted by.
 
 303.4a
-An Aura spell requires a target, which is restricted by its enchant ability.
+An Aura spell requires a target, which is defined by its enchant ability.
 
 303.4b
 The object or player an Aura is attached to is called enchanted. The Aura is attached to, or "enchants," that object or player.
 
 303.4c
-If an Aura is enchanting an illegal object or player, the object it was attached to no longer exists, or the player it was attached to has left the game, the Aura is put into its owner's graveyard. (This is a state-based action. See rule 704.)
+If an Aura is enchanting an illegal object or player as defined by its enchant ability and other applicable effects, the object it was attached to no longer exists, or the player it was attached to has left the game, the Aura is put into its owner's graveyard. (This is a state-based action. See rule 704.)
 
 303.4d
 An Aura can't enchant itself. If this occurs somehow, the Aura is put into its owner's graveyard. An Aura that's also a creature can't enchant anything. If this occurs somehow, the Aura becomes unattached, then is put into its owner's graveyard. (These are state-based actions. See rule 704.) An Aura can't enchant more than one object or player. If a spell or ability would cause an Aura to become attached to more than one object or player, the Aura's controller chooses which object or player it becomes attached to.
@@ -1770,7 +1770,7 @@ If an Aura is entering the battlefield and there is no legal object or player fo
 If an effect attempts to attach an Aura on the battlefield to an object or player, that object or player must be able to be enchanted by it. If the object or player can't be, the Aura doesn't move.
 
 303.4i
-If a non-Aura permanent has an ability that refers to the "enchanted [object or player]" that phrase doesn't refer to any object or player.
+If a non-Aura permanent has an ability that refers to the "enchanted [object or player]," that phrase doesn't refer to any object or player.
 
 304. Instants
 
@@ -1781,7 +1781,7 @@ A player who has priority may cast an instant card from his or her hand. Casting
 When an instant spell resolves, the actions stated in its rules text are followed. Then it's put into its owner's graveyard.
 
 304.3.
-Instant subtypes are always a single word and are listed after a long dash: "Instant  --  Arcane." Each word after the dash is a separate subtype. The set of instant subtypes is the same as the set of sorcery subtypes; these subtypes are called spell types. Instants may have multiple subtypes. See rule 205.3k for the complete list of spell types.
+Instant subtypes are always a single word and are listed after a long dash: "Instant --  Arcane." Each word after the dash is a separate subtype. The set of instant subtypes is the same as the set of sorcery subtypes; these subtypes are called spell types. Instants may have multiple subtypes. See rule 205.3k for the complete list of spell types.
 
 304.4.
 Instants can't enter the battlefield. If an instant would enter the battlefield, it remains in its previous zone instead.
@@ -1805,7 +1805,7 @@ Effects may also allow players to "put" lands onto the battlefield. This isn't t
 
 305.5.
 Land subtypes are always a single word and are listed after a long dash. Land subtypes are also called land types. Lands may have multiple subtypes. See rule 205.3i for the complete list of land types.
-Example: "Basic Land  --  Mountain" means the card is a land with the subtype Mountain.
+Example: "Basic Land --  Mountain" means the card is a land with the subtype Mountain.
 
 305.6.
 The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the words "basic land type," it's referring to one of these subtypes. A land with a basic land type has the intrinsic ability "{T}: Add [mana symbol] to your mana pool," even if the text box doesn't actually contain that text or the object has no text box. For Plains, [mana symbol] is {W}; for Islands, {U}; for Swamps, {B}; for Mountains, {R}; and for Forests, {G}. See rule 107.4a. Also see rule 605, "Mana Abilities."
@@ -1828,7 +1828,7 @@ A player who has priority may cast a planeswalker card from his or her hand duri
 When a planeswalker spell resolves, its controller puts it onto the battlefield under his or her control.
 
 306.3.
-Planeswalker subtypes are always a single word and are listed after a long dash: "Planeswalker  --  Jace." Each word after the dash is a separate subtype. Planeswalker subtypes are also called planeswalker types. Planeswalkers may have multiple subtypes. See rule 205.3j for the complete list of planeswalker types.
+Planeswalker subtypes are always a single word and are listed after a long dash: "Planeswalker --  Jace." Each word after the dash is a separate subtype. Planeswalker subtypes are also called planeswalker types. Planeswalkers may have multiple subtypes. See rule 205.3j for the complete list of planeswalker types.
 
 306.4.
 If two or more planeswalkers that share a planeswalker type are on the battlefield, all are put into their owners' graveyards as a state-based action. This is called the "planeswalker uniqueness rule." See rule 704.
@@ -1869,7 +1869,7 @@ A player who has priority may cast a sorcery card from his or her hand during a 
 When a sorcery spell resolves, the actions stated in its rules text are followed. Then it's put into its owner's graveyard.
 
 307.3.
-Sorcery subtypes are always a single word and are listed after a long dash: "Sorcery  --  Arcane." Each word after the dash is a separate subtype. The set of sorcery subtypes is the same as the set of instant subtypes; these subtypes are called spell types. Sorceries may have multiple subtypes. See rule 205.3k for the complete list of spell types.
+Sorcery subtypes are always a single word and are listed after a long dash: "Sorcery --  Arcane." Each word after the dash is a separate subtype. The set of sorcery subtypes is the same as the set of instant subtypes; these subtypes are called spell types. Sorceries may have multiple subtypes. See rule 205.3k for the complete list of spell types.
 
 307.4.
 Sorceries can't enter the battlefield. If a sorcery would enter the battlefield, it remains in its previous zone instead.
@@ -1886,7 +1886,7 @@ Similarly, if an effect checks to see if a spell was cast "any time a sorcery co
 Each tribal card has another card type. Casting and resolving a tribal card follows the rules for casting and resolving a card of the other card type.
 
 308.2.
-Tribal subtypes are always a single word and are listed after a long dash: "Tribal Enchantment  --  Merfolk." The set of tribal subtypes is the same as the set of creature subtypes; these subtypes are called creature types. Tribals may have multiple subtypes. See rule 205.3m for the complete list of creature types.
+Tribal subtypes are always a single word and are listed after a long dash: "Tribal Enchantment --  Merfolk." The set of tribal subtypes is the same as the set of creature subtypes; these subtypes are called creature types. Tribals may have multiple subtypes. See rule 205.3m for the complete list of creature types.
 
 309. Planes
 
@@ -1897,7 +1897,7 @@ Plane is a card type seen only on nontraditional Magic cards. Only the Planechas
 Plane cards remain in the command zone throughout the game, both while they're part of a planar deck and while they're face up. They're not permanents. They can't be cast. If a plane card would leave the command zone, it remains in the command zone.
 
 309.3.
-Plane subtypes are listed after a long dash, and may be multiple words: "Plane  --  Serra's Realm." All words after the dash are, collectively, a single subtype. Planar subtypes are called planar types. A plane can have only one subtype. See rule 205.3n for the complete list of planar types.
+Plane subtypes are listed after a long dash, and may be multiple words: "Plane --  Serra's Realm." All words after the dash are, collectively, a single subtype. Planar subtypes are called planar types. A plane can have only one subtype. See rule 205.3n for the complete list of planar types.
 
 309.4.
 A plane card may have any number of static, triggered, and/or activated abilities. As long as a plane card is face up in the command zone, its static abilities affect the game, its triggered abilities may trigger, and its activated abilities may be activated.
@@ -2108,7 +2108,7 @@ The stack keeps track of the order that spells and/or abilities were added to it
 If an effect puts two or more objects on the stack at the same time, those controlled by the active player are put on lowest, followed by each other player's objects in APNAP order (see rule 101.4). If a player controls more than one of these objects, that player chooses their relative order on the stack.
 
 405.4.
-Each spell has all the characteristics of the card associated with it. Each activated or triggered ability that's on the stack has the text of the ability that created it and no other characteristics. The controller of a spell is the person who cast it. The controller of an activated ability is the player who activated it. The controller of a triggered ability is the player who controlled the ability's source when it triggered, unless it's a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d - f.
+Each spell has all the characteristics of the card associated with it. Each activated or triggered ability that's on the stack has the text of the ability that created it and no other characteristics. The controller of a spell is the person who cast it. The controller of an activated ability is the player who activated it. The controller of a triggered ability is the player who controlled the ability's source when it triggered, unless it's a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d-f.
 
 405.5.
 When all players pass in succession, the top (last-added) spell or ability on the stack resolves. If the stack is empty when all players pass, the current step or phase ends and the next begins.
@@ -2166,7 +2166,7 @@ Previously, the exile zone was called the "removed-from-the-game zone." Cards th
 407. Ante
 
 407.1.
-Earlier versions of the Magic rules included an ante rule as a way of playing "for keeps." Playing Magic games for ante is now considered an optional variation on the game, and it's allowed only where it's not forbidden by law or by other rules. Playing for ante is strictly forbidden under the Magic: The Gathering Tournament Rules (<www.wizards.com/WPN/Events/Rules.aspx>).
+Earlier versions of the Magic rules included an ante rule as a way of playing "for keeps." Playing Magic games for ante is now considered an optional variation on the game, and it's allowed only where it's not forbidden by law or by other rules. Playing for ante is strictly forbidden under the Magic: The Gathering Tournament Rules (www.wizards.com/WPN/Events/Rules.aspx).
 
 407.2.
 When playing for ante, each player puts one random card from his or her deck into the ante zone after determining which player goes first but before players draw any cards. Cards in the ante zone may be examined by any player at any time. At the end of the game, the winner becomes the owner of all the cards in the ante zone.
@@ -2356,7 +2356,7 @@ If a spell states that it may be cast "only before [a particular point in the co
 If a spell states that it may be cast "only during combat after blockers are declared," but the declare blockers step is skipped that combat phase (see rule 508.6), then the spell may not be cast during that combat phase.
 
 506.6g
-Rules 506.6 and 506.6a - f apply to abilities that state that they may be activated only at certain times with respect to combat just as they apply to spells that state that they may be cast only at certain times with respect to combat.
+Rules 506.6 and 506.6a-f apply to abilities that state that they may be activated only at certain times with respect to combat just as they apply to spells that state that they may be cast only at certain times with respect to combat.
 
 507. Beginning of Combat Step
 
@@ -2632,7 +2632,7 @@ The player pays the total cost in any order. Partial payments are not allowed. U
 Example: You cast Altar's Reap, which costs {1}{B} and has an additional cost of sacrificing a creature. You sacrifice Thunderscape Familiar, whose effect makes your black spells cost {1} less to cast. Because a spell's total cost is "locked in" before payments are actually made, you pay {B}, not {1}{B}, even though you're sacrificing the Familiar.
 
 601.2h
-Once the steps described in 601.2a - g are completed, the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell's controller had priority before casting it, he or she gets priority.
+Once the steps described in 601.2a-g are completed, the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell's controller had priority before casting it, he or she gets priority.
 
 601.3.
 Some spells specify that one of their controller's opponents does something the controller would normally do while it's being cast, such as choose a mode or choose targets. In these cases, the opponent does so when the spell's controller normally would do so.
@@ -2677,7 +2677,7 @@ To activate an ability is to put it onto the stack and pay its costs, so that it
 The player announces that he or she is activating the ability. If an activated ability is being activated from a hidden zone, the card that has that ability is revealed. That ability is created on the stack as an object that's not a card. It becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. Its controller is the player who activated the ability. The ability remains on the stack until it's countered, it resolves, or an effect moves it elsewhere.
 
 602.2b
-The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b - h. Those rules apply to activating an ability just as they apply to casting a spell. An activated ability's analog to a spell's mana cost (as referenced in rule 601.2e) is its activation cost.
+The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b-h. Those rules apply to activating an ability just as they apply to casting a spell. An activated ability's analog to a spell's mana cost (as referenced in rule 601.2e) is its activation cost.
 
 602.3.
 Some abilities specify that one of their controller's opponents does something the controller would normally do while it's being activated, such as choose a mode or choose targets. In these cases, the opponent does so when the ability's controller normally would do so.
@@ -2742,7 +2742,7 @@ Example: An ability that triggers on damage being dealt won't trigger if all the
 Once an ability has triggered, its controller puts it on the stack as an object that's not a card the next time a player would receive priority. See rule 116, "Timing and Priority." The ability becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. It remains on the stack until it's countered, it resolves, a rule causes it to be removed from the stack, or an effect moves it elsewhere.
 
 603.3a
-A triggered ability is controlled by the player who controlled its source at the time it triggered, unless it's a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d - f.
+A triggered ability is controlled by the player who controlled its source at the time it triggered, unless it's a delayed triggered ability. To determine the controller of a delayed triggered ability, see rules 603.7d-f.
 
 603.3b
 If multiple abilities have triggered since the last time a player received priority, each player, in APNAP order, puts triggered abilities he or she controls on the stack in any order he or she chooses. (See rule 101.4.) Then the game once again checks for and resolves state-based actions until none are performed, then abilities that triggered during this process go on the stack. This process repeats until no new state-based actions are performed and no abilities trigger. Then the appropriate player gets priority.
@@ -2751,7 +2751,7 @@ If multiple abilities have triggered since the last time a player received prior
 If a triggered ability is modal, its controller announces the mode choice when he or she puts the ability on the stack. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. If no mode can be chosen, the ability is removed from the stack. (See rule 700.2.)
 
 603.3d
-The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c - d. If a choice is required when the triggered ability goes on the stack but no legal choices can be made for it, or if a rule or a continuous effect otherwise makes the ability illegal, the ability is simply removed from the stack.
+The remainder of the process for putting a triggered ability on the stack is identical to the process for casting a spell listed in rules 601.2c-d. If a choice is required when the triggered ability goes on the stack but no legal choices can be made for it, or if a rule or a continuous effect otherwise makes the ability illegal, the ability is simply removed from the stack.
 
 603.4.
 A triggered ability may read "When/Whenever/At [trigger event], if [condition], [effect]." When the trigger event occurs, the ability checks whether the stated condition is true. The ability triggers only if it is; otherwise it does nothing. If the ability triggers, it checks the stated condition again as it resolves. If the condition isn't true at that time, the ability is removed from the stack and does nothing. Note that this mirrors the check for legal targets. This rule is referred to as the "intervening 'if' clause" rule. (The word "if" has only its normal English meaning anywhere else in the text of a card; this rule only applies to an "if" that immediately follows a trigger condition.)
@@ -2876,7 +2876,7 @@ A triggered mana ability doesn't go on the stack, so it can't be targeted, count
 Example: An enchantment reads, "Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced." If a player taps lands for mana while casting a spell, the additional mana is added to the player's mana pool immediately and can be used to pay for the spell.
 
 605.5.
-Abilities that don't meet the criteria specified in rules 605.1a - b and spells aren't mana abilities.
+Abilities that don't meet the criteria specified in rules 605.1a-b and spells aren't mana abilities.
 
 605.5a
 An ability with a target is not a mana ability, even if it could put mana into a player's mana pool when it resolves. The same is true for a triggered ability that could produce mana but triggers from an event other than activating a mana ability, or a triggered ability that triggers from activating a mana ability but couldn't produce mana. These follow the normal rules for activated or triggered abilities, as appropriate.
@@ -2959,7 +2959,7 @@ Example: Arc-Slogger has the ability "{R}, Exile the top ten cards of your libra
 Each time all players pass in succession, the spell or ability on top of the stack resolves. (See rule 609, "Effects.")
 
 608.2.
-If the object that's resolving is an instant spell, a sorcery spell, or an ability, its resolution may involve several steps. The steps described in rules 608.2a and  608.2b are followed first. The steps described in rules 608.2c - j are then followed as appropriate, in no specific order. The step described in rule 608.2k is followed last.
+If the object that's resolving is an instant spell, a sorcery spell, or an ability, its resolution may involve several steps. The steps described in rules 608.2a and  608.2b are followed first. The steps described in rules 608.2c-j are then followed as appropriate, in no specific order. The step described in rule 608.2k is followed last.
 
 608.2a
 If a triggered ability has an intervening "if" clause, it checks whether the clause's condition is true. If it isn't, the ability is removed from the stack and does nothing. Otherwise, it continues to resolve. See rule 603.4.
@@ -2980,7 +2980,7 @@ Example: A spell's instruction reads, "You may sacrifice a creature. If you don'
 Some spells and abilities have multiple steps or actions, denoted by separate sentences or clauses, that involve multiple players. In these cases, the choices for the first action are made in APNAP order, and then the first action is processed simultaneously. Then the choices for the second action are made in APNAP order, and then that action is processed simultaneously, and so on. See rule 101.4.
 
 608.2f
-If an effect gives a player the option to pay mana, he or she may activate mana abilities before taking that action. If an effect specifically instructs or allows a player to cast a spell during resolution, he or she does so by putting that spell on top of the stack, then continuing to cast it by following the steps in rules 601.2a - h, except no player receives priority after it's cast. The currently resolving spell or ability then continues to resolve, which may include casting other spells this way. No other spells can normally be cast and no other abilities can normally be activated during resolution.
+If an effect gives a player the option to pay mana, he or she may activate mana abilities before taking that action. If an effect specifically instructs or allows a player to cast a spell during resolution, he or she does so by putting that spell on top of the stack, then continuing to cast it by following the steps in rules 601.2a-h, except no player receives priority after it's cast. The currently resolving spell or ability then continues to resolve, which may include casting other spells this way. No other spells can normally be cast and no other abilities can normally be activated during resolution.
 
 608.2g
 If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability itself or a target that's become illegal, the effect uses the current information of that object if it's in the public zone it was expected to be in; if it's no longer in that zone, or if the effect has moved it from a public zone to a hidden zone, the effect uses the object's last known information. See rule 112.7a. If an ability states that an object does something, it's the object as it exists -- or as it most recently existed -- that does it, not the ability.
@@ -3139,7 +3139,7 @@ Layer 6: Ability-adding and ability-removing effects are applied.
 Layer 7: Power- and/or toughness-changing effects are applied.
 
 613.2.
-Within layers 1 - 6, apply effects from characteristic-defining abilities first (see rule 604.3), then all other effects in timestamp order (see rule 613.6). Note that dependency may alter the order in which effects are applied within a layer. (See rule 613.7.)
+Within layers 1-6, apply effects from characteristic-defining abilities first (see rule 604.3), then all other effects in timestamp order (see rule 613.6). Note that dependency may alter the order in which effects are applied within a layer. (See rule 613.7.)
 
 613.3.
 Within layer 7, apply effects in a series of sublayers in the order described below. Within each sublayer, apply effects in timestamp order. (See rule 613.6.) Note that dependency may alter the order in which effects are applied within a sublayer. (See rule 613.7.)
@@ -3201,7 +3201,7 @@ If two or more objects would receive a timestamp simultaneously, such as by ente
 Within a layer or sublayer, determining which order effects are applied in is sometimes done using a dependency system. If a dependency exists, it will override the timestamp system.
 
 613.7a
-An effect is said to "depend on" another if (a) it's applied in the same layer (and, if applicable, sublayer) as the other effect (see rules 613.1 and 613.3); (b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to; and (c) neither effect is from a characteristic-defining ability. Otherwise, the effect is considered to be independent of the other effect.
+An effect is said to "depend on" another if (a) it's applied in the same layer (and, if applicable, sublayer) as the other effect (see rules 613.1 and 613.3); (b) applying the other would change the text or the existence of the first effect, what it applies to, or what it does to any of the things it applies to; and (c) neither effect is from a characteristic-defining ability or both effects are from characteristic-defining abilities. Otherwise, the effect is considered to be independent of the other effect.
 
 613.7b
 An effect dependent on one or more other effects waits to apply until just after all of those effects have been applied. If multiple dependent effects would apply simultaneously in this way, they're applied in timestamp order relative to each other. If several dependent effects form a dependency loop, then this rule is ignored and the effects in the dependency loop are applied in timestamp order.
@@ -3288,7 +3288,7 @@ If an effect replaces a draw within a sequence of card draws, all actions requir
 If an effect would have a player both draw a card and perform an additional action on that card, and the draw is replaced, the additional action is not performed on any cards that are drawn as a result of that replacement effect.
 
 614.12.
-Some replacement effects modify how a permanent enters the battlefield. (See rules 614.1c - d.) Such effects may come from the permanent itself if they affect only that permanent (as opposed to a general subset of permanents that includes it). They may also come from other sources. To determine which replacement effects apply and how they apply, check the characteristics of the permanent as it would exist on the battlefield, taking into account replacement effects that have already modified how it enters the battlefield, continuous effects generated by the resolution of spells or abilities that changed the permanent's characteristics on the stack (see rule 400.7a), and continuous effects from the permanent's own static abilities, but ignoring continuous effects from any other source that would affect it.
+Some replacement effects modify how a permanent enters the battlefield. (See rules 614.1c-d.) Such effects may come from the permanent itself if they affect only that permanent (as opposed to a general subset of permanents that includes it). They may also come from other sources. To determine which replacement effects apply and how they apply, check the characteristics of the permanent as it would exist on the battlefield, taking into account replacement effects that have already modified how it enters the battlefield, continuous effects generated by the resolution of spells or abilities that changed the permanent's characteristics on the stack (see rule 400.7a), and continuous effects from the permanent's own static abilities, but ignoring continuous effects from any other source that would affect it.
 Example: Voice of All says "As Voice of All enters the battlefield, choose a color" and "Voice of All has protection from the chosen color." An effect creates a token that's a copy of Voice of All. As that token is put onto the battlefield, its controller chooses a color for it.
 Example: Yixlid Jailer says "Cards in graveyards lose all abilities." Scarwood Treefolk says "Scarwood Treefolk enters the battlefield tapped." A Scarwood Treefolk that's put onto the battlefield from a graveyard enters the battlefield tapped.
 Example: Orb of Dreams is an artifact that says "Permanents enter the battlefield tapped." It won't affect itself, so Orb of Dreams enters the battlefield untapped.
@@ -3383,7 +3383,7 @@ Anything that happens in a game is an event. Multiple events may take place duri
 Example: If an attacking creature is blocked by two creatures, this is one event for a triggered ability that reads "Whenever [this creature] becomes blocked" but two events for a triggered ability that reads "Whenever [this creature] becomes blocked by a creature."
 
 700.2.
-A spell or ability is modal if it has two or more options preceded by "Choose one  -- ," "Choose two  -- ," "Choose one or both  -- ," or "[a specified player] chooses one  -- ." Each of those options is a mode.
+A spell or ability is modal if it has two or more options preceded by "Choose one -- ," "Choose two -- ," "Choose one or both -- ," "Choose one or more -- ," or "[a specified player] chooses one -- ." Each of those options is a mode.
 
 700.2a
 The controller of a modal spell or activated ability chooses the mode(s) as part of casting that spell or activating that ability. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. (See rule 601.2b.)
@@ -3452,7 +3452,7 @@ Attach
 To attach an Aura, Equipment, or Fortification to an object means to take it from where it currently is and put it onto that object. If something is attached to a permanent on the battlefield, it's customary to place it so that it's physically touching the permanent. An Aura, Equipment, or Fortification can't be attached to an object it couldn't enchant, equip, or fortify, respectively.
 
 701.3b
-If an effect tries to attach an Aura, Equipment, or Fortification to an object it can't be attached to, the Aura, Equipment, or Fortification doesn't move. If an effect tries to attach an Aura, Equipment, or Fortification to the object it's already attached to, the effect does nothing.
+If an effect tries to attach an Aura, Equipment, or Fortification to an object it can't be attached to, the Aura, Equipment, or Fortification doesn't move. If an effect tries to attach an Aura, Equipment, or Fortification to the object it's already attached to, the effect does nothing. If an effect tries to attach an object that isn't an Aura, Equipment, or Fortification to another object or player, the effect does nothing and the first object doesn't move.
 
 701.3c
 Attaching an Aura, Equipment, or Fortification on the battlefield to a different object causes the Aura, Equipment, or Fortification to receive a new timestamp.
@@ -3525,7 +3525,7 @@ If a card in one zone is exchanged with a card in a different zone, and either o
 If a spell or ability instructs a player to simply exchange two zones, and one of the zones is empty, the cards in the zones are still exchanged.
 
 701.8g
-A spell or ability may instruct a player to exchange two numerical values. In such an exchange, each value becomes equal to the previous value of the other. If either of those values is a life total, the affected player gains or loses the amount of life necessary to equal the other value. Replacements effects may modify this gain or loss, and triggered abilities may trigger on them. If either of those values is a power or toughness, a continuous effect is created setting that power or toughness to the other value (see rule 613.3b). This rule does not apply to spells and abilities that switch a creature's power and toughness.
+A spell or ability may instruct a player to exchange two numerical values. In such an exchange, each value becomes equal to the previous value of the other. If either of those values is a life total, the affected player gains or loses the amount of life necessary to equal the other value. Replacements effects may modify this gain or loss, and triggered abilities may trigger on it. If either of those values is a power or toughness, a continuous effect is created setting that power or toughness to the other value (see rule 613.3b). This rule does not apply to spells and abilities that switch a creature's power and toughness.
 
 701.9.
 Exile
@@ -3738,7 +3738,7 @@ Deathtouch
 Deathtouch is a static ability.
 
 702.2b
-Any nonzero amount of combat damage assigned to a creature by a source with deathtouch is considered to be lethal damage, regardless of that creature's toughness. See rules 510.1c - d.
+Any nonzero amount of combat damage assigned to a creature by a source with deathtouch is considered to be lethal damage, regardless of that creature's toughness. See rules 510.1c-d.
 
 702.2c
 A creature with toughness greater than 0 that's been dealt damage by a source with deathtouch since the last time state-based actions were checked is destroyed as a state-based action. See rule 704.
@@ -4131,7 +4131,7 @@ Multiple instances of phasing on the same permanent are redundant.
 Buyback
 
 702.25a
-Buyback appears on some instants and sorceries. It represents two static abilities that function while the spell is on the stack. "Buyback [cost]" means "You may pay an additional [cost] as you cast this spell" and "If the buyback cost was paid, put this spell into its owner's hand instead of into that player's graveyard as it resolves." Paying a spell's buyback cost follows the rules for paying additional costs in rules 601.2b and 601.2e - g.
+Buyback appears on some instants and sorceries. It represents two static abilities that function while the spell is on the stack. "Buyback [cost]" means "You may pay an additional [cost] as you cast this spell" and "If the buyback cost was paid, put this spell into its owner's hand instead of into that player's graveyard as it resolves." Paying a spell's buyback cost follows the rules for paying additional costs in rules 601.2b and 601.2e-g.
 
 702.26.
 Shadow
@@ -4194,7 +4194,7 @@ Fading is a keyword that represents two abilities. "Fading N" means "This perman
 Kicker
 
 702.31a
-Kicker is a static ability that functions while the spell with kicker is on the stack. "Kicker [cost]" means "You may pay an additional [cost] as you cast this spell." Paying a spell's kicker cost(s) follows the rules for paying additional costs in rules 601.2b and 601.2e - g.
+Kicker is a static ability that functions while the spell with kicker is on the stack. "Kicker [cost]" means "You may pay an additional [cost] as you cast this spell." Paying a spell's kicker cost(s) follows the rules for paying additional costs in rules 601.2b and 601.2e-g.
 
 702.31b
 The phrase "Kicker [cost 1] and/or [cost 2]" means the same thing as "Kicker [cost 1], kicker [cost 2]."
@@ -4218,7 +4218,7 @@ If part of a spell's ability has its effect only if that spell was kicked, and t
 Flashback
 
 702.32a
-Flashback appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player's graveyard and the other that functions while the card is on the stack. "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack." Casting a spell using its flashback ability follows the rules for paying alternative costs in rules 601.2b and 601.2e - g.
+Flashback appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player's graveyard and the other that functions while the card is on the stack. "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack." Casting a spell using its flashback ability follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
 
 702.33.
 Madness
@@ -4227,7 +4227,7 @@ Madness
 Madness is a keyword that represents two abilities. The first is a static ability that functions while the card with madness is in a player's hand. The second is a triggered ability that functions when the first ability is applied. "Madness [cost]" means "If a player would discard this card, that player discards it, but may exile it instead of putting it into his or her graveyard" and "When this card is exiled this way, its owner may cast it by paying [cost] rather than paying its mana cost. If that player doesn't, he or she puts this card into his or her graveyard."
 
 702.33b
-Casting a spell using its madness ability follows the rules for paying alternative costs in rules 601.2b and 601.2e - g.
+Casting a spell using its madness ability follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
 
 702.34.
 Fear
@@ -4302,7 +4302,7 @@ If a spell has multiple instances of affinity, each of them applies.
 Entwine
 
 702.40a
-Entwine is a static ability of modal spells (see rule 700.2) that functions while the spell is on the stack. "Entwine [cost]" means "You may choose all modes of this spell instead of just one. If you do, you pay an additional [cost]." Using the entwine ability follows the rules for choosing modes and paying additional costs in rules 601.2b and 601.2e - g.
+Entwine is a static ability of modal spells (see rule 700.2) that functions while the spell is on the stack. "Entwine [cost]" means "You may choose all modes of this spell instead of just one. If you do, you pay an additional [cost]." Using the entwine ability follows the rules for choosing modes and paying additional costs in rules 601.2b and 601.2e-g.
 
 702.40b
 If the entwine cost was paid, follow the text of each of the modes in the order written on the card when the spell resolves.
@@ -4354,7 +4354,7 @@ If a permanent has multiple instances of soulshift, each triggers separately.
 Splice
 
 702.45a
-Splice is a static ability that functions while a card is in your hand. "Splice onto [subtype] [cost]" means "You may reveal this card from your hand as you cast a [subtype] spell. If you do, copy this card's text box onto that spell and pay [cost] as an additional cost to cast that spell." Paying a card's splice cost follows the rules for paying additional costs in rules 601.2b and 601.2e - g.
+Splice is a static ability that functions while a card is in your hand. "Splice onto [subtype] [cost]" means "You may reveal this card from your hand as you cast a [subtype] spell. If you do, copy this card's text box onto that spell and pay [cost] as an additional cost to cast that spell." Paying a card's splice cost follows the rules for paying additional costs in rules 601.2b and 601.2e-g.
 Example: Since the card with splice remains in the player's hand, it can later be cast normally or spliced onto another spell. It can even be discarded to pay a "discard a card" cost of the spell it's spliced onto.
 
 702.45b
@@ -4407,7 +4407,7 @@ A player can't cast spells once a spell with epic he or she controls resolves, b
 Convoke
 
 702.49a
-Convoke is a static ability that functions while the spell with convoke is on the stack. "Convoke" means "As an additional cost to cast this spell, you may tap any number of untapped creatures you control. Each creature tapped this way reduces the cost to cast this spell by {1} or by one mana of any of that creature's colors." Using the convoke ability follows the rules for paying additional costs in rules 601.2b and 601.2e - g.
+Convoke is a static ability that functions while the spell with convoke is on the stack. "Convoke" means "As an additional cost to cast this spell, you may tap any number of untapped creatures you control. Each creature tapped this way reduces the cost to cast this spell by {1} or by one mana of any of that creature's colors." Using the convoke ability follows the rules for paying additional costs in rules 601.2b and 601.2e-g.
 Example: You cast Guardian of Vitu-Ghazi, a spell with convoke that costs {6}{G}{W}. You announce that you're going to tap a colorless creature, a red creature, and a green-and-white creature to help pay for it. The colorless creature and the red creature each reduce the spell's cost by {1}. You choose whether the green-white creature reduces the spell's cost by {1}, {G}, or {W}. Then the creatures become tapped as you pay Guardian of Vitu-Ghazi's cost.
 
 702.49b
@@ -4459,7 +4459,7 @@ Triggered abilities of cards with haunt that refer to the haunted creature can t
 Replicate
 
 702.54a
-Replicate is a keyword that represents two abilities. The first is a static ability that functions while the spell with replicate is on the stack. The second is a triggered ability that functions while the spell with replicate is on the stack. "Replicate [cost]" means "As an additional cost to cast this spell, you may pay [cost] any number of times" and "When you cast this spell, if a replicate cost was paid for it, copy it for each time its replicate cost was paid. If the spell has any targets, you may choose new targets for any of the copies." Paying a spell's replicate cost follows the rules for paying additional costs in rules 601.2b and 601.2e - g.
+Replicate is a keyword that represents two abilities. The first is a static ability that functions while the spell with replicate is on the stack. The second is a triggered ability that functions while the spell with replicate is on the stack. "Replicate [cost]" means "As an additional cost to cast this spell, you may pay [cost] any number of times" and "When you cast this spell, if a replicate cost was paid for it, copy it for each time its replicate cost was paid. If the spell has any targets, you may choose new targets for any of the copies." Paying a spell's replicate cost follows the rules for paying additional costs in rules 601.2b and 601.2e-g.
 
 702.54b
 If a spell has multiple instances of replicate, each is paid separately and triggers based on the payments made for it, not any other instance of replicate.
@@ -4468,7 +4468,7 @@ If a spell has multiple instances of replicate, each is paid separately and trig
 Forecast
 
 702.55a
-A forecast ability is a special kind of activated ability that can be activated only from a player's hand. It's written "Forecast  --  [Activated ability]."
+A forecast ability is a special kind of activated ability that can be activated only from a player's hand. It's written "Forecast --  [Activated ability]."
 
 702.55b
 A forecast ability may be activated only during the upkeep step of the card's owner and only once each turn. The controller of the forecast ability reveals the card with that ability from his or her hand as the ability is activated. That player plays with that card revealed in his or her hand until it leaves the player's hand or until a step or phase that isn't an upkeep step begins, whichever comes first.
@@ -4519,7 +4519,7 @@ Suspend is a keyword that represents three abilities. The first is a static abil
 A card is "suspended" if it's in the exile zone, has suspend, and has a time counter on it.
 
 702.60c
-Casting a spell as an effect of its suspend ability follows the rules for paying alternative costs in rules 601.2b and 601.2e - g.
+Casting a spell as an effect of its suspend ability follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
 
 702.61.
 Vanishing
@@ -4560,7 +4560,7 @@ Example: You activate the aura swap ability of an Aura that you control but you 
 Delve
 
 702.64a
-Delve is a static ability that functions while the spell that has delve is on the stack. "Delve" means "As an additional cost to cast this spell, you may exile any number of cards from your graveyard. Each card exiled this way reduces the cost to cast this spell by {1}." Using the delve ability follows the rules for paying additional costs in rules 601.2b and 601.2e - g.
+Delve is a static ability that functions while the spell that has delve is on the stack. "Delve" means "As an additional cost to cast this spell, you may exile any number of cards from your graveyard. Each card exiled this way reduces the cost to cast this spell by {1}." Using the delve ability follows the rules for paying additional costs in rules 601.2b and 601.2e-g.
 
 702.64b
 Multiple instances of delve on the same spell are redundant.
@@ -4635,7 +4635,7 @@ Multiple instances of changeling on the same object are redundant.
 Evoke
 
 702.72a
-Evoke represents two abilities: a static ability that functions in any zone from which the card with evoke can be cast and a triggered ability that functions on the battlefield. "Evoke [cost]" means "You may cast this card by paying [cost] rather than paying its mana cost" and "When this permanent enters the battlefield, if its evoke cost was paid, its controller sacrifices it." Paying a card's evoke cost follows the rules for paying alternative costs in rules 601.2b and 601.2e - g.
+Evoke represents two abilities: a static ability that functions in any zone from which the card with evoke can be cast and a triggered ability that functions on the battlefield. "Evoke [cost]" means "You may cast this card by paying [cost] rather than paying its mana cost" and "When this permanent enters the battlefield, if its evoke cost was paid, its controller sacrifices it." Paying a card's evoke cost follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
 
 702.73.
 Hideaway
@@ -4647,7 +4647,7 @@ Hideaway represents a static ability and a triggered ability. "Hideaway" means "
 Prowl
 
 702.74a
-Prowl is a static ability that functions on the stack. "Prowl [cost]" means "You may pay [cost] rather than pay this spell's mana cost if a player was dealt combat damage this turn by a source that, at the time it dealt that damage, was under your control and had any of this spell's creature types." Paying a spell's prowl cost follows the rules for paying alternative costs in rules 601.2b and 601.2e - g.
+Prowl is a static ability that functions on the stack. "Prowl [cost]" means "You may pay [cost] rather than pay this spell's mana cost if a player was dealt combat damage this turn by a source that, at the time it dealt that damage, was under your control and had any of this spell's creature types." Paying a spell's prowl cost follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
 
 702.75.
 Reinforce
@@ -4662,7 +4662,7 @@ Although the reinforce ability can be activated only if the card is in a player'
 Conspire
 
 702.76a
-Conspire is a keyword that represents two abilities. The first is a static ability that functions while the spell with conspire is on the stack. The second is a triggered ability that functions while the spell with conspire is on the stack. "Conspire" means "As an additional cost to cast this spell, you may tap two untapped creatures you control that each share a color with it" and "When you cast this spell, if its conspire cost was paid, copy it. If the spell has any targets, you may choose new targets for the copy." Paying a spell's conspire cost follows the rules for paying additional costs in rules 601.2b and 601.2e - g.
+Conspire is a keyword that represents two abilities. The first is a static ability that functions while the spell with conspire is on the stack. The second is a triggered ability that functions while the spell with conspire is on the stack. "Conspire" means "As an additional cost to cast this spell, you may tap two untapped creatures you control that each share a color with it" and "When you cast this spell, if its conspire cost was paid, copy it. If the spell has any targets, you may choose new targets for the copy." Paying a spell's conspire cost follows the rules for paying additional costs in rules 601.2b and 601.2e-g.
 
 702.76b
 If a spell has multiple instances of conspire, each is paid separately and triggers based on its own payment, not any other instance of conspire.
@@ -4692,7 +4692,7 @@ Multiple instances of wither on the same object are redundant.
 Retrace
 
 702.79a
-Retrace appears on some instants and sorceries. It represents a static ability that functions while the card with retrace is in a player's graveyard. "Retrace" means "You may cast this card from your graveyard by discarding a land card as an additional cost to cast it." Casting a spell using its retrace ability follows the rules for paying additional costs in rules 601.2b and 601.2e - g.
+Retrace appears on some instants and sorceries. It represents a static ability that functions while the card with retrace is in a player's graveyard. "Retrace" means "You may cast this card from your graveyard by discarding a land card as an additional cost to cast it." Casting a spell using its retrace ability follows the rules for paying additional costs in rules 601.2b and 601.2e-g.
 
 702.80.
 Devour
@@ -4752,7 +4752,7 @@ Rebound
 Rebound appears on some instants and sorceries. It represents a static ability that functions while the spell is on the stack and may create a delayed triggered ability. "Rebound" means "If this spell was cast from your hand, instead of putting it into your graveyard as it resolves, exile it and, at the beginning of your next upkeep, you may cast this card from exile without paying its mana cost."
 
 702.86b
-Casting a card without paying its mana cost as the result of a rebound ability follows the rules for paying alternative costs in rules 601.2b and 601.2e - g.
+Casting a card without paying its mana cost as the result of a rebound ability follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
 
 702.86c
 Multiple instances of rebound on the same spell are redundant.
@@ -4804,6 +4804,32 @@ Undying
 
 702.91a
 Undying is a triggered ability. "Undying" means "When this permanent is put into a graveyard from the battlefield, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it."
+
+702.92.
+Miracle
+
+702.92a
+Miracle is a static ability linked to a triggered ability (see rule 603.10). "Miracle [cost]" means "You may reveal this card from your hand as you draw it if it's the first card you've drawn this turn. When you reveal this card this way, you may cast it by paying [cost] rather than its mana cost."
+
+702.92b
+If a player chooses to reveal a card using its miracle ability, he or she plays with that card revealed until that card leaves his or her hand, that ability resolves, or that ability otherwise leaves the stack.
+
+702.93.
+Soulbond
+
+702.93a. Soulbond is a keyword that represents two triggered abilities. "Soulbond" means "When this creature enters the battlefield, if you control both this creature and another creature and both are unpaired, you may pair this creature with another unpaired creature you control for as long as both remain creatures on the battlefield under your control" and "Whenever another creature enters the battlefield under your control, if you control both that creature and this one and both are unpaired, you may pair that creature with this creature for as long as both remain creatures on the battlefield under your control."
+
+702.93b
+A creature becomes "paired" with another as the result of a soulbond ability. Abilities may refer to a paired creature, the creature another creature is paired with, or whether a creature is paired. An "unpaired" creature is one that is not paired.
+
+702.93c
+When the soulbond ability resolves, if either object that would be paired is no longer a creature, no longer on the battlefield, or no longer under the control of the player who controls the soulbond ability, neither object becomes paired.
+
+702.93d
+A creature can be paired with only one other creature.
+
+702.93e
+A paired creature becomes unpaired if any of the following occur: another player gains control of it or the creature it's paired with; it or the creature it's paired with stops being a creature; or it or the creature it's paired with leaves the battlefield.
 
 703. Turn-Based Actions
 
@@ -5031,7 +5057,7 @@ Example: Quicksilver Gargantuan is a creature that reads, "You may have Quicksil
 
 706.10.
 To copy a spell or activated ability means to put a copy of it onto the stack; a copy of a spell isn't cast and a copy of an activated ability isn't activated. A copy of a spell or ability copies both the characteristics of the spell or ability and all decisions made for it, including modes, targets, the value of X, and additional or alternative costs. (See rule 601, "Casting Spells.") Choices that are normally made on resolution are not copied. If an effect of the copy refers to objects used to pay its costs, it uses the objects used to pay the costs of the original spell or ability. A copy of a spell is owned by the player under whose control it was put on the stack. A copy of a spell or ability is controlled by the player under whose control it was put on the stack. A copy of a spell is itself a spell, even though it has no spell card associated with it. A copy of an ability is itself an ability.
-Example: A player casts Fork, targeting an Emerald Charm. Fork reads, "Copy target instant or sorcery spell, except that the copy is red. You may choose new targets for the copy." Emerald Charm is a green instant that reads, "Choose one  --  Untap target permanent; or destroy target non-Aura enchantment; or target creature loses flying until end of turn." When the Fork resolves, it puts a copy of the Emerald Charm on the stack except the copy is red, not green. The copy has the same mode that was chosen for the original Emerald Charm. It does not necessarily have the same target, but only because Fork allows choosing of new targets.
+Example: A player casts Fork, targeting an Emerald Charm. Fork reads, "Copy target instant or sorcery spell, except that the copy is red. You may choose new targets for the copy." Emerald Charm is a green instant that reads, "Choose one --  Untap target permanent; or destroy target non-Aura enchantment; or target creature loses flying until end of turn." When the Fork resolves, it puts a copy of the Emerald Charm on the stack except the copy is red, not green. The copy has the same mode that was chosen for the original Emerald Charm. It does not necessarily have the same target, but only because Fork allows choosing of new targets.
 Example: Fling is an instant that reads, "As an additional cost to cast Fling, sacrifice a creature" and "Fling deals damage equal to the sacrificed creature's power to target creature or player." When determining how much damage a copy of Fling deals, it checks the power of the creature sacrificed to pay for the original Fling.
 
 706.10a
@@ -5048,7 +5074,7 @@ If an effect refers to a permanent by name, the effect still tracks that permane
 Example: An Unstable Shapeshifter copies a Crazed Armodon. Crazed Armodon reads, "{G}: Crazed Armodon gets +3/+0 and gains trample until end of turn. Destroy Crazed Armodon at the beginning of the next end step. Activate this ability only once each turn." If this ability of the Shapeshifter is activated, the Shapeshifter will be destroyed at the beginning of the next end step, even if it's no longer a copy of Crazed Armodon at that time.
 
 706.12.
-An effect that instructs a player to cast a copy of an object (and not just copy a spell) follows the rules for casting spells, except that the copy is created in the same zone the object is in and then cast while another spell or ability is resolving. Casting a copy of an object follows steps 601.2a - g of rule 601, "Casting Spells," and then the copy becomes cast. Once cast, the copy is a spell on the stack, and just like any other spell it can resolve or be countered.
+An effect that instructs a player to cast a copy of an object (and not just copy a spell) follows the rules for casting spells, except that the copy is created in the same zone the object is in and then cast while another spell or ability is resolving. Casting a copy of an object follows steps 601.2a-g of rule 601, "Casting Spells," and then the copy becomes cast. Once cast, the copy is a spell on the stack, and just like any other spell it can resolve or be countered.
 
 707. Face-Down Spells and Permanents
 
@@ -5348,7 +5374,7 @@ A "subgame" is a completely separate Magic game created by an effect. Essentiall
 No effects or definitions created in either the main game or the subgame have any meaning in the other, except as defined by the effect that created the subgame. For example, the effect may say that something happens in the main game to the winner or loser of the subgame.
 
 715.2.
-As the subgame starts, an entirely new set of game zones is created. Each player takes all the cards in his or her main-game library, moves them to his or her subgame library, and shuffles them. No other cards in a main-game zone are moved to their corresponding subgame zone, except as specified in rules 715.2a - d. Randomly determine which player goes first. The subgame proceeds like a normal game, following all other rules in rule 103, "Starting the Game."
+As the subgame starts, an entirely new set of game zones is created. Each player takes all the cards in his or her main-game library, moves them to his or her subgame library, and shuffles them. No other cards in a main-game zone are moved to their corresponding subgame zone, except as specified in rules 715.2a-d. Randomly determine which player goes first. The subgame proceeds like a normal game, following all other rules in rule 103, "Starting the Game."
 
 715.2a
 As a subgame of a Planechase game starts, each player moves his or her planar deck from the main-game command zone to the subgame command zone and shuffles it. (Face-up plane cards remain in the main-game command zone.)
@@ -5372,7 +5398,7 @@ All objects in the main game and all cards outside the main game are considered 
 Some effects can bring cards into a game from outside of it. If a card is brought into a subgame from a main game, abilities in the main game that trigger on objects leaving a main-game zone will trigger, but they won't be put onto the stack until the main game resumes.
 
 715.5.
-At the end of a subgame, each player takes all cards he or she owns that are in the subgame other than those in the subgame command zone, puts them into his or her main-game library, then shuffles them. This includes cards in the subgame's exile zone. Except as specified in rules 715.5a - c, all other objects in the subgame cease to exist, as do the zones created for the subgame. The main game continues from the point at which it was discontinued: First, the spell or ability that created the subgame finishes resolving, even if it was created by a spell card that's no longer on the stack. Then, if any main-game abilities triggered while the subgame was in progress due to cards being removed from the main game, those abilities are put onto the stack.
+At the end of a subgame, each player takes all cards he or she owns that are in the subgame other than those in the subgame command zone, puts them into his or her main-game library, then shuffles them. This includes cards in the subgame's exile zone. Except as specified in rules 715.5a-c, all other objects in the subgame cease to exist, as do the zones created for the subgame. The main game continues from the point at which it was discontinued: First, the spell or ability that created the subgame finishes resolving, even if it was created by a spell card that's no longer on the stack. Then, if any main-game abilities triggered while the subgame was in progress due to cards being removed from the main game, those abilities are put onto the stack.
 Example: If a card was brought into the subgame either from the main game or from outside the main game, that card will be put into its owner's main-game library when the subgame ends.
 
 715.5a
@@ -5383,6 +5409,9 @@ At the end of a subgame of a Vanguard game, each player moves his or her vanguar
 
 715.5c
 At the end of a subgame of a Commander game, each player moves his or her commander from the subgame command zone (if it's there) to the main-game command zone.
+
+715.5d
+At the end of a subgame of an Archenemy game, any face-up scheme cards in the subgame command zone are turned face down and put on the bottom of their owner's scheme deck. Then the archenemy moves his or her scheme deck from the subgame command zone to the main-game command zone and shuffles it.
 
 715.6.
 A subgame can be created within a subgame. The existing subgame becomes the main game in relation to the new subgame.
@@ -5446,7 +5475,7 @@ A multiplayer game is a game that begins with more than two players. This sectio
 These rules consist of a series of options that can be added to a multiplayer game and a number of variant styles of multiplayer play. A single game may use multiple options but only one variant.
 
 800.3.
-Many multiplayer Magic tournaments have additional rules not included here, including rules for deck construction. See the most current Magic: The Gathering Tournament Rules for more information. They can be found at <www.wizards.com/WPN/Events/Rules.aspx>.
+Many multiplayer Magic tournaments have additional rules not included here, including rules for deck construction. See the most current Magic: The Gathering Tournament Rules for more information. They can be found at www.wizards.com/WPN/Events/Rules.aspx.
 
 800.4.
 Unlike two-player games, multiplayer games can continue after one or more players have left the game.
@@ -5481,9 +5510,12 @@ If an effect requires information about a specific player, the effect uses the c
 If a player leaves the game during his or her turn, that turn continues to its completion without an active player. If the active player would receive priority, instead the next player in turn order receives priority, or the top object on the stack resolves, or the phase or step ends, whichever is appropriate.
 
 800.4i
-When a player leaves the game, objects that player owns in the ante zone do not leave the game. This is an exception to rule 800.4a. See rule 407, "Ante."
+When a player leaves the game, any continuous effects with durations that last until that player's next turn or until a specific point in that turn will last until that turn would have begun. They neither expire immediately nor last indefinitely.
 
 800.4j
+When a player leaves the game, objects that player owns in the ante zone do not leave the game. This is an exception to rule 800.4a. See rule 407, "Ante."
+
+800.4k
 In a Planechase game, if the player designated as the planar controller would leave the game, instead the next player in turn order that wouldn't leave the game becomes the planar controller, then the old planar controller leaves the game. See rule 309.5.
 
 800.5.
@@ -5533,7 +5565,7 @@ Example: In a game with a range of influence of 1, Alex is seated to the left of
 
 801.5b
 If a player is asked to choose between one or more options (and not between one or more objects or players), he or she can choose between those options even if those options refer to objects or players outside the player's range of influence.
-Example: Alex, who has a range of influence of 2, is seated to the left of Rob, and Carissa, who has a range of influence of 1, is seated to the right of Rob. Alex casts a spell that reads, "An opponent chooses one  --  You draw 2 cards; or each creature you control gets +2/+2 until end of turn," and chooses Carissa to make that choice. Carissa can choose the mode even though Alex is out of her range.
+Example: Alex, who has a range of influence of 2, is seated to the left of Rob, and Carissa, who has a range of influence of 1, is seated to the right of Rob. Alex casts a spell that reads, "An opponent chooses one --  You draw 2 cards; or each creature you control gets +2/+2 until end of turn," and chooses Carissa to make that choice. Carissa can choose the mode even though Alex is out of her range.
 
 801.5c
 If an effect requires a choice and there's no player who can make that choice within its controller's range of influence, the closest appropriate player to its controller's left makes that choice.
@@ -6668,7 +6700,7 @@ Emperor Variant
 A multiplayer variant played among three-player teams. See rule 809, "Emperor Variant."
 
 Enchant
-A keyword ability that restricts what an Aura spell can target and what an Aura permanent can be attached to. See rule 303, "Enchantments," and rule 702.5, "Enchant."
+A keyword ability that defines what an Aura spell can target and what an Aura permanent can be attached to. See rule 303, "Enchantments," and rule 702.5, "Enchant."
 
 Enchantment
 A card type. An enchantment is a permanent. See rule 303, "Enchantments." See also Aura.
@@ -6704,7 +6736,7 @@ Equipment
 An artifact subtype. Equipment can be attached to creatures. See rule 301, "Artifacts," and rule 702.6, "Equip."
 
 Evasion Ability
-An ability that restricts what creatures can block an attacking creature. See rules 509.1b - c.
+An ability that restricts what creatures can block an attacking creature. See rules 509.1b-c.
 
 Event
 Anything that happens in a game. See rule 700.1.
@@ -7045,8 +7077,11 @@ A multiplayer game or a two-player series of games (usually best-two-of-three) p
 Maximum Hand Size
 The number of cards in hand a player must discard down to during his or her cleanup step. See rule 402.2 and 514.1.
 
+Miracle
+A keyword ability that lets you cast a spell for a reduced cost if it's the first card you draw in a turn. See rule 702.92, "Miracle."
+
 Modal, Mode
-A spell or ability is "modal" if it has two or more options preceded by "Choose one  -- ," "Choose two  -- ," "Choose one or both  -- ," or "[a specified player] chooses one  -- ." Each option is a "mode." See rule 700.2.
+A spell or ability is "modal" if it has two or more options preceded by "Choose one -- ," "Choose two -- ," "Choose one or both -- ," "Choose one or more -- ," or "[a specified player] chooses one -- ." Each option is a "mode." See rule 700.2.
 
 Modular
 A keyword ability that has a permanent enter the battlefield with +1/+1 counters on it and can move those counters to other artifact creatures. See rule 702.41, "Modular."
@@ -7125,7 +7160,7 @@ Option
 An additional rule or set of rules that can be used in a multiplayer game. See rule 800.2.
 
 Oracle
-The reference that contains the up-to-date wordings (in English) for all tournament-legal cards. A card's Oracle text can be found using the Gatherer card database at <http://gatherer.wizards.com>. See rule 108.1.
+The reference that contains the up-to-date wordings (in English) for all tournament-legal cards. A card's Oracle text can be found using the Gatherer card database at http://gatherer.wizards.com. See rule 108.1.
 
 Outside the Game
 An object is "outside the game" if it isn't in any of the game's zones. See rule 400.10.
@@ -7397,6 +7432,9 @@ Some older cards were printed with the term "snow-covered" in their rules text. 
 Sorcery
 A card type. A sorcery is not a permanent. See rule 307, "Sorceries."
 
+Soulbond
+A keyword ability that makes creatures better by pairing them together. See rule 702.93, "Soulbond."
+
 Soulshift
 A keyword ability that lets a player return a card from his or her graveyard to his or her hand. See rule 702.44, "Soulshift."
 
@@ -7464,7 +7502,7 @@ Successfully Cast (Obsolete)
 A term that was printed on some older cards. In general, cards that referred to a spell being "successfully cast" have received errata in the Oracle card reference to simply refer to a spell being "cast."
 
 Summon (Obsolete)
-Older creature cards were printed with "Summon [creature type]" on their type lines. All such cards have received errata in the Oracle card reference to say "Creature  --  [creature type]." (Many of these cards' creature types have also been updated.) See Creature.
+Older creature cards were printed with "Summon [creature type]" on their type lines. All such cards have received errata in the Oracle card reference to say "Creature --  [creature type]." (Many of these cards' creature types have also been updated.) See Creature.
 
 Summoning Sickness Rule
 Informal term for a player's inability to attack with a creature or to activate its abilities that include the tap symbol or the untap symbol unless the creature has been under that player's control since the beginning of that player's most recent turn. See rule 302.6. See also Haste.
@@ -7601,7 +7639,7 @@ Type Line
 Part of a card. The type line is printed directly below the illustration and contains the card's card type(s), subtype(s), and/or supertype(s). See rule 205, "Type Line."
 
 Type-Changing Effect
-An effect that changes an object's card type, subtype, and/or supertype. See rules 205.1a - b, 305.7, and 613.1d.
+An effect that changes an object's card type, subtype, and/or supertype. See rules 205.1a-b, 305.7, and 613.1d.
 
 Typecycling
 A variant of the cycling ability. See rule 702.27, "Cycling."
@@ -7711,9 +7749,9 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are effective as of February 1, 2012.
+These rules are effective as of May 1, 2012.
 
-Published by Wizards of the Coast LLC, P.O. Box 707, Renton WA 98057-0707, U.S.A. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, and Scars of Mirrodin are trademarks of Wizards of the Coast LLC in the U.S.A. and other countries. (C)1993 - 2012 Wizards. U.S. Pat. No. RE 37,957.
+Published by Wizards of the Coast LLC, P.O. Box 707, Renton WA 98057-0707, U.S.A. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, and Scars of Mirrodin are trademarks of Wizards of the Coast LLC in the U.S.A. and other countries. (C)1993-2012 Wizards. U.S. Pat. No. RE 37,957.
 
 
 Customer Service Information
@@ -7721,7 +7759,7 @@ Customer Service Information
 Contact the office nearest you.
 
 U.S., Canada, Asia Pacific & Latin America
-<www.wizards.com/customerservice>
+www.wizards.com/customerservice
 Wizards of the Coast LLC
 P.O. Box 707
 Renton WA  98057-0707
@@ -7736,7 +7774,7 @@ Newport
 NP19 4YD
 UK
 Tel: +44(0) 84 57 125 599
-Email: <wizards@hasbro.co.uk>
+Email: wizards@hasbro.co.uk
 
 All Other European Countries
 Wizards of the Coast p/a Hasbro Belgium NV/SA
@@ -7744,7 +7782,7 @@ Industrialaan 1
 1702 Groot-Bijgaarden
 BELGIUM
 Tel: +32(0) 70 233 277
-Email: <wizards@hasbro.be>
+Email: wizards@hasbro.be
 
-Visit our website: <magicthegathering.com>
+Visit our website: magicthegathering.com
 

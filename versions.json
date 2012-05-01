@@ -208,5 +208,10 @@
     "setCode": "DKA",
     "setName": "Dark Ascension",
     "creationDay": "2012-02-01"
+  },
+  {
+    "setCode": "AVR",
+    "setName": "Avacyn Restored",
+    "creationDay": "2012-05-01"
   }
 ]
