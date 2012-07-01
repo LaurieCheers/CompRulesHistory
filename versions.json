@@ -213,5 +213,10 @@
     "setCode": "AVR",
     "setName": "Avacyn Restored",
     "creationDay": "2012-05-01"
+  },
+  {
+    "setCode": "M13",
+    "setName": "Magic 2013",
+    "creationDay": "2012-07-01"
   }
 ]

@@ -1,18 +1,18 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are effective as of May 1, 2012.
+These rules are effective as of July 1, 2012.
 
 Introduction
 
 This document is designed for people who've moved beyond the basics of the Magic: The Gathering(R) game. If you're a beginning Magic(TM) player, you'll probably find these rules intimidating. They're intended to be the ultimate authority for the game, and you won't usually need to refer to them except in specific cases or during competitive games.
 
-For casual play and most ordinary situations, you'll find what you need in the Magic: The Gathering basic rulebook. You can download a copy of that rulebook from the Wizards of the Coast(R) Magic rules website at www.wizards.com/Magic/rules. If you're sure this is where you want to be, keep reading.
+For casual play and most ordinary situations, you'll find what you need in the Magic: The Gathering basic rulebook. You can download a copy of that rulebook from the Wizards of the Coast(R) Magic rules website at <www.wizards.com/Magic/rules>. If you're sure this is where you want to be, keep reading.
 
 This document includes a series of numbered rules followed by a glossary. Many of the numbered rules are divided into subrules, and each separate rule and subrule of the game has its own number. (Note that subrules skip the letters "l" and "o" due to potential confusion with the numbers "1" and "0"; subrule 704.5k is followed by 704.5m, then 704.5n, then 704.5p, for example.)
 
-We at Wizards of the Coast recognize that no matter how detailed the rules, situations will arise in which the interaction of specific cards requires a precise answer. If you have questions, you can get the answers from us at www.wizards.com/customerservice. Additional contact information is on the last page of these rules.
+We at Wizards of the Coast recognize that no matter how detailed the rules, situations will arise in which the interaction of specific cards requires a precise answer. If you have questions, you can get the answers from us at <www.wizards.com/customerservice>. Additional contact information is on the last page of these rules.
 
-In response to play issues and to keep these rules as current as possible, changes may have been made to this document since its publication. See the Wizards of the Coast Magic rules website at www.wizards.com/Magic/rules for the current version of the official rules.
+In response to play issues and to keep these rules as current as possible, changes may have been made to this document since its publication. See the Wizards of the Coast Magic rules website at <www.wizards.com/Magic/rules> for the current version of the official rules.
 
 
 Contents
@@ -67,8 +67,9 @@ Contents
 307. Sorceries
 308. Tribals
 309. Planes
-310. Vanguards
-311. Schemes
+310. Phenomena
+311. Vanguards
+312. Schemes
 
 4. Zones
 400. General
@@ -208,13 +209,13 @@ In limited play involving other multiplayer team variants, each card a team open
 There is no maximum deck size.
 
 100.6.
-Most Magic tournaments (organized play activities where players compete against other players to win prizes) have additional rules covered in the Magic: The Gathering Tournament Rules (found at www.wizards.com/wpn/Events/Rules.aspx). These rules may limit the use of some cards, including barring all cards from some older sets.
+Most Magic tournaments (organized play activities where players compete against other players to win prizes) have additional rules covered in the Magic: The Gathering Tournament Rules (found at <www.wizards.com/wpn/Events/Rules.aspx>). These rules may limit the use of some cards, including barring all cards from some older sets.
 
 100.6a
 Tournaments usually consist of a series of matches. A two-player match usually involves playing until one player has won two games. A multiplayer match usually consists of only one game.
 
 100.6b
-Players can use the Magic Store & Event Locator at www.wizards.com/locator to find tournaments in their area.
+Players can use the Magic Store & Event Locator at <www.wizards.com/locator> to find tournaments in their area.
 
 101. The Magic Golden Rules
 
@@ -270,7 +271,7 @@ If a player is using a sideboard (see rule 100.4) or double-faced cards being re
 In a Commander game, each player puts his or her commander from his or her deck face up into the command zone before shuffling. See rule 903.6.
 
 103.2.
-After the decks have been shuffled, the players determine which one of them will choose who takes the first turn. In the first game of a match (including a single-game match), the players may use any mutually agreeable method (flipping a coin, rolling dice, etc.) to do so. In a match of several games, the loser of the previous game chooses who takes the first turn. If the previous game was a draw, the player who made the choice in that game makes the choice in this game. The player chosen to take the first turn is the starting player.
+After the decks have been shuffled, the players determine which one of them will choose who takes the first turn. In the first game of a match (including a single-game match), the players may use any mutually agreeable method (flipping a coin, rolling dice, etc.) to do so. In a match of several games, the loser of the previous game chooses who takes the first turn. If the previous game was a draw, the player who made the choice in that game makes the choice in this game. The player chosen to take the first turn is the starting player. The game's default turn order begins with the starting player and proceeds clockwise.
 
 103.2a
 In a game using the shared team turns option, there is a starting team rather than a starting player.
@@ -321,7 +322,7 @@ If a card allows a player to reveal it from his or her opening hand, the player 
 In a multiplayer game using the shared team turns option, first each player on the starting team, in whatever order that team likes, may take such actions. Teammates may consult while making their decisions. Then each player on each other team in turn order does the same.
 
 103.6.
-In a Planechase game, the starting player moves the top card of his or her planar deck off that planar deck and turns it face up. (See rule 901, "Planechase.")
+In a Planechase game, the starting player moves the top card of his or her planar deck off that planar deck and turns it face up. If it's a plane card, that card is the starting plane. If it's a phenomenon card, the player puts that card on the bottom of his or her planar deck and repeats this process until a plane card is turned face up. (See rule 901, "Planechase.")
 
 103.7.
 The starting player takes his or her first turn.
@@ -600,7 +601,7 @@ A type icon appears in the upper left corner of each card from the Future Sight(
 The Planeswalker symbol is {PW}. It appears on one face of the planar die used in the Planechase casual variant. See rule 901, "Planechase."
 
 107.12.
-The chaos symbol is {C}. It appears on one face of the planar die used in the Planechase casual variant, as well as in triggered abilities that refer to the results of rolling the planar die. See rule 901, "Planechase."
+The chaos symbol is {C}. It appears on one face of the planar die used in the Planechase casual variant, as well as in abilities that refer to the results of rolling the planar die. See rule 901, "Planechase."
 
 107.13.
 The sun symbol appears in the upper left corner of the front face of double-faced cards. See rule 711, "Double-Faced Cards."
@@ -626,7 +627,7 @@ In the text of spells or abilities, the term "card" is used only to refer to a c
 The owner of a card in the game is the player who started the game with it in his or her deck. If a card is brought into the game from outside the game rather than starting in a player's deck, its owner is the player who brought it into the game. If a card starts the game in the command zone, its owner is the player who put it into the command zone to start the game. Legal ownership of a card in the game is irrelevant to the game rules except for the rules for ante. (See rule 407.)
 
 108.3a
-In a Planechase game using the single planar deck option, the planar controller is considered to be the owner of all the plane cards. See rule 901.6.
+In a Planechase game using the single planar deck option, the planar controller is considered to be the owner of all cards in the planar deck. See rule 901.6.
 
 108.3b
 Some spells and abilities allow a player to take cards he or she owns from outside the game and bring them into the game. (See rule 400.10b.) If a card outside that game is involved in a Magic game, its owner is determined as described in rule 108.3. If a card outside that game is in the sideboard of a Magic game (see rule 100.4), its owner is considered to be the player who started the game with it in his or her sideboard. In all other cases, the owner of a card outside the game is its legal owner.
@@ -673,7 +674,7 @@ Only objects on the stack or on the battlefield have a controller. Objects that 
 An emblem is controlled by the player that puts it into the command zone. See rule 113, "Emblems."
 
 109.4b
-In a Planechase game, a face-up plane card is controlled by the player designated as the planar controller. This is usually the active player. See rule 901.6.
+In a Planechase game, a face-up plane or phenomenon card is controlled by the player designated as the planar controller. This is usually the active player. See rule 901.6.
 
 109.4c
 In a Vanguard game, each vanguard card is controlled by its owner. See rule 902.6.
@@ -859,7 +860,7 @@ An ability whose cost or effect specifies that it moves the object it's on out o
 Example: Reassembling Skeleton says "{1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped." A player may activate this ability only if Reassembling Skeleton is in his or her graveyard.
 
 112.6m
-An ability that modifies the rules for deck construction functions before the game begins. Such an ability modifies not just the Comprehensive Rules, but also the Magic: The Gathering Tournament Rules and any other documents that set the deck construction rules for a specific Constructed format. However, such an ability can't affect the format legality of a card, including whether it's banned or restricted. The current Magic: The Gathering Tournament Rules can be found at www.wizards.com/wpn/Events/Rules.aspx.
+An ability that modifies the rules for deck construction functions before the game begins. Such an ability modifies not just the Comprehensive Rules, but also the Magic: The Gathering Tournament Rules and any other documents that set the deck construction rules for a specific Constructed format. However, such an ability can't affect the format legality of a card, including whether it's banned or restricted. The current Magic: The Gathering Tournament Rules can be found at <www.wizards.com/wpn/Events/Rules.aspx>.
 
 112.6n
 Abilities of emblems, plane cards, vanguard cards, and scheme cards function in the command zone. See rule 113, "Emblems"; rule 901, "Planechase"; rule 902, "Vanguard"; and rule 904, "Archenemy."
@@ -1000,7 +1001,7 @@ Some effects from static abilities allow a player to take an action to ignore th
 A player who has a card with suspend in his or her hand may exile that card. This is a special action. A player can take this action any time he or she has priority, but only if he or she could begin to cast that card by putting it onto the stack. See rule 702.60, "Suspend."
 
 115.2f
-In a Planechase game, rolling the planar die is a special action. A player can take this action any time he or she has priority and the stack is empty during a main phase of his or her turn. Taking this action costs a player an amount of mana equal to the number of times he or she has previously taken this action on that turn. See rule 901, "Planechase."
+In a Planechase game, rolling the planar die is a special action. A player can take this action any time he or she has priority and the stack is empty during a main phase of his or her turn. Taking this action costs a player an amount of mana equal to the number of times he or she has previously taken this action on that turn. Note that this number won't be equal to the number of times the player has rolled the planar die that turn if an effect has caused the player to roll the planar die that turn. See rule 901, "Planechase."
 
 115.3.
 If a player takes a special action, that player receives priority afterward.
@@ -1312,7 +1313,7 @@ If an effect replaces a draw within a sequence of card draws, the replacement ef
 Some effects perform additional actions on a card after it's drawn. If the draw is replaced, the additional action is not performed on any cards that are drawn as a result of that replacement effect or any subsequent replacement effects.
 
 120.7.
-Some replacement effects and prevention effects result in multiple card draws. In such a case, any parts of the original event that haven't been replaced by the effect occur first, then the card draws happen one at a time.
+Some replacement effects and prevention effects result in one or more card draws. In such a case, if there are any parts of the original event that haven't been replaced, those parts occur first, then the card draws happen one at a time.
 
 121. Counters
 
@@ -1488,11 +1489,11 @@ A card can have one or more subtypes printed on its type line.
 
 205.3b
 Subtypes of each card type except plane are always single words and are listed after a long dash. Each word after the dash is a separate subtype; such objects may have multiple types. Subtypes of planes are also listed after a long dash, but may be multiple words; all words after the dash are, collectively, a single subtype.
-Example: "Basic Land --  Mountain" means the card is a land with the subtype Mountain. "Creature --  Goblin Wizard" means the card is a creature with the subtypes Goblin and Wizard. "Artifact --  Equipment" means the card is an artifact with the subtype Equipment.
+Example: "Basic Land -- Mountain" means the card is a land with the subtype Mountain. "Creature -- Goblin Wizard" means the card is a creature with the subtypes Goblin and Wizard. "Artifact -- Equipment" means the card is an artifact with the subtype Equipment.
 
 205.3c
 If a card with multiple card types has one or more subtypes, each subtype is correlated to its appropriate card type.
-Example: Dryad Arbor's type line says "Land Creature --  Forest Dryad." Forest is a land type, and Dryad is a creature type.
+Example: Dryad Arbor's type line says "Land Creature -- Forest Dryad." Forest is a land type, and Dryad is a creature type.
 
 205.3d
 An object can't gain a subtype that doesn't correspond to one of that object's types.
@@ -1525,10 +1526,10 @@ Instants and sorceries share their lists of subtypes; these subtypes are called 
 Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Ally, Angel, Anteater, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Monger, Mongoose, Monk, Moonfolk, Mutant, Myr, Mystic, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pincher, Pirate, Plant, Praetor, Prism, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.
 
 205.3n
-Planes have their own unique set of subtypes; these subtypes are called planar types. The planar types are Alara, Arkhos, Bolas's Meditation Realm, Dominaria, Equilor, Iquatana, Ir, Kaldheim, Kamigawa, Karsus, Kinshala, Lorwyn, Luvion, Mercadia, Mirrodin, Moag, Muraganda, Phyrexia, Pyrulea, Rabiah, Rath, Ravnica, Segovia, Serra's Realm, Shadowmoor, Shandalar, Ulgrotha, Valla, Wildfire, and Zendikar.
+Planes have their own unique set of subtypes; these subtypes are called planar types. The planar types are Alara, Arkhos, Azgol, Belenon, Bolas's Meditation Realm, Dominaria, Equilor, Ergamon, Fabacin, Innistrad, Iquatana, Ir, Kaldheim, Kamigawa, Karsus, Kephalai, Kinshala, Kolbahan, Kyneth, Lorwyn, Luvion, Mercadia, Mirrodin, Moag, Mongseng, Muraganda, New Phyrexia, Phyrexia, Pyrulea, Rabiah, Rath, Ravnica, Regatha, Segovia, Serra's Realm, Shadowmoor, Shandalar, Ulgrotha, Valla, Vryn, Wildfire, Xerex, and Zendikar.
 
 205.3p
-Neither vanguard cards nor scheme cards have subtypes.
+Phenomenon cards, scheme cards, and vanguard cards have no subtypes.
 
 205.4.
 Supertypes
@@ -1562,7 +1563,7 @@ Any scheme card with the supertype "ongoing" is exempt from the state-based acti
 The expansion symbol indicates which Magic set a card is from. It's a small icon normally printed below the right edge of the illustration.
 
 206.2.
-The color of the expansion symbol indicates the rarity of the card within its set. A red-orange symbol indicates the card is mythic rare. A gold symbol indicates the card is rare. A silver symbol indicates the card is uncommon. A black or white symbol indicates the card is common or is a basic land. A purple symbol signifies a special rarity; to date, only the Time Spiral(R) "timeshifted" cards, which were rarer than that set's rare cards, have had purple expansion symbols. (Prior to the Exodus(TM) set, all expansion symbols were black, regardless of rarity. Also, prior to the Sixth Edition core set, with the exception of the Simplified Chinese Fifth Edition core set, Magic core sets didn't have expansion symbols at all.)
+The color of the expansion symbol indicates the rarity of the card within its set. A red-orange symbol indicates the card is mythic rare. A gold symbol indicates the card is rare. A silver symbol indicates the card is uncommon. A black or white symbol indicates the card is common or is a basic land. A purple symbol signifies a special rarity; to date, only the Time Spiral(R) "timeshifted" cards, which were rarer than that set's rare cards, have had purple expansion symbols. (Prior to the Exodus set, all expansion symbols were black, regardless of rarity. Also, prior to the Sixth Edition core set, with the exception of the Simplified Chinese Fifth Edition core set, Magic core sets didn't have expansion symbols at all.)
 
 206.3.
 A spell or ability that affects cards from a particular set checks only for that set's expansion symbol. A card reprinted in the core set or another expansion receives that set's expansion symbol. Any reprinted version of the card no longer counts as part of its original set unless it was reprinted with that set's expansion symbol.
@@ -1652,7 +1653,7 @@ Some card sets feature collector numbers. This information is printed in the for
 300. General
 
 300.1.
-The card types are artifact, creature, enchantment, instant, land, plane, planeswalker, scheme, sorcery, tribal, and vanguard.
+The card types are artifact, creature, enchantment, instant, land, phenomenon, plane, planeswalker, scheme, sorcery, tribal, and vanguard.
 
 300.2.
 Some objects have more than one card type (for example, an artifact creature). Such objects combine the aspects of each of those card types, and are subject to spells and abilities that affect either or all of those card types.
@@ -1672,7 +1673,7 @@ A player who has priority may cast an artifact card from his or her hand during 
 When an artifact spell resolves, its controller puts it onto the battlefield under his or her control.
 
 301.3.
-Artifact subtypes are always a single word and are listed after a long dash: "Artifact --  Equipment." Artifact subtypes are also called artifact types. Artifacts may have multiple subtypes. See rule 205.3g for the complete list of artifact types.
+Artifact subtypes are always a single word and are listed after a long dash: "Artifact -- Equipment." Artifact subtypes are also called artifact types. Artifacts may have multiple subtypes. See rule 205.3g for the complete list of artifact types.
 
 301.4.
 Artifacts have no characteristics specific to their card type. Most artifacts have no colored mana symbols in their mana costs, and are therefore colorless. However, there is no correlation between being colorless and being an artifact: artifacts may be colored, and colorless objects may be card types other than artifact.
@@ -1707,8 +1708,8 @@ A player who has priority may cast a creature card from his or her hand during a
 When a creature spell resolves, its controller puts it onto the battlefield under his or her control.
 
 302.3.
-Creature subtypes are always a single word and are listed after a long dash: "Creature --  Human Soldier," "Artifact Creature --  Golem," and so on. Creature subtypes are also called creature types. Creatures may have multiple subtypes. See rule 205.3m for the complete list of creature types.
-Example: "Creature --  Goblin Wizard" means the card is a creature with the subtypes Goblin and Wizard.
+Creature subtypes are always a single word and are listed after a long dash: "Creature -- Human Soldier," "Artifact Creature -- Golem," and so on. Creature subtypes are also called creature types. Creatures may have multiple subtypes. See rule 205.3m for the complete list of creature types.
+Example: "Creature -- Goblin Wizard" means the card is a creature with the subtypes Goblin and Wizard.
 
 302.4.
 Power and toughness are characteristics only creatures have.
@@ -1740,7 +1741,7 @@ A player who has priority may cast an enchantment card from his or her hand duri
 When an enchantment spell resolves, its controller puts it onto the battlefield under his or her control.
 
 303.3.
-Enchantment subtypes are always a single word and are listed after a long dash: "Enchantment --  Shrine." Each word after the dash is a separate subtype. Enchantment subtypes are also called enchantment types. Enchantments may have multiple subtypes. See rule 205.3h for the complete list of enchantment types.
+Enchantment subtypes are always a single word and are listed after a long dash: "Enchantment -- Shrine." Each word after the dash is a separate subtype. Enchantment subtypes are also called enchantment types. Enchantments may have multiple subtypes. See rule 205.3h for the complete list of enchantment types.
 
 303.4.
 Some enchantments have the subtype "Aura." An Aura enters the battlefield attached to an object or player. What an Aura can be attached to is defined by its enchant keyword ability (see rule 702.5, "Enchant"). Other effects can limit what a permanent can be enchanted by.
@@ -1781,7 +1782,7 @@ A player who has priority may cast an instant card from his or her hand. Casting
 When an instant spell resolves, the actions stated in its rules text are followed. Then it's put into its owner's graveyard.
 
 304.3.
-Instant subtypes are always a single word and are listed after a long dash: "Instant --  Arcane." Each word after the dash is a separate subtype. The set of instant subtypes is the same as the set of sorcery subtypes; these subtypes are called spell types. Instants may have multiple subtypes. See rule 205.3k for the complete list of spell types.
+Instant subtypes are always a single word and are listed after a long dash: "Instant -- Arcane." Each word after the dash is a separate subtype. The set of instant subtypes is the same as the set of sorcery subtypes; these subtypes are called spell types. Instants may have multiple subtypes. See rule 205.3k for the complete list of spell types.
 
 304.4.
 Instants can't enter the battlefield. If an instant would enter the battlefield, it remains in its previous zone instead.
@@ -1805,7 +1806,7 @@ Effects may also allow players to "put" lands onto the battlefield. This isn't t
 
 305.5.
 Land subtypes are always a single word and are listed after a long dash. Land subtypes are also called land types. Lands may have multiple subtypes. See rule 205.3i for the complete list of land types.
-Example: "Basic Land --  Mountain" means the card is a land with the subtype Mountain.
+Example: "Basic Land -- Mountain" means the card is a land with the subtype Mountain.
 
 305.6.
 The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the words "basic land type," it's referring to one of these subtypes. A land with a basic land type has the intrinsic ability "{T}: Add [mana symbol] to your mana pool," even if the text box doesn't actually contain that text or the object has no text box. For Plains, [mana symbol] is {W}; for Islands, {U}; for Swamps, {B}; for Mountains, {R}; and for Forests, {G}. See rule 107.4a. Also see rule 605, "Mana Abilities."
@@ -1828,7 +1829,7 @@ A player who has priority may cast a planeswalker card from his or her hand duri
 When a planeswalker spell resolves, its controller puts it onto the battlefield under his or her control.
 
 306.3.
-Planeswalker subtypes are always a single word and are listed after a long dash: "Planeswalker --  Jace." Each word after the dash is a separate subtype. Planeswalker subtypes are also called planeswalker types. Planeswalkers may have multiple subtypes. See rule 205.3j for the complete list of planeswalker types.
+Planeswalker subtypes are always a single word and are listed after a long dash: "Planeswalker -- Jace." Each word after the dash is a separate subtype. Planeswalker subtypes are also called planeswalker types. Planeswalkers may have multiple subtypes. See rule 205.3j for the complete list of planeswalker types.
 
 306.4.
 If two or more planeswalkers that share a planeswalker type are on the battlefield, all are put into their owners' graveyards as a state-based action. This is called the "planeswalker uniqueness rule." See rule 704.
@@ -1869,7 +1870,7 @@ A player who has priority may cast a sorcery card from his or her hand during a 
 When a sorcery spell resolves, the actions stated in its rules text are followed. Then it's put into its owner's graveyard.
 
 307.3.
-Sorcery subtypes are always a single word and are listed after a long dash: "Sorcery --  Arcane." Each word after the dash is a separate subtype. The set of sorcery subtypes is the same as the set of instant subtypes; these subtypes are called spell types. Sorceries may have multiple subtypes. See rule 205.3k for the complete list of spell types.
+Sorcery subtypes are always a single word and are listed after a long dash: "Sorcery -- Arcane." Each word after the dash is a separate subtype. The set of sorcery subtypes is the same as the set of instant subtypes; these subtypes are called spell types. Sorceries may have multiple subtypes. See rule 205.3k for the complete list of spell types.
 
 307.4.
 Sorceries can't enter the battlefield. If a sorcery would enter the battlefield, it remains in its previous zone instead.
@@ -1886,7 +1887,7 @@ Similarly, if an effect checks to see if a spell was cast "any time a sorcery co
 Each tribal card has another card type. Casting and resolving a tribal card follows the rules for casting and resolving a card of the other card type.
 
 308.2.
-Tribal subtypes are always a single word and are listed after a long dash: "Tribal Enchantment --  Merfolk." The set of tribal subtypes is the same as the set of creature subtypes; these subtypes are called creature types. Tribals may have multiple subtypes. See rule 205.3m for the complete list of creature types.
+Tribal subtypes are always a single word and are listed after a long dash: "Tribal Enchantment -- Merfolk." The set of tribal subtypes is the same as the set of creature subtypes; these subtypes are called creature types. Tribals may have multiple subtypes. See rule 205.3m for the complete list of creature types.
 
 309. Planes
 
@@ -1897,7 +1898,7 @@ Plane is a card type seen only on nontraditional Magic cards. Only the Planechas
 Plane cards remain in the command zone throughout the game, both while they're part of a planar deck and while they're face up. They're not permanents. They can't be cast. If a plane card would leave the command zone, it remains in the command zone.
 
 309.3.
-Plane subtypes are listed after a long dash, and may be multiple words: "Plane --  Serra's Realm." All words after the dash are, collectively, a single subtype. Planar subtypes are called planar types. A plane can have only one subtype. See rule 205.3n for the complete list of planar types.
+Plane subtypes are listed after a long dash, and may be multiple words: "Plane -- Serra's Realm." All words after the dash are, collectively, a single subtype. Planar subtypes are called planar types. A plane can have only one subtype. See rule 205.3n for the complete list of planar types.
 
 309.4.
 A plane card may have any number of static, triggered, and/or activated abilities. As long as a plane card is face up in the command zone, its static abilities affect the game, its triggered abilities may trigger, and its activated abilities may be activated.
@@ -1906,55 +1907,78 @@ A plane card may have any number of static, triggered, and/or activated abilitie
 The controller of a face-up plane card is the player designated as the planar controller. Normally, the planar controller is whoever the active player is. However, if the current planar controller would leave the game, instead the next player in turn order that wouldn't leave the game becomes the planar controller, then the old planar controller leaves the game. The new planar controller retains that designation until he or she leaves the game or a different player becomes the active player, whichever comes first.
 
 309.6.
-A plane card is treated as if its text box included "When you roll {PW}, put this card on the bottom of its owner's planar deck face down, then move the top card of your planar deck face up." This is called the "planeswalking ability." A face-up plane card that's turned face down becomes a new object.
+A face-up plane card that's turned face down becomes a new object.
 
 309.7.
 Each plane card has a triggered ability that triggers "Whenever you roll {C}." These are called "chaos abilities." Each one is indicated by a {C} to its left, though the symbol itself has no special rules meaning.
 
-310. Vanguards
+310. Phenomena
 
 310.1.
-Vanguard is a card type seen only on nontraditional Magic cards. Only the Vanguard casual variant uses vanguard cards. See rule 902, "Vanguard."
+Phenomenon is a card type seen only on nontraditional Magic cards. Only the Planechase casual variant uses phenomenon cards. See rule 901, "Planechase."
 
 310.2.
-Vanguard cards remain in the command zone throughout the game. They're not permanents. They can't be cast. If a vanguard card would leave the command zone, it remains in the command zone.
+Phenomenon cards remain in the command zone throughout the game, both while they're part of a planar deck and while they're face up. They're not permanents. They can't be cast. If a phenomenon card would leave the command zone, it remains in the command zone.
 
 310.3.
-Vanguard cards have no subtypes.
+Phenomenon cards have no subtypes.
 
 310.4.
-A vanguard card may have any number of static, triggered, and/or activated abilities. As long as a vanguard card is in the command zone, its static abilities affect the game, its triggered abilities may trigger, and its activated abilities may be activated.
+The controller of a face-up phenomenon card is the player designated as the planar controller. Normally, the planar controller is whoever the active player is. However, if the current planar controller would leave the game, instead the next player in turn order that wouldn't leave the game becomes the planar controller, then the old planar controller leaves the game. The new planar controller retains that designation until he or she leaves the game or a different player becomes the active player, whichever comes first.
 
 310.5.
-The owner of a vanguard card is the player who started the game with it in the command zone. The controller of a face-up vanguard card is its owner.
+Each phenomenon card has a triggered ability that triggers when you encounter it. "When you encounter [this phenomenon]" means "When you move this card off a planar deck and turn it face up."
 
 310.6.
-Each vanguard card has a hand modifier printed in its lower left corner. This is a number preceded by a plus sign, a number preceded by a minus sign, or a zero. This modifier is applied to the maximum hand size of the vanguard card's owner (normally seven) to determine both how many cards that player draws at the beginning of the game and his or her maximum hand size.
+A face-up phenomenon card that's turned face down becomes a new object.
 
 310.7.
-Each vanguard card has a life modifier printed in its lower right corner. This is a number preceded by a plus sign, a number preceded by a minus sign, or a zero. This modifier is applied to the starting life total of the vanguard card's owner (normally 20) to determine how much life that player begins the game with.
+If a phenomenon card is face up in the command zone, and it isn't the source of a triggered ability that has triggered but not yet left the stack, the planar controller planeswalks the next time a player would receive priority. (This is a state-based action; see rule 704. See also rule 701.21, "Planeswalk.")
 
-311. Schemes
+311. Vanguards
 
 311.1.
-Scheme is a card type seen only on nontraditional Magic cards. Only the Archenemy casual variant uses scheme cards. See rule 904, "Archenemy."
+Vanguard is a card type seen only on nontraditional Magic cards. Only the Vanguard casual variant uses vanguard cards. See rule 902, "Vanguard."
 
 311.2.
-Scheme cards remain in the command zone throughout the game, both while they're part of a scheme deck and while they're face up. They're not permanents. They can't be cast. If a scheme card would leave the command zone, it remains in the command zone.
+Vanguard cards remain in the command zone throughout the game. They're not permanents. They can't be cast. If a vanguard card would leave the command zone, it remains in the command zone.
 
 311.3.
-Scheme cards have no subtypes.
+Vanguard cards have no subtypes.
 
 311.4.
-A scheme card may have any number of static, triggered, and/or activated abilities. As long as a scheme card is face up in the command zone, its static abilities affect the game, its triggered abilities may trigger, and its activated abilities may be activated.
+A vanguard card may have any number of static, triggered, and/or activated abilities. As long as a vanguard card is in the command zone, its static abilities affect the game, its triggered abilities may trigger, and its activated abilities may be activated.
 
 311.5.
-The owner of a scheme card is the player who started the game with it in the command zone. The controller of a face-up scheme card is its owner.
+The owner of a vanguard card is the player who started the game with it in the command zone. The controller of a face-up vanguard card is its owner.
 
 311.6.
-If a non-ongoing scheme card is face up in the command zone, and it isn't the source of a triggered ability that has triggered but not yet left the stack, that scheme card is turned face down and put on the bottom of its owner's scheme deck the next time a player would receive priority. (This is a state-based action. See rule 704.)
+Each vanguard card has a hand modifier printed in its lower left corner. This is a number preceded by a plus sign, a number preceded by a minus sign, or a zero. This modifier is applied to the maximum hand size of the vanguard card's owner (normally seven) to determine both how many cards that player draws at the beginning of the game and his or her maximum hand size.
 
 311.7.
+Each vanguard card has a life modifier printed in its lower right corner. This is a number preceded by a plus sign, a number preceded by a minus sign, or a zero. This modifier is applied to the starting life total of the vanguard card's owner (normally 20) to determine how much life that player begins the game with.
+
+312. Schemes
+
+312.1.
+Scheme is a card type seen only on nontraditional Magic cards. Only the Archenemy casual variant uses scheme cards. See rule 904, "Archenemy."
+
+312.2.
+Scheme cards remain in the command zone throughout the game, both while they're part of a scheme deck and while they're face up. They're not permanents. They can't be cast. If a scheme card would leave the command zone, it remains in the command zone.
+
+312.3.
+Scheme cards have no subtypes.
+
+312.4.
+A scheme card may have any number of static, triggered, and/or activated abilities. As long as a scheme card is face up in the command zone, its static abilities affect the game, its triggered abilities may trigger, and its activated abilities may be activated.
+
+312.5.
+The owner of a scheme card is the player who started the game with it in the command zone. The controller of a face-up scheme card is its owner.
+
+312.6.
+If a non-ongoing scheme card is face up in the command zone, and it isn't the source of a triggered ability that has triggered but not yet left the stack, that scheme card is turned face down and put on the bottom of its owner's scheme deck the next time a player would receive priority. (This is a state-based action. See rule 704.)
+
+312.7.
 If an ability of a scheme card includes the text "this scheme," it means the scheme card in the command zone that's the source of that ability. This is an exception to rule 109.2.
 
 
@@ -1978,7 +2002,7 @@ Cards with certain card types can't enter certain zones.
 If an instant or sorcery card would enter the battlefield, it remains in its previous zone.
 
 400.4b
-If a plane, vanguard, or scheme card would leave the command zone, it remains in the command zone.
+If a plane, phenomenon, vanguard, or scheme card would leave the command zone, it remains in the command zone.
 
 400.5.
 The order of objects in a library, in a graveyard, or on the stack can't be changed except when effects or rules allow it. The same is true for objects arranged in face-down piles in other zones. Other objects in other zones can be arranged however their owners wish, although who controls those objects, whether they're tapped or flipped, and what other objects are attached to them must remain clear to all players.
@@ -2361,7 +2385,7 @@ Rules 506.6 and 506.6a-f apply to abilities that state that they may be activate
 507. Beginning of Combat Step
 
 507.1.
-First, if the game being played is a multiplayer game in which the active player's opponent's don't all automatically become defending players, the active player chooses one of his or her opponents. That player becomes the defending player. This turn-based action doesn't use the stack. (See rule 506.2.)
+First, if the game being played is a multiplayer game in which the active player's opponents don't all automatically become defending players, the active player chooses one of his or her opponents. That player becomes the defending player. This turn-based action doesn't use the stack. (See rule 506.2.)
 
 507.2.
 Second, any abilities that trigger at the beginning of combat go on the stack. (See rule 603, "Handling Triggered Abilities.")
@@ -3183,13 +3207,13 @@ A continuous effect generated by a static ability has the same timestamp as the 
 A continuous effect generated by the resolution of a spell or ability receives a timestamp at the time it's created.
 
 613.6c
-An object's timestamp is the time it entered the zone it's currently in, unless it's an Aura, Equipment, or Fortification that's attached to another object or player, or it's a face-up plane card.
+An object's timestamp is the time it entered the zone it's currently in, unless it's an Aura, Equipment, or Fortification that's attached to another object or player, or it's a face-up plane card, phenomenon card, or scheme card.
 
 613.6d
 If an Aura, Equipment, or Fortification becomes attached to an object or player, the Aura, Equipment, or Fortification receives a new timestamp at that time.
 
 613.6e
-A face-up plane card or scheme card receives a timestamp at the time it's turned face up.
+A face-up plane card, phenomenon card, or scheme card receives a timestamp at the time it's turned face up.
 
 613.6f
 A face-up vanguard card receives a timestamp at the beginning of the game.
@@ -3294,8 +3318,15 @@ Example: Yixlid Jailer says "Cards in graveyards lose all abilities." Scarwood T
 Example: Orb of Dreams is an artifact that says "Permanents enter the battlefield tapped." It won't affect itself, so Orb of Dreams enters the battlefield untapped.
 
 614.13.
-An effect that modifies how a permanent enters the battlefield may cause other objects to change zones. Such an effect can't cause the permanent itself to not enter the battlefield.
-Example: Sutured Ghoul says, in part, "As Sutured Ghoul enters the battlefield, exile any number of creature cards from your graveyard." If Sutured Ghoul enters the battlefield from your graveyard, Sutured Ghoul itself can't be exiled by this replacement effect.
+An effect that modifies how a permanent enters the battlefield may cause other objects to change zones.
+
+614.13a
+When applying an effect that modifies how a permanent enters the battlefield, you can't make a choice that would cause that permanent to go to a different zone and not enter the battlefield.
+Example: Sutured Ghoul says, in part, "As Sutured Ghoul enters the battlefield, exile any number of creature cards from your graveyard." If Sutured Ghoul enters the battlefield from your graveyard, you can't choose to exile Sutured Ghoul itself.
+
+614.13b
+The same object can't be chosen to change zones more than once when applying replacement effects that modify how a single permanent enters the battlefield.
+Example: Jund (a plane card) says, "Whenever a player casts a black, red, or green creature spell, it gains devour 5." A player controls Runeclaw Bear and casts Thunder-Thrash Elder, a red creature spell with devour 3. As Thunder-Thrash Elder enters the battlefield, its controller can choose to sacrifice Runeclaw Bear when applying the devour 3 effect or when applying the devour 5 effect, but not both. Thunder-Thrash Elder will enter the battlefield with zero, three, or five +1/+1 counters, depending on this choice.
 
 614.14.
 An object may have one ability printed on it that generates a replacement effect which causes one or more cards to be exiled, and another ability that refers either to "the exiled cards" or to cards "exiled with [this object]." These abilities are linked: the second refers only to cards in the exile zone that were put there as a direct result of the replacement event caused by the first. If another object gains a pair of linked abilities, the abilities will be similarly linked on that object. They can't be linked to any other ability, regardless of what other abilities the object may currently have or may have had in the past. See rule 607, "Linked Abilities."
@@ -3342,7 +3373,7 @@ Some prevention effects prevent the next N damage that would be dealt to each of
 Example: Wojek Apothecary has an ability that says "{T}: Prevent the next 1 damage that would be dealt to target creature and each other creature that shares a color with it this turn." When the ability resolves, it gives the target creature and each other creature on the battlefield that shares a color with it at that time a shield preventing the next 1 damage that would be dealt to it. Changing creatures' colors after the ability resolves doesn't add or remove shields, and creatures that enter the battlefield later in the turn don't get the shield.
 
 615.11.
-Some effects state that damage "can't be prevented." If unpreventable damage would be dealt, any applicable prevention effects are still applied to it. Those effects won't prevent any damage, but any additional effects they have will take place.
+Some effects state that damage "can't be prevented." If unpreventable damage would be dealt, any applicable prevention effects are still applied to it. Those effects won't prevent any damage, but any additional effects they have will take place. Existing damage prevention shields won't be reduced by damage that can't be prevented.
 
 615.11a
 A prevention effect is applied to any particular unpreventable damage event just once. It won't invoke itself repeatedly trying to prevent that damage.
@@ -3383,7 +3414,7 @@ Anything that happens in a game is an event. Multiple events may take place duri
 Example: If an attacking creature is blocked by two creatures, this is one event for a triggered ability that reads "Whenever [this creature] becomes blocked" but two events for a triggered ability that reads "Whenever [this creature] becomes blocked by a creature."
 
 700.2.
-A spell or ability is modal if it has two or more options preceded by "Choose one -- ," "Choose two -- ," "Choose one or both -- ," "Choose one or more -- ," or "[a specified player] chooses one -- ." Each of those options is a mode.
+A spell or ability is modal if it has two or more options preceded by "Choose one  -- ," "Choose two  -- ," "Choose one or both  -- ," "Choose one or more  -- ," or "[a specified player] chooses one  -- ." Each of those options is a mode.
 
 700.2a
 The controller of a modal spell or activated ability chooses the mode(s) as part of casting that spell or activating that ability. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. (See rule 601.2b.)
@@ -3525,7 +3556,7 @@ If a card in one zone is exchanged with a card in a different zone, and either o
 If a spell or ability instructs a player to simply exchange two zones, and one of the zones is empty, the cards in the zones are still exchanged.
 
 701.8g
-A spell or ability may instruct a player to exchange two numerical values. In such an exchange, each value becomes equal to the previous value of the other. If either of those values is a life total, the affected player gains or loses the amount of life necessary to equal the other value. Replacements effects may modify this gain or loss, and triggered abilities may trigger on it. If either of those values is a power or toughness, a continuous effect is created setting that power or toughness to the other value (see rule 613.3b). This rule does not apply to spells and abilities that switch a creature's power and toughness.
+A spell or ability may instruct a player to exchange two numerical values. In such an exchange, each value becomes equal to the previous value of the other. If either of those values is a life total, the affected player gains or loses the amount of life necessary to equal the other value. Replacement effects may modify this gain or loss, and triggered abilities may trigger on it. If either of those values is a power or toughness, a continuous effect is created setting that power or toughness to the other value (see rule 613.3b). This rule does not apply to spells and abilities that switch a creature's power and toughness.
 
 701.9.
 Exile
@@ -3676,19 +3707,19 @@ Planeswalk
 A player may planeswalk only during a Planechase game. Only the planar controller may planeswalk. See rule 901, "Planechase."
 
 701.21b
-To planeswalk is to put the face-up plane card on the bottom of its owner's planar deck face down, then move the top card of your planar deck off that planar deck and turn it face up.
+To planeswalk is to put each face-up plane card and phenomenon card on the bottom of its owner's planar deck face down, then move the top card of your planar deck off that planar deck and turn it face up.
 
 701.21c
-A player may planeswalk as the result of the "planeswalking ability" (see rule 309.6) or because the owner of the face-up plane card leaves the game (see rule 901.9).
+A player may planeswalk as the result of the "planeswalking ability" (see rule 901.8), because the owner of a face-up plane card or phenomenon card leaves the game (see rule 901.10), or because a phenomenon's triggered ability leaves the stack (see rule 704.5x). Abilities may also instruct a player to planeswalk.
 
 701.21d
-The plane card that's turned face up is the plane the player planeswalks to. The plane card that's turned face down, or that leaves the game, is the plane the player planeswalks away from.
+The plane card that's turned face up is the plane the player planeswalks to. The plane card that's turned face down or that leaves the game is the plane the player planeswalks away from. The same is true with respect to phenomena.
 
 701.22.
 Set in Motion
 
 701.22a
-Only a scheme card may be set in motion, and only during an Archenemy game. Only the archenemy may set a scheme card in motion. See rule 311, "Schemes," and rule 904, "Archenemy."
+Only a scheme card may be set in motion, and only during an Archenemy game. Only the archenemy may set a scheme card in motion. See rule 312, "Schemes," and rule 904, "Archenemy."
 
 701.22b
 To set a scheme in motion, move it off the top of your scheme deck and turn it face up.
@@ -3697,7 +3728,7 @@ To set a scheme in motion, move it off the top of your scheme deck and turn it f
 Abandon
 
 701.23a
-Only a face-up ongoing scheme card may be abandoned, and only during an Archenemy game. See rule 311, "Schemes," and rule 904, "Archenemy."
+Only a face-up ongoing scheme card may be abandoned, and only during an Archenemy game. See rule 312, "Schemes," and rule 904, "Archenemy."
 
 701.23b
 To abandon a scheme, turn it face down and put it on the bottom of its owner's scheme deck.
@@ -4468,7 +4499,7 @@ If a spell has multiple instances of replicate, each is paid separately and trig
 Forecast
 
 702.55a
-A forecast ability is a special kind of activated ability that can be activated only from a player's hand. It's written "Forecast --  [Activated ability]."
+A forecast ability is a special kind of activated ability that can be activated only from a player's hand. It's written "Forecast -- [Activated ability]."
 
 702.55b
 A forecast ability may be activated only during the upkeep step of the card's owner and only once each turn. The controller of the forecast ability reveals the card with that ability from his or her hand as the ability is activated. That player plays with that card revealed in his or her hand until it leaves the player's hand or until a step or phase that isn't an upkeep step begins, whichever comes first.
@@ -4861,7 +4892,7 @@ Immediately after the draw step begins, the active player draws a card. See rule
 In an Archenemy game (see rule 904), immediately after the archenemy's precombat main phase begins, that player sets the top card of his or her scheme deck in motion. See rule 701.22.
 
 703.4e
-Immediately after the beginning of combat step begins, if the game being played is a multiplayer game in which the active player's opponent's don't all automatically become defending players, the active player chooses one of his or her opponents. That player becomes the defending player. See rule 507.1.
+Immediately after the beginning of combat step begins, if the game being played is a multiplayer game in which the active player's opponents don't all automatically become defending players, the active player chooses one of his or her opponents. That player becomes the defending player. See rule 507.1.
 
 703.4f
 Immediately after the declare attackers step begins, the active player declares attackers. See rule 508.1.
@@ -4974,6 +5005,9 @@ In a Commander game, a player that's been dealt 21 or more combat damage by the 
 704.5w
 In an Archenemy game, if a non-ongoing scheme card is face up in the command zone, and it isn't the source of a triggered ability that has triggered but not yet left the stack, that scheme card is turned face down and put on the bottom of its owner's scheme deck. See rule 904, "Archenemy."
 
+704.5x
+In a Planechase game, if a phenomenon card is face up in the command zone, and it isn't the source of a triggered ability that has triggered but not yet left the stack, the planar controller planeswalks. See rule 901, "Planechase."
+
 704.6.
 If multiple state-based actions would have the same result at the same time, a single replacement effect will replace all of them.
 Example: You control Lich's Mirror, which says "If you would lose the game, instead shuffle your hand, your graveyard, and all permanents you own into your library, then draw seven cards and your life total becomes 20." There's one card in your library and your life total is 1. A spell causes you to draw two cards and lose 2 life. The next time state-based actions are checked, you'd lose the game due to rule 704.5a and rule 704.5b. Instead, Lich's Mirror replaces that game loss and you keep playing.
@@ -5057,7 +5091,7 @@ Example: Quicksilver Gargantuan is a creature that reads, "You may have Quicksil
 
 706.10.
 To copy a spell or activated ability means to put a copy of it onto the stack; a copy of a spell isn't cast and a copy of an activated ability isn't activated. A copy of a spell or ability copies both the characteristics of the spell or ability and all decisions made for it, including modes, targets, the value of X, and additional or alternative costs. (See rule 601, "Casting Spells.") Choices that are normally made on resolution are not copied. If an effect of the copy refers to objects used to pay its costs, it uses the objects used to pay the costs of the original spell or ability. A copy of a spell is owned by the player under whose control it was put on the stack. A copy of a spell or ability is controlled by the player under whose control it was put on the stack. A copy of a spell is itself a spell, even though it has no spell card associated with it. A copy of an ability is itself an ability.
-Example: A player casts Fork, targeting an Emerald Charm. Fork reads, "Copy target instant or sorcery spell, except that the copy is red. You may choose new targets for the copy." Emerald Charm is a green instant that reads, "Choose one --  Untap target permanent; or destroy target non-Aura enchantment; or target creature loses flying until end of turn." When the Fork resolves, it puts a copy of the Emerald Charm on the stack except the copy is red, not green. The copy has the same mode that was chosen for the original Emerald Charm. It does not necessarily have the same target, but only because Fork allows choosing of new targets.
+Example: A player casts Fork, targeting an Emerald Charm. Fork reads, "Copy target instant or sorcery spell, except that the copy is red. You may choose new targets for the copy." Emerald Charm is a green instant that reads, "Choose one -- Untap target permanent; or destroy target non-Aura enchantment; or target creature loses flying until end of turn." When the Fork resolves, it puts a copy of the Emerald Charm on the stack except the copy is red, not green. The copy has the same mode that was chosen for the original Emerald Charm. It does not necessarily have the same target, but only because Fork allows choosing of new targets.
 Example: Fling is an instant that reads, "As an additional cost to cast Fling, sacrifice a creature" and "Fling deals damage equal to the sacrificed creature's power to target creature or player." When determining how much damage a copy of Fling deals, it checks the power of the creature sacrificed to pay for the original Fling.
 
 706.10a
@@ -5123,7 +5157,7 @@ Split cards have two card faces on a single card. The back of a split card is th
 In every zone except the stack, split cards have two sets of characteristics and two converted mana costs. As long as a split card is a spell on the stack, only the characteristics of the half being cast exist. The other half's characteristics are treated as though they didn't exist.
 
 708.2a
-If a player casts a split card, that player chooses which half of that split card he or she is casting before putting it onto the stack. Only the half that is being cast is considered to be put onto the stack.
+If a player casts a split card, that player chooses which half of that split card he or she is casting before putting it onto the stack. Only the half that is being cast is considered to be put onto the stack. Only that half is evaluated to see if it can be cast.
 
 708.3.
 Each split card that consists of two halves with different colored mana symbols in their mana costs is a multicolored card while it's not a spell on the stack. While it's a spell on the stack, it's only the color or colors of the half being cast.
@@ -5377,7 +5411,7 @@ No effects or definitions created in either the main game or the subgame have an
 As the subgame starts, an entirely new set of game zones is created. Each player takes all the cards in his or her main-game library, moves them to his or her subgame library, and shuffles them. No other cards in a main-game zone are moved to their corresponding subgame zone, except as specified in rules 715.2a-d. Randomly determine which player goes first. The subgame proceeds like a normal game, following all other rules in rule 103, "Starting the Game."
 
 715.2a
-As a subgame of a Planechase game starts, each player moves his or her planar deck from the main-game command zone to the subgame command zone and shuffles it. (Face-up plane cards remain in the main-game command zone.)
+As a subgame of a Planechase game starts, each player moves his or her planar deck from the main-game command zone to the subgame command zone and shuffles it. (Face-up plane and phenomenon cards remain in the main-game command zone.)
 
 715.2b
 As a subgame of a Vanguard game starts, each player moves his or her vanguard card from the main-game command zone to the subgame command zone.
@@ -5402,7 +5436,7 @@ At the end of a subgame, each player takes all cards he or she owns that are in 
 Example: If a card was brought into the subgame either from the main game or from outside the main game, that card will be put into its owner's main-game library when the subgame ends.
 
 715.5a
-At the end of a subgame of a Planechase game, the face-up plane card is turned face down and put on the bottom of its owner's planar deck. Then each player moves his or her planar deck from the subgame command zone to the main-game command zone and shuffles it.
+At the end of a subgame of a Planechase game, each face-up plane card or phenomenon card is turned face down and put on the bottom of its owner's planar deck. Then each player moves his or her planar deck from the subgame command zone to the main-game command zone and shuffles it.
 
 715.5b
 At the end of a subgame of a Vanguard game, each player moves his or her vanguard card from the subgame command zone to the main-game command zone.
@@ -5475,7 +5509,7 @@ A multiplayer game is a game that begins with more than two players. This sectio
 These rules consist of a series of options that can be added to a multiplayer game and a number of variant styles of multiplayer play. A single game may use multiple options but only one variant.
 
 800.3.
-Many multiplayer Magic tournaments have additional rules not included here, including rules for deck construction. See the most current Magic: The Gathering Tournament Rules for more information. They can be found at www.wizards.com/WPN/Events/Rules.aspx.
+Many multiplayer Magic tournaments have additional rules not included here, including rules for deck construction. See the most current Magic: The Gathering Tournament Rules for more information. They can be found at <www.wizards.com/WPN/Events/Rules.aspx>.
 
 800.4.
 Unlike two-player games, multiplayer games can continue after one or more players have left the game.
@@ -5565,7 +5599,7 @@ Example: In a game with a range of influence of 1, Alex is seated to the left of
 
 801.5b
 If a player is asked to choose between one or more options (and not between one or more objects or players), he or she can choose between those options even if those options refer to objects or players outside the player's range of influence.
-Example: Alex, who has a range of influence of 2, is seated to the left of Rob, and Carissa, who has a range of influence of 1, is seated to the right of Rob. Alex casts a spell that reads, "An opponent chooses one --  You draw 2 cards; or each creature you control gets +2/+2 until end of turn," and chooses Carissa to make that choice. Carissa can choose the mode even though Alex is out of her range.
+Example: Alex, who has a range of influence of 2, is seated to the left of Rob, and Carissa, who has a range of influence of 1, is seated to the right of Rob. Alex casts a spell that reads, "An opponent chooses one -- You draw 2 cards; or each creature you control gets +2/+2 until end of turn," and chooses Carissa to make that choice. Carissa can choose the mode even though Alex is out of her range.
 
 801.5c
 If an effect requires a choice and there's no player who can make that choice within its controller's range of influence, the closest appropriate player to its controller's left makes that choice.
@@ -5615,7 +5649,7 @@ If a replacement effect tries to cause a spell or ability to affect an object or
 Example: Alex casts Lava Axe ("Lava Axe deals 5 damage to target player") targeting Rob. In response, Rob casts Captain's Maneuver ("The next X damage that would be dealt to target creature or player this turn is dealt to another target creature or player instead") with X equal to 3, targeting Carissa. Carissa isn't in Alex's range of influence. When Lava Axe resolves, it deals 2 damage to Rob and no damage to Carissa.
 
 801.15b
-If a spell or ability creates an effect that prevents damage that would be dealt by a source, it can affect only sources within the spell or ability's controller's range of influence. If a spell or ability creates an effect that prevents damage that would be dealt to a creature or player, it can affect only creatures and players within the spell or ability's controller's range of influence. If a spell or ability creates an effect that prevents damage, but neither the source nor the would-be recipient of the damage is specified, it prevents damage only if both the source and recipient of that damage are within the spell or ability's controller's range of influence.
+If a spell or ability creates an effect that prevents damage that would be dealt by a source, it can affect only sources within the spell or ability's controller's range of influence. If a spell or ability creates an effect that prevents damage that would be dealt to a permanent or player, it can affect only permanents and players within the spell or ability's controller's range of influence. If a spell or ability creates an effect that prevents damage, but neither the source nor the would-be recipient of the damage is specified, it prevents damage only if both the source and recipient of that damage are within the spell or ability's controller's range of influence.
 Example: Rob is within Alex's range of influence, but Carissa is not. Alex controls an enchantment that says, "Prevent all damage that would be dealt by creatures." Carissa attacks Rob with a creature. The creature deals combat damage to Rob.
 Example: Rob is within Alex's range of influence, but Carissa is not. Carissa casts Lightning Blast ("Lightning Blast deals 4 damage to target creature or player") targeting Rob. In response, Alex casts Mending Hands ("Prevent the next 4 damage that would be dealt to target creature or player this turn") targeting Rob. The damage to Rob is prevented.
 Example: Rob is within Alex's range of influence, but Carissa is not. Carissa attacks Rob with a creature, and Rob blocks with a creature. Alex casts Fog ("Prevent all combat damage that would be dealt this turn.") Carissa and Rob's creatures deal combat damage to each other.
@@ -5633,7 +5667,7 @@ If the game somehow enters a "loop" of mandatory actions, repeating a sequence o
 Effects that restart the game (see rule 714) are exempt from the limited range of influence option. All players in the game will be involved in the new game.
 
 801.20.
-In multiplayer Planechase games other than Grand Melee games, plane cards are exempt from the limited range of influence option. Their abilities, and the effects of those abilities, affect all applicable objects and players in the game. See rule 901, "Planechase."
+In multiplayer Planechase games other than Grand Melee games, plane cards and phenomenon cards are exempt from the limited range of influence option. Their abilities, and the effects of those abilities, affect all applicable objects and players in the game. See rule 901, "Planechase."
 
 802. Attack Multiple Players Option
 
@@ -6051,96 +6085,102 @@ The casual variants detailed here use supplemental zones, rules, cards, and othe
 901. Planechase
 
 901.1.
-In the Planechase variant, plane cards add additional abilities and randomness to the game. At any given time, one plane card will be face up and its abilities will affect the game. The Planechase variant uses all the normal rules for a Magic game, with the following additions.
+In the Planechase variant, plane cards and phenomenon cards add additional abilities and randomness to the game. The Planechase variant uses all the normal rules for a Magic game, with the following additions.
 
 901.2.
 A Planechase game may be a two-player game or a multiplayer game. The default multiplayer setup is the Free-for-All variant with the attack multiple players option and without the limited range of influence option. See rule 806, "Free-for-All Variant."
 
 901.3.
-In addition to the normal game materials, each player needs a planar deck of at least ten plane cards and the game needs one planar die. Each card in a planar deck must have a different English name. (See rule 309, "Planes.")
+In addition to the normal game materials, each player needs a planar deck of at least ten plane and/or phenomenon cards and the game needs one planar die. No more than two cards in a planar deck can be phenomenon cards. Each card in a planar deck must have a different English name. (See rule 309, "Planes," and rule 310, "Phenomena.")
 
 901.3a
 A planar die is a six-sided die. One face has the Planeswalker symbol {PW}. One face has the chaos symbol {C}. The other faces are blank.
 
 901.4.
-At the start of the game, each player shuffles his or her planar deck so that the cards are in a random order. Each deck is placed face down next to its owner's library. All plane cards remain in the command zone throughout the game, both while they're part of a planar deck and while they're face up.
+At the start of the game, each player shuffles his or her planar deck so that the cards are in a random order. Each deck is placed face down next to its owner's library. All plane and phenomenon cards remain in the command zone throughout the game, both while they're part of a planar deck and while they're face up.
 
 901.5.
-Once all players have kept their opening hands and used the abilities of cards that allow them to start the game with those cards on the battlefield, the starting player moves the top card of his or her planar deck off that planar deck and turns it face up. (See rule 103.6.) No abilities of that card trigger as a result.
+Once all players have kept their opening hands and used the abilities of cards that allow them to take an action with those cards from their opening hands, the starting player moves the top card of his or her planar deck off that planar deck and turns it face up. If it's a plane card, that card is the starting plane. If it's a phenomenon card, the player puts that card on the bottom of his or her planar deck and repeats this process until a plane card is turned face up. (See rule 103.6.) No abilities of any card turned face up this way trigger during this process.
 
 901.6.
-The owner of a plane card is the player who started the game with it in his or her planar deck. The controller of a face-up plane card is the player designated as the planar controller. Normally, the planar controller is whoever the active player is. However, if the current planar controller would leave the game, instead the next player in turn order that wouldn't leave the game becomes the planar controller, then the old planar controller leaves the game. The new planar controller retains that designation until he or she leaves the game or a different player becomes the active player, whichever comes first.
+The owner of a plane or phenomenon card is the player who started the game with it in his or her planar deck. The controller of a face-up plane or phenomenon card is the player designated as the planar controller. Normally, the planar controller is whoever the active player is. However, if the current planar controller would leave the game, instead the next player in turn order that wouldn't leave the game becomes the planar controller, then the old planar controller leaves the game. The new planar controller retains that designation until he or she leaves the game or a different player becomes the active player, whichever comes first.
 
 901.7.
-Any abilities of a face-up plane card in the command zone function from that zone. The card's static abilities affect the game, its triggered abilities may trigger, and its activated abilities may be activated.
+Any abilities of a face-up plane card or phenomenon card in the command zone function from that zone. The card's static abilities affect the game, its triggered abilities may trigger, and its activated abilities may be activated.
 
 901.7a
-Each plane card is treated as if its text box included "When you roll {PW}, put this card on the bottom of its owner's planar deck face down, then move the top card of your planar deck off your planar deck and turn it face up." This is called the "planeswalking ability." A face-up plane card that's turned face down becomes a new object.
+A face-up plane card or phenomenon card that's turned face down becomes a new object.
 
 901.8.
-Any time the active player has priority and the stack is empty, but only during a main phase of his or her turn, that player may roll the planar die. Taking this action costs a player an amount of mana equal to the number of times he or she has previously taken this action on that turn. This is a special action and doesn't use the stack. (See rule 115.2f.)
-
-901.8a
-If the die roll is a blank face, nothing happens. The active player gets priority.
-
-901.8b
-If the die roll is the chaos symbol {C}, any ability of the plane that starts "When you roll {C}" triggers and is put on the stack. The active player gets priority.
-
-901.8c
-If the die roll is the Planeswalker symbol {PW}, the plane's "planeswalking ability" triggers and is put on the stack. The active player gets priority.
+Planechase games have an inherent triggered ability known as the "planeswalking ability." The full text of this ability is "Whenever you roll {PW}, planeswalk." (See rule 701.21, "Planeswalk.") This ability has no source and is controlled by the player whose planar die roll caused it to trigger. This is an exception to rule 112.8.
 
 901.9.
-When a player leaves the game, all objects owned by that player leave the game. (See rule 800.4a.) If that includes the face-up plane card, the planar controller turns the top card of his or her planar deck face up. This is not a state-based action. It happens as soon as the player leaves the game.
+Any time the active player has priority and the stack is empty, but only during a main phase of his or her turn, that player may roll the planar die. Taking this action costs a player an amount of mana equal to the number of times he or she has previously taken this action on that turn. This is a special action and doesn't use the stack. Note that this number won't be equal to the number of times the player has rolled the planar die that turn if an effect has caused the player to roll the planar die that turn. (See rule 115.2f.)
 
 901.9a
-If a plane leaves the game while a "planeswalking ability" for which it was the source is on the stack, that ability ceases to exist.
+If the die roll is a blank face, nothing happens. The active player gets priority.
+
+901.9b
+If the die roll is the chaos symbol {C}, any ability of a face-up plane that starts "When you roll {C}" triggers and is put on the stack. The active player gets priority.
+
+901.9c
+If the die roll is the Planeswalker symbol {PW}, the "planeswalking ability" triggers and is put on the stack. The active player gets priority. (See rule 901.8.)
 
 901.10.
-After the game has started, if a player moves the top card of his or her planar deck off that planar deck and turns it face up, that player has "planeswalked." Continuous effects with durations that last until a player planeswalks end. Abilities that trigger when a player planeswalks trigger. See rule 701.21.
+When a player leaves the game, all objects owned by that player leave the game. (See rule 800.4a.) If that includes a face-up plane card or phenomenon card, the planar controller turns the top card of his or her planar deck face up. This is not a state-based action. It happens as soon as the player leaves the game. 
 
 901.10a
-A player may planeswalk as the result of the "planeswalking ability" (see rule 309.6) or because the owner of the face-up plane card leaves the game (see rule 901.9).
-
-901.10b
-The plane card that's turned face up is the plane the player planeswalks to. The plane card that's turned face down, or that leaves the game, is the plane the player planeswalks away from.
+If a plane leaves the game while a "planeswalking ability" is on the stack, that ability ceases to exist.
 
 901.11.
-A Two-Headed Giant Planechase game uses all the rules for the Two-Headed Giant multiplayer variant and all the rules for the Planechase casual variant, with the following additions.
+After the game has started, if a player moves the top card of his or her planar deck off that planar deck and turns it face up, that player has "planeswalked." Continuous effects with durations that last until a player planeswalks end. Abilities that trigger when a player planeswalks trigger. See rule 701.21.
 
 901.11a
-Each player has his or her own planar deck.
+A player may planeswalk as the result of the "planeswalking ability" (see rule 901.8), because the owner of a face-up plane card or phenomenon card leaves the game (see rule 901.10), or because a phenomenon's triggered ability leaves the stack (see rule 704.5x) Abilities may also instruct a player to planeswalk.
 
 901.11b
-The planar controller is normally the primary player of the active team. However, if the current planar controller's team would leave the game, instead the primary player of the next team in turn order that wouldn't leave the game becomes the planar controller, then the old planar controller's team leaves the game. The new planar controller retains that designation until he or she leaves the game or a different team becomes the active team, whichever comes first.
+The plane card that's turned face up is the plane the player planeswalks to. The plane card or phenomenon card that's turned face down, or that leaves the game, is the plane or phenomenon the player planeswalks away from.
 
 901.11c
-Even though the face-up plane is controlled by just one player, any ability of that plane that refers to "you" applies to both members of the planar controller's team.
-
-901.11d
-Since each member of the active team is an active player, each of them may roll the planar die. Each player's cost to roll the planar die is based on the number of times that particular player has already rolled the planar die that turn.
+If a player planeswalks when there is more than one face-up plane card, that player planeswalks away from all such planes. 
 
 901.12.
-In multiplayer formats other than Grand Melee, plane cards are exempt from the limited range of influence option. Their abilities, and the effects of those abilities, affect all applicable objects and players in the game. (See rule 801, "Limited Range of Influence Option.")
+A Two-Headed Giant Planechase game uses all the rules for the Two-Headed Giant multiplayer variant and all the rules for the Planechase casual variant, with the following additions.
+
+901.12a
+Each player has his or her own planar deck.
+
+901.12b
+The planar controller is normally the primary player of the active team. However, if the current planar controller's team would leave the game, instead the primary player of the next team in turn order that wouldn't leave the game becomes the planar controller, then the old planar controller's team leaves the game. The new planar controller retains that designation until he or she leaves the game or a different team becomes the active team, whichever comes first.
+
+901.12c
+Even though the face-up plane or phenomenon is controlled by just one player, any ability of that plane or phenomenon that refers to "you" applies to both members of the planar controller's team.
+
+901.12d
+Since each member of the active team is an active player, each of them may roll the planar die. Each player's cost to roll the planar die is based on the number of times that particular player has already rolled the planar die that turn.
 
 901.13.
-In Grand Melee Planechase games, multiple plane cards may be face up at the same time.
-
-901.13a
-Before the first turn of the game of the game, each player who will start the game with a turn marker moves the top card of his or her planar deck off that planar deck and turns it face up. Each of them is a planar controller.
-
-901.13b
-If a player would leave the game and that player leaving the game would reduce the number of turn markers in the game, that player first ceases to be a planar controller (but no other player becomes a planar controller), then that player leaves the game. The face-up plane card that player controlled is put on the bottom of its owner's planar deck. No player is considered to have planeswalked.
+In multiplayer formats other than Grand Melee, plane cards and phenomenon cards are exempt from the limited range of influence option. Their abilities, and the effects of those abilities, affect all applicable objects and players in the game. (See rule 801, "Limited Range of Influence Option.")
 
 901.14.
-Single Planar Deck Option
+In Grand Melee Planechase games, multiple plane cards or phenomenon cards may be face up at the same time.
 
 901.14a
-As an alternative option, a Planechase game may be played with just a single communal planar deck. In that case, the number of cards in the planar deck must be at least forty or at least ten times the number of players in the game, whichever is smaller. Each card in the planar deck must have a different English name.
+Before the first turn of the game of the game, each player who will start the game with a turn marker sets a starting plane (see rule 901.5). Each of them is a planar controller.
 
 901.14b
-In a Planechase game using the single planar deck option, the planar controller is considered to be the owner of all the plane cards.
+If a player would leave the game and that player leaving the game would reduce the number of turn markers in the game, that player first ceases to be a planar controller (but no other player becomes a planar controller), then that player leaves the game. Each face-up plane card or phenomenon card that player controlled is put on the bottom of its owner's planar deck. No player is considered to have planeswalked.
 
-901.14c
+901.15.
+Single Planar Deck Option
+
+901.15a
+As an alternative option, a Planechase game may be played with just a single communal planar deck. In that case, the number of cards in the planar deck must be at least forty or at least ten times the number of players in the game, whichever is smaller. The planar deck can't contain more phenomenon cards than twice the number of players in the game. Each card in the planar deck must have a different English name.
+
+901.15b
+In a Planechase game using the single planar deck option, the planar controller is considered to be the owner of all cards in the planar deck.
+
+901.15c
 If any rule or ability refers to a player's planar deck, the communal planar deck is used.
 
 902. Vanguard
@@ -6263,7 +6303,7 @@ One of the teams consists of exactly one player, who is designated the archenemy
 The other team consists of any number of players.
 
 904.3.
-In addition to the normal game materials, the archenemy needs a scheme deck of at least twenty scheme cards. A scheme deck may contain no more than two of any card with a particular English name. (See rule 311, "Schemes.")
+In addition to the normal game materials, the archenemy needs a scheme deck of at least twenty scheme cards. A scheme deck may contain no more than two of any card with a particular English name. (See rule 312, "Schemes.")
 
 904.4.
 At the start of the game, the archenemy shuffles his or her scheme deck so that the cards are in a random order. The scheme deck is placed face down next to the archenemy's library. All scheme cards remain in the command zone throughout the game, both while they're part of a scheme deck and while they're face up.
@@ -6708,6 +6748,9 @@ A card type. An enchantment is a permanent. See rule 303, "Enchantments." See al
 Enchantment Type
 A subtype that's correlated to the enchantment card type. See rule 303, "Enchantments." See rule 205.3h for the list of enchantment types.
 
+Encounter
+To move a phenomenon card off the top of a planar deck and turn it face up. See rule 310, "Phenomena."
+
 End of Combat Step
 Part of the turn. This step is the fifth and final step of the combat phase. See rule 511, "End of Combat Step."
 
@@ -7081,7 +7124,7 @@ Miracle
 A keyword ability that lets you cast a spell for a reduced cost if it's the first card you draw in a turn. See rule 702.92, "Miracle."
 
 Modal, Mode
-A spell or ability is "modal" if it has two or more options preceded by "Choose one -- ," "Choose two -- ," "Choose one or both -- ," "Choose one or more -- ," or "[a specified player] chooses one -- ." Each option is a "mode." See rule 700.2.
+A spell or ability is "modal" if it has two or more options preceded by "Choose one  -- ," "Choose two  -- ," "Choose one or both  -- ," "Choose one or more  -- ," or "[a specified player] chooses one  -- ." Each option is a "mode." See rule 700.2.
 
 Modular
 A keyword ability that has a permanent enter the battlefield with +1/+1 counters on it and can move those counters to other artifact creatures. See rule 702.41, "Modular."
@@ -7202,6 +7245,9 @@ A status a permanent may have. Phased-in is the default status. Phased-out perma
 Phasing
 A keyword ability that causes a permanent to sometimes be treated as though it does not exist. See rule 702.24, "Phasing."
 
+Phenomenon
+A card type seen only on nontraditional Magic cards in the Planechase casual variant. A phenomenon card is not a permanent. See rule 310, "Phenomena."
+
 Phyrexian Mana Symbol
 A mana symbol that represents a cost that can be paid either by spending colored mana or by paying life. See rule 107.4.
 
@@ -7233,10 +7279,10 @@ Plane
 A card type seen only on nontraditional Magic cards in the Planechase casual variant. A plane card is not a permanent. See rule 309, "Planes."
 
 Planechase
-A casual variant in which plane cards add additional abilities and randomness to the game. See rule 901, "Planechase."
+A casual variant in which plane cards and phenomenon cards add additional abilities and randomness to the game. See rule 901, "Planechase."
 
 Planeswalk
-To put the face-up plane card on the bottom of its owner's planar deck face down, then move the top card of your planar deck off that planar deck and turn it face up in a Planechase game. See rule 701.21, "Planeswalk."
+To put each face-up plane card or phenomenon card on the bottom of its owner's planar deck face down, then move the top card of your planar deck off that planar deck and turn it face up in a Planechase game. See rule 701.21, "Planeswalk."
 
 Planeswalker
 A card type. A planeswalker is a permanent. See rule 306, "Planeswalkers."
@@ -7379,7 +7425,7 @@ Sacrifice
 To move a permanent you control to its owner's graveyard. See rule 701.14, "Sacrifice."
 
 Scheme
-A card type seen only on nontraditional Magic cards in the Archenemy casual variant. A scheme card is not a permanent. See rule 311, "Schemes."
+A card type seen only on nontraditional Magic cards in the Archenemy casual variant. A scheme card is not a permanent. See rule 312, "Schemes."
 
 Scry
 To manipulate some of the cards on top of your library. See rule 701.18, "Scry."
@@ -7502,7 +7548,7 @@ Successfully Cast (Obsolete)
 A term that was printed on some older cards. In general, cards that referred to a spell being "successfully cast" have received errata in the Oracle card reference to simply refer to a spell being "cast."
 
 Summon (Obsolete)
-Older creature cards were printed with "Summon [creature type]" on their type lines. All such cards have received errata in the Oracle card reference to say "Creature --  [creature type]." (Many of these cards' creature types have also been updated.) See Creature.
+Older creature cards were printed with "Summon [creature type]" on their type lines. All such cards have received errata in the Oracle card reference to say "Creature -- [creature type]." (Many of these cards' creature types have also been updated.) See Creature.
 
 Summoning Sickness Rule
 Informal term for a player's inability to attack with a creature or to activate its abilities that include the tap symbol or the untap symbol unless the creature has been under that player's control since the beginning of that player's most recent turn. See rule 302.6. See also Haste.
@@ -7682,7 +7728,7 @@ Part of the turn. This step is the second step of the beginning phase. See rule 
 
 Vanguard
 1. A casual variant in which each player plays the role of a famous character. See rule 902, "Vanguard."
-2. A card type seen only on nontraditional Magic cards in the Vanguard casual variant. A vanguard card is not a permanent. See rule 310, "Vanguards."
+2. A card type seen only on nontraditional Magic cards in the Vanguard casual variant. A vanguard card is not a permanent. See rule 311, "Vanguards."
 
 Vanishing
 A keyword ability that limits how long a permanent remains on the battlefield. See rule 702.61, "Vanishing."
@@ -7749,7 +7795,7 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are effective as of May 1, 2012.
+These rules are effective as of July 1, 2012.
 
 Published by Wizards of the Coast LLC, P.O. Box 707, Renton WA 98057-0707, U.S.A. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, and Scars of Mirrodin are trademarks of Wizards of the Coast LLC in the U.S.A. and other countries. (C)1993-2012 Wizards. U.S. Pat. No. RE 37,957.
 
@@ -7762,7 +7808,7 @@ U.S., Canada, Asia Pacific & Latin America
 www.wizards.com/customerservice
 Wizards of the Coast LLC
 P.O. Box 707
-Renton WA  98057-0707
+Renton, WA 98057-0707
 U.S.A.
 Tel: 1-800-324-6496 (within the U.S. and Canada)
        1-425-204-8069
