@@ -218,5 +218,10 @@
     "setCode": "M13",
     "setName": "Magic 2013",
     "creationDay": "2012-07-01"
+  },
+  {
+    "setCode": "RTR",
+    "setName": "Return to Ravnica",
+    "creationDay": "2012-10-01"
   }
 ]
