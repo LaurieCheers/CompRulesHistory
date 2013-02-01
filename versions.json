@@ -223,5 +223,10 @@
     "setCode": "RTR",
     "setName": "Return to Ravnica",
     "creationDay": "2012-10-01"
+  },
+  {
+    "setCode": "GTC",
+    "setName": "Gatecrash",
+    "creationDay": "2013-02-01"
   }
 ]
