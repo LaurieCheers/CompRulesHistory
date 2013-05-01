@@ -1,6 +1,6 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are effective as of February 1, 2013.
+These rules are effective as of May 1, 2013.
 
 Introduction
 
@@ -508,7 +508,7 @@ You can't choose a fractional number, deal fractional damage, gain fractional li
 
 107.1b
 Most of the time, the Magic game uses only positive numbers and zero. You can't choose a negative number, deal negative damage, gain negative life, and so on. However, it's possible for a game value, such as a creature's power, to be less than zero. If a calculation or comparison needs to use a negative value, it does so. If a calculation that would determine the result of an effect yields a negative number, zero is used instead, unless that effect sets a player's life total to a specific value, doubles a player's life total, sets a creature's power or toughness to a specific value, or otherwise modifies a creature's power or toughness.
-Example: If a 3/4 creature gets -5/-0, it's a -2/4 creature. It assigns 0 damage in combat. Its total power and toughness is 2. You'd have to give it +3/+0 to raise its power to 1.
+Example: If a 3/4 creature gets -5/-0, it's a -2/4 creature. It doesn't assign damage in combat. Its total power and toughness is 2. You'd have to give it +3/+0 to raise its power to 1.
 Example: Viridian Joiner is a 1/2 creature with the ability "{T}: Add to your mana pool an amount of {G} equal to Viridian Joiner's power." An effect gives it -2/-0, then its ability is activated. The ability adds no mana to your mana pool.
 
 107.1c
@@ -615,7 +615,7 @@ A color indicator is a circular symbol that appears to the left of the type line
 108. Cards
 
 108.1.
-Use the Oracle(TM) card reference when determining a card's wording. A card's Oracle text can be found using the Gatherer card database at http://gatherer.wizards.com.
+Use the Oracle(TM) card reference when determining a card's wording. A card's Oracle text can be found using the Gatherer card database at <http://gatherer.wizards.com>.
 
 108.2.
 When a rule or text on a card refers to a "card," it means only a Magic card. Most Magic games use only traditional Magic cards, which measure approximately 2.5 inches (6.3 cm) by 3.5 inches (8.8 cm). Certain formats also use nontraditional Magic cards, oversized cards that may have different backs. Tokens aren't considered cards -- even a card that represents a token isn't considered a card for rules purposes.
@@ -1326,7 +1326,8 @@ A +X/+Y counter on a creature or on a creature card in a zone other than the bat
 121.1b
 The number of loyalty counters on a planeswalker on the battlefield indicates how much loyalty it has. A planeswalker with 0 loyalty is put into its owner's graveyard as a state-based action. See rule 704.
 
-121.1c. If a player has ten or more poison counters, he or she loses the game as a state-based action. See rule 704. A player is "poisoned" if he or she has one or more poison counters. (See rule 810 for additional rules for Two-Headed Giant games.)
+121.1c
+If a player has ten or more poison counters, he or she loses the game as a state-based action. See rule 704. A player is "poisoned" if he or she has one or more poison counters. (See rule 810 for additional rules for Two-Headed Giant games.)
 
 121.2.
 Counters on an object are not retained if that object moves from one zone to another. The counters are not "removed"; they simply cease to exist. See rule 400.7.
@@ -1366,7 +1367,7 @@ The name of a card is printed on its upper left corner.
 Two objects have the same name if the English versions of their names are identical.
 
 201.3.
-If an effect instructs a player to name a card, the player must choose the name of a card that exists in the Oracle card reference (see rule 108.1) and is legal in the format of the game the player is playing. (See rule 100.6.) If the player wants to name a split card, the player must name both halves of the split card. (See rule 708.) If the player wants to name a flip card's alternative name, the player may do so. (See rule 709.) If the player wants to name the back face of a double-faced card, the player may do so. (See rule 711.) A player may not choose the name of a token unless it's also the name of a card.
+If an effect instructs a player to name a card, the player must choose the name of a card that exists in the Oracle card reference (see rule 108.1) and is legal in the format of the game the player is playing. (See rule 100.6.) If the player wants to name a split card, the player must choose the name of one of its halves, but not both. (See rule 708.) If the player wants to name a flip card's alternative name, the player may do so. (See rule 709.) If the player wants to name the back face of a double-faced card, the player may do so. (See rule 711.) A player may not choose the name of a token unless it's also the name of a card.
 
 201.4.
 Text that refers to the object it's on by name means just that particular object and not any other objects with that name, regardless of any name changes caused by game effects.
@@ -1513,11 +1514,11 @@ Enchantments have their own unique set of subtypes; these subtypes are called en
 
 205.3i
 Lands have their own unique set of subtypes; these subtypes are called land types. The land types are Desert, Forest, Gate, Island, Lair, Locus, Mine, Mountain, Plains, Power-Plant, Swamp, Tower, and Urza's.
-     Of that list, Forest, Island, Mountain, Plains, and Swamp are the basic land types. See rule 305.6.
+   Of that list, Forest, Island, Mountain, Plains, and Swamp are the basic land types. See rule 305.6.
 
 205.3j
-Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Bolas, Chandra, Domri, Elspeth, Garruk, Gideon, Jace, Karn, Koth, Liliana, Nissa, Sarkhan, Sorin, Tamiyo, Tezzeret, Tibalt, Venser, and Vraska.
-     If two or more planeswalkers that share a planeswalker type are on the battlefield, all are put into their owners' graveyards. This "planeswalker uniqueness rule" is a state-based action. See rule 704.
+Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Bolas, Chandra, Domri, Elspeth, Garruk, Gideon, Jace, Karn, Koth, Liliana, Nissa, Ral, Sarkhan, Sorin, Tamiyo, Tezzeret, Tibalt, Venser, and Vraska.
+   If two or more planeswalkers that share a planeswalker type are on the battlefield, all are put into their owners' graveyards. This "planeswalker uniqueness rule" is a state-based action. See rule 704.
 
 205.3k
 Instants and sorceries share their lists of subtypes; these subtypes are called spell types. The spell types are Arcane and Trap.
@@ -1543,7 +1544,7 @@ Example: An ability reads, "All lands are 1/1 creatures that are still lands." I
 
 205.4c
 Any land with the supertype "basic" is a basic land. Any land that doesn't have this supertype is a nonbasic land, even if it has a basic land type.
-     Cards printed in sets prior to the Eighth Edition core set didn't use the word "basic" to indicate a basic land. Cards from those sets with the following names are basic lands and have received errata in the Oracle card reference accordingly: Forest, Island, Mountain, Plains, Swamp, Snow-Covered Forest, Snow-Covered Island, Snow-Covered Mountain, Snow-Covered Plains, and Snow-Covered Swamp.
+   Cards printed in sets prior to the Eighth Edition core set didn't use the word "basic" to indicate a basic land. Cards from those sets with the following names are basic lands and have received errata in the Oracle card reference accordingly: Forest, Island, Mountain, Plains, Swamp, Snow-Covered Forest, Snow-Covered Island, Snow-Covered Mountain, Snow-Covered Plains, and Snow-Covered Swamp.
 
 205.4d
 Any permanent with the supertype "legendary" is subject to the state-based action for legendary permanents, also called the "legend rule" (see rule 704.5k).
@@ -1569,10 +1570,10 @@ The color of the expansion symbol indicates the rarity of the card within its se
 A spell or ability that affects cards from a particular set checks only for that set's expansion symbol. A card reprinted in the core set or another expansion receives that set's expansion symbol. Any reprinted version of the card no longer counts as part of its original set unless it was reprinted with that set's expansion symbol.
 
 206.4.
-Players may include cards from any printing in their constructed decks if those cards appear in sets allowed in that format (or those cards are specifically allowed by the Magic Tournament Rules). See the Magic Tournament Rules for the current definitions of the constructed formats (www.wizards.com/wpn/Events/Rules.aspx).
+Players may include cards from any printing in their constructed decks if those cards appear in sets allowed in that format (or those cards are specifically allowed by the Magic Tournament Rules). See the Magic Tournament Rules for the current definitions of the constructed formats (<www.wizards.com/wpn/Events/Rules.aspx>).
 
 206.5.
-The full list of expansions and expansion symbols can be found in the Magic Products section of the Wizards of the Coast website (www.wizards.com/Magic/TCG/Article.aspx?x=mtg/tcg/products/allproducts).
+The full list of expansions and expansion symbols can be found in the Magic Products section of the Wizards of the Coast website (<www.wizards.com/Magic/TCG/Article.aspx?x=mtg/tcg/products/allproducts>).
 
 207. Text Box
 
@@ -1592,7 +1593,7 @@ Flavor text is italicized text that, like the illustration, adds artistic appeal
 An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, domain, fateful hour, grandeur, hellbent, imprint, join forces, kinship, landfall, metalcraft, morbid, radiance, sweep, and threshold.
 
 207.3.
-A guild icon appears in the text box of many Ravnica(R) and Return to Ravnica(TM) block cards. These cards either have the specified guild's exclusive mechanic or somehow relate to the two colors associated with that guild. Guild icons have no effect on game play. Similarly, a faction icon appears in the text box of most Scars of Mirrodin(TM) block cards. These faction icons have no effect on game play.
+A guild icon appears in the text box of many Ravnica (R) and Return to Ravnica (TM) block cards. These cards either have the specified guild's exclusive mechanic or somehow relate to the two colors associated with that guild. Guild icons have no effect on game play. Similarly, a faction icon appears in the text box of most Scars of Mirrodin (TM) block cards. These faction icons have no effect on game play.
 
 207.4.
 The chaos symbol {C} appears in the text box of each plane card to the left of a triggered ability that triggers whenever {C} is rolled on the planar die. The symbol itself has no special rules meaning.
@@ -2190,7 +2191,7 @@ Previously, the exile zone was called the "removed-from-the-game zone." Cards th
 407. Ante
 
 407.1.
-Earlier versions of the Magic rules included an ante rule as a way of playing "for keeps." Playing Magic games for ante is now considered an optional variation on the game, and it's allowed only where it's not forbidden by law or by other rules. Playing for ante is strictly forbidden under the Magic: The Gathering Tournament Rules (www.wizards.com/WPN/Events/Rules.aspx).
+Earlier versions of the Magic rules included an ante rule as a way of playing "for keeps." Playing Magic games for ante is now considered an optional variation on the game, and it's allowed only where it's not forbidden by law or by other rules. Playing for ante is strictly forbidden under the Magic: The Gathering Tournament Rules (<www.wizards.com/WPN/Events/Rules.aspx>).
 
 407.2.
 When playing for ante, each player puts one random card from his or her deck into the ante zone after determining which player goes first but before players draw any cards. Cards in the ante zone may be examined by any player at any time. At the end of the game, the winner becomes the owner of all the cards in the ante zone.
@@ -2468,7 +2469,7 @@ The defending player chooses which creatures that he or she controls, if any, wi
 
 509.1b
 The defending player checks each creature he or she controls to see whether it's affected by any restrictions (effects that say a creature can't block, or that it can't block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.
-     A restriction may be created by an evasion ability (a static ability an attacking creature has that restricts what can block it). If an attacking creature gains or loses an evasion ability after a legal block has been declared, it doesn't affect that block. Different evasion abilities are cumulative.
+   A restriction may be created by an evasion ability (a static ability an attacking creature has that restricts what can block it). If an attacking creature gains or loses an evasion ability after a legal block has been declared, it doesn't affect that block. Different evasion abilities are cumulative.
 Example: An attacking creature with flying and shadow can't be blocked by a creature with flying but without shadow.
 
 509.1c
@@ -2526,7 +2527,7 @@ If an ability triggers when a creature with certain characteristics blocks, it w
 Example: A creature has the ability "Whenever this creature becomes blocked by a white creature, destroy that creature at end of combat." If the creature becomes blocked by a black creature that is later turned white, the ability will not trigger.
 
 509.4g
-An ability that reads "Whenever [this creature] attacks and isn't blocked, . . ." triggers if no creatures are declared as blockers for that creature. It won't trigger if the attacking creature is blocked and then all its blockers are removed from combat.
+An ability that reads "Whenever [this creature] attacks and isn't blocked, . . ." triggers if no creatures are declared as blockers for that creature. It will trigger even if the creature was never declared as an attacker (for example, if it entered the battlefield attacking). It won't trigger if the attacking creature is blocked and then all its blockers are removed from combat.
 
 509.5.
 Fifth, the active player gets priority. Players may cast spells and activate abilities.
@@ -2986,7 +2987,7 @@ Example: Arc-Slogger has the ability "{R}, Exile the top ten cards of your libra
 Each time all players pass in succession, the spell or ability on top of the stack resolves. (See rule 609, "Effects.")
 
 608.2.
-If the object that's resolving is an instant spell, a sorcery spell, or an ability, its resolution may involve several steps. The steps described in rules 608.2a and  608.2b are followed first. The steps described in rules 608.2c-j are then followed as appropriate, in no specific order. The step described in rule 608.2k is followed last.
+If the object that's resolving is an instant spell, a sorcery spell, or an ability, its resolution may involve several steps. The steps described in rules 608.2a and 608.2b are followed first. The steps described in rules 608.2c-j are then followed as appropriate, in no specific order. The step described in rule 608.2k is followed last.
 
 608.2a
 If a triggered ability has an intervening "if" clause, it checks whether the clause's condition is true. If it isn't, the ability is removed from the stack and does nothing. Otherwise, it continues to resolve. See rule 603.4.
@@ -3000,7 +3001,7 @@ Example: Plague Spores reads, "Destroy target nonblack creature and target land.
 The controller of the spell or ability follows its instructions in the order written. However, replacement effects may modify these actions. In some cases, later text on the card may modify the meaning of earlier text (for example, "Destroy target creature. It can't be regenerated" or "Counter target spell. If that spell is countered this way, put it on top of its owner's library instead of into its owner's graveyard.") Don't just apply effects step by step without thinking in these cases -- read the whole text and apply the rules of English to the text.
 
 608.2d
-If an effect of a spell or ability offers any choices other than choices already made as part of casting the spell, activating the ability, or otherwise putting the spell or ability on the stack, the player announces these while applying the effect. The player can't choose an option that's illegal or impossible, with the exception that having library with no cards in it doesn't make drawing a card an impossible action (see rule 120.3). If an effect divides or distributes something, such as damage or counters, as a player chooses among any number of untargeted players and/or objects, the player chooses the amount and division such that at least one player or object is chosen if able, and each chosen player or object receives at least one of whatever is being divided. (Note that if an effect divides or distributes something, such as damage or counters, as a player chooses among some number of target objects and/or players, the amount and division were determined as the spell or ability was put onto the stack rather than at this time; see rule 601.2d.)
+If an effect of a spell or ability offers any choices other than choices already made as part of casting the spell, activating the ability, or otherwise putting the spell or ability on the stack, the player announces these while applying the effect. The player can't choose an option that's illegal or impossible, with the exception that having a library with no cards in it doesn't make drawing a card an impossible action (see rule 120.3). If an effect divides or distributes something, such as damage or counters, as a player chooses among any number of untargeted players and/or objects, the player chooses the amount and division such that at least one player or object is chosen if able, and each chosen player or object receives at least one of whatever is being divided. (Note that if an effect divides or distributes something, such as damage or counters, as a player chooses among some number of target objects and/or players, the amount and division were determined as the spell or ability was put onto the stack rather than at this time; see rule 601.2d.)
 Example: A spell's instruction reads, "You may sacrifice a creature. If you don't, you lose 4 life." A player who controls no creatures can't choose the sacrifice option.
 
 608.2e
@@ -3420,7 +3421,7 @@ Anything that happens in a game is an event. Multiple events may take place duri
 Example: If an attacking creature is blocked by two creatures, this is one event for a triggered ability that reads "Whenever [this creature] becomes blocked" but two events for a triggered ability that reads "Whenever [this creature] becomes blocked by a creature."
 
 700.2.
-A spell or ability is modal if it has two or more options preceded by "Choose one  -- ," "Choose two  -- ," "Choose one or both  -- ," "Choose one or more  -- ," or "[a specified player] chooses one  -- ." Each of those options is a mode.
+A spell or ability is modal if it has two or more options preceded by "Choose one -- ," "Choose two -- ," "Choose one or both -- ," "Choose one or more -- ," or "[a specified player] chooses one -- ." Each of those options is a mode.
 
 700.2a
 The controller of a modal spell or activated ability chooses the mode(s) as part of casting that spell or activating that ability. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. (See rule 601.2b.)
@@ -3649,6 +3650,10 @@ If a player is searching a hidden zone simply for a quantity of cards, such as "
 
 701.15e
 If the effect that contains the search instruction doesn't also contain instructions to reveal the found card(s), then they're not revealed.
+
+701.15f
+If searching a zone is replaced with searching a portion of that zone, any other instructions that refer to searching the zone still apply.
+Example: Aven Mindcensor says, in part, "If an opponent would search a library, that player searches the top four cards of that library instead." Veteran Explorer says "When Veteran Explorer dies, each player may search his or her library for up to two basic land cards and put them onto the battlefield. Then each player who searched his or her library this way shuffles it." An opponent who searched the top four cards of his or her library because of Veteran Explorer's ability would shuffle the entire library.
 
 701.16.
 Shuffle
@@ -4933,9 +4938,12 @@ Evolve
 Evolve is a triggered ability. "Evolve" means "Whenever a creature enters the battlefield under your control, if that creature's power is greater than this creature's power and/or that creature's toughness is greater than this creature's toughness, put a +1/+1 counter on this creature."
 
 702.98b
-A creature can't have a greater power or toughness than a noncreature permanent.
+A creature "evolves" when one or more +1/+1 counters are put on it as a result of its evolve ability resolving.
 
 702.98c
+A creature can't have a greater power or toughness than a noncreature permanent.
+
+702.98d
 If a creature has multiple instances of evolve, each triggers separately.
 
 702.99.
@@ -4946,6 +4954,21 @@ Extort is a triggered ability. "Extort" means "Whenever you cast a spell, you ma
 
 702.99b
 If a permanent has multiple instances if extort, each triggers separately.
+
+702.100.
+Fuse
+
+702.100a
+Fuse is a static ability found on some split cards (see rule 708, "Split Cards") that applies while the card with fuse is in a player's hand. If a player casts a split card with fuse from his or her hand, the player may choose to cast both halves of that split card. This choice is made before putting the split card with fuse onto the stack. The resulting spell is a fused split spell.
+
+702.100b
+A fused split spell has two sets of characteristics and one converted mana cost. The converted mana cost of the spell is a number equal to the total amount of mana in its two mana costs, regardless of color.
+
+702.100c
+The total cost of a fused split spell includes the mana cost of each half. (See rule 601.2e.)
+
+702.100d
+As a fused split spell resolves, the controller of the spell follows the instructions of the left half and then follows the instructions of the right half.
 
 703. Turn-Based Actions
 
@@ -5239,36 +5262,41 @@ If a face-down permanent would have an "As [this permanent] is turned face up . 
 Split cards have two card faces on a single card. The back of a split card is the normal Magic card back.
 
 708.2.
-In every zone except the stack, split cards have two sets of characteristics and two converted mana costs. As long as a split card is a spell on the stack, only the characteristics of the half being cast exist. The other half's characteristics are treated as though they didn't exist.
+In every zone except the stack, split cards have two sets of characteristics and two converted mana costs. As long as a split card is a spell on the stack and wasn't cast using fuse (see rule 702.100, "Fuse"), only the characteristics of the half being cast exist. The other half's characteristics are treated as though they didn't exist. A split card that's a spell on the stack and was cast using fuse has two sets of characteristics and one converted mana cost. Its converted mana cost is equal to the total amount of mana in its two mana costs, regardless of color.
 
 708.2a
-If a player casts a split card, that player chooses which half of that split card he or she is casting before putting it onto the stack. Only the half that is being cast is considered to be put onto the stack. Only that half is evaluated to see if it can be cast.
+If a player casts a split card without using fuse, that player chooses which half of that split card he or she is casting before putting it onto the stack. Only that half is evaluated to see if it can be cast. Only that half is considered to be put onto the stack.
+
+708.2b
+If a player casts a split card with fuse from his or her hand, in addition to choosing either half as described above, the player may choose to cast both halves, resulting in a fused split spell. Both halves are evaluated to see if the spell can be cast. If either half can't be cast, then both halves can't be cast as a single spell.
 
 708.3.
-Each split card that consists of two halves with different colored mana symbols in their mana costs is a multicolored card while it's not a spell on the stack. While it's a spell on the stack, it's only the color or colors of the half being cast.
+Each split card that consists of two halves with different colored mana symbols in their mana costs is a multicolored card while it's not a spell on the stack. While it's a spell on the stack, it's only the color or colors of the half or halves being cast.
 
 708.4.
 Although split cards have two castable halves, each split card is only one card. For example, a player who has drawn or discarded a split card has drawn or discarded one card, not two.
 
 708.5.
-An effect that asks for a particular characteristic of a split card while it's in a zone other than the stack gets two answers (one for each of the split card's two halves).
-Example: Infernal Genesis has an ability that reads, "At the beginning of each player's upkeep, that player puts the top card from his or her library into his or her graveyard. He or she then puts X 1/1 black Minion creature tokens onto the battlefield, where X is that card's converted mana cost." If the top card of your library is Assault/Battery when this ability resolves, the game sees its converted mana cost as "1, and 4." You get five creature tokens.
+Anything that asks for a particular characteristic of a split card while it's in a zone other than the stack gets two answers (one for each of the split card's two halves). Anything that asks for a particular characteristic of a fused split spell gets two answers. Anything that asks for a particular characteristic of a split card while it's a spell on the stack or that asks for the converted mana cost of a fused split spell gets one answer.
+Example: Infernal Genesis has an ability that reads, "At the beginning of each player's upkeep, that player puts the top card from his or her library into his or her graveyard. He or she then puts X 1/1 black Minion creature tokens onto the battlefield, where X is that card's converted mana cost." If the top card of your library is Assault/Battery, which has converted mana costs of 1 and 4, when this ability resolves, you simultaneously put one and four creature tokens onto the battlefield, for a total of five.
+Example: Spell Blast says "Counter target spell with converted mana cost X." If a player wants to cast Spell Blast and choose the fused split spell Breaking/Entering, which has mana costs {U}{B} and {4}{B}{R}, as the target, that player must choose 8 as the value of X.
 
 708.6.
-Some effects perform comparisons involving characteristics of one or more split cards in a zone other than the stack.
+Some effects perform comparisons involving one or more split cards in a zone other than the stack or involving one or more fused split spells.
 
 708.6a
-An effect that performs a positive comparison (such as asking if a card is red) or a relative comparison (such as asking if a card's converted mana cost is less than 2) involving characteristics of one or more split cards in any zone other than the stack gets only one answer. This answer is "yes" if either side of each split card in the comparison would return a "yes" answer if compared individually.
-Example: Void reads, "Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals his or her hand and discards all nonland cards with converted mana cost equal to the number." If a player casts Void and chooses 1, his or her opponent would discard Assault/Battery because the game sees its converted mana cost as "1, and 4." The same is true if the player chooses 4. If the player chooses 5, however, Assault/Battery would be unaffected.
+Anything that performs a positive comparison (such as asking if a card is red) or a relative comparison (such as asking if a card's converted mana cost is 3 or less) involving one or more split cards in any zone other than the stack or involving one or more fused split spells gets only one answer. This answer is "yes" if either side of each split card in the comparison would return a "yes" answer if compared individually.
+Example: Void reads, "Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals his or her hand and discards all nonland cards with converted mana cost equal to the number." If a player casts Void and chooses 1, his or her opponent would discard Assault/Battery because its converted mana costs are 1 and 4. The same is true if the player chooses 4. If the player chooses 5, however, Assault/Battery would be unaffected.
 
 708.6b
-An effect that performs a negative comparison (such as asking if cards have different names) involving characteristics of one or more split cards in any zone other than the stack also gets only one answer. This answer is "yes" if performing the analogous positive comparison would return a "no" answer.
+Anything that performs a negative comparison (such as asking if cards have different names) involving one or more split cards in any zone other than the stack or involving one or more fused split spells also gets only one answer. This answer is "yes" if performing the analogous positive comparison would return a "no" answer.
 
 708.6c
-If an effect performs a comparison involving multiple characteristics of one or more split cards in any zone other than the stack, each characteristic is compared separately. If each of the individual comparisons would return a "yes" answer, the whole comparison returns a "yes" answer.
+If anything performs a comparison involving multiple characteristics or values of one or more split cards in any zone other than the stack or involving multiple characteristics or values of one or more fused split spells, each characteristic or value is compared separately. If each of the individual comparisons would return a "yes" answer, the whole comparison returns a "yes" answer. The individual comparisons may involve different halves of the same split card.
+Example: Sunforger has an ability that reads, "{R}{W},Unattach Sunforger: Search your library for a red or white instant card with converted mana cost 4 or less and cast that card without paying its mana cost. Then shuffle your library." This ability can be used to cast either half of Research/Development, as Research has converted mana cost 2 (even though Development has converted mana cost 5) and Development is red (even though Research is neither red nor white).
 
 708.7.
-If an effect instructs a player to name a card and the player wants to name a split card, the player must name both halves of the split card. An object has the chosen name if it has at least one of the two names chosen this way.
+Each split card has two names. If an effect instructs a player to name a card and the player wants to name a split card, the player must name one of those names and not both. An object has the chosen name if one of its names is the chosen name.
 
 709. Flip Cards
 
@@ -5524,7 +5552,7 @@ Example: If a card was brought into the subgame either from the main game or fro
 At the end of a subgame of a Planechase game, each face-up plane card or phenomenon card is turned face down and put on the bottom of its owner's planar deck. Then each player moves his or her planar deck from the subgame command zone to the main-game command zone and shuffles it.
 
 715.5b
-At the end of a subgame of a Vanguard game, each player moves his or her vanguard card from the subgame command zone to the main-game command zone.
+At the end of a subgame of a Vanguard game, each player moves his or her vanguard card from the subgame command zone to the main-game command zone. This is an exception to rule 311.2.
 
 715.5c
 At the end of a subgame of a Commander game, each player moves his or her commander from the subgame command zone (if it's there) to the main-game command zone.
@@ -6043,8 +6071,8 @@ Each team's creatures attack the other team as a group. During the combat phase,
 
 810.7b
 Any one-shot effect that refers to the "defending player" refers to one specific defending player, not to both of the defending players. The controller of the effect chooses which one the spell or ability refers to at the time the effect is applied. The same is true for any one-shot effect that refers to the "attacking player."
-     Any characteristic-defining ability that refers to the "defending player" refers to one specific defending player, not to both of the defending players. The controller of the object with the characteristic-defining ability chooses which one the ability refers to at the time the nonactive players become defending players.
-     All other cases in which the "defending player" is referred to actually refer to both defending players. If the reference involves a positive comparison (such as asking whether the defending player controls an Island) or a relative comparison (such as asking whether you control more creatures than the defending player), it gets only one answer. This answer is "yes" if either defending player in the comparison would return a "yes" answer if compared individually. If the reference involves a negative comparison (such as asking whether the defending player controls no black permanents), it also gets only one answer. This answer is "yes" if performing the analogous positive comparison would return a "no" answer. The same is true for all other cases that refer to the "attacking player."
+   Any characteristic-defining ability that refers to the "defending player" refers to one specific defending player, not to both of the defending players. The controller of the object with the characteristic-defining ability chooses which one the ability refers to at the time the nonactive players become defending players.
+   All other cases in which the "defending player" is referred to actually refer to both defending players. If the reference involves a positive comparison (such as asking whether the defending player controls an Island) or a relative comparison (such as asking whether you control more creatures than the defending player), it gets only one answer. This answer is "yes" if either defending player in the comparison would return a "yes" answer if compared individually. If the reference involves a negative comparison (such as asking whether the defending player controls no black permanents), it also gets only one answer. This answer is "yes" if performing the analogous positive comparison would return a "no" answer. The same is true for all other cases that refer to the "attacking player."
 
 810.7c
 As the declare attackers step begins, the active team declares attackers. If an effect of an object controlled by a defending player prohibits a creature from attacking him or her, that creature can't attack the defending team. The active team has one combined attack, and that set of attacking creatures must be legal as a whole. See rule 508.1.
@@ -6115,7 +6143,7 @@ If an effect says that a player can't lose life, no player on that player's team
 Effects that cause players to get poison counters happen to each player individually. The poison counters are shared by the team.
 
 810.10a
-If an effect needs to know how many poison counters an individual player has, that effect uses the number of poison counters that player's team has.
+If an effect needs to know how many poison counters an individual player has, that effect uses the number of poison counters that player's team has. If an effect needs to know how many poison counters a player's opponents have, that effect uses the number of poison counters opposing teams have.
 
 810.10b
 If an effect says that a player loses poison counters, that player's team loses that many poison counters.
@@ -6979,6 +7007,12 @@ A keyword ability that can make a creature better in combat. See rule 702.66, "F
 Free-for-All
 A multiplayer variant in which a group of players compete as individuals against each other. See rule 806, "Free-for-All Variant."
 
+Fuse
+A keyword ability that allows a player to cast both halves of a split card. See rule 702.100, "Fuse."
+
+Fused Split Spell
+A split card on the stack that has been cast using the fuse ability or a copy of such a card. See rule 702.100, "Fuse."
+
 General
 Any player in the Emperor multiplayer variant who isn't an emperor. See rule 809, "Emperor Variant."
 
@@ -7227,7 +7261,7 @@ Miracle
 A keyword ability that lets you cast a spell for a reduced cost if it's the first card you draw in a turn. See rule 702.92, "Miracle."
 
 Modal, Mode
-A spell or ability is "modal" if it has two or more options preceded by "Choose one  -- ," "Choose two  -- ," "Choose one or both  -- ," "Choose one or more  -- ," or "[a specified player] chooses one  -- ." Each option is a "mode." See rule 700.2.
+A spell or ability is "modal" if it has two or more options preceded by "Choose one -- ," "Choose two -- ," "Choose one or both -- ," "Choose one or more -- ," or "[a specified player] chooses one -- ." Each option is a "mode." See rule 700.2.
 
 Modular
 A keyword ability that has a permanent enter the battlefield with +1/+1 counters on it and can move those counters to other artifact creatures. See rule 702.41, "Modular."
@@ -7306,7 +7340,7 @@ Option
 An additional rule or set of rules that can be used in a multiplayer game. See rule 800.2.
 
 Oracle
-The reference that contains the up-to-date wordings (in English) for all tournament-legal cards. A card's Oracle text can be found using the Gatherer card database at http://gatherer.wizards.com. See rule 108.1.
+The reference that contains the up-to-date wordings (in English) for all tournament-legal cards. A card's Oracle text can be found using the Gatherer card database at <http://gatherer.wizards.com>. See rule 108.1.
 
 Outside the Game
 An object is "outside the game" if it isn't in any of the game's zones. See rule 400.10.
@@ -7910,7 +7944,7 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are effective as of February 1, 2013.
+These rules are effective as of May 1, 2013.
 
 Published by Wizards of the Coast LLC, P.O. Box 707, Renton, WA 98057-0707, U.S.A. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, and Return to Ravnica are trademarks of Wizards of the Coast LLC in the U.S.A. and other countries. (C)1993-2013 Wizards. U.S. Pat. No. RE 37,957.
 
@@ -7926,7 +7960,7 @@ P.O. Box 707
 Renton, WA 98057-0707
 U.S.A.
 Tel: 1-800-324-6496 (within the U.S. and Canada)
-       1-425-204-8069
+    1-425-204-8069
 
 U.K. & Eire
 Wizards of the Coast LLC c/o Hasbro UK Ltd.

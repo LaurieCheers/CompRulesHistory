@@ -228,5 +228,10 @@
     "setCode": "GTC",
     "setName": "Gatecrash",
     "creationDay": "2013-02-01"
+  },
+  {
+    "setCode": "DGM",
+    "setName": "Dragon’s Maze",
+    "creationDay": "2013-05-01"
   }
 ]
