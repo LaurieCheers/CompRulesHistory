@@ -233,5 +233,10 @@
     "setCode": "DGM",
     "setName": "Dragon’s Maze",
     "creationDay": "2013-05-01"
+  },
+  {
+    "setCode": "M14",
+    "setName": "Magic 2014",
+    "creationDay": "2013-07-13"
   }
 ]
