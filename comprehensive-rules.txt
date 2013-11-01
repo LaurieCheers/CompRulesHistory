@@ -1,6 +1,6 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are effective as of September 27, 2013.
+These rules are effective as of November 1, 2013.
 
 Introduction
 
@@ -1594,7 +1594,7 @@ Reminder text is italicized text within parentheses that summarizes a rule that 
 Flavor text is italicized text that, like the illustration, adds artistic appeal to the game. It appears below the rules text.
 
 207.2c
-An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, domain, fateful hour, grandeur, hellbent, heroic, imprint, join forces, kinship, landfall, metalcraft, morbid, radiance, sweep, and threshold.
+An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, domain, fateful hour, grandeur, hellbent, heroic, imprint, join forces, kinship, landfall, metalcraft, morbid, radiance, sweep, tempting offer, and threshold.
 
 207.3.
 A guild icon appears in the text box of many Ravnica (R) and Return to Ravnica (TM) block cards. These cards either have the specified guild's exclusive mechanic or somehow relate to the two colors associated with that guild. Guild icons have no effect on game play. Similarly, a faction icon appears in the text box of most Scars of Mirrodin (TM) block cards. These faction icons have no effect on game play.
@@ -4068,6 +4068,9 @@ Attacking creatures with protection can't be blocked by creatures that have the 
 "Protection from everything" is a variant of the protection ability. A permanent with protection from everything has protection from each object regardless of that object's characteristic values. Such a permanent can't be targeted by spells or abilities, enchanted by Auras, equipped by Equipment, fortified by Fortifications, or blocked by creatures, and all damage that would be dealt to it is prevented.
 
 702.16j
+"Protection from [a player]" is a variant of the protection ability. A permanent with protection from a specific player has protection from each object the player controls and protection from each object the player owns not controlled by another player, regardless of that object's characteristic values. Such a permanent can't be targeted by spells or abilities the player controls, enchanted by Auras the player controls, equipped by Equipment the player controls, fortified by Fortifications the player controls, or blocked by creatures the player controls, and all damage that would be dealt to it by sources controlled by the player or owned by the player but not controlled by another player is prevented.
+
+702.16k
 Multiple instances of protection from the same quality on the same permanent or player are redundant.
 
 702.17.
@@ -8026,7 +8029,7 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are effective as of September 27, 2013.
+These rules are effective as of November 1, 2013.
 
 Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, and Return to Ravnica are trademarks of Wizards of the Coast LLC in the USA and other countries. (C) 2013 Wizards. U.S. Pat. No. RE 37,957.
 
