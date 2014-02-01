@@ -1,12 +1,12 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are effective as of November 1, 2013.
+These rules are effective as of February 1, 2014.
 
 Introduction
 
 This document is designed for people who've moved beyond the basics of the Magic: The Gathering (R) game. If you're a beginning Magic (TM) player, you'll probably find these rules intimidating. They're intended to be the ultimate authority for the game, and you won't usually need to refer to them except in specific cases or during competitive games.
 
-For casual play and most ordinary situations, you'll find what you need in the Magic: The Gathering basic rulebook. You can download a copy of that rulebook from the Wizards of the Coast (R) Magic rules website at <Wizards.com/Magic/Rules>. If you're sure this is where you want to be, keep reading.
+For casual play and most ordinary situations, you'll find what you need in the Magic: The Gathering basic rulebook. You can download a copy of that rulebook from the Wizards of the Coast(R) Magic rules website at <Wizards.com/Magic/Rules>. If you're sure this is where you want to be, keep reading.
 
 This document includes a series of numbered rules followed by a glossary. Many of the numbered rules are divided into subrules, and each separate rule and subrule of the game has its own number. (Note that subrules skip the letters "l" and "o" due to potential confusion with the numbers "1" and "0"; subrule 704.5k is followed by 704.5m, then 704.5n, then 704.5p, for example.)
 
@@ -882,6 +882,9 @@ Activated and triggered abilities on the stack aren't spells, and therefore can'
 Effects can add or remove abilities of objects. An effect that adds an ability will state that the object "gains" or "has" that ability. An effect that removes an ability will state that the object "loses" that ability. Effects that remove an ability remove all instances of it. If two or more effects add and remove the same ability, in general the most recent one prevails. (See rule 613, "Interaction of Continuous Effects.")
 
 112.11.
+Effects can stop an object from having a specified ability. These effects say that the object "can't have" that ability. If the object has that ability, it loses it. It's also impossible for an effect to add that ability to the object. If a resolving spell or ability tries to create a continuous effect that would add the specified ability to such an object, that continuous effect is not created, although that resolving spell or ability can still create other continuous effects. Continuous effects created by static abilities that would add the specified ability won't apply to that object.
+
+112.12.
 An effect that sets an object's characteristic, or simply states a quality of that object, is different from an ability granted by an effect. When an object "gains" or "has" an ability, that ability can be removed by another effect. If an effect defines a characteristic of the object ("[permanent] is [characteristic value]"), it's not granting an ability. (See rule 604.3.) Similarly, if an effect states a quality of that object ("[creature] can't be blocked," for example), it's neither granting an ability nor setting a characteristic.
 Example: Muraganda Petroglyphs reads, "Creatures with no abilities get +2/+2." A Runeclaw Bear (a creature with no abilities) enchanted by an Aura that says "Enchanted creature has flying" would not get +2/+2. A Runeclaw Bear enchanted by an Aura that says "Enchanted creature is red" or "Enchanted creature can't be blocked" would get +2/+2.
 
@@ -1183,7 +1186,7 @@ In a Vanguard game, each player's starting life total is 20 plus or minus the li
 In a Commander game, each player's starting life total is 40. See rule 903, "Commander."
 
 118.1d
-In an Archenemy game, the archenemy's  starting life total is 40. See rule 904, "Archenemy."
+In an Archenemy game, the archenemy's starting life total is 40. See rule 904, "Archenemy."
 
 118.2.
 Damage dealt to a player normally causes that player to lose that much life. See rule 119.3.
@@ -1346,7 +1349,7 @@ If a permanent with an ability that says it can't have more than N counters of a
 If an effect says to "move" a counter, it means to take that counter from the object it's currently on and put it onto a second object. If the first and second objects are the same object, nothing happens. If the first object has no counters, nothing happens; the second object doesn't get a counter put on it. If the second object (or any possible second objects) is no longer in the correct zone when the effect would move the counter, nothing happens; a counter isn't removed from the first object.
 
 121.6.
-If a spell or ability refers to a counter being "placed" on a permanent, it means putting a counter on that permanent while it's on the battlefield, or that permanent entering the battlefield with a counter on it as the result of an effect (see rule 614.1c).
+Some spells and abilities refer to counters being "placed" on an object. This refers to putting counters on that object while it's on the battlefield and also to an object entering the battlefield with counters on it as a result of a replacement effect (see rule 614.1c).
 
 
 2. Parts of a Card
@@ -1518,11 +1521,11 @@ Enchantments have their own unique set of subtypes; these subtypes are called en
 
 205.3i
 Lands have their own unique set of subtypes; these subtypes are called land types. The land types are Desert, Forest, Gate, Island, Lair, Locus, Mine, Mountain, Plains, Power-Plant, Swamp, Tower, and Urza's.
-     Of that list, Forest, Island, Mountain, Plains, and Swamp are the basic land types. See rule 305.6.
+   Of that list, Forest, Island, Mountain, Plains, and Swamp are the basic land types. See rule 305.6.
 
 205.3j
-Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Ashiok, Bolas, Chandra, Domri, Elspeth, Garruk, Gideon, Jace, Karn, Koth, Liliana, Nissa, Ral, Sarkhan, Sorin, Tamiyo, Tezzeret, Tibalt, Venser, Vraska, and Xenagos.
-     If a player controls two or more planeswalkers that share a planeswalker type, that player chooses one of them, and the rest are put into their owners' graveyards. This "planeswalker uniqueness rule" is a state-based action. See rule 704.
+Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Ashiok, Bolas, Chandra, Domri, Elspeth, Garruk, Gideon, Jace, Karn, Kiora, Koth, Liliana, Nissa, Ral, Sarkhan, Sorin, Tamiyo, Tezzeret, Tibalt, Venser, Vraska, and Xenagos.
+   If a player controls two or more planeswalkers that share a planeswalker type, that player chooses one of them, and the rest are put into their owners' graveyards. This "planeswalker uniqueness rule" is a state-based action. See rule 704.
 
 205.3k
 Instants and sorceries share their lists of subtypes; these subtypes are called spell types. The spell types are Arcane and Trap.
@@ -1548,7 +1551,7 @@ Example: An ability reads, "All lands are 1/1 creatures that are still lands." I
 
 205.4c
 Any land with the supertype "basic" is a basic land. Any land that doesn't have this supertype is a nonbasic land, even if it has a basic land type.
-     Cards printed in sets prior to the Eighth Edition core set didn't use the word "basic" to indicate a basic land. Cards from those sets with the following names are basic lands and have received errata in the Oracle card reference accordingly: Forest, Island, Mountain, Plains, Swamp, Snow-Covered Forest, Snow-Covered Island, Snow-Covered Mountain, Snow-Covered Plains, and Snow-Covered Swamp.
+   Cards printed in sets prior to the Eighth Edition core set didn't use the word "basic" to indicate a basic land. Cards from those sets with the following names are basic lands and have received errata in the Oracle card reference accordingly: Forest, Island, Mountain, Plains, Swamp, Snow-Covered Forest, Snow-Covered Island, Snow-Covered Mountain, Snow-Covered Plains, and Snow-Covered Swamp.
 
 205.4d
 Any permanent with the supertype "legendary" is subject to the state-based action for legendary permanents, also called the "legend rule" (see rule 704.5k).
@@ -1574,10 +1577,10 @@ The color of the expansion symbol indicates the rarity of the card within its se
 Previously, a spell or ability that affected cards from a particular set checked for that set's expansion symbol. These cards have received errata in the Oracle card reference to say they affect cards "originally printed" in a particular set. See rule 700.6 for details.
 
 206.4.
-Players may include cards from any printing in their constructed decks if those cards appear in sets allowed in that format (or those cards are specifically allowed by the Magic Tournament Rules). See the Magic Tournament Rules for the current definitions of the constructed formats (Wizards.com/WPN/Events/Rules.aspx).
+Players may include cards from any printing in their constructed decks if those cards appear in sets allowed in that format (or those cards are specifically allowed by the Magic Tournament Rules). See the Magic Tournament Rules for the current definitions of the constructed formats (<Wizards.com/WPN/Events/Rules.aspx>).
 
 206.5.
-The full list of expansions and expansion symbols can be found in the Magic Products section of the Wizards of the Coast website (Wizards.com/Magic/TCG/Article.aspx?x=mtg/tcg/products/allproducts).
+The full list of expansions and expansion symbols can be found in the Magic Products section of the Wizards of the Coast website (<Wizards.com/Magic/TCG/Article.aspx?x=mtg/tcg/products/allproducts>).
 
 207. Text Box
 
@@ -1594,7 +1597,7 @@ Reminder text is italicized text within parentheses that summarizes a rule that 
 Flavor text is italicized text that, like the illustration, adds artistic appeal to the game. It appears below the rules text.
 
 207.2c
-An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, domain, fateful hour, grandeur, hellbent, heroic, imprint, join forces, kinship, landfall, metalcraft, morbid, radiance, sweep, tempting offer, and threshold.
+An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, domain, fateful hour, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, metalcraft, morbid, radiance, sweep, tempting offer, and threshold.
 
 207.3.
 A guild icon appears in the text box of many Ravnica (R) and Return to Ravnica (TM) block cards. These cards either have the specified guild's exclusive mechanic or somehow relate to the two colors associated with that guild. Guild icons have no effect on game play. Similarly, a faction icon appears in the text box of most Scars of Mirrodin (TM) block cards. These faction icons have no effect on game play.
@@ -1810,7 +1813,7 @@ A player can normally play one land during his or her turn; however, continuous 
 To determine whether a player can play a land, compare the number of lands the player can play this turn with the number of lands he or she has already played this turn (including lands played as special actions and lands played during the resolution of spells and abilities). If the number of lands the player can play is greater, the play is legal.
 
 305.2b
-A player can't play a land, for any reason, if number of lands the player can play this turn is equal to or less than the number of lands he or she has already played this turn. Ignore any part of an effect that instructs a player to do so.
+A player can't play a land, for any reason, if the number of lands the player can play this turn is equal to or less than the number of lands he or she has already played this turn. Ignore any part of an effect that instructs a player to do so.
 
 305.3.
 A player can't play a land, for any reason, if it isn't his or her turn. Ignore any part of an effect that instructs a player to do so.
@@ -2204,7 +2207,7 @@ Previously, the exile zone was called the "removed-from-the-game zone." Cards th
 407. Ante
 
 407.1.
-Earlier versions of the Magic rules included an ante rule as a way of playing "for keeps." Playing Magic games for ante is now considered an optional variation on the game, and it's allowed only where it's not forbidden by law or by other rules. Playing for ante is strictly forbidden under the Magic: The Gathering Tournament Rules (Wizards.com/WPN/Events/Rules.aspx).
+Earlier versions of the Magic rules included an ante rule as a way of playing "for keeps." Playing Magic games for ante is now considered an optional variation on the game, and it's allowed only where it's not forbidden by law or by other rules. Playing for ante is strictly forbidden under the Magic: The Gathering Tournament Rules (<Wizards.com/WPN/Events/Rules.aspx>).
 
 407.2.
 When playing for ante, each player puts one random card from his or her deck into the ante zone after determining which player goes first but before players draw any cards. Cards in the ante zone may be examined by any player at any time. At the end of the game, the winner becomes the owner of all the cards in the ante zone.
@@ -2482,7 +2485,7 @@ The defending player chooses which creatures that he or she controls, if any, wi
 
 509.1b
 The defending player checks each creature he or she controls to see whether it's affected by any restrictions (effects that say a creature can't block, or that it can't block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.
-     A restriction may be created by an evasion ability (a static ability an attacking creature has that restricts what can block it). If an attacking creature gains or loses an evasion ability after a legal block has been declared, it doesn't affect that block. Different evasion abilities are cumulative.
+   A restriction may be created by an evasion ability (a static ability an attacking creature has that restricts what can block it). If an attacking creature gains or loses an evasion ability after a legal block has been declared, it doesn't affect that block. Different evasion abilities are cumulative.
 Example: An attacking creature with flying and shadow can't be blocked by a creature with flying but without shadow.
 
 509.1c
@@ -3003,13 +3006,13 @@ Example: Arc-Slogger has the ability "{R}, Exile the top ten cards of your libra
 Each time all players pass in succession, the spell or ability on top of the stack resolves. (See rule 609, "Effects.")
 
 608.2.
-If the object that's resolving is an instant spell, a sorcery spell, or an ability, its resolution may involve several steps. The steps described in rules 608.2a and  608.2b are followed first. The steps described in rules 608.2c-j are then followed as appropriate, in no specific order. The step described in rule 608.2k is followed last.
+If the object that's resolving is an instant spell, a sorcery spell, or an ability, its resolution may involve several steps. The steps described in rules 608.2a and 608.2b are followed first. The steps described in rules 608.2c-j are then followed as appropriate, in no specific order. The step described in rule 608.2k is followed last.
 
 608.2a
 If a triggered ability has an intervening "if" clause, it checks whether the clause's condition is true. If it isn't, the ability is removed from the stack and does nothing. Otherwise, it continues to resolve. See rule 603.4.
 
 608.2b
-If the spell or ability specifies targets, it checks whether the targets are still legal. A target that's no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word "target," are now illegal. If the spell or ability is not countered, it will resolve normally. However, if any of its targets are illegal, the part of the spell or ability's effect for which it is an illegal target can't perform any actions on that target, make another object or player perform any actions on that target, or make that target perform any actions. The effect may still determine information about illegal targets, though, and other parts of the effect for which those targets are not illegal may still affect them.
+If the spell or ability specifies targets, it checks whether the targets are still legal. A target that's no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word "target," are now illegal. If the spell or ability is not countered, it will resolve normally. However, if any of its targets are illegal, the part of the spell or ability's effect for which it is an illegal target can't perform any actions on that target, make another object or player perform any actions on that target, or make that target perform any actions. If the spell or ability creates a continuous effect that affects game rules (see rule 613.10), that effect doesn't apply to illegal targets. The effect may still determine information about illegal targets, though, and other parts of the effect for which those targets are not illegal may still affect them.
 Example: Sorin's Thirst is a black instant that reads, "Sorin's Thirst deals 2 damage to target creature and you gain 2 life." If the creature isn't a legal target during the resolution of Sorin's Thirst (say, if the creature has gained protection from black or left the battlefield), then Sorin's Thirst is countered. Its controller doesn't gain any life.
 Example: Plague Spores reads, "Destroy target nonblack creature and target land. They can't be regenerated." Suppose the same animated land is chosen both as the nonblack creature and as the land, and the color of the creature land is changed to black before Plague Spores resolves. Plagues Spores isn't countered because the black creature land is still a legal target for the "target land" part of the spell. The "destroy target nonblack creature" part of the spell won't affect that permanent, but the "destroy target land" part of the spell will still destroy it. It can't be regenerated.
 
@@ -3186,7 +3189,7 @@ Layer 4: Type-changing effects are applied. These include effects that change an
 Layer 5: Color-changing effects are applied.
 
 613.1f
-Layer 6: Ability-adding and ability-removing effects are applied.
+Layer 6: Ability-adding effects, ability-removing effects, and effects that say an object can't have an ability are applied.
 
 613.1g
 Layer 7: Power- and/or toughness-changing effects are applied.
@@ -3364,7 +3367,7 @@ Example: Jund (a plane card) says, "Whenever a player casts a black, red, or gre
 An object may have one ability printed on it that generates a replacement effect which causes one or more cards to be exiled, and another ability that refers either to "the exiled cards" or to cards "exiled with [this object]." These abilities are linked: the second refers only to cards in the exile zone that were put there as a direct result of the replacement event caused by the first. If another object gains a pair of linked abilities, the abilities will be similarly linked on that object. They can't be linked to any other ability, regardless of what other abilities the object may currently have or may have had in the past. See rule 607, "Linked Abilities."
 
 614.15.
-Some replacement effects are not continuous effects. Rather, they are an effect of a resolving spell or ability that replace part or all of that spell or ability's own effect(s). Such effects are called self-replacement effects. When applying replacement effects to an event, self-replacement effects are applied before other replacement effects.
+Some replacement effects are not continuous effects. Rather, they are an effect of a resolving spell or ability that replace part or all of that spell or ability's own effect(s). Such effects are called self-replacement effects. The text creating a self-replacement effect is usually part of the ability whose effect is being replaced, but the text can be a separate ability, particularly when preceded by an ability word. When applying replacement effects to an event, self-replacement effects are applied before other replacement effects.
 
 615. Prevention Effects
 
@@ -3486,13 +3489,13 @@ A pile can contain zero or more objects.
 The term dies means "is put into a graveyard from the battlefield."
 
 700.5.
-A player's devotion to [color] is equal to the number of mana symbols of that color among the mana costs of permanents that player controls.
+A player's devotion to [color] is equal to the number of mana symbols of that color among the mana costs of permanents that player controls. A player's devotion to [color 1] and [color 2] is equal to the number of mana symbols among the mana costs of permanents that player controls that are [color 1], [color 2], or both colors.
 
 700.6.
-Some cards refer to cards "originally printed" in a particular set.
+Some cards refer to cards originally printed in a particular set.
 
 700.6a
-One card (City in a Bottle) refers to permanents and cards with the same name as a card originally printed in the Arabian Nights (TM) expansion. Those cards are Abu Ja'far, Aladdin, Aladdin's Lamp, Aladdin's Ring, Ali Baba, Ali from Cairo, Army of Allah, Bazaar of Baghdad, Bird Maiden, Bottle of Suleiman, Brass Man, Camel, City in a Bottle, City of Brass, Cuombajj Witches, Cyclone, Dancing Scimitar, Dandn, Desert, Desert Nomads, Desert Twister, Diamond Valley, Drop of Honey, Ebony Horse, Elephant Graveyard, El-Hajjj, Erg Raiders, Erhnam Djinn, Eye for an Eye, Fishliver Oil, Flying Carpet, Flying Men, Ghazb n Ogre, Giant Tortoise, Guardian Beast, Hasran Ogress, Hurr Jackal, Ifh-Biff Efreet, Island Fish Jasconius, Island of Wak-Wak, Jandor's Ring, Jandor's Saddlebags, Jeweled Bird, Jihad, Junn Efreet, Juz m Djinn, Khab l Ghoul, King Suleiman, Kird Ape, Library of Alexandria, Magnetic Mountain, Merchant Ship, Metamorphosis, Mijae Djinn, Moorish Cavalry, Nafs Asp, Oasis, Old Man of the Sea, Oubliette, Piety, Pyramids, Repentant Blacksmith, Ring of Ma'r-f, Rukh Egg, Sandals of Abdallah, Sandstorm, Serendib Djinn, Serendib Efreet, Shahrazad, Sindbad, Singing Tree, Sorceress Queen, Stone-Throwing Devils, Unstable Mutation, War Elephant, Wyluli Wolf, and Ydwen Efreet.
+One card (City in a Bottle) refers to permanents and cards with the same name as a card originally printed in the Arabian Nights (TM) expansion. Those cards are Abu Ja'far, Aladdin, Aladdin's Lamp, Aladdin's Ring, Ali Baba, Ali from Cairo, Army of Allah, Bazaar of Baghdad, Bird Maiden, Bottle of Suleiman, Brass Man, Camel, City in a Bottle, City of Brass, Cuombajj Witches, Cyclone, Dancing Scimitar, Dandan, Desert, Desert Nomads, Desert Twister, Diamond Valley, Drop of Honey, Ebony Horse, Elephant Graveyard, El-Hajjaj, Erg Raiders, Erhnam Djinn, Eye for an Eye, Fishliver Oil, Flying Carpet, Flying Men, Ghazban Ogre, Giant Tortoise, Guardian Beast, Hasran Ogress, Hurr Jackal, Ifh-Biff Efreet, Island Fish Jasconius, Island of Wak-Wak, Jandor's Ring, Jandor's Saddlebags, Jeweled Bird, Jihad, Junun Efreet, Juzam Djinn, Khabal Ghoul, King Suleiman, Kird Ape, Library of Alexandria, Magnetic Mountain, Merchant Ship, Metamorphosis, Mijae Djinn, Moorish Cavalry, Nafs Asp, Oasis, Old Man of the Sea, Oubliette, Piety, Pyramids, Repentant Blacksmith, Ring of Ma'ruf, Rukh Egg, Sandals of Abdallah, Sandstorm, Serendib Djinn, Serendib Efreet, Shahrazad, Sindbad, Singing Tree, Sorceress Queen, Stone-Throwing Devils, Unstable Mutation, War Elephant, Wyluli Wolf, and Ydwen Efreet.
 
 700.6b
 One card (Golgothian Sylex) refers to permanents with the same name as a card originally printed in the Antiquities (TM) expansion. Those cards are Amulet of Kroog, Argivian Archaeologist, Argivian Blacksmith, Argothian Pixies, Argothian Treefolk, Armageddon Clock, Artifact Blast, Artifact Possession, Artifact Ward, Ashnod's Altar, Ashnod's Battle Gear, Ashnod's Transmogrant, Atog, Battering Ram, Bronze Tablet, Candelabra of Tawnos, Circle of Protection: Artifacts, Citanul Druid, Clay Statue, Clockwork Avian, Colossus of Sardia, Coral Helm, Crumble, Cursed Rack, Damping Field, Detonate, Drafna's Restoration, Dragon Engine, Dwarven Weaponsmith, Energy Flux, Feldon's Cane, Gaea's Avenger, Gate to Phyrexia, Goblin Artisans, Golgothian Sylex, Grapeshot Catapult, Haunting Wind, Hurkyl's Recall, Ivory Tower, Jalum Tome, Martyrs of Korlis, Mightstone, Millstone, Mishra's Factory, Mishra's War Machine, Mishra's Workshop, Obelisk of Undoing, Onulet, Orcish Mechanics, Ornithopter, Phyrexian Gremlins, Power Artifact, Powerleech, Priest of Yawgmoth, Primal Clay, The Rack, Rakalite, Reconstruction, Reverse Polarity, Rocket Launcher, Sage of Lat-Nam, Shapeshifter, Shatterstorm, Staff of Zegon, Strip Mine, Su-Chi, Tablet of Epityr, Tawnos's Coffin, Tawnos's Wand, Tawnos's Weaponry, Tetravus, Titania's Song, Transmute Artifact, Triskelion, Urza's Avenger, Urza's Chalice, Urza's Mine, Urza's Miter, Urza's Power Plant, Urza's Tower, Wall of Spears, Weakstone, Xenic Poltergeist, Yawgmoth Demon, and Yotian Soldier.
@@ -3524,7 +3527,7 @@ If an effect tries to attach an Aura, Equipment, or Fortification to an object i
 Attaching an Aura, Equipment, or Fortification on the battlefield to a different object causes the Aura, Equipment, or Fortification to receive a new timestamp.
 
 701.3d
-To "unattach" an Equipment from a creature means to move it away from that creature so the Equipment is on the battlefield but is not equipping anything. It should no longer be physically touching any creature. If an Aura, Equipment, or Fortification that was attached to something ceases to be attached to it, that counts as "becoming unattached"; this includes if that object and/or that Aura, Equipment, or Fortification leaves the battlefield.
+To "unattach" an Equipment from a creature means to move it away from that creature so the Equipment is on the battlefield but is not equipping anything. It should no longer be physically touching any creature. If an Aura, Equipment, or Fortification that was attached to an object or player ceases to be attached to it, that counts as "becoming unattached [from that object or player]"; this includes if that Aura, Equipment, or Fortification leaves the battlefield, the object leaves the zone it was in, or that player leaves the game.
 
 701.4.
 Cast
@@ -3766,6 +3769,9 @@ Only a scheme card may be set in motion, and only during an Archenemy game. Only
 
 701.22b
 To set a scheme in motion, move it off the top of your scheme deck and turn it face up.
+
+701.22c
+Schemes may only be set in motion one at a time. If a player is instructed to set multiple schemes in motion, that player sets a scheme in motion that many times. 
 
 701.23.
 Abandon
@@ -5041,6 +5047,15 @@ As an Aura spell with bestow begins resolving, if its target is illegal, the eff
 702.102e
 If an Aura with bestow is attached to an illegal object or player, it becomes unattached. This is an exception to rule 704.5n.
 
+702.103.
+Tribute
+
+702.103a
+Tribute is a static ability that functions as the creature with tribute is entering the battlefield. "Tribute N" means "As this creature enters the battlefield, choose an opponent. That player may have this creature enter the battlefield with an additional N +1/+1 counters on it."
+
+702.103b
+Objects with tribute have triggered abilities that check "if tribute wasn't paid." This condition is true if the opponent chosen as a result of the tribute ability didn't have the creature enter the battlefield with +1/+1 counters as specified by the creature's tribute ability.
+
 703. Turn-Based Actions
 
 703.1.
@@ -5269,7 +5284,7 @@ When applying a copy effect that doesn't copy a certain characteristic, retains 
 Example: Quicksilver Gargantuan is a creature that reads, "You may have Quicksilver Gargantuan enter the battlefield as a copy of any creature on the battlefield, except it's still 7/7." Quicksilver Gargantuan enters the battlefield as a copy of Tarmogoyf, which has a characteristic-defining ability that defines its power and toughness. Quicksilver Gargantuan does not have that ability. It will be 7/7.
 
 706.10.
-To copy a spell or activated ability means to put a copy of it onto the stack; a copy of a spell isn't cast and a copy of an activated ability isn't activated. A copy of a spell or ability copies both the characteristics of the spell or ability and all decisions made for it, including modes, targets, the value of X, and additional or alternative costs. (See rule 601, "Casting Spells.") Choices that are normally made on resolution are not copied. If an effect of the copy refers to objects used to pay its costs, it uses the objects used to pay the costs of the original spell or ability. A copy of a spell is owned by the player under whose control it was put on the stack. A copy of a spell or ability is controlled by the player under whose control it was put on the stack. A copy of a spell is itself a spell, even though it has no spell card associated with it. A copy of an ability is itself an ability.
+To copy a spell, activated ability, or triggered ability means to put a copy of it onto the stack; a copy of a spell isn't cast and a copy of an activated ability isn't activated. A copy of a spell or ability copies both the characteristics of the spell or ability and all decisions made for it, including modes, targets, the value of X, and additional or alternative costs. (See rule 601, "Casting Spells.") Choices that are normally made on resolution are not copied. If an effect of the copy refers to objects used to pay its costs, it uses the objects used to pay the costs of the original spell or ability. A copy of a spell is owned by the player under whose control it was put on the stack. A copy of a spell or ability is controlled by the player under whose control it was put on the stack. A copy of a spell is itself a spell, even though it has no spell card associated with it. A copy of an ability is itself an ability.
 Example: A player casts Fork, targeting an Emerald Charm. Fork reads, "Copy target instant or sorcery spell, except that the copy is red. You may choose new targets for the copy." Emerald Charm is a green instant that reads, "Choose one -- Untap target permanent; or destroy target non-Aura enchantment; or target creature loses flying until end of turn." When the Fork resolves, it puts a copy of the Emerald Charm on the stack except the copy is red, not green. The copy has the same mode that was chosen for the original Emerald Charm. It does not necessarily have the same target, but only because Fork allows choosing of new targets.
 Example: Fling is an instant that reads, "As an additional cost to cast Fling, sacrifice a creature" and "Fling deals damage equal to the sacrificed creature's power to target creature or player." When determining how much damage a copy of Fling deals, it checks the power of the creature sacrificed to pay for the original Fling.
 
@@ -5356,7 +5371,7 @@ Example: Spell Blast says "Counter target spell with converted mana cost X." If 
 Some effects perform comparisons involving one or more split cards in a zone other than the stack or involving one or more fused split spells.
 
 708.6a
-Anything that performs a positive comparison (such as asking if a card is red) or a relative comparison (such as asking if a card's converted mana cost is 3 or less) involving  one or more split cards in any zone other than the stack or involving one or more fused split spells gets only one answer. This answer is "yes" if either side of each split card in the comparison would return a "yes" answer if compared individually.
+Anything that performs a positive comparison (such as asking if a card is red) or a relative comparison (such as asking if a card's converted mana cost is 3 or less) involving one or more split cards in any zone other than the stack or involving one or more fused split spells gets only one answer. This answer is "yes" if either side of each split card in the comparison would return a "yes" answer if compared individually.
 Example: Void reads, "Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals his or her hand and discards all nonland cards with converted mana cost equal to the number." If a player casts Void and chooses 1, his or her opponent would discard Assault/Battery because its converted mana costs are 1 and 4. The same is true if the player chooses 4. If the player chooses 5, however, Assault/Battery would be unaffected.
 
 708.6b
@@ -5614,6 +5629,9 @@ All objects in the main game and all cards outside the main game are considered 
 
 715.4a
 Some effects can bring cards into a game from outside of it. If a card is brought into a subgame from a main game, abilities in the main game that trigger on objects leaving a main-game zone will trigger, but they won't be put onto the stack until the main game resumes.
+
+715.4b
+A player's main-game counters aren't considered part of the subgame, although the player will still have them when the main game resumes. Similarly, any counters a player gets during a subgame will cease to exist when the subgame ends. 
 
 715.5.
 At the end of a subgame, each player takes all cards he or she owns that are in the subgame other than those in the subgame command zone, puts them into his or her main-game library, then shuffles them. This includes cards in the subgame's exile zone. Except as specified in rules 715.5a-c, all other objects in the subgame cease to exist, as do the zones created for the subgame. The main game continues from the point at which it was discontinued: First, the spell or ability that created the subgame finishes resolving, even if it was created by a spell card that's no longer on the stack. Then, if any main-game abilities triggered while the subgame was in progress due to cards being removed from the main game, those abilities are put onto the stack.
@@ -6135,8 +6153,8 @@ Each team's creatures attack the other team as a group. During the combat phase,
 
 810.7b
 Any one-shot effect that refers to the "defending player" refers to one specific defending player, not to both of the defending players. The controller of the effect chooses which one the spell or ability refers to at the time the effect is applied. The same is true for any one-shot effect that refers to the "attacking player."
-     Any characteristic-defining ability that refers to the "defending player" refers to one specific defending player, not to both of the defending players. The controller of the object with the characteristic-defining ability chooses which one the ability refers to at the time the nonactive players become defending players.
-     All other cases in which the "defending player" is referred to actually refer to both defending players. If the reference involves a positive comparison (such as asking whether the defending player controls an Island) or a relative comparison (such as asking whether you control more creatures than the defending player), it gets only one answer. This answer is "yes" if either defending player in the comparison would return a "yes" answer if compared individually. If the reference involves a negative comparison (such as asking whether the defending player controls no black permanents), it also gets only one answer. This answer is "yes" if performing the analogous positive comparison would return a "no" answer. The same is true for all other cases that refer to the "attacking player."
+   Any characteristic-defining ability that refers to the "defending player" refers to one specific defending player, not to both of the defending players. The controller of the object with the characteristic-defining ability chooses which one the ability refers to at the time the nonactive players become defending players.
+   All other cases in which the "defending player" is referred to actually refer to both defending players. If the reference involves a positive comparison (such as asking whether the defending player controls an Island) or a relative comparison (such as asking whether you control more creatures than the defending player), it gets only one answer. This answer is "yes" if either defending player in the comparison would return a "yes" answer if compared individually. If the reference involves a negative comparison (such as asking whether the defending player controls no black permanents), it also gets only one answer. This answer is "yes" if performing the analogous positive comparison would return a "no" answer. The same is true for all other cases that refer to the "attacking player."
 
 810.7c
 As the declare attackers step begins, the active team declares attackers. If an effect of an object controlled by a defending player prohibits a creature from attacking him or her, that creature can't attack the defending team. The active team has one combined attack, and that set of attacking creatures must be legal as a whole. See rule 508.1.
@@ -6189,7 +6207,7 @@ Example: In a Two-Headed Giant game, a player on a team that has 25 life is targ
 
 810.9d
 If an effect would set the life total of each player on a team to a number, that team chooses one of its members. On that team, only that player is affected.
-Example: In a Two-Headed Giant game, one team has 7 life and the other team has 13 life. A player casts Repay in Kind, which reads, "Each player's life total becomes the lowest life total among all players." Each team chooses one if its members to be affected. The result is that the chosen player on the team that has 13 life loses 6 life, so that team's life total winds up at 7.
+Example: In a Two-Headed Giant game, one team has 7 life and the other team has 13 life. A player casts Repay in Kind, which reads, "Each player's life total becomes the lowest life total among all players." Each team chooses one of its members to be affected. The result is that the chosen player on the team that has 13 life loses 6 life, so that team's life total winds up at 7.
 
 810.9e
 A player can't exchange life totals with his or her teammate. If an effect would cause that to occur, the exchange won't happen.
@@ -6398,7 +6416,7 @@ Any abilities of a face-up vanguard card in the command zone function from that 
 903. Commander
 
 903.1.
-In the Commander variant, each deck is led by a legendary creature designated as that deck's commander. The Commander variant was created and popularized by fans; an independent rules committee maintains additional resources at MTGCommander.net. The Commander variant uses all the normal rules for a Magic game, with the following additions.
+In the Commander variant, each deck is led by a legendary creature designated as that deck's commander. The Commander variant was created and popularized by fans; an independent rules committee maintains additional resources at <MTGCommander.net>. The Commander variant uses all the normal rules for a Magic game, with the following additions.
 
 903.2.
 A Commander game may be a two-player game or a multiplayer game. The default multiplayer setup is the Free-for-All variant with the attack multiple players option and without the limited range of influence option. See rule 806, "Free-for-All Variant."
@@ -6451,7 +6469,7 @@ The Commander variant uses an alternate mulligan rule. Each time a player takes 
 If mana would be added to a player's mana pool of a color that isn't in the color identity of that player's commander, that amount of colorless mana is added to that player's mana pool instead.
 
 903.10.
-A player may cast a commander he or she owns from the command zone. Doing so costs that player an additional {2} for each previous time he or she cast that commander from the command zone that game.
+A player may cast a commander he or she owns from the command zone. A commander cast from the command zone costs an additional {2} for each previous time the player casting it has cast it from the command zone that game.
 
 903.11.
 If a commander would be put into its owner's graveyard from anywhere, that player may put it into the command zone instead.
@@ -7884,6 +7902,9 @@ A keyword ability that lets a player search his or her library for a replacement
 Tribal
 A card type. Whether or not a tribal is a permanent depends on its other card type. See rule 308, "Tribals."
 
+Tribute
+A keyword ability that allows an opponent to choose between a creature entering the battlefield with +1/+1 counters or an additional ability. See rule 702.103, "Tribute."
+
 Trigger
 Whenever a game event or game state matches a triggered ability's trigger event, that ability automatically "triggers." That means its controller puts it on the stack the next time a player would receive priority. See rule 603, "Handling Triggered Abilities."
 
@@ -8011,7 +8032,7 @@ Credits
 
 Magic: The Gathering Original Game Design: Richard Garfield
 Comprehensive Rules Design and Development: Paul Barclay, Beth Moursund, and Bill Rose, with contributions from Charlie Dogino, John Carter, Elaine Chase, Laurie Cheers, Stephen D'Angelo, Dave DeLaney, Brady Dommermuth, Mike Donais, Skaff Elias, Mike Elliott, Richard Garfield, Mark L. Gottlieb, Dan Gray, Robert Gutschera, Collin Jackson, William Jockusch, Jeff Jordan, Yonemura Kaoru, Russell Linnemann, Jim Lin, Steve Lord, Sheldon Menery, Michael Phoenix, Mark Rosewater, David Sachs, Lee Sharpe, Eli Shiffrin, Henry Stern, Matt Tabak, Ingo Warnke, Tom Wylie, Donald X. Vaccarino, Thijs van Ommen, and Bryan Zembruski
-Editing: Del Laugel, Kelly Digges, and Tim Aten
+Editing: Del Laugel, Kelly Digges, Tim Aten, and Allison Medwin
 Magic Rules Manager: Matt Tabak
 
 The Magic: The Gathering game was designed by Richard Garfield, with contributions from Charlie Dogino, Skaff Elias, Don Felice, Tom Fontaine, Jim Lin, Joel Mick, Chris Page, Dave Pettey, Barry "Bit" Reich, Bill Rose, and Elliott Segal. The mana symbols were designed by Christopher Rush.
@@ -8029,8 +8050,8 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are effective as of November 1, 2013.
+These rules are effective as of February 1, 2014.
 
-Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, and Return to Ravnica are trademarks of Wizards of the Coast LLC in the USA and other countries. (C) 2013 Wizards. U.S. Pat. No. RE 37,957.
+Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, and Return to Ravnica are trademarks of Wizards of the Coast LLC in the USA and other countries. (C) 2014 Wizards. U.S. Pat. No. RE 37,957.
 
 

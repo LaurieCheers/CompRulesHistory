@@ -248,5 +248,10 @@
     "setCode": "C13",
     "setName": "Commander 2013",
     "creationDay": "2013-11-01"
+  },
+  {
+    "setCode": "BNG",
+    "setName": "Born of the Gods",
+    "creationDay": "2014-02-01"
   }
 ]
