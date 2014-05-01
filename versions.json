@@ -253,5 +253,10 @@
     "setCode": "BNG",
     "setName": "Born of the Gods",
     "creationDay": "2014-02-01"
+  },
+  {
+    "setCode": "JOU",
+    "setName": "Journey into Nyx",
+    "creationDay": "2014-05-01"
   }
 ]
