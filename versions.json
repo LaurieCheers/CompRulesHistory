@@ -258,5 +258,10 @@
     "setCode": "JOU",
     "setName": "Journey into Nyx",
     "creationDay": "2014-05-01"
+  },
+  {
+    "setCode": "CNS",
+    "setName": "Conspiracy",
+    "creationDay": "2014-06-01"
   }
 ]
