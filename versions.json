@@ -263,5 +263,10 @@
     "setCode": "CNS",
     "setName": "Conspiracy",
     "creationDay": "2014-06-01"
+  },
+  {
+    "setCode": "KTK",
+    "setName": "Khans of Tarkir",
+    "creationDay": "2014-09-25"
   }
 ]

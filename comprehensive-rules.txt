@@ -1,19 +1,18 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are effective as of June 1, 2014.
+These rules are effective as of September 25, 2014.
 
 Introduction
 
 This document is designed for people who've moved beyond the basics of the Magic: The Gathering(R) game. If you're a beginning Magic(TM) player, you'll probably find these rules intimidating. They're intended to be the ultimate authority for the game, and you won't usually need to refer to them except in specific cases or during competitive games.
 
-For casual play and most ordinary situations, you'll find what you need in the Magic: The Gathering basic rulebook. You can download a copy of that rulebook from the Wizards of the Coast(R) Magic rules website at Wizards.com/Magic/Rules. If you're sure this is where you want to be, keep reading.
+For casual play and most ordinary situations, you'll find what you need in the Magic: The Gathering basic rules. You can download a copy of the basic rules PDF from the Wizards of the Coast(R) Magic rules website at Magic.Wizards.com/EN/Rules. If you're sure this is where you want to be, keep reading.
 
 This document includes a series of numbered rules followed by a glossary. Many of the numbered rules are divided into subrules, and each separate rule and subrule of the game has its own number. (Note that subrules skip the letters "l" and "o" due to potential confusion with the numbers "1" and "0"; subrule 704.5k is followed by 704.5m, then 704.5n, then 704.5p, for example.)
 
 We at Wizards of the Coast recognize that no matter how detailed the rules, situations will arise in which the interaction of specific cards requires a precise answer. If you have questions, you can get the answers from us at Wizards.com/CustomerService. Additional contact information is on the last page of these rules.
 
-In response to play issues and to keep these rules as current as possible, changes may have been made to this document since its publication. See the Wizards of the Coast Magic rules website at Wizards.com/Magic/Rules for the current version of the official rules.
-
+In response to play issues and to keep these rules as current as possible, changes may have been made to this document since its publication. You can download the most recent version from the Magic rules website at Magic.Wizards.com/EN/Rules.
 
 Contents
 
@@ -164,7 +163,6 @@ Contents
 Glossary
 
 Credits
-
 1. Game Concepts
 
 100. General
@@ -185,7 +183,7 @@ To play, each player needs his or her own deck of traditional Magic cards, small
 In constructed play (a way of playing in which each player creates his or her own deck ahead of time), each deck must contain at least sixty cards. A constructed deck may contain any number of basic land cards and no more than four of any card with a particular English name other than basic land cards.
 
 100.2b
-In limited play (a way of playing in which each player gets the same quantity of unopened Magic product such as booster packs and creates his or her own deck using only this product), each deck must contain at least forty cards. A limited deck may contain as many duplicates of a card as are included with the product.
+In limited play (a way of playing in which each player gets the same quantity of unopened Magic product such as booster packs and creates his or her own deck using only this product and basic land cards), each deck must contain at least forty cards. A limited deck may contain as many duplicates of a card as are included with the product.
 
 100.3.
 Some casual variants require additional items, such as specially designated cards, nontraditional Magic cards, and dice. See section 9, "Casual Variants."
@@ -209,7 +207,7 @@ In limited play involving other multiplayer team variants, each card in a team's
 There is no maximum deck size.
 
 100.6.
-Most Magic tournaments (organized play activities where players compete against other players to win prizes) have additional rules covered in the Magic: The Gathering Tournament Rules (found at Wizards.com/WPN/Events/Rules.aspx). These rules may limit the use of some cards, including barring all cards from some older sets.
+Most Magic tournaments (organized play activities where players compete against other players to win prizes) have additional rules covered in the Magic: The Gathering Tournament Rules (found at WPN.Wizards.com/en/resources/rules-documents). These rules may limit the use of some cards, including barring all cards from some older sets.
 
 100.6a
 Tournaments usually consist of a series of matches. A two-player match usually involves playing until one player has won two games. A multiplayer match usually consists of only one game.
@@ -872,7 +870,7 @@ An ability whose cost or effect specifies that it moves the object it's on out o
 Example: Reassembling Skeleton says "{1}{B}: Return Reassembling Skeleton from your graveyard to the battlefield tapped." A player may activate this ability only if Reassembling Skeleton is in his or her graveyard.
 
 112.6m
-An ability that modifies the rules for deck construction functions before the game begins. Such an ability modifies not just the Comprehensive Rules, but also the Magic: The Gathering Tournament Rules and any other documents that set the deck construction rules for a specific format. However, such an ability can't affect the format legality of a card, including whether it's banned or restricted. The current Magic: The Gathering Tournament Rules can be found at Wizards.com/WPN/Events/Rules.aspx.
+An ability that modifies the rules for deck construction functions before the game begins. Such an ability modifies not just the Comprehensive Rules, but also the Magic: The Gathering Tournament Rules and any other documents that set the deck construction rules for a specific format. However, such an ability can't affect the format legality of a card, including whether it's banned or restricted. The current Magic: The Gathering Tournament Rules can be found at WPN.Wizards.com/en/resources/rules-documents.
 
 112.6n
 Abilities of emblems, plane cards, vanguard cards, scheme cards, and conspiracy cards function in the command zone. See rule 113, "Emblems"; rule 901, "Planechase"; rule 902, "Vanguard"; rule 904, "Archenemy"; and rule 905, "Conspiracy Draft."
@@ -893,7 +891,7 @@ Activated and triggered abilities on the stack aren't spells, and therefore can'
 Effects can add or remove abilities of objects. An effect that adds an ability will state that the object "gains" or "has" that ability. An effect that removes an ability will state that the object "loses" that ability. Effects that remove an ability remove all instances of it. If two or more effects add and remove the same ability, in general the most recent one prevails. (See rule 613, "Interaction of Continuous Effects.")
 
 112.11.
-Effects can stop an object from having a specified ability. These effects say that the object "can't have" that ability. If the object has that ability, it loses it. It's also impossible for an effect to add that ability to the object. If a resolving spell or ability tries to create a continuous effect that would add the specified ability to such an object, that continuous effect is not created, although that resolving spell or ability can still create other continuous effects. Continuous effects created by static abilities that would add the specified ability won't apply to that object.
+Effects can stop an object from having a specified ability. These effects say that the object "can't have" that ability. If the object has that ability, it loses it. It's also impossible for an effect to add that ability to the object. If a resolving spell or ability creates a continuous effect that would add the specified ability to such an object, that part of that continuous effect does not apply; however, other parts of that continuous effect will still apply, and that resolving spell or ability can still create other continuous effects. Continuous effects created by static abilities that would add the specified ability won't apply to that object.
 
 112.12.
 An effect that sets an object's characteristic, or simply states a quality of that object, is different from an ability granted by an effect. When an object "gains" or "has" an ability, that ability can be removed by another effect. If an effect defines a characteristic of the object ("[permanent] is [characteristic value]"), it's not granting an ability. (See rule 604.3.) Similarly, if an effect states a quality of that object ("[creature] can't be blocked," for example), it's neither granting an ability nor setting a characteristic.
@@ -1183,7 +1181,7 @@ Example: You control Standstill, an enchantment that says "When a player casts a
 Example: Your opponent has cast Gather Specimens, a spell that says "If a creature would enter the battlefield under an opponent's control this turn, it enters the battlefield under your control instead." You control a face-down Dermoplasm, a creature with morph that says "When Dermoplasm is turned face up, you may put a creature card with morph from your hand onto the battlefield face up. If you do, return Dermoplasm to its owner's hand." You turn Dermoplasm face up, and you choose to put a creature card with morph from your hand onto the battlefield. Due to Gather Specimens, it enters the battlefield under your opponent's control instead of yours. However, since you chose to pay the cost, Dermoplasm is still returned to its owner's hand.
 
 117.12a
-Some spells, activated abilities, and triggered abilities read, "[Do something] unless you [do something else]." This means the same thing as "You may [do something else]. If you don't, [do something]."
+Some spells, activated abilities, and triggered abilities read, "[Do something] unless [a player does something else]." This means the same thing as "[A player may do something else]. If [that player doesn't], [do something]."
 
 118. Life
 
@@ -1365,7 +1363,6 @@ If an effect says to "move" a counter, it means to take that counter from the ob
 121.6.
 Some spells and abilities refer to counters being "placed" on an object. This refers to putting counters on that object while it's on the battlefield and also to an object entering the battlefield with counters on it as a result of a replacement effect (see rule 614.1c).
 
-
 2. Parts of a Card
 
 200. General
@@ -1545,7 +1542,7 @@ Planeswalkers have their own unique set of subtypes; these subtypes are called p
 Instants and sorceries share their lists of subtypes; these subtypes are called spell types. The spell types are Arcane and Trap.
 
 205.3m
-Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Ally, Angel, Anteater, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Monger, Mongoose, Monk, Moonfolk, Mutant, Myr, Mystic, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pincher, Pirate, Plant, Praetor, Prism, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.
+Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Ally, Angel, Anteater, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Monger, Mongoose, Monk, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pincher, Pirate, Plant, Praetor, Prism, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.
 
 205.3n
 Planes have their own unique set of subtypes; these subtypes are called planar types. The planar types are Alara, Arkhos, Azgol, Belenon, Bolas's Meditation Realm, Dominaria, Equilor, Ergamon, Fabacin, Innistrad, Iquatana, Ir, Kaldheim, Kamigawa, Karsus, Kephalai, Kinshala, Kolbahan, Kyneth, Lorwyn, Luvion, Mercadia, Mirrodin, Moag, Mongseng, Muraganda, New Phyrexia, Phyrexia, Pyrulea, Rabiah, Rath, Ravnica, Regatha, Segovia, Serra's Realm, Shadowmoor, Shandalar, Ulgrotha, Valla, Vryn, Wildfire, Xerex, and Zendikar.
@@ -1591,10 +1588,10 @@ The color of the expansion symbol indicates the rarity of the card within its se
 Previously, a spell or ability that affected cards from a particular set checked for that set's expansion symbol. These cards have received errata in the Oracle card reference to say they affect cards "originally printed" in a particular set. See rule 700.6 for details.
 
 206.4.
-Players may include cards from any printing in their constructed decks if those cards appear in sets allowed in that format (or those cards are specifically allowed by the Magic Tournament Rules). See the Magic Tournament Rules for the current definitions of the constructed formats (Wizards.com/WPN/Events/Rules.aspx).
+Players may include cards from any printing in their constructed decks if those cards appear in sets allowed in that format (or those cards are specifically allowed by the Magic Tournament Rules). See the Magic Tournament Rules for the current definitions of the constructed formats (WPN.Wizards.com/en/resources/rules-documents).
 
 206.5.
-The full list of expansions and expansion symbols can be found in the Magic Products section of the Wizards of the Coast website (Wizards.com/Magic/TCG/Article.aspx?x=mtg/tcg/products/allproducts).
+The full list of expansions and expansion symbols can be found in the Card Set Archive section of the Magic website (Magic.Wizards.com/en/game-info/products/card-set-archive).
 
 207. Text Box
 
@@ -1611,7 +1608,7 @@ Reminder text is italicized text within parentheses that summarizes a rule that 
 Flavor text is italicized text that, like the illustration, adds artistic appeal to the game. It appears below the rules text.
 
 207.2c
-An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, constellation, domain, fateful hour, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, metalcraft, morbid, parley, radiance, strive, sweep, tempting offer, threshold, and will of the council.
+An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, constellation, domain, fateful hour, ferocious, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, metalcraft, morbid, parley, radiance, raid, strive, sweep, tempting offer, threshold, and will of the council.
 
 207.3.
 Some cards have decorative icons in the background of their text boxes. For example, a guild icon appears in the text box of many Ravnica: City of Guilds(R) and Return to Ravnica(TM) block cards, and a faction icon appears in the text box of most Scars of Mirrodin(TM) block cards. Similarly, many promotional cards include decorative icons. These icons have no effect on game play.
@@ -1632,10 +1629,13 @@ The card may have a characteristic-defining ability that sets its power and/or t
 Example: Lost Order of Jarkeld has power and toughness each equal to 1+*. It has the abilities "As Lost Order of Jarkeld enters the battlefield, choose an opponent" and "Lost Order of Jarkeld's power and toughness are each equal to 1 plus the number of creatures the chosen player controls." While Lost Order of Jarkeld isn't on the battlefield, there won't be a chosen player. Its power and toughness will each be equal to 1 plus 0, so it's 1/1.
 
 208.2b
-The card may have a static ability that creates a replacement effect that sets the creature's power and toughness to one of a number of specific choices as it enters the battlefield or is turned face up. (See rule 614, "Replacement Effects.") Such an ability is worded "As [this creature] enters the battlefield . . . ," "As [this creature] is turned face up . . . ," or "[This creature] enters the battlefield as . . ." and lists two or more specific power and toughness values (and may also list additional characteristics). The characteristics chosen with these effects affect the creature's copiable values. (See rule 706.2.) While the card isn't on the battlefield, its power and toughness are each considered to be 0.
+The card may have a static ability that creates a replacement effect that sets the creature's power and toughness to one of a number of specific values as it enters the battlefield or is turned face up. (See rule 614, "Replacement Effects.") Such an ability is worded "As [this creature] enters the battlefield . . . ," "As [this creature] is turned face up . . . ," or "[This creature] enters the battlefield as . . ." and lists two or more specific power and toughness values (and may also list additional characteristics). The characteristics chosen or determined with these effects affect the creature's copiable values. (See rule 706.2.) While the card isn't on the battlefield, its power and toughness are each considered to be 0.
 
 208.3.
 A noncreature permanent has no power or toughness, even if it's a card with a power and toughness printed on it (such as a Licid that's become an Aura).
+
+208.4.
+Effects that set a creature's power and/or toughness to specific values may refer to that creature's "base power," "base toughness," or "base power and toughness." Other continuous effects may further modify the creature's power and toughness. See rule 613, "Interaction of Continuous Effects."
 
 209. Loyalty
 
@@ -1669,13 +1669,12 @@ Legal text (the fine print at the bottom of the card) lists the trademark and co
 212.1c
 Some card sets feature collector numbers. This information is printed in the form [card number]/[total cards in the set], immediately following the legal text.
 
-
 3. Card Types
 
 300. General
 
 300.1.
-The card types are artifact, creature, enchantment, instant, land, phenomenon, plane, planeswalker, scheme, sorcery, tribal, and vanguard.
+The card types are artifact, conspiracy, creature, enchantment, instant, land, phenomenon, plane, planeswalker, scheme, sorcery, tribal, and vanguard.
 
 300.2.
 Some objects have more than one card type (for example, an artifact creature). Such objects combine the aspects of each of those card types, and are subject to spells and abilities that affect either or all of those card types.
@@ -1793,9 +1792,12 @@ If an Aura is entering the battlefield and there is no legal object or player fo
 If an effect attempts to put a permanent that isn't an Aura, Equipment, or Fortification onto the battlefield attached to an object or player, it enters the battlefield unattached.
 
 303.4i
-If an effect attempts to attach an Aura on the battlefield to an object or player, that object or player must be able to be enchanted by it. If the object or player can't be, the Aura doesn't move.
+If an effect attempts to put an Aura onto the battlefield enchanting an object or player it can't legally enchant, the Aura remains in its current zone.
 
 303.4j
+If an effect attempts to attach an Aura on the battlefield to an object or player it can't legally enchant, the Aura doesn't move.
+
+303.4k
 An ability of a permanent that refers to the "enchanted [object or player]" refers to whatever object or player that permanent is attached to, even if the permanent with the ability isn't an Aura.
 
 304. Instants
@@ -2021,7 +2023,7 @@ Conspiracy cards are used only in limited play, particularly in the Conspiracy D
 At the start of a game, before decks are shuffled, each player may put any number of conspiracy cards from his or her sideboard into the command zone. Conspiracy cards with hidden agenda are put into the command zone face down. (See rule 702.105, "Hidden Agenda.")
 
 313.3.
-Conspiracy cards remain in the command zone throughout the game. They're not permanents. They can't be cast or included in a deck. If a conspiracy card would leave the command zone, it remains in the command zone.
+Conspiracy cards remain in the command zone throughout the game. They're not permanents. They can't be cast or included in a deck. If a conspiracy card would leave the command zone, it remains in the command zone. Conspiracy cards that aren't in the game can't be brought into the game.
 
 313.4.
 Conspiracy cards have no subtypes.
@@ -2040,7 +2042,6 @@ The owner of a conspiracy card is the player who put it into the command zone at
 
 313.7.
 At any time, you may look at a face-down conspiracy card you control. You can't look at face-down conspiracy cards controlled by other players.
-
 
 4. Zones
 
@@ -2250,7 +2251,7 @@ Previously, the exile zone was called the "removed-from-the-game zone." Cards th
 407. Ante
 
 407.1.
-Earlier versions of the Magic rules included an ante rule as a way of playing "for keeps." Playing Magic games for ante is now considered an optional variation on the game, and it's allowed only where it's not forbidden by law or by other rules. Playing for ante is strictly forbidden under the Magic: The Gathering Tournament Rules (Wizards.com/WPN/Events/Rules.aspx).
+Earlier versions of the Magic rules included an ante rule as a way of playing "for keeps." Playing Magic games for ante is now considered an optional variation on the game, and it's allowed only where it's not forbidden by law or by other rules. Playing for ante is strictly forbidden under the Magic: The Gathering Tournament Rules (WPN.Wizards.com/en/resources/rules-documents).
 
 407.2.
 When playing for ante, each player puts one random card from his or her deck into the ante zone after determining which player goes first but before players draw any cards. Cards in the ante zone may be examined by any player at any time. At the end of the game, the winner becomes the owner of all the cards in the ante zone.
@@ -2271,7 +2272,6 @@ Emblems may be created in the command zone. See rule 113, "Emblems."
 
 408.3.
 In the Planechase, Vanguard, Commander, and Archenemy casual variants, nontraditional Magic cards and/or specially designated cards start the game in the command zone. Each variant has its own rules regarding such cards. See section 9, "Casual Variants."
-
 
 5. Turn Structure
 
@@ -2296,7 +2296,7 @@ When a phase or step ends, any effects scheduled to last "until end of" that pha
 When a phase or step begins, any abilities that trigger "at the beginning of" that phase or step are added to the stack.
 
 500.7.
-Some effects can give a player extra turns. They do this by adding the turns directly after the current turn. If a player gets multiple extra turns or if multiple players get extra turns during a single turn, the extra turns are added one at a time. The most recently created turn will be taken first.
+Some effects can give a player extra turns. They do this by adding the turns directly after the current turn. If a player is given multiple extra turns, the extra turns are added one at a time. If multiple players are given extra turns, the extra turns are added one at a time, in APNAP order (see rule 101.4). The most recently created turn will be taken first.
 
 500.8.
 Some effects can add phases to a turn. They do this by adding the phases directly after the specified phase. If multiple extra phases are created after the same phase, the most recently created phase will occur first.
@@ -2624,7 +2624,7 @@ Once a player has assigned combat damage from each attacking or blocking creatur
 
 510.2.
 Second, all combat damage that's been assigned is dealt simultaneously. This turn-based action doesn't use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time it's dealt. This is a change from previous rules.
-Example: Squadron Hawk (a 1/1 creature with flying) and Goblin Piker (a 2/1 creature) are attacking. Mogg Fanatic (a 1/1 creature with the ability "Sacrifice Mogg Fanatic: Mogg Fanatic deals 1 damage to target creature or player) blocks the Goblin Piker. The defending player sacrifices Mogg Fanatic during the declare blockers step to deal 1 damage to the Squadron Hawk. The Hawk is destroyed. The Piker deals and is dealt no combat damage this turn. If the defending player instead left Mogg Fanatic on the battlefield, the Fanatic and the Piker would have dealt lethal damage to one another, but the Squadron Hawk couldn't have been dealt damage.
+Example: Squadron Hawk (a 1/1 creature with flying) and Goblin Piker (a 2/1 creature) are attacking. Mogg Fanatic (a 1/1 creature with the ability "Sacrifice Mogg Fanatic: Mogg Fanatic deals 1 damage to target creature or player") blocks the Goblin Piker. The defending player sacrifices Mogg Fanatic during the declare blockers step to deal 1 damage to the Squadron Hawk. The Hawk is destroyed. The Piker deals and is dealt no combat damage this turn. If the defending player instead left Mogg Fanatic on the battlefield, the Fanatic and the Piker would have dealt lethal damage to one another, but the Squadron Hawk couldn't have been dealt damage.
 
 510.3.
 Third, any abilities that triggered on damage being assigned or dealt go on the stack. (See rule 603, "Handling Triggered Abilities.")
@@ -2678,7 +2678,6 @@ Normally, no player receives priority during the cleanup step, so no spells can 
 
 514.3a
 At this point, the game checks to see if any state-based actions would be performed and/or any triggered abilities are waiting to be put onto the stack (including those that trigger "at the beginning of the next cleanup step"). If so, those state-based actions are performed, then those triggered abilities are put on the stack, then the active player gets priority. Players may cast spells and activate abilities. Once the stack is empty and all players pass in succession, another cleanup step begins.
-
 
 6. Spells, Abilities, and Effects
 
@@ -3251,7 +3250,7 @@ Within layer 7, apply effects in a series of sublayers in the order described be
 Layer 7a: Effects from characteristic-defining abilities that define power and/or toughness are applied. See rule 604.3.
 
 613.3b
-Layer 7b: Effects that set power and/or toughness to a specific number or value are applied.
+Layer 7b: Effects that set power and/or toughness to a specific number or value are applied. Effects that refer to the base power and/or toughness of a creature apply in this layer.
 
 613.3c
 Layer 7c: Effects that modify power and/or toughness (but don't set power and/or toughness to a specific number or value) are applied.
@@ -3486,7 +3485,6 @@ Example: Essence of the Wild reads "Creatures you control enter the battlefield 
 A replacement or prevention effect can become applicable to an event as the result of another replacement or prevention effect that modifies the event.
 Example: One effect reads "If you would gain life, draw that many cards instead," and another reads "If you would draw a card, return a card from your graveyard to your hand instead." Both effects combine (regardless of the order they came into existence): Instead of gaining 1 life, the player puts a card from his or her graveyard into his or her hand.
 
-
 7. Additional Rules
 
 700. General
@@ -3496,7 +3494,7 @@ Anything that happens in a game is an event. Multiple events may take place duri
 Example: If an attacking creature is blocked by two creatures, this is one event for a triggered ability that reads "Whenever [this creature] becomes blocked" but two events for a triggered ability that reads "Whenever [this creature] becomes blocked by a creature."
 
 700.2.
-A spell or ability is modal if it has two or more options preceded by "Choose one --," "Choose two --," "Choose one or both --," "Choose one or more --," or "[a specified player] chooses one --." Each of those options is a mode.
+A spell or ability is modal if it has two or more options in a bulleted list preceded by "Choose one --," "Choose two --," "Choose one or both --," "Choose one or more --," "[A specified player] chooses one --," or similar. Each of those options is a mode.
 
 700.2a
 The controller of a modal spell or activated ability chooses the mode(s) as part of casting that spell or activating that ability. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. (See rule 601.2b.)
@@ -3698,7 +3696,7 @@ Neither activating an ability that creates a regeneration shield nor casting a s
 Reveal
 
 701.13a
-To reveal a card, show that card to all players for a brief time. If an effect causes a card to be revealed, it remains revealed for as long as necessary to complete the parts of the effect that card is relevant to. If the cost to cast a spell or activate an ability includes revealing a card, the card remains revealed from the time the spell or ability is announced until it the time it leaves the stack.
+To reveal a card, show that card to all players for a brief time. If an effect causes a card to be revealed, it remains revealed for as long as necessary to complete the parts of the effect that card is relevant to. If the cost to cast a spell or activate an ability includes revealing a card, the card remains revealed from the time the spell or ability is announced until the time it leaves the stack.
 
 701.13b
 Revealing a card doesn't cause it to leave the zone it's in.
@@ -3730,7 +3728,7 @@ If a player is searching a hidden zone simply for a quantity of cards, such as "
 If the effect that contains the search instruction doesn't also contain instructions to reveal the found card(s), then they're not revealed.
 
 701.15f
-If searching a zone is replaced with searching a portion of that zone, any other instructions that refer to searching the zone still apply.
+If searching a zone is replaced with searching a portion of that zone, any other instructions that refer to searching the zone still apply. Any abilities that trigger on a library being searched will trigger.
 Example: Aven Mindcensor says, in part, "If an opponent would search a library, that player searches the top four cards of that library instead." Veteran Explorer says "When Veteran Explorer dies, each player may search his or her library for up to two basic land cards and put them onto the battlefield. Then each player who searched his or her library this way shuffles it." An opponent who searched the top four cards of his or her library because of Veteran Explorer's ability would shuffle the entire library.
 
 701.16.
@@ -4140,6 +4138,9 @@ Attacking creatures with protection can't be blocked by creatures that have the 
 
 702.16k
 Multiple instances of protection from the same quality on the same permanent or player are redundant.
+
+702.16m
+Some Auras both give the enchanted creature protection and say "this effect doesn't remove" either that specific Aura or all Auras. This means that the specified Auras aren't put into their owners' graveyards as a state-based action. If the creature has other instances of protection from the same quality, those instances affect Auras as normal.
 
 702.17.
 Reach
@@ -4592,7 +4593,7 @@ Convoke
 
 702.50a
 Convoke is a static ability that functions while the spell with convoke is on the stack. "Convoke" means "For each colored mana in this spell's total cost, you may tap an untapped creature of that color you control rather than pay that mana. For each generic mana in this spell's total cost, you may tap an untapped creature you control rather than pay that mana." The convoke ability isn't an additional or alternative cost and applies only after the total cost of the spell with convoke is determined.
-Example: Heartless Summoning says, in part, "Creature spells you cast cost {2} less to cast. You control Heartless Summoning and cast Siege Wurm, a spell with convoke that costs {5}{G}{G}. The total cost to cast Siege Wurm is {3}{G}{G}. After activating mana abilities, you pay that total cost. You may tap up to two green creatures and up to three creatures of any color to pay that cost, and the remainder is paid with mana.
+Example: Heartless Summoning says, in part, "Creature spells you cast cost {2} less to cast." You control Heartless Summoning and cast Siege Wurm, a spell with convoke that costs {5}{G}{G}. The total cost to cast Siege Wurm is {3}{G}{G}. After activating mana abilities, you pay that total cost. You may tap up to two green creatures and up to three creatures of any color to pay that cost, and the remainder is paid with mana.
 
 702.50b
 Multiple instances of convoke on the same spell are redundant.
@@ -5074,7 +5075,7 @@ Extort
 Extort is a triggered ability. "Extort" means "Whenever you cast a spell, you may pay {W/B}. If you do, each opponent loses 1 life and you gain life equal to the total life lost this way."
 
 702.100b
-If a permanent has multiple instances if extort, each triggers separately.
+If a permanent has multiple instances of extort, each triggers separately.
 
 702.101.
 Fuse
@@ -5144,6 +5145,21 @@ Hidden agenda and another ability of the object with hidden agenda that refers t
 
 702.105e
 If a player leaves the game, all face-down conspiracy cards controlled by that player must be revealed to all players. At the end of each game, all face-down conspiracy cards must be revealed to all players.
+
+702.106.
+Outlast
+
+702.106a
+Outlast is an activated ability. "Outlast [cost]" means "[Cost], {T}: Put a +1/+1 counter on this creature. Activate this ability only any time you could cast a sorcery."
+
+702.107.
+Prowess
+
+702.107a
+Prowess is a triggered ability. "Prowess" means "Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn."
+
+702.107b
+If a creature has multiple instances of prowess, each triggers separately.
 
 703. Turn-Based Actions
 
@@ -5316,7 +5332,7 @@ A coin used in a flip must be a two-sided object with easily distinguished sides
 Some objects become or turn another object into a "copy" of a spell, permanent, or card. Some effects put a token onto the battlefield that's a copy of another object. (Certain older cards were printed with the phrase "search for a copy." This section doesn't cover those cards, which have received new text in the Oracle card reference.)
 
 706.2.
-When copying an object, the copy acquires the copiable values of the original object's characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The "copiable values" are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by "as . . . enters the battlefield" and "as . . . is turned face up" abilities that set characteristics, and by abilities that caused the object to be face down. Other effects (including type-changing and text-changing effects), status, and counters are not copied.
+When copying an object, the copy acquires the copiable values of the original object's characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The "copiable values" are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by "as . . . enters the battlefield" and "as . . . is turned face up" abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
 Example: Chimeric Staff is an artifact that reads "{X}: Chimeric Staff becomes an X/X artifact creature until end of turn." Clone is a creature that reads, "You may have Clone enter the battlefield as a copy of any creature on the battlefield." After a Staff has become a 5/5 artifact creature, a Clone enters the battlefield as a copy of it. The Clone is an artifact, not a 5/5 artifact creature. (The copy has the Staff's ability, however, and will become a creature if that ability is activated.)
 Example: Clone enters the battlefield as a copy of a face-down Grinning Demon (a creature with morph {2}{B}{B}). The Clone is a colorless 2/2 creature with no name, no types, no abilities, and no mana cost. It will still be face up. Its controller can't pay {2}{B}{B} to turn it face up.
 
@@ -5402,7 +5418,7 @@ Two cards (Illusionary Mask and Ixidron) and the morph ability (see rule 702.36)
 Face-down spells and face-down permanents have no characteristics other than those listed by the ability or rules that allowed the spell or permanent to be face down. Any listed characteristics are the copiable values of that object's characteristics. (See rule 613, "Interaction of Continuous Effects," and rule 706, "Copying Objects.")
 
 707.2a
-If a face-up permanent is turned face down by a spell or ability, it becomes a 2/2 face-down creature with no text, no name, no subtypes, and no mana cost. These values are the copiable values of that object's characteristics.
+If a face-up permanent is turned face down by a spell or ability, it becomes a 2/2 face-down creature with no text, no name, no subtypes, and no mana cost. A permanent that enters the battlefield face down that wasn't cast as a face-down spell also has these characteristics. These values are the copiable values of that object's characteristics.
 
 707.3.
 Objects that are put onto the battlefield face down are turned face down before they enter the battlefield, so the permanent's enters-the-battlefield abilities won't trigger (if triggered) or have any effect (if static).
@@ -5787,7 +5803,6 @@ If a player takes an illegal action or starts to take an action but can't legall
 
 717.2.
 When reversing illegal spells and abilities, the player who had priority retains it and may take another action or pass. The player may redo the reversed action in a legal way or take any other action allowed by the rules.
-
 8. Multiplayer Rules
 
 800. General
@@ -5799,7 +5814,7 @@ A multiplayer game is a game that begins with more than two players. This sectio
 These rules consist of a series of options that can be added to a multiplayer game and a number of variant styles of multiplayer play. A single game may use multiple options but only one variant.
 
 800.3.
-Many multiplayer Magic tournaments have additional rules not included here, including rules for deck construction. See the most current Magic: The Gathering Tournament Rules for more information. They can be found at Wizards.com/WPN/Events/Rules.aspx.
+Many multiplayer Magic tournaments have additional rules not included here, including rules for deck construction. See the most current Magic: The Gathering Tournament Rules for more information. They can be found at WPN.Wizards.com/en/resources/rules-documents.
 
 800.4.
 Unlike two-player games, multiplayer games can continue after one or more players have left the game.
@@ -6354,7 +6369,6 @@ A player can't attack opponents who aren't seated next to him or her.
 811.5.
 In the Alternating Teams variant, a team's resources (cards in hand, mana, and so on) are not shared. Teammates can't review each other's hands unless they are sitting next to each other. Teammates may discuss strategies at any time. Teammates can't manipulate each other's cards or permanents.
 
-
 9. Casual Variants
 
 900. General
@@ -6670,7 +6684,6 @@ The owner of a conspiracy card is the player who put it into the command zone at
 
 905.6.
 Once the starting player has been determined, each player sets his or her life total to 20 and draws a hand of seven cards.
-
 Glossary
 
 Abandon
@@ -6788,6 +6801,9 @@ A keyword ability that lets you exchange an Aura on the battlefield with one in 
 
 Banding, "Bands with Other"
 Banding is a keyword ability that modifies the rules for declaring attackers and assigning combat damage. "Bands with other" is a specialized version of the ability. See rule 702.21, "Banding."
+
+Base Power, Base Toughness
+Effects that change the base power and/or base toughness of a creature set one or both of those values to a specific number. See rule 613, "Interaction of Continuous Effects."
 
 Basic
 A supertype that's normally relevant on lands. Any land with this supertype is a basic land. See rule 205.4, "Supertypes."
@@ -7506,7 +7522,7 @@ Miracle
 A keyword ability that lets you cast a spell for a reduced cost if it's the first card you draw in a turn. See rule 702.93, "Miracle."
 
 Modal, Mode
-A spell or ability is "modal" if it has two or more options preceded by "Choose one --," "Choose two --," "Choose one or both --," "Choose one or more --," or "[a specified player] chooses one --." Each option is a "mode." See rule 700.2.
+A spell or ability is "modal" if it has two or more options in a bulleted list preceded by "Choose one --," "Choose two --," "Choose one or both --," "Choose one or more --," "[A specified player] chooses one --," or similar. Each option is a "mode." See rule 700.2.
 
 Modular
 A keyword ability that has a permanent enter the battlefield with +1/+1 counters on it and can move those counters to other artifact creatures. See rule 702.42, "Modular."
@@ -7592,6 +7608,9 @@ An additional rule or set of rules that can be used in a multiplayer game. See r
 
 Oracle
 The reference that contains the up-to-date wordings (in English) for all tournament-legal cards. A card's Oracle text can be found using the Gatherer card database at Gatherer.Wizards.com. See rule 108.1.
+
+Outlast
+A keyword ability that allows a creature to grow larger over time. See rule 702.106, "Outlast."
 
 Outside the Game
 An object is "outside the game" if it isn't in any of the game's zones. See rule 400.10.
@@ -7742,6 +7761,9 @@ A keyword ability that provides a range of benefits against objects with a speci
 
 Provoke
 A keyword ability that can force a creature to block. See rule 702.38, "Provoke."
+
+Prowess
+A keyword ability that causes a creature to get +1/+1 whenever its controller casts a noncreature spell. See rule 702.107, "Prowess."
 
 Prowl
 A keyword ability that may allow a spell to be cast for an alternative cost. See rule 702.75, "Prowl."
@@ -8187,15 +8209,14 @@ A place where objects can be during a game. See section 4, "Zones."
 Zone-Change Triggers
 Trigger events that involve objects changing zones. See rule 603.6.
 
-
 Credits
 
 Magic: The Gathering Original Game Design: Richard Garfield
-Comprehensive Rules Design and Development: Paul Barclay, Beth Moursund, and Bill Rose, with contributions from Charlie Dogino, John Carter, Elaine Chase, Laurie Cheers, Stephen D'Angelo, Dave DeLaney, Brady Dommermuth, Mike Donais, Skaff Elias, Mike Elliott, Richard Garfield, Mark L. Gottlieb, Dan Gray, Robert Gutschera, Collin Jackson, William Jockusch, Jeff Jordan, Yonemura Kaoru, Russell Linnemann, Jim Lin, Steve Lord, Sheldon Menery, Michael Phoenix, Mark Rosewater, David Sachs, Lee Sharpe, Eli Shiffrin, Henry Stern, Matt Tabak, Ingo Warnke, Tom Wylie, Donald X. Vaccarino, Thijs van Ommen, and Bryan Zembruski
-Editing: Del Laugel and Tim Aten
+Comprehensive Rules Design and Development: Paul Barclay, Mark L. Gottlieb, Beth Moursund, Bill Rose, and Matt Tabak, with contributions from Charlie C@ino, John Carter, Elaine Chase, Laurie Cheers, Stephen D'Angelo, Dave DeLaney, Brady Dommermuth, Mike Donais, Skaff Elias, Mike Elliott, Richard Garfield, Dan Gray, Robert Gutschera, Collin Jackson, William Jockusch, Jeff Jordan, Yonemura Kaoru, Russell Linnemann, Jim Lin, Steve Lord, Sheldon Menery, Michael Phoenix, Mark Rosewater, David Sachs, Lee Sharpe, Eli Shiffrin, Henry Stern, Ingo Warnke, Tom Wylie, Donald X. Vaccarino, Thijs van Ommen, and Bryan Zembruski
+Editing: Del Laugel (lead), Tim Aten, and Kimberly J. Kreines
 Magic Rules Manager: Matt Tabak
 
-The Magic: The Gathering game was designed by Richard Garfield, with contributions from Charlie Dogino, Skaff Elias, Don Felice, Tom Fontaine, Jim Lin, Joel Mick, Chris Page, Dave Pettey, Barry "Bit" Reich, Bill Rose, and Elliott Segal. The mana symbols were designed by Christopher Rush.
+The Magic: The Gathering game was designed by Richard Garfield, with contributions from Charlie C@ino, Skaff Elias, Don Felice, Tom Fontaine, Jim Lin, Joel Mick, Chris Page, Dave Pettey, Barry "Bit" Reich, Bill Rose, and Elliott Segal. The mana symbols were designed by Christopher Rush.
 
 Thanks to all our project team members and the many others too numerous to mention who have contributed to this product.
 
@@ -8210,7 +8231,7 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are effective as of June 1, 2014.
+These rules are effective as of September 25, 2014.
 
 Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica: City of Guilds, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, Return to Ravnica, and Magic: The Gathering--Conspiracy are trademarks of Wizards of the Coast LLC in the USA and other countries. (C)2014 Wizards. U.S. Pat. No. RE 37,957.
 
