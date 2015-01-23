@@ -268,5 +268,10 @@
     "setCode": "KTK",
     "setName": "Khans of Tarkir",
     "creationDay": "2014-09-25"
+  },
+  {
+    "setCode": "FRF",
+    "setName": "Fate Reforged",
+    "creationDay": "2015-01-23"
   }
 ]
