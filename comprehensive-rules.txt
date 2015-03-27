@@ -1,6 +1,6 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are effective as of January 23, 2015.
+These rules are effective as of March 27, 2015.
 
 Introduction
 
@@ -13,7 +13,6 @@ This document includes a series of numbered rules followed by a glossary. Many o
 We at Wizards of the Coast recognize that no matter how detailed the rules, situations will arise in which the interaction of specific cards requires a precise answer. If you have questions, you can get the answers from us at Wizards.com/CustomerService. Additional contact information is on the last page of these rules.
 
 In response to play issues and to keep these rules as current as possible, changes may have been made to this document since its publication. You can download the most recent version from the Magic rules website at Magic.Wizards.com/EN/Rules.
-
 
 Contents
 
@@ -164,7 +163,6 @@ Contents
 Glossary
 
 Credits
-
 1. Game Concepts
 
 100. General
@@ -530,7 +528,7 @@ If anything needs to use a number that can't be determined, either as a result o
 Many objects use the letter X as a placeholder for a number that needs to be determined. Some objects have abilities that define the value of X; the rest let their controller choose the value of X.
 
 107.3a
-If a spell or activated ability has a mana cost, alternative cost, additional cost, and/or activation cost with an {X}, [-X], or X in it, and the value of X isn't defined by the text of that spell or ability, the controller of that spell or ability chooses and announces the value of X as part of casting the spell or activating the ability. (See rule 601, "Casting Spells.") While a spell is on the stack, any X in its mana cost equals the announced value. While an activated ability is on the stack, any X in its activation cost equals the announced value.
+If a spell or activated ability has a mana cost, alternative cost, additional cost, and/or activation cost with an {X}, [-X], or X in it, and the value of X isn't defined by the text of that spell or ability, the controller of that spell or ability chooses and announces the value of X as part of casting the spell or activating the ability. (See rule 601, "Casting Spells.") While a spell is on the stack, any X in its mana cost or in any alternative cost or additional cost it has equals the announced value. While an activated ability is on the stack, any X in its activation cost equals the announced value.
 
 107.3b
 If a player is casting a spell that has an {X} in its mana cost, the value of X isn't defined by the text of that spell, and an effect lets that player cast that spell while paying neither its mana cost nor an alternative cost that includes X, then the only legal choice for X is 0. This doesn't apply to effects that only reduce a cost, even if they reduce it to zero. See rule 601, "Casting Spells."
@@ -1203,7 +1201,7 @@ In a Vanguard game, each player's starting life total is 20 plus or minus the li
 In a Commander game, each player's starting life total is 40. See rule 903, "Commander."
 
 118.1d
-In an Archenemy game, the archenemy's  starting life total is 40. See rule 904, "Archenemy."
+In an Archenemy game, the archenemy's starting life total is 40. See rule 904, "Archenemy."
 
 118.2.
 Damage dealt to a player normally causes that player to lose that much life. See rule 119.3.
@@ -1367,7 +1365,6 @@ If an effect says to "move" a counter, it means to take that counter from the ob
 
 121.6.
 Some spells and abilities refer to counters being "placed" on an object. This refers to putting counters on that object while it's on the battlefield and also to an object entering the battlefield with counters on it as a result of a replacement effect (see rule 614.1c).
-
 
 2. Parts of a Card
 
@@ -1541,7 +1538,7 @@ Lands have their own unique set of subtypes; these subtypes are called land type
      Of that list, Forest, Island, Mountain, Plains, and Swamp are the basic land types. See rule 305.6.
 
 205.3j
-Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Ashiok, Bolas, Chandra, Dack, Domri, Elspeth, Garruk, Gideon, Jace, Karn, Kiora, Koth, Liliana, Nissa, Ral, Sarkhan, Sorin, Tamiyo, Tezzeret, Tibalt, Venser, Vraska, and Xenagos.
+Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Elspeth, Freyalise, Garruk, Gideon, Jace, Karn, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vraska, and Xenagos.
      If a player controls two or more planeswalkers that share a planeswalker type, that player chooses one of them, and the rest are put into their owners' graveyards. This "planeswalker uniqueness rule" is a state-based action. See rule 704.
 
 205.3k
@@ -1614,7 +1611,7 @@ Reminder text is italicized text within parentheses that summarizes a rule that 
 Flavor text is italicized text that, like the illustration, adds artistic appeal to the game. It appears below the rules text.
 
 207.2c
-An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, constellation, domain, fateful hour, ferocious, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, strive, sweep, tempting offer, threshold, and will of the council.
+An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, constellation, domain, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, strive, sweep, tempting offer, threshold, and will of the council.
 
 207.3.
 Some cards have decorative icons in the background of their text boxes. For example, a guild icon appears in the text box of many Ravnica: City of Guilds(R) and Return to Ravnica(TM) block cards, and a faction icon appears in the text box of most Scars of Mirrodin(TM) block cards. Similarly, many promotional cards include decorative icons. These icons have no effect on game play.
@@ -1674,7 +1671,6 @@ Legal text (the fine print at the bottom of the card) lists the trademark and co
 
 212.1c
 Some card sets feature collector numbers. This information is printed in the form [card number]/[total cards in the set], immediately following the legal text.
-
 
 3. Card Types
 
@@ -2050,7 +2046,6 @@ The owner of a conspiracy card is the player who put it into the command zone at
 313.7.
 At any time, you may look at a face-down conspiracy card you control. You can't look at face-down conspiracy cards controlled by other players.
 
-
 4. Zones
 
 400. General
@@ -2280,7 +2275,6 @@ Emblems may be created in the command zone. See rule 113, "Emblems."
 
 408.3.
 In the Planechase, Vanguard, Commander, and Archenemy casual variants, nontraditional Magic cards and/or specially designated cards start the game in the command zone. Each variant has its own rules regarding such cards. See section 9, "Casual Variants."
-
 
 5. Turn Structure
 
@@ -2687,7 +2681,6 @@ Normally, no player receives priority during the cleanup step, so no spells can 
 
 514.3a
 At this point, the game checks to see if any state-based actions would be performed and/or any triggered abilities are waiting to be put onto the stack (including those that trigger "at the beginning of the next cleanup step"). If so, those state-based actions are performed, then those triggered abilities are put on the stack, then the active player gets priority. Players may cast spells and activate abilities. Once the stack is empty and all players pass in succession, another cleanup step begins.
-
 
 6. Spells, Abilities, and Effects
 
@@ -3275,6 +3268,7 @@ Layer 7d: Power and/or toughness changes from counters are applied. See rule 121
 Layer 7e: Effects that switch a creature's power and toughness are applied. Such effects take the value of power and apply it to the creature's toughness, and take the value of toughness and apply it to the creature's power.
 Example: A 1/3 creature is given +0/+1 by an effect. Then another effect switches the creature's power and toughness. Its new power and toughness is 4/1. A new effect gives the creature +5/+0. Its "unswitched" power and toughness would be 6/4, so its actual power and toughness is 4/6.
 Example: A 1/3 creature is given +0/+1 by an effect. Then another effect switches the creature's power and toughness. Its new power and toughness is 4/1. If the +0/+1 effect ends before the switch effect ends, the creature becomes 3/1.
+Example: A 1/3 creature is given +0/+1 by an effect. Then another effect switches the creature's power and toughness. Then another effect switches its power and toughness again. The two switches essentially cancel each other, and the creature becomes 1/4.
 
 613.4.
 The application of continuous effects as described by the layer system is continually and automatically performed by the game. All resulting changes to an object's characteristics are instantaneous.
@@ -3500,7 +3494,6 @@ Example: Essence of the Wild reads "Creatures you control enter the battlefield 
 616.2.
 A replacement or prevention effect can become applicable to an event as the result of another replacement or prevention effect that modifies the event.
 Example: One effect reads "If you would gain life, draw that many cards instead," and another reads "If you would draw a card, return a card from your graveyard to your hand instead." Both effects combine (regardless of the order they came into existence): Instead of gaining 1 life, the player puts a card from his or her graveyard into his or her hand.
-
 
 7. Additional Rules
 
@@ -3926,7 +3919,7 @@ To manifest a card, turn it face down. It becomes a 2/2 face-down creature card 
 Any time you have priority, you may turn a manifested permanent you control face up. This is a special action that doesn't use the stack (see rule 115.2b). To do this, show all players that the card representing that permanent is a creature card and what that card's mana cost is, pay that cost, then turn the permanent face up. The effect defining its characteristics while it was face down ends, and it regains its normal characteristics. (If the card representing that permanent isn't a creature card or it doesn't have a mana cost, it can't be turned face up this way.)
 
 701.31c
-If a card with morph is manifested, its controller may turn that card face up using either the procedure described in rule 702.36d to turn a face-down permanent with morph face up or the procedure described above to turn a manifested permanent face up.
+If a card with morph is manifested, its controller may turn that card face up using either the procedure described in rule 702.36e to turn a face-down permanent with morph face up or the procedure described above to turn a manifested permanent face up.
 
 701.31d
 If an effect instructs a player to manifest multiple cards from his or her library, those cards are manifested one at a time.
@@ -4477,16 +4470,19 @@ Morph
 Morph is a static ability that functions in any zone from which you could play the card it's on, and the morph effect works any time the card is face down. "Morph [cost]" means "You may cast this card as a 2/2 face-down creature with no text, no name, no subtypes, and no mana cost by paying {3} rather than paying its mana cost." (See rule 707, "Face-Down Spells and Permanents.")
 
 702.36b
-To cast a card using its morph ability, turn it face down. It becomes a 2/2 face-down creature card with no text, no name, no subtypes, and no mana cost. Any effects or prohibitions that would apply to casting a card with these characteristics (and not the face-up card's characteristics) are applied to casting this card. These values are the copiable values of that object's characteristics. (See rule 613, "Interaction of Continuous Effects," and rule 706, "Copying Objects.") Put it onto the stack (as a face-down spell with the same characteristics), and pay {3} rather than pay its mana cost. This follows the rules for paying alternative costs. You can use morph to cast a card from any zone from which you could normally play it. When the spell resolves, it enters the battlefield with the same characteristics the spell had. The morph effect applies to the face-down object wherever it is, and it ends when the permanent is turned face up.
+Megamorph is a variant of the morph ability. "Megamorph [cost]" means "You may cast this card as a 2/2 face-down creature with no text, no name, no subtypes, and no mana cost by paying {3} rather than paying its mana cost" and "As this permanent is turned face up, put a +1/+1 counter on it if its megamorph cost was paid to turn it face up." A megamorph cost is a morph cost.
 
 702.36c
-You can't cast a card face down if it doesn't have morph.
+To cast a card using its morph ability, turn it face down. It becomes a 2/2 face-down creature card with no text, no name, no subtypes, and no mana cost. Any effects or prohibitions that would apply to casting a card with these characteristics (and not the face-up card's characteristics) are applied to casting this card. These values are the copiable values of that object's characteristics. (See rule 613, "Interaction of Continuous Effects," and rule 706, "Copying Objects.") Put it onto the stack (as a face-down spell with the same characteristics), and pay {3} rather than pay its mana cost. This follows the rules for paying alternative costs. You can use a morph ability to cast a card from any zone from which you could normally play it. When the spell resolves, it enters the battlefield with the same characteristics the spell had. The morph effect applies to the face-down object wherever it is, and it ends when the permanent is turned face up.
 
 702.36d
-Any time you have priority, you may turn a face-down permanent you control face up. This is a special action; it doesn't use the stack (see rule 115). To do this, show all players what the permanent's morph cost would be if it were face up, pay that cost, then turn the permanent face up. (If the permanent wouldn't have a morph cost if it were face up, it can't be turned face up this way.) The morph effect on it ends, and it regains its normal characteristics. Any abilities relating to the permanent entering the battlefield don't trigger when it's turned face up and don't have any effect, because the permanent has already entered the battlefield.
+You can't cast a card face down if it doesn't have a morph ability.
 
 702.36e
-See rule 707, "Face-Down Spells and Permanents," for more information on how to cast cards with morph.
+Any time you have priority, you may turn a face-down permanent you control with a morph ability face up. This is a special action; it doesn't use the stack (see rule 115). To do this, show all players what the permanent's morph cost would be if it were face up, pay that cost, then turn the permanent face up. (If the permanent wouldn't have a morph cost if it were face up, it can't be turned face up this way.) The morph effect on it ends, and it regains its normal characteristics. Any abilities relating to the permanent entering the battlefield don't trigger when it's turned face up and don't have any effect, because the permanent has already entered the battlefield.
+
+702.36f
+See rule 707, "Face-Down Spells and Permanents," for more information on how to cast cards with a morph ability.
 
 702.37.
 Amplify
@@ -5211,6 +5207,15 @@ Dash
 702.108a
 Dash represents three abilities: two static abilities that function while the card with dash is on the stack, one of which may create a delayed triggered ability, and a static ability that functions while the object with dash is on the battlefield. "Dash [cost]" means "You may cast this card by paying [cost] rather that its mana cost," "If this spell's dash cost was paid, return the permanent this spell becomes to its owner's hand at the beginning of the next end step," and "As long as this permanent's dash cost was paid, it has haste." Paying a card's dash cost follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
 
+702.109.
+Exploit
+
+702.109a
+Exploit is a triggered ability. "Exploit" means "When this creature enters the battlefield, you may sacrifice a creature."
+
+702.109b
+A creature with exploit "exploits a creature" when the controller of the exploit ability sacrifices a creature as that ability resolves.
+
 703. Turn-Based Actions
 
 703.1.
@@ -5462,7 +5467,7 @@ An effect that instructs a player to cast a copy of an object (and not just copy
 707. Face-Down Spells and Permanents
 
 707.1.
-Some cards and abilities allow spells and permanents to be face down.
+Some cards allow spells and permanents to be face down.
 
 707.2.
 Face-down spells and face-down permanents have no characteristics other than those listed by the ability or rules that allowed the spell or permanent to be face down. Any listed characteristics are the copiable values of that object's characteristics. (See rule 613, "Interaction of Continuous Effects," and rule 706, "Copying Objects.")
@@ -5519,14 +5524,18 @@ Although split cards have two castable halves, each split card is only one card.
 
 708.5.
 Anything that asks for a particular characteristic of a split card while it's in a zone other than the stack gets two answers (one for each of the split card's two halves). Anything that asks for a particular characteristic of a fused split spell gets two answers. Anything that asks for a particular characteristic of a split card while it's a spell on the stack or that asks for the converted mana cost of a fused split spell gets one answer.
-Example: Infernal Genesis has an ability that reads, "At the beginning of each player's upkeep, that player puts the top card from his or her library into his or her graveyard. He or she then puts X 1/1 black Minion creature tokens onto the battlefield, where X is that card's converted mana cost." If the top card of your library is Assault/Battery, which has converted mana costs of 1 and 4, when this ability resolves, you simultaneously put one and four creature tokens onto the battlefield, for a total of five.
 Example: Spell Blast says "Counter target spell with converted mana cost X." If a player wants to cast Spell Blast and choose the fused split spell Breaking/Entering, which has mana costs {U}{B} and {4}{B}{R}, as the target, that player must choose 8 as the value of X.
+
+708.5a
+If a spell or ability uses the converted mana cost of a split card not on the stack to determine part of its effect, but it doesn't perform a comparison using those values, it uses the sum of the two converted mana costs.
+Example: Infernal Genesis has an ability that reads, "At the beginning of each player's upkeep, that player puts the top card of his or her library into his or her graveyard. Then he or she puts X 1/1 black Minion creature tokens onto the battlefield, where X is that card's converted mana cost." If the top card of your library is Assault/Battery, which has converted mana costs of 1 and 4, when this ability resolves, you put five creature tokens onto the battlefield.
+Example: Living Lore has an ability that exiles an instant or sorcery card and another ability that reads, "Living Lore's power and toughness are each equal to the exiled card's converted mana cost." If Assault/Battery is exiled with the first ability, Living Lore's power and toughness are 5/5.
 
 708.6.
 Some effects perform comparisons involving one or more split cards in a zone other than the stack or involving one or more fused split spells.
 
 708.6a
-Anything that performs a positive comparison (such as asking if a card is red) or a relative comparison (such as asking if a card's converted mana cost is 3 or less) involving  one or more split cards in any zone other than the stack or involving one or more fused split spells gets only one answer. This answer is "yes" if either side of each split card in the comparison would return a "yes" answer if compared individually.
+Anything that performs a positive comparison (such as asking if a card is red) or a relative comparison (such as asking if a card's converted mana cost is 3 or less) involving one or more split cards in any zone other than the stack or involving one or more fused split spells gets only one answer. This answer is "yes" if either side of each split card in the comparison would return a "yes" answer if compared individually.
 Example: Void reads, "Choose a number. Destroy all artifacts and creatures with converted mana cost equal to that number. Then target player reveals his or her hand and discards all nonland cards with converted mana cost equal to the number." If a player casts Void and chooses 1, his or her opponent would discard Assault/Battery because its converted mana costs are 1 and 4. The same is true if the player chooses 4. If the player chooses 5, however, Assault/Battery would be unaffected.
 
 708.6b
@@ -5721,7 +5730,7 @@ Exile every object on the stack, including the object that's resolving. Remove a
 Check state-based actions. No player gets priority, and no triggered abilities are put onto the stack.
 
 713.1c
-The current phase and/or step ends. The game skips straight to the cleanup step. Skip any phases or steps between this phase or step and the cleanup step.
+The current phase and/or step ends. The game skips straight to the cleanup step; skip any phases or steps between this phase or step and the cleanup step. If an effect ends the turn during the cleanup step, a new cleanup step begins.
 
 713.2.
 No player gets priority during this process, so triggered abilities are not put onto the stack. If any triggered abilities have triggered between the spell or ability resolving and the cleanup step ending, those abilities are put onto the stack during the cleanup step, then the active player gets priority and players can cast spells and activate abilities. Then there will be another cleanup step before the turn finally ends. If no triggered abilities have triggered during this process, no player gets priority during the cleanup step. See rule 514, "Cleanup Step."
@@ -5862,7 +5871,6 @@ If a player takes an illegal action or starts to take an action but can't legall
 
 717.2.
 When reversing illegal spells and abilities, the player who had priority retains it and may take another action or pass. The player may redo the reversed action in a legal way or take any other action allowed by the rules.
-
 8. Multiplayer Rules
 
 800. General
@@ -6429,7 +6437,6 @@ A player can't attack opponents who aren't seated next to him or her.
 811.5.
 In the Alternating Teams variant, a team's resources (cards in hand, mana, and so on) are not shared. Teammates can't review each other's hands unless they are sitting next to each other. Teammates may discuss strategies at any time. Teammates can't manipulate each other's cards or permanents.
 
-
 9. Casual Variants
 
 900. General
@@ -6748,7 +6755,6 @@ The owner of a conspiracy card is the player who put it into the command zone at
 
 905.6.
 Once the starting player has been determined, each player sets his or her life total to 20 and draws a hand of seven cards.
-
 Glossary
 
 Abandon
@@ -7261,6 +7267,9 @@ See rule 406, "Exile."
 Expansion Symbol
 A card's expansion symbol is a small icon normally printed below the right edge of the illustration that has no effect on game play. See rule 206, "Expansion Symbol."
 
+Exploit
+A keyword ability that lets you sacrifice a creature for a benefit. See rule 702.109, "Exploit."
+
 Extort
 A keyword ability that lets you gain life and have opponents lose life whenever you cast a spell. See rule 702.100, "Extort."
 
@@ -7594,6 +7603,9 @@ A multiplayer game or a two-player series of games (usually best-two-of-three) p
 
 Maximum Hand Size
 The number of cards in hand a player must discard down to during his or her cleanup step. See rule 402.2 and 514.1.
+
+Megamorph
+A variant of the morph ability that puts a +1/+1 counter on the creature as it turns face up. See rule 702.36, "Morph."
 
 Miracle
 A keyword ability that lets you cast a spell for a reduced cost if it's the first card you draw in a turn. See rule 702.93, "Miracle."
@@ -8286,7 +8298,6 @@ A place where objects can be during a game. See section 4, "Zones."
 Zone-Change Triggers
 Trigger events that involve objects changing zones. See rule 603.6.
 
-
 Credits
 
 Magic: The Gathering Original Game Design: Richard Garfield
@@ -8309,8 +8320,9 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are effective as of January 23, 2015.
+These rules are effective as of March 27, 2015.
 
 Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica: City of Guilds, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, Return to Ravnica, and Magic: The Gathering--Conspiracy are trademarks of Wizards of the Coast LLC in the USA and other countries. (C)2015 Wizards. U.S. Pat. No. RE 37,957.
+
 
 

@@ -273,5 +273,10 @@
     "setCode": "FRF",
     "setName": "Fate Reforged",
     "creationDay": "2015-01-23"
+  },
+  {
+    "setCode": "DTK",
+    "setName": "Dragons of Tarkir",
+    "creationDay": "2015-03-27"
   }
 ]
