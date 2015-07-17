@@ -1,6 +1,6 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are effective as of March 27, 2015.
+These rules are effective as of July 17, 2015.
 
 Introduction
 
@@ -394,7 +394,7 @@ In a multiplayer game, an effect that states that a player wins the game instead
 In an Emperor game, a team loses the game if its emperor loses the game. (See rule 809.5.)
 
 104.3j
-In a Commander game, a player that's been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state-based action. See rule 704. Also see rule 903.14.)
+In a Commander game, a player that's been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state-based action. See rule 704. Also see rule 903.13.)
 
 104.3k
 In a tournament, a player may lose the game as a result of a penalty given by a judge. See rule 100.6.
@@ -501,6 +501,9 @@ If an effect would add mana represented by a Phyrexian mana symbol to a player's
 
 106.10.
 To "tap a permanent for mana" is to activate a mana ability of that permanent that includes the {T} symbol in its activation cost. See rule 605, "Mana Abilities."
+
+106.10a
+An ability that triggers whenever a permanent "is tapped for mana" or "is tapped for mana [of a specified type]" triggers whenever such a mana ability resolves and produces mana or the specified type of mana.
 
 106.11.
 One card (Drain Power) puts all mana from one player's mana pool into another player's mana pool. (Note that these may be the same player.) This empties the former player's mana pool and causes the mana emptied this way to be put into the latter player's mana pool. Which permanents, spells, and/or abilities produced that mana are unchanged, as are any restrictions or additional effects associated with any of that mana.
@@ -611,15 +614,9 @@ A type icon appears in the upper left corner of each card from the Future Sight(
 The Planeswalker symbol is {PW}. It appears on one face of the planar die used in the Planechase casual variant. See rule 901, "Planechase."
 
 107.12.
-The chaos symbol is {C}. It appears on one face of the planar die used in the Planechase casual variant, as well as in abilities that refer to the results of rolling the planar die. See rule 901, "Planechase."
+The chaos symbol is {CHAOS}. It appears on one face of the planar die used in the Planechase casual variant, as well as in abilities that refer to the results of rolling the planar die. See rule 901, "Planechase."
 
 107.13.
-The sun symbol appears in the upper left corner of the front face of double-faced cards. See rule 711, "Double-Faced Cards."
-
-107.14.
-The moon symbol appears in the upper left corner of the back face of double-faced cards. See rule 711, "Double-Faced Cards."
-
-107.15.
 A color indicator is a circular symbol that appears to the left of the type line on some cards. The color of the symbol defines the card's color or colors. See rule 202, "Mana Cost and Color."
 
 108. Cards
@@ -1093,7 +1090,7 @@ If a player with priority casts a spell or activates an activated ability while 
 A cost is an action or payment necessary to take another action or to stop another action from taking place. To pay a cost, a player carries out the instructions specified by the spell, ability, or effect that contains that cost.
 
 117.2.
-If a cost includes a mana payment, the player paying the cost has a chance to activate mana abilities. Paying the cost to cast a spell or activate an activated ability follows the steps in rules 601.2e-g.
+If a cost includes a mana payment, the player paying the cost has a chance to activate mana abilities. Paying the cost to cast a spell or activate an activated ability follows the steps in rules 601.2f-h.
 
 117.3.
 A player can't pay a cost unless he or she has the necessary resources to pay it fully. For example, a player with only 1 life can't pay a cost of 2 life, and a permanent that's already tapped can't be tapped to pay a cost. See rule 202, "Mana Cost and Color," and rule 602, "Activating Activated Abilities."
@@ -1133,7 +1130,7 @@ If a cost is reduced by an amount of colored mana, but its colored mana componen
 If a cost is reduced by an amount of colored mana that exceeds its mana component of that color, the cost's mana component of that color is reduced to nothing and the cost's generic mana component is reduced by the difference.
 
 117.7c
-If a cost is reduced by an amount of mana represented by a hybrid mana symbol, the player paying that cost chooses one half of that symbol at the time the cost reduction is applied (see rule 601.2e). If a colored half is chosen, the cost is reduced by one mana of that color. If a colorless half is chosen, the cost is reduced by an amount of generic mana equal to that half's number.
+If a cost is reduced by an amount of mana represented by a hybrid mana symbol, the player paying that cost chooses one half of that symbol at the time the cost reduction is applied (see rule 601.2f). If a colored half is chosen, the cost is reduced by one mana of that color. If a colorless half is chosen, the cost is reduced by an amount of generic mana equal to that half's number.
 
 117.7d
 If a cost is reduced by an amount of mana represented by a Phyrexian mana symbol, the cost is reduced by one mana of that symbol's color.
@@ -1154,7 +1151,7 @@ If an effect instructs a player to cast a spell "if able," and that spell has a 
 Additional costs don't change a spell's mana cost, only what its controller has to pay to cast it. Spells and abilities that ask for that spell's mana cost still see the original value.
 
 117.8e
-Some effects increase the cost to cast a spell or activate an ability without using the word "additional." Those are not additional costs, and are not considered until determining the total cost of a spell or ability as described in rule 601.2e.
+Some effects increase the cost to cast a spell or activate an ability without using the word "additional." Those are not additional costs, and are not considered until determining the total cost of a spell or ability as described in rule 601.2f.
 
 117.9.
 Some spells have alternative costs. An alternative cost is a cost listed in a spell's text, or applied to it from another effect, that its controller may pay rather than paying the spell's mana cost. Alternative costs are usually phrased, "You may [action] rather than pay [this object's] mana cost," or "You may cast [this object] without paying its mana cost." Note that some alternative costs are listed in keywords; see rule 702.
@@ -1169,7 +1166,7 @@ Alternative costs are always optional.
 An alternative cost doesn't change a spell's mana cost, only what its controller has to pay to cast it. Spells and abilities that ask for that spell's mana cost still see the original value.
 
 117.9d
-If an alternative cost is being paid to cast a spell, any additional costs, cost increases, and cost reductions that affect that spell are applied to that alternative cost. (See rule 601.2e.)
+If an alternative cost is being paid to cast a spell, any additional costs, cost increases, and cost reductions that affect that spell are applied to that alternative cost. (See rule 601.2f.)
 
 117.10.
 Each payment of a cost applies to only one spell, ability, or effect. For example, a player can't sacrifice just one creature to activate the activated abilities of two permanents that each require sacrificing a creature as a cost. Also, the resolution of a spell or ability doesn't pay another spell or ability's cost, even if part of its effect is doing the same thing the other cost asks for.
@@ -1611,13 +1608,13 @@ Reminder text is italicized text within parentheses that summarizes a rule that 
 Flavor text is italicized text that, like the illustration, adds artistic appeal to the game. It appears below the rules text.
 
 207.2c
-An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, constellation, domain, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, strive, sweep, tempting offer, threshold, and will of the council.
+An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, constellation, domain, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, spell mastery, strive, sweep, tempting offer, threshold, and will of the council.
 
 207.3.
 Some cards have decorative icons in the background of their text boxes. For example, a guild icon appears in the text box of many Ravnica: City of Guilds(R) and Return to Ravnica(TM) block cards, and a faction icon appears in the text box of most Scars of Mirrodin(TM) block cards. Similarly, many promotional cards include decorative icons. These icons have no effect on game play.
 
 207.4.
-The chaos symbol {C} appears in the text box of each plane card to the left of a triggered ability that triggers whenever {C} is rolled on the planar die. The symbol itself has no special rules meaning.
+The chaos symbol {CHAOS} appears in the text box of each plane card to the left of a triggered ability that triggers whenever {CHAOS} is rolled on the planar die. The symbol itself has no special rules meaning.
 
 208. Power/Toughness
 
@@ -1946,7 +1943,7 @@ The controller of a face-up plane card is the player designated as the planar co
 A face-up plane card that's turned face down becomes a new object.
 
 309.7.
-Each plane card has a triggered ability that triggers "Whenever you roll {C}." These are called "chaos abilities." Each one is indicated by a {C} to its left, though the symbol itself has no special rules meaning.
+Each plane card has a triggered ability that triggers "Whenever you roll {CHAOS}." These are called "chaos abilities." Each one is indicated by a {CHAOS} to its left, though the symbol itself has no special rules meaning.
 
 310. Phenomena
 
@@ -2066,7 +2063,7 @@ Cards with certain card types can't enter certain zones.
 If an instant or sorcery card would enter the battlefield, it remains in its previous zone.
 
 400.4b
-If a plane, phenomenon, vanguard, or scheme card would leave the command zone, it remains in the command zone.
+If a conspiracy, phenomenon, plane, scheme, or vanguard card would leave the command zone, it remains in the command zone.
 
 400.5.
 The order of objects in a library, in a graveyard, or on the stack can't be changed except when effects or rules allow it. The same is true for objects arranged in face-down piles in other zones. Other objects in other zones can be arranged however their owners wish, although who controls those objects, whether they're tapped or flipped, and what other objects are attached to them must remain clear to all players.
@@ -2134,10 +2131,10 @@ Any player may count the number of cards remaining in any player's library at an
 If an effect puts two or more cards on the top or bottom of a library at the same time, the owner of those cards may arrange them in any order. That library's owner doesn't reveal the order in which the cards go into his or her library.
 
 401.5.
-If a spell or ability causes a card to be drawn while another spell is being cast, the drawn card is kept face down until that spell becomes cast (see rule 601.2h). While face down, it's considered to have no characteristics. The same is true with relation to another ability being activated. If an effect allows or instructs a player to reveal the card as it's being drawn, it's revealed after the spell becomes cast or the ability becomes activated.
+If a spell or ability causes a card to be drawn while another spell is being cast, the drawn card is kept face down until that spell becomes cast (see rule 601.2i). While face down, it's considered to have no characteristics. The same is true with relation to another ability being activated. If an effect allows or instructs a player to reveal the card as it's being drawn, it's revealed after the spell becomes cast or the ability becomes activated.
 
 401.6.
-Some effects tell a player to play with the top card of his or her library revealed, or say that a player may look at the top card of his or her library. If the top card of the player's library changes while a spell is being cast, the new top card won't be revealed and can't be looked at until the spell becomes cast (see rule 601.2h). The same is true with relation to an ability being activated.
+Some effects tell a player to play with the top card of his or her library revealed, or say that a player may look at the top card of his or her library. If the top card of the player's library changes while a spell is being cast, the new top card won't be revealed and can't be looked at until the spell becomes cast (see rule 601.2i). The same is true with relation to an ability being activated.
 
 401.7.
 If an effect causes a player to play with the top card of his or her library revealed, and that particular card stops being revealed for any length of time before being revealed again, it becomes a new object.
@@ -2274,7 +2271,7 @@ The command zone is a game area reserved for certain specialized objects that ha
 Emblems may be created in the command zone. See rule 113, "Emblems."
 
 408.3.
-In the Planechase, Vanguard, Commander, and Archenemy casual variants, nontraditional Magic cards and/or specially designated cards start the game in the command zone. Each variant has its own rules regarding such cards. See section 9, "Casual Variants."
+In the Planechase, Vanguard, Commander, Archenemy, and Conspiracy Draft casual variants, nontraditional Magic cards and/or specially designated cards start the game in the command zone. Each variant has its own rules regarding such cards. See section 9, "Casual Variants."
 
 5. Turn Structure
 
@@ -2536,7 +2533,7 @@ Example: An attacking creature with flying and shadow can't be blocked by a crea
 
 509.1c
 The defending player checks each creature he or she controls to see whether it's affected by any requirements (effects that say a creature must block, or that it must block if some condition is met). If the number of requirements that are being obeyed is fewer than the maximum possible number of requirements that could be obeyed without disobeying any restrictions, the declaration of blockers is illegal. If a creature can't block unless a player pays a cost, that player is not required to pay that cost, even if blocking with that creature would increase the number of requirements being obeyed.
-Example: A player controls one creature that "blocks if able" and another creature with no abilities. An effect states "Creatures can't be blocked except by two or more creatures." Having only the first creature block violates the restriction. Having neither creature block fulfills the restriction but not the requirement. Having both creatures block the same attacking creature fulfills both the restriction and the requirement, so that's the only option.
+Example: A player controls one creature that "blocks if able" and another creature with no abilities. If a creature with menace attacks that player, the player must block with both creatures. Having only the first creature block violates the restriction created by menace (the attacking creature can't be blocked except by two or more creatures). Having only the second creature block violates both the menace restriction and the first creature's blocking requirement. Having neither creature block fulfills the restriction but not the requirement.
 
 509.1d
 If any of the chosen creatures require paying costs to block, the defending player determines the total cost to block. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. Once the total cost is determined, it becomes "locked in." If effects would change the total cost after this time, ignore this change.
@@ -2695,13 +2692,13 @@ Previously, the action of casting a spell, or casting a card as a spell, was ref
 Some effects still refer to "playing" a card. "Playing a card" means playing that card as a land or casting that card as a spell, whichever is appropriate.
 
 601.2.
-To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell follows the steps listed below, in order. If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before that spell started to be cast (see rule 717, "Handling Illegal Actions"). Announcements and payments can't be altered after they've been made.
+To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2a-e) and determination and payment of costs (rules 601.2f-h). To cast a spell, a player follows the steps listed below, in order. If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed (see rule 717, "Handling Illegal Actions").
 
 601.2a
-The player announces that he or she is casting the spell. That card (or that copy of a card) moves from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. The spell remains on the stack until it's countered, it resolves, or an effect moves it elsewhere.
+To propose the casting of a spell, a player first moves that card (or that copy of a card) from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. The spell remains on the stack until it's countered, it resolves, or an effect moves it elsewhere. Whether casting the proposed spell is a legal action isn't checked at this time.
 
 601.2b
-If the spell is modal the player announces the mode choice (see rule 700.2). If the player wishes to splice any cards onto the spell (see rule 702.46), he or she reveals those cards in his or her hand. If the spell has alternative or additional costs that will be paid as it's being cast such as buyback or kicker costs (see rules 117.8 and 117.9), the player announces his or her intentions to pay any or all of those costs (see rule 601.2e). A player can't apply two alternative methods of casting or two alternative costs to a single spell. If the spell has a variable cost that will be paid as it's being cast (such as an {X} in its mana cost; see rule 107.3), the player announces the value of that variable. If a cost that will be paid as the spell is being cast includes hybrid mana symbols, the player announces the nonhybrid equivalent cost he or she intends to pay. If a cost that will be paid as the spell is being cast includes Phyrexian mana symbols, the player announces whether he or she intends to pay 2 life or the corresponding colored mana cost for each of those symbols. Previously made choices (such as choosing to cast a spell with flashback from a graveyard or choosing to cast a creature with morph face down) may restrict the player's options when making these choices.
+If the spell is modal, the player announces the mode choice (see rule 700.2). If the player wishes to splice any cards onto the spell (see rule 702.46), he or she reveals those cards in his or her hand. If the spell has alternative or additional costs that will be paid as it's being cast such as buyback or kicker costs (see rules 117.8 and 117.9), the player announces his or her intentions to pay any or all of those costs (see rule 601.2f). A player can't apply two alternative methods of casting or two alternative costs to a single spell. If the spell has a variable cost that will be paid as it's being cast (such as an {X} in its mana cost; see rule 107.3), the player announces the value of that variable. If a cost that will be paid as the spell is being cast includes hybrid mana symbols, the player announces the nonhybrid equivalent cost he or she intends to pay. If a cost that will be paid as the spell is being cast includes Phyrexian mana symbols, the player announces whether he or she intends to pay 2 life or the corresponding colored mana cost for each of those symbols. Previously made choices (such as choosing to cast a spell with flashback from a graveyard or choosing to cast a creature with morph face down) may restrict the player's options when making these choices.
 
 601.2c
 The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. A spell may require some targets only if an alternative or additional cost (such as a buyback or kicker cost), or a particular mode, was chosen for it; otherwise, the spell is cast as though it did not require those targets. If the spell has a variable number of targets, the player announces how many targets he or she will choose before he or she announces those targets. The same target can't be chosen multiple times for any one instance of the word "target" on the spell. However, if the spell uses the word "target" in multiple places, the same object, player, or zone can be chosen once for each instance of the word "target" (as long as it fits the targeting criteria). If any effects say that an object or player must be chosen as a target, the player chooses targets so that he or she obeys the maximum possible number of such effects without violating any rules or effects that say that an object or player can't be chosen as a target. The chosen players, objects, and/or zones each become a target of that spell. (Any abilities that trigger when those players, objects, and/or zones become the target of a spell trigger at this point; they'll wait to be put on the stack until the spell has finished being cast.)
@@ -2711,17 +2708,20 @@ Example: If a spell says "Tap two target creatures," then the same creature can'
 If the spell requires the player to divide or distribute an effect (such as damage or counters) among one or more targets, the player announces the division. Each of these targets must receive at least one of whatever is being divided.
 
 601.2e
-The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. If multiple cost reductions apply, the player may apply them in any order. If the mana component of the total cost is reduced to nothing by cost reduction effects, it is considered to be {0}. It can't be reduced to less than {0}. Once the total cost is determined, any effects that directly affect the total cost are applied. Then the resulting total cost becomes "locked in." If effects would change the total cost after this time, they have no effect.
+Based on the previous announcements, the game checks to see if the proposed spell can legally be cast based on applicable timing rules (including ones based on the card's type) and other effects that may allow a spell to be cast or prohibit a spell from being cast. If the proposed spell is illegal, the game returns to the moment before the casting of that spell was proposed (see rule 717, "Handling Illegal Actions").
 
 601.2f
-If the total cost includes a mana payment, the player then has a chance to activate mana abilities (see rule 605, "Mana Abilities"). Mana abilities must be activated before costs are paid.
+The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. If multiple cost reductions apply, the player may apply them in any order. If the mana component of the total cost is reduced to nothing by cost reduction effects, it is considered to be {0}. It can't be reduced to less than {0}. Once the total cost is determined, any effects that directly affect the total cost are applied. Then the resulting total cost becomes "locked in." If effects would change the total cost after this time, they have no effect.
 
 601.2g
+If the total cost includes a mana payment, the player then has a chance to activate mana abilities (see rule 605, "Mana Abilities"). Mana abilities must be activated before costs are paid.
+
+601.2h
 The player pays the total cost in any order. Partial payments are not allowed. Unpayable costs can't be paid.
 Example: You cast Altar's Reap, which costs {1}{B} and has an additional cost of sacrificing a creature. You sacrifice Thunderscape Familiar, whose effect makes your black spells cost {1} less to cast. Because a spell's total cost is "locked in" before payments are actually made, you pay {B}, not {1}{B}, even though you're sacrificing the Familiar.
 
-601.2h
-Once the steps described in 601.2a-g are completed, the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell's controller had priority before casting it, he or she gets priority.
+601.2i
+Once the steps described in 601.2a-h are completed, the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spell's controller had priority before casting it, he or she gets priority.
 
 601.3.
 Some spells specify that one of their controller's opponents does something the controller would normally do while it's being cast, such as choose a mode or choose targets. In these cases, the opponent does so when the spell's controller normally would do so.
@@ -2734,12 +2734,6 @@ If the spell instructs its controller and another player to do something at the 
 
 601.4.
 Casting a spell that alters costs won't affect spells and abilities that are already on the stack.
-
-601.5.
-A player can't begin to cast a spell that's prohibited from being cast.
-
-601.5a
-If an effect allows a card that's prohibited from being cast to be cast face down, and the face-down spell would not be prohibited, that spell can be cast face down. See rule 707, "Face-Down Spells and Permanents."
 
 602. Activating Activated Abilities
 
@@ -2766,7 +2760,7 @@ To activate an ability is to put it onto the stack and pay its costs, so that it
 The player announces that he or she is activating the ability. If an activated ability is being activated from a hidden zone, the card that has that ability is revealed. That ability is created on the stack as an object that's not a card. It becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. Its controller is the player who activated the ability. The ability remains on the stack until it's countered, it resolves, or an effect moves it elsewhere.
 
 602.2b
-The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b-h. Those rules apply to activating an ability just as they apply to casting a spell. An activated ability's analog to a spell's mana cost (as referenced in rule 601.2e) is its activation cost.
+The remainder of the process for activating an ability is identical to the process for casting a spell listed in rules 601.2b-i. Those rules apply to activating an ability just as they apply to casting a spell. An activated ability's analog to a spell's mana cost (as referenced in rule 601.2f) is its activation cost.
 
 602.3.
 Some abilities specify that one of their controller's opponents does something the controller would normally do while it's being activated, such as choose a mode or choose targets. In these cases, the opponent does so when the ability's controller normally would do so.
@@ -2863,7 +2857,7 @@ Example: If an effect reads "All lands are creatures" and a land card is played,
 Leaves-the-battlefield abilities trigger when a permanent moves from the battlefield to another zone, or when a phased-in permanent leaves the game because its owner leaves the game. These are written as, but aren't limited to, "When [this object] leaves the battlefield, . . ." or "Whenever [something] is put into a graveyard from the battlefield, . . . ." An ability that attempts to do something to the card that left the battlefield checks for it only in the first zone that it went to. An ability that triggers when a card is put into a certain zone "from anywhere" is never treated as a leaves-the-battlefield ability, even if an object is put into that zone from the battlefield.
 
 603.6d
-Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities must be treated specially. Leaves-the-battlefield abilities, abilities that trigger when a permanent phases out, abilities that trigger when an object that all players can see is put into a hand or library, abilities that trigger specifically when an object becomes unattached, abilities that trigger when a player loses control of an object, and abilities that trigger when a player planeswalks away from a plane will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward. The game has to "look back in time" to determine if these abilities trigger.
+Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions. Continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities must be treated specially. Leaves-the-battlefield abilities, abilities that trigger when a card leaves a graveyard, abilities that trigger when a permanent phases out, abilities that trigger when an object that all players can see is put into a hand or library, abilities that trigger specifically when an object becomes unattached, abilities that trigger when a player loses control of an object, and abilities that trigger when a player planeswalks away from a plane will trigger based on their existence, and the appearance of objects, prior to the event rather than afterward. The game has to "look back in time" to determine if these abilities trigger.
 Example: Two creatures are on the battlefield along with an artifact that has the ability "Whenever a creature dies, you gain 1 life." Someone plays a spell that destroys all artifacts, creatures, and enchantments. The artifact's ability triggers twice, even though the artifact goes to its owner's graveyard at the same time as the creatures.
 
 603.6e
@@ -2939,10 +2933,10 @@ Unlike spells and other kinds of abilities, static abilities can't use an object
 Some activated abilities and some triggered abilities are mana abilities, which are subject to special rules. Only abilities that meet either of the following two sets of criteria are mana abilities, regardless of what other effects they may generate or what timing restrictions (such as "Activate this ability only any time you could cast an instant") they may have.
 
 605.1a
-An activated ability is a mana ability if it meets three criteria: it doesn't have a target, it could put mana into a player's mana pool when it resolves, and it's not a loyalty ability. (See rule 606, "Loyalty Abilities.")
+An activated ability is a mana ability if it meets all of the following criteria: it doesn't have a target, it could put mana into a player's mana pool when it resolves, and it's not a loyalty ability. (See rule 606, "Loyalty Abilities.")
 
 605.1b
-A triggered ability without a target that triggers from activating a mana ability and could put mana into a player's mana pool when it resolves is a mana ability.
+A triggered ability is a mana ability if it meets all of the following criteria: it doesn't have a target, it triggers from the resolution of an activated mana ability (see rule 106.10a), and it could put mana into a player's mana pool when it resolves.
 
 605.2.
 A mana ability remains a mana ability even if the game state doesn't allow it to produce mana.
@@ -3060,7 +3054,7 @@ If the object that's resolving is an instant spell, a sorcery spell, or an abili
 If a triggered ability has an intervening "if" clause, it checks whether the clause's condition is true. If it isn't, the ability is removed from the stack and does nothing. Otherwise, it continues to resolve. See rule 603.4.
 
 608.2b
-If the spell or ability specifies targets, it checks whether the targets are still legal. A target that's no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word "target," are now illegal. If the spell or ability is not countered, it will resolve normally. However, if any of its targets are illegal, the part of the spell or ability's effect for which it is an illegal target can't perform any actions on that target, make another object or player perform any actions on that target, or make that target perform any actions. If the spell or ability creates a continuous effect that affects game rules (see rule 613.10), that effect doesn't apply to illegal targets. The effect may still determine information about illegal targets, though, and other parts of the effect for which those targets are not illegal may still affect them.
+If the spell or ability specifies targets, it checks whether the targets are still legal. A target that's no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word "target," are now illegal. If the spell or ability is not countered, it will resolve normally. Illegal targets, if any, won't be affected by parts of a resolving spell's effect for which they're illegal. Other parts of the effect for which those targets are not illegal may still affect them. If the spell or ability creates any continuous effects that affect game rules (see rule 613.10), those effects don't apply to illegal targets. If part of the effect requires information about an illegal target, it fails to determine any such information. Any part of the effect that requires that information won't happen.
 Example: Sorin's Thirst is a black instant that reads, "Sorin's Thirst deals 2 damage to target creature and you gain 2 life." If the creature isn't a legal target during the resolution of Sorin's Thirst (say, if the creature has gained protection from black or left the battlefield), then Sorin's Thirst is countered. Its controller doesn't gain any life.
 Example: Plague Spores reads, "Destroy target nonblack creature and target land. They can't be regenerated." Suppose the same animated land is chosen both as the nonblack creature and as the land, and the color of the creature land is changed to black before Plague Spores resolves. Plagues Spores isn't countered because the black creature land is still a legal target for the "target land" part of the spell. The "destroy target nonblack creature" part of the spell won't affect that permanent, but the "destroy target land" part of the spell will still destroy it. It can't be regenerated.
 
@@ -3075,7 +3069,7 @@ Example: A spell's instruction reads, "You may sacrifice a creature. If you don'
 Some spells and abilities have multiple steps or actions, denoted by separate sentences or clauses, that involve multiple players. In these cases, the choices for the first action are made in APNAP order, and then the first action is processed simultaneously. Then the choices for the second action are made in APNAP order, and then that action is processed simultaneously, and so on. See rule 101.4.
 
 608.2f
-If an effect gives a player the option to pay mana, he or she may activate mana abilities before taking that action. If an effect specifically instructs or allows a player to cast a spell during resolution, he or she does so by putting that spell on top of the stack, then continuing to cast it by following the steps in rules 601.2a-h, except no player receives priority after it's cast. The currently resolving spell or ability then continues to resolve, which may include casting other spells this way. No other spells can normally be cast and no other abilities can normally be activated during resolution.
+If an effect gives a player the option to pay mana, he or she may activate mana abilities before taking that action. If an effect specifically instructs or allows a player to cast a spell during resolution, he or she does so by following the steps in rules 601.2a-i, except no player receives priority after it's cast. That spell becomes the topmost object on the stack, and the currently resolving spell or ability continues to resolve, which may include casting other spells this way. No other spells can normally be cast and no other abilities can normally be activated during resolution.
 
 608.2g
 If an effect requires information from the game (such as the number of creatures on the battlefield), the answer is determined only once, when the effect is applied. If the effect requires information from a specific object, including the source of the ability itself or a target that's become illegal, the effect uses the current information of that object if it's in the public zone it was expected to be in; if it's no longer in that zone, or if the effect has moved it from a public zone to a hidden zone, the effect uses the object's last known information. See rule 112.7a. If an ability states that an object does something, it's the object as it exists--or as it most recently existed--that does it, not the ability.
@@ -3292,19 +3286,28 @@ A continuous effect generated by a static ability has the same timestamp as the 
 A continuous effect generated by the resolution of a spell or ability receives a timestamp at the time it's created.
 
 613.6c
-An object's timestamp is the time it entered the zone it's currently in, unless it's an Aura, Equipment, or Fortification that's attached to another object or player, or it's a face-up plane card, phenomenon card, or scheme card.
+An object receives a timestamp at the time it enters a zone.
 
 613.6d
-If an Aura, Equipment, or Fortification becomes attached to an object or player, the Aura, Equipment, or Fortification receives a new timestamp at that time.
+An Aura, Equipment, or Fortification receives a new timestamp at the time it becomes attached to an object or player.
 
 613.6e
-A face-up plane card, phenomenon card, or scheme card receives a timestamp at the time it's turned face up.
+A permanent receives a new timestamp at the time it turns face up or face down.
 
 613.6f
-A face-up vanguard card receives a timestamp at the beginning of the game.
+A double-faced permanent receives a new timestamp at the time it transforms.
 
 613.6g
-If two or more objects would receive a timestamp simultaneously, such as by entering a zone simultaneously or becoming attached simultaneously, the active player determines their timestamp order at that time.
+A face-up plane card, phenomenon card, or scheme card receives a timestamp at the time it's turned face up.
+
+613.6h
+A face-up vanguard card receives a timestamp at the beginning of the game.
+
+613.6i
+A conspiracy card receives a timestamp at the beginning of the game. If it's face down, it receives a new timestamp at the time it turns face up.
+
+613.6j
+If two or more objects would receive a timestamp simultaneously, such as by entering a zone simultaneously or becoming attached simultaneously, the active player determines their relative timestamp order at that time.
 
 613.7.
 Within a layer or sublayer, determining which order effects are applied in is sometimes done using a dependency system. If a dependency exists, it will override the timestamp system.
@@ -3327,7 +3330,7 @@ Example: One effect reads, "White creatures get +1/+1," and another reads, "Ench
 Some continuous effects affect players rather than objects. For example, an effect might give a player protection from red. All such effects are applied in timestamp order after the determination of objects' characteristics. See also the rules for timestamp order and dependency (rules 613.6 and 613.7).
 
 613.10.
-Some continuous effects affect game rules rather than objects. For example, effects may modify a player's maximum hand size, or say that a creature must attack this turn if able. These effects are applied after all other continuous effects have been applied. Continuous effects that affect the costs of spells or abilities are applied according to the order specified in rule 601.2e. All other such effects are applied in timestamp order. See also the rules for timestamp order and dependency (rules 613.6 and 613.7).
+Some continuous effects affect game rules rather than objects. For example, effects may modify a player's maximum hand size, or say that a creature must attack this turn if able. These effects are applied after all other continuous effects have been applied. Continuous effects that affect the costs of spells or abilities are applied according to the order specified in rule 601.2f. All other such effects are applied in timestamp order. See also the rules for timestamp order and dependency (rules 613.6 and 613.7).
 
 614. Replacement Effects
 
@@ -3751,21 +3754,18 @@ To shuffle a library or a face-down pile of cards, randomize the cards within it
 Some effects cause a player to search a library for a card or cards, shuffle that library, then put the found card or cards in a certain position in that library. Even though the found card or cards never leave that library, they aren't included in the shuffle. Rather, all the cards in that library except those are shuffled. Abilities that trigger when a library is shuffled will still trigger.
 
 701.16c
-If an effect would cause a player to shuffle one or more specific objects into a library, but none of those objects are in the zone they're expected to be in, that library isn't shuffled.
-Example: Guile says, in part, "When Guile is put into a graveyard from anywhere, shuffle it into its owner's library." It's put into a graveyard and its ability triggers, then a player exiles it from that graveyard in response. When the ability resolves, nothing happens.
+If an effect would cause a player to shuffle one or more specific objects into a library, that library is shuffled even if none of those objects are in the zone they're expected to be in or an effect causes all of those objects to be moved to another zone or remain in their current zone.
+Example: Guile says, in part, "When Guile is put into a graveyard from anywhere, shuffle it into its owner's library." It's put into a graveyard and its ability triggers, then a player exiles it from that graveyard in response. When the ability resolves, the library is shuffled.
+Example: Black Sun's Zenith says, in part, "Shuffle Black Sun's Zenith into its owner's library." Black Sun's Zenith is in a graveyard, has gained flashback (due to Recoup, perhaps), and is cast from that graveyard. Black Sun's Zenith will be exiled, and its owner's library will be shuffled.
 
 701.16d
-If an effect would cause a player to shuffle one or more specific objects into a library, and a replacement or prevention effect causes all such objects to be moved to another zone instead, that library isn't shuffled.
-Example: Black Sun's Zenith says, in part, "Shuffle Black Sun's Zenith into its owner's library." Black Sun's Zenith is in a graveyard, has gained flashback (due to Recoup, perhaps), and is cast from that graveyard. Black Sun's Zenith will be exiled, and its owner's library won't be shuffled.
-
-701.16e
 If an effect would cause a player to shuffle a set of objects into a library, that library is shuffled even if there are no objects in that set.
 Example: Loaming Shaman says "When Loaming Shaman enters the battlefield, target player shuffles any number of target cards from his or her graveyard into his or her library." It enters the battlefield, its ability triggers, and no cards are targeted. When the ability resolves, the targeted player will still have to shuffle his or her library.
 
-701.16f
+701.16e
 If an effect causes a player to shuffle a library containing zero or one cards, abilities that trigger when a library is shuffled will still trigger.
 
-701.16g
+701.16f
 If two or more effects cause a library to be shuffled multiple times simultaneously, abilities that trigger when that library is shuffled will trigger that many times.
 
 701.17.
@@ -3781,13 +3781,13 @@ To untap a permanent, rotate it back to the upright position from a sideways pos
 Scry
 
 701.18a
-To "scry N" means to look at the top N cards of your library, put any number of them on the bottom of your library in any order, and put the rest on top of your library in any order.
+To "scry N" means to look at the top N cards of your library, put any number of them on the bottom of your library in any order and the rest on top of your library in any order.
 
 701.19.
 Fateseal
 
 701.19a
-To "fateseal N" means to look at the top N cards of an opponent's library, put any number of them on the bottom of that library in any order, and put the rest on top of that library in any order.
+To "fateseal N" means to look at the top N cards of an opponent's library, put any number of them on the bottom of that library in any order and the rest on top of that library in any order.
 
 701.20.
 Clash
@@ -3883,9 +3883,12 @@ If you control no creature tokens when instructed to populate, you won't put a t
 Monstrosity
 
 701.28a
-"Monstrosity N" means "If this permanent isn't monstrous, put N +1/+1 counters on it and it becomes monstrous." Monstrous is a condition of that permanent that can be referred to by other abilities.
+"Monstrosity N" means "If this permanent isn't monstrous, put N +1/+1 counters on it and it becomes monstrous."
 
 701.28b
+Monstrous is a designation that has no rules meaning other than to act as a marker that the monstrosity action and other spells and abilities can identify. Only permanents can be or become monstrous. Once a permanent becomes monstrous, it stays monstrous until it leaves the battlefield. Monstrous is neither an ability nor part of the permanent's copiable values.
+
+701.28c
 If a permanent's ability instructs a player to "monstrosity X," other abilities of that permanent may also refer to X. The value of X in those abilities is equal to the value of X as that permanent became monstrous.
 
 701.29.
@@ -4353,7 +4356,7 @@ Multiple instances of phasing on the same permanent are redundant.
 Buyback
 
 702.26a
-Buyback appears on some instants and sorceries. It represents two static abilities that function while the spell is on the stack. "Buyback [cost]" means "You may pay an additional [cost] as you cast this spell" and "If the buyback cost was paid, put this spell into its owner's hand instead of into that player's graveyard as it resolves." Paying a spell's buyback cost follows the rules for paying additional costs in rules 601.2b and 601.2e-g.
+Buyback appears on some instants and sorceries. It represents two static abilities that function while the spell is on the stack. "Buyback [cost]" means "You may pay an additional [cost] as you cast this spell" and "If the buyback cost was paid, put this spell into its owner's hand instead of into that player's graveyard as it resolves." Paying a spell's buyback cost follows the rules for paying additional costs in rules 601.2b and 601.2f-h.
 
 702.27.
 Shadow
@@ -4416,7 +4419,7 @@ Fading is a keyword that represents two abilities. "Fading N" means "This perman
 Kicker
 
 702.32a
-Kicker is a static ability that functions while the spell with kicker is on the stack. "Kicker [cost]" means "You may pay an additional [cost] as you cast this spell." Paying a spell's kicker cost(s) follows the rules for paying additional costs in rules 601.2b and 601.2e-g.
+Kicker is a static ability that functions while the spell with kicker is on the stack. "Kicker [cost]" means "You may pay an additional [cost] as you cast this spell." Paying a spell's kicker cost(s) follows the rules for paying additional costs in rules 601.2b and 601.2f-h.
 
 702.32b
 The phrase "Kicker [cost 1] and/or [cost 2]" means the same thing as "Kicker [cost 1], kicker [cost 2]."
@@ -4440,7 +4443,7 @@ If part of a spell's ability has its effect only if that spell was kicked, and t
 Flashback
 
 702.33a
-Flashback appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player's graveyard and another that functions while the card is on the stack. "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack." Casting a spell using its flashback ability follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
+Flashback appears on some instants and sorceries. It represents two static abilities: one that functions while the card is in a player's graveyard and another that functions while the card is on the stack. "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack." Casting a spell using its flashback ability follows the rules for paying alternative costs in rules 601.2b and 601.2f-h.
 
 702.34.
 Madness
@@ -4449,7 +4452,7 @@ Madness
 Madness is a keyword that represents two abilities. The first is a static ability that functions while the card with madness is in a player's hand. The second is a triggered ability that functions when the first ability is applied. "Madness [cost]" means "If a player would discard this card, that player discards it, but may exile it instead of putting it into his or her graveyard" and "When this card is exiled this way, its owner may cast it by paying [cost] rather than paying its mana cost. If that player doesn't, he or she puts this card into his or her graveyard."
 
 702.34b
-Casting a spell using its madness ability follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
+Casting a spell using its madness ability follows the rules for paying alternative costs in rules 601.2b and 601.2f-h.
 
 702.35.
 Fear
@@ -4527,7 +4530,7 @@ If a spell has multiple instances of affinity, each of them applies.
 Entwine
 
 702.41a
-Entwine is a static ability of modal spells (see rule 700.2) that functions while the spell is on the stack. "Entwine [cost]" means "You may choose all modes of this spell instead of just one. If you do, you pay an additional [cost]." Using the entwine ability follows the rules for choosing modes and paying additional costs in rules 601.2b and 601.2e-g.
+Entwine is a static ability of modal spells (see rule 700.2) that functions while the spell is on the stack. "Entwine [cost]" means "You may choose all modes of this spell instead of just one. If you do, you pay an additional [cost]." Using the entwine ability follows the rules for choosing modes and paying additional costs in rules 601.2b and 601.2f-h.
 
 702.41b
 If the entwine cost was paid, follow the text of each of the modes in the order written on the card when the spell resolves.
@@ -4579,7 +4582,7 @@ If a permanent has multiple instances of soulshift, each triggers separately.
 Splice
 
 702.46a
-Splice is a static ability that functions while a card is in your hand. "Splice onto [subtype] [cost]" means "You may reveal this card from your hand as you cast a [subtype] spell. If you do, copy this card's text box onto that spell and pay [cost] as an additional cost to cast that spell." Paying a card's splice cost follows the rules for paying additional costs in rules 601.2b and 601.2e-g.
+Splice is a static ability that functions while a card is in your hand. "Splice onto [subtype] [cost]" means "You may reveal this card from your hand as you cast a [subtype] spell. If you do, copy this card's text box onto that spell and pay [cost] as an additional cost to cast that spell." Paying a card's splice cost follows the rules for paying additional costs in rules 601.2b and 601.2f-h.
 Example: Since the card with splice remains in the player's hand, it can later be cast normally or spliced onto another spell. It can even be discarded to pay a "discard a card" cost of the spell it's spliced onto.
 
 702.46b
@@ -4602,7 +4605,7 @@ Offering
 Offering is a static ability of a card that functions in any zone from which the card can be cast. "[Subtype] offering" means "You may cast this card any time you could cast an instant by sacrificing a [subtype] permanent. If you do, the total cost to cast this card is reduced by the sacrificed permanent's mana cost."
 
 702.47b
-The permanent is sacrificed at the same time the spell is announced (see rule 601.2a). The total cost of the spell is reduced by the sacrificed permanent's mana cost (see rule 601.2e).
+The permanent is sacrificed at the same time the spell is announced (see rule 601.2a). The total cost of the spell is reduced by the sacrificed permanent's mana cost (see rule 601.2f).
 
 702.47c
 Generic mana in the sacrificed permanent's mana cost reduces generic mana in the total cost to cast the card with offering. Colored mana in the sacrificed permanent's mana cost reduces mana of the same color in the total cost to cast the card with offering. Colored mana in the sacrificed permanent's mana cost that doesn't match colored mana in the colored mana cost of the card with offering, or is in excess of the card's colored mana cost, reduces that much generic mana in the total cost.
@@ -4684,7 +4687,7 @@ Triggered abilities of cards with haunt that refer to the haunted creature can t
 Replicate
 
 702.55a
-Replicate is a keyword that represents two abilities. The first is a static ability that functions while the spell with replicate is on the stack. The second is a triggered ability that functions while the spell with replicate is on the stack. "Replicate [cost]" means "As an additional cost to cast this spell, you may pay [cost] any number of times" and "When you cast this spell, if a replicate cost was paid for it, copy it for each time its replicate cost was paid. If the spell has any targets, you may choose new targets for any of the copies." Paying a spell's replicate cost follows the rules for paying additional costs in rules 601.2b and 601.2e-g.
+Replicate is a keyword that represents two abilities. The first is a static ability that functions while the spell with replicate is on the stack. The second is a triggered ability that functions while the spell with replicate is on the stack. "Replicate [cost]" means "As an additional cost to cast this spell, you may pay [cost] any number of times" and "When you cast this spell, if a replicate cost was paid for it, copy it for each time its replicate cost was paid. If the spell has any targets, you may choose new targets for any of the copies." Paying a spell's replicate cost follows the rules for paying additional costs in rules 601.2b and 601.2f-h.
 
 702.55b
 If a spell has multiple instances of replicate, each is paid separately and triggers based on the payments made for it, not any other instance of replicate.
@@ -4705,7 +4708,7 @@ Graft
 Graft represents both a static ability and a triggered ability. "Graft N" means "This permanent enters the battlefield with N +1/+1 counters on it" and "Whenever another creature enters the battlefield, if this permanent has a +1/+1 counter on it, you may move a +1/+1 counter from this permanent onto that creature."
 
 702.57b
-If a creature has multiple instances of graft, each one works separately.
+If a permanent has multiple instances of graft, each one works separately.
 
 702.58.
 Recover
@@ -4744,7 +4747,7 @@ Suspend is a keyword that represents three abilities. The first is a static abil
 A card is "suspended" if it's in the exile zone, has suspend, and has a time counter on it.
 
 702.61c
-Casting a spell as an effect of its suspend ability follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
+Casting a spell as an effect of its suspend ability follows the rules for paying alternative costs in rules 601.2b and 601.2f-h.
 
 702.62.
 Vanishing
@@ -4860,7 +4863,7 @@ Multiple instances of changeling on the same object are redundant.
 Evoke
 
 702.73a
-Evoke represents two abilities: a static ability that functions in any zone from which the card with evoke can be cast and a triggered ability that functions on the battlefield. "Evoke [cost]" means "You may cast this card by paying [cost] rather than paying its mana cost" and "When this permanent enters the battlefield, if its evoke cost was paid, its controller sacrifices it." Paying a card's evoke cost follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
+Evoke represents two abilities: a static ability that functions in any zone from which the card with evoke can be cast and a triggered ability that functions on the battlefield. "Evoke [cost]" means "You may cast this card by paying [cost] rather than paying its mana cost" and "When this permanent enters the battlefield, if its evoke cost was paid, its controller sacrifices it." Paying a card's evoke cost follows the rules for paying alternative costs in rules 601.2b and 601.2f-h.
 
 702.74.
 Hideaway
@@ -4872,7 +4875,7 @@ Hideaway represents a static ability and a triggered ability. "Hideaway" means "
 Prowl
 
 702.75a
-Prowl is a static ability that functions on the stack. "Prowl [cost]" means "You may pay [cost] rather than pay this spell's mana cost if a player was dealt combat damage this turn by a source that, at the time it dealt that damage, was under your control and had any of this spell's creature types." Paying a spell's prowl cost follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
+Prowl is a static ability that functions on the stack. "Prowl [cost]" means "You may pay [cost] rather than pay this spell's mana cost if a player was dealt combat damage this turn by a source that, at the time it dealt that damage, was under your control and had any of this spell's creature types." Paying a spell's prowl cost follows the rules for paying alternative costs in rules 601.2b and 601.2f-h.
 
 702.76.
 Reinforce
@@ -4887,7 +4890,7 @@ Although the reinforce ability can be activated only if the card is in a player'
 Conspire
 
 702.77a
-Conspire is a keyword that represents two abilities. The first is a static ability that functions while the spell with conspire is on the stack. The second is a triggered ability that functions while the spell with conspire is on the stack. "Conspire" means "As an additional cost to cast this spell, you may tap two untapped creatures you control that each share a color with it" and "When you cast this spell, if its conspire cost was paid, copy it. If the spell has any targets, you may choose new targets for the copy." Paying a spell's conspire cost follows the rules for paying additional costs in rules 601.2b and 601.2e-g.
+Conspire is a keyword that represents two abilities. The first is a static ability that functions while the spell with conspire is on the stack. The second is a triggered ability that functions while the spell with conspire is on the stack. "Conspire" means "As an additional cost to cast this spell, you may tap two untapped creatures you control that each share a color with it" and "When you cast this spell, if its conspire cost was paid, copy it. If the spell has any targets, you may choose new targets for the copy." Paying a spell's conspire cost follows the rules for paying additional costs in rules 601.2b and 601.2f-h.
 
 702.77b
 If a spell has multiple instances of conspire, each is paid separately and triggers based on its own payment, not any other instance of conspire.
@@ -4917,7 +4920,7 @@ Multiple instances of wither on the same object are redundant.
 Retrace
 
 702.80a
-Retrace appears on some instants and sorceries. It represents a static ability that functions while the card with retrace is in a player's graveyard. "Retrace" means "You may cast this card from your graveyard by discarding a land card as an additional cost to cast it." Casting a spell using its retrace ability follows the rules for paying additional costs in rules 601.2b and 601.2e-g.
+Retrace appears on some instants and sorceries. It represents a static ability that functions while the card with retrace is in a player's graveyard. "Retrace" means "You may cast this card from your graveyard by discarding a land card as an additional cost to cast it." Casting a spell using its retrace ability follows the rules for paying additional costs in rules 601.2b and 601.2f-h.
 
 702.81.
 Devour
@@ -4977,7 +4980,7 @@ Rebound
 Rebound appears on some instants and sorceries. It represents a static ability that functions while the spell is on the stack and may create a delayed triggered ability. "Rebound" means "If this spell was cast from your hand, instead of putting it into your graveyard as it resolves, exile it and, at the beginning of your next upkeep, you may cast this card from exile without paying its mana cost."
 
 702.87b
-Casting a card without paying its mana cost as the result of a rebound ability follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
+Casting a card without paying its mana cost as the result of a rebound ability follows the rules for paying alternative costs in rules 601.2b and 601.2f-h.
 
 702.87c
 Multiple instances of rebound on the same spell are redundant.
@@ -5061,7 +5064,7 @@ A paired creature becomes unpaired if any of the following occur: another player
 Overload
 
 702.95a
-Overload is a keyword that represents two static abilities that function while the spell with overload is on the stack. Overload [cost] means "You may choose to pay [cost] rather than pay this spell's mana cost" and "If you chose to pay this spell's overload cost, change its text by replacing all instances of the word 'target' with the word 'each.'" Using the overload ability follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
+Overload is a keyword that represents two static abilities that function while the spell with overload is on the stack. Overload [cost] means "You may choose to pay [cost] rather than pay this spell's mana cost" and "If you chose to pay this spell's overload cost, change its text by replacing all instances of the word 'target' with the word 'each.'" Using the overload ability follows the rules for paying alternative costs in rules 601.2b and 601.2f-h.
 
 702.95b
 If a player chooses to pay the overload cost of a spell, that spell won't require any targets. It may affect objects that couldn't be chosen as legal targets if the spell were cast without its overload cost being paid.
@@ -5127,7 +5130,7 @@ Fuse is a static ability found on some split cards (see rule 708, "Split Cards")
 A fused split spell has two sets of characteristics and one converted mana cost. The converted mana cost of the spell is a number equal to the total amount of mana in its two mana costs, regardless of color.
 
 702.101c
-The total cost of a fused split spell includes the mana cost of each half. (See rule 601.2e.)
+The total cost of a fused split spell includes the mana cost of each half. (See rule 601.2f.)
 
 702.101d
 As a fused split spell resolves, the controller of the spell follows the instructions of the left half and then follows the instructions of the right half.
@@ -5136,13 +5139,14 @@ As a fused split spell resolves, the controller of the spell follows the instruc
 Bestow
 
 702.102a
-Bestow represents two static abilities, one that functions while the card with bestow is on the stack and another that functions both while it's on the stack and while it's on the battlefield. "Bestow [cost]" means "You may cast this card by paying [cost] rather than its mana cost." and "If you chose to pay this spell's bestow cost, it becomes an Aura enchantment and gains enchant creature. These effects last until one of two things happens: this spell has an illegal target as it resolves or the permanent this spell becomes, becomes unattached." Paying a card's bestow cost follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
+Bestow represents two static abilities, one that functions while the card with bestow is on the stack and another that functions both while it's on the stack and while it's on the battlefield. "Bestow [cost]" means "You may cast this card by paying [cost] rather than its mana cost." and "If you chose to pay this spell's bestow cost, it becomes an Aura enchantment and gains enchant creature. These effects last until one of two things happens: this spell has an illegal target as it resolves or the permanent this spell becomes, becomes unattached." Paying a card's bestow cost follows the rules for paying alternative costs in rules 601.2b and 601.2f-h.
 
 702.102b
 If a spell's controller chooses to pay its bestow cost, that player chooses a legal target for that Aura spell as defined by its enchant creature ability and rule 601.2c. See also rule 303.4.
 
 702.102c
-A spell's controller can't choose to pay its bestow cost unless that player can choose a legal target for that spell after it becomes an Aura spell.
+The check for whether a spell can legally be cast happens after its controller has chosen whether to pay its bestow cost; see rule 601.2e.
+Example: ther Storm is an enchantment with the ability "Creature spells can't be cast." This effect doesn't stop a creature card with bestow from being cast for its bestow cost because the spell is an Aura enchantment spell, not an enchantment creature spell, when the game checks whether the spell is illegal.
 
 702.102d
 As an Aura spell with bestow begins resolving, if its target is illegal, the effect making it an Aura spell ends. It continues resolving as a creature spell and will be put onto the battlefield under the control of the spell's controller. This is an exception to rule 608.3a.
@@ -5205,7 +5209,7 @@ If a creature has multiple instances of prowess, each triggers separately.
 Dash
 
 702.108a
-Dash represents three abilities: two static abilities that function while the card with dash is on the stack, one of which may create a delayed triggered ability, and a static ability that functions while the object with dash is on the battlefield. "Dash [cost]" means "You may cast this card by paying [cost] rather that its mana cost," "If this spell's dash cost was paid, return the permanent this spell becomes to its owner's hand at the beginning of the next end step," and "As long as this permanent's dash cost was paid, it has haste." Paying a card's dash cost follows the rules for paying alternative costs in rules 601.2b and 601.2e-g.
+Dash represents three abilities: two static abilities that function while the card with dash is on the stack, one of which may create a delayed triggered ability, and a static ability that functions while the object with dash is on the battlefield. "Dash [cost]" means "You may cast this card by paying [cost] rather that its mana cost," "If this spell's dash cost was paid, return the permanent this spell becomes to its owner's hand at the beginning of the next end step," and "As long as this permanent's dash cost was paid, it has haste." Paying a card's dash cost follows the rules for paying alternative costs in rules 601.2b and 601.2f-h.
 
 702.109.
 Exploit
@@ -5215,6 +5219,30 @@ Exploit is a triggered ability. "Exploit" means "When this creature enters the b
 
 702.109b
 A creature with exploit "exploits a creature" when the controller of the exploit ability sacrifices a creature as that ability resolves.
+
+702.110.
+Menace
+
+702.110a
+Menace is an evasion ability.
+
+702.110b
+A creature with menace can't be blocked except by two or more creatures. (See rule 509, "Declare Blockers Step.")
+
+702.110c
+Multiple instances of menace on the same creature are redundant.
+
+702.111.
+Renown
+
+702.111a
+Renown is a triggered ability. "Renown N" means "When this creature deals combat damage to a player, if it isn't renowned, put N +1/+1 counters on it and it becomes renowned."
+
+702.111b
+Renowned is a designation that has no rules meaning other than to act as a marker that the renown ability and other spells and abilities can identify. Only permanents can be or become renowned. Once a permanent becomes renowned, it stays renowned until it leaves the battlefield. Renowned is neither an ability nor part of the permanent's copiable values.
+
+702.111c
+If a creature has multiple instances of renown, each triggers separately. The first such ability to resolve will cause the creature to become renowned, and subsequent abilities will have no effect. (See rule 603.4)
 
 703. Turn-Based Actions
 
@@ -5291,7 +5319,7 @@ Whenever a player would get priority (see rule 116, "Timing and Priority"), the 
 
 704.4.
 Unlike triggered abilities, state-based actions pay no attention to what happens during the resolution of a spell or ability.
-Example:Example: A player controls a creature with the ability "This creature's power and toughness are each equal to the number of cards in your hand" and casts a spell whose effect is "Discard your hand, then draw seven cards." The creature will temporarily have toughness 0 in the middle of the spell's resolution but will be back up to toughness 7 when the spell finishes resolving. Thus the creature will survive when state-based actions are checked. In contrast, an ability that triggers when the player has no cards in hand goes on the stack after the spell resolves, because its trigger event happened during resolution.
+Example: A player controls a creature with the ability "This creature's power and toughness are each equal to the number of cards in your hand" and casts a spell whose effect is "Discard your hand, then draw seven cards." The creature will temporarily have toughness 0 in the middle of the spell's resolution but will be back up to toughness 7 when the spell finishes resolving. Thus the creature will survive when state-based actions are checked. In contrast, an ability that triggers when the player has no cards in hand goes on the stack after the spell resolves, because its trigger event happened during resolution.
 
 704.5.
 The state-based actions are as follows:
@@ -5462,7 +5490,7 @@ If an effect refers to a permanent by name, the effect still tracks that permane
 Example: An Unstable Shapeshifter copies a Crazed Armodon. Crazed Armodon reads, "{G}: Crazed Armodon gets +3/+0 and gains trample until end of turn. Destroy Crazed Armodon at the beginning of the next end step. Activate this ability only once each turn." If this ability of the Shapeshifter is activated, the Shapeshifter will be destroyed at the beginning of the next end step, even if it's no longer a copy of Crazed Armodon at that time.
 
 706.12.
-An effect that instructs a player to cast a copy of an object (and not just copy a spell) follows the rules for casting spells, except that the copy is created in the same zone the object is in and then cast while another spell or ability is resolving. Casting a copy of an object follows steps 601.2a-g of rule 601, "Casting Spells," and then the copy becomes cast. Once cast, the copy is a spell on the stack, and just like any other spell it can resolve or be countered.
+An effect that instructs a player to cast a copy of an object (and not just copy a spell) follows the rules for casting spells, except that the copy is created in the same zone the object is in and then cast while another spell or ability is resolving. Casting a copy of an object follows steps 601.2a-h of rule 601, "Casting Spells," and then the copy becomes cast. Once cast, the copy is a spell on the stack, and just like any other spell it can resolve or be countered.
 
 707. Face-Down Spells and Permanents
 
@@ -5607,10 +5635,10 @@ In every zone other than the battlefield, a leveler card has the power and tough
 A double-faced card has a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. Each face may have abilities that allow the permanent to "transform," or turn over to its other face. Tokens and cards with a Magic card back can't transform. (See rule 701.25, "Transform.")
 
 711.1a
-A double-faced card's front face is indicated by the sun symbol in its upper left corner.
+A double-faced card's front face includes its mana cost. Its back face has no mana cost.
 
 711.1b
-A double-faced card's back face is indicated by the moon symbol in its upper left corner.
+Each face of a double-faced card has an icon in its upper left corner (for example, a sun or a stylized Planeswalker symbol). These icons have no effect on game play.
 
 711.1c
 If the back face of a double-faced card is a creature, the front face of that card will have the back face's power and toughness printed in gray above the power and toughness box. This is reminder text and has no effect on game play.
@@ -5721,19 +5749,22 @@ A player may gain control of himself or herself. That player will make his or he
 713. Ending the Turn
 
 713.1.
-Two cards (Time Stop and Sundial of the Infinite) end the turn. When an effect ends the turn, follow these steps in order, as they differ from the normal process for resolving spells and abilities (see rule 608, "Resolving Spells and Abilities").
+Three cards (Time Stop, Sundial of the Infinite, and Day's Undoing) end the turn. When an effect ends the turn, follow these steps in order, as they differ from the normal process for resolving spells and abilities (see rule 608, "Resolving Spells and Abilities").
 
 713.1a
-Exile every object on the stack, including the object that's resolving. Remove all creatures and planeswalkers (including those that are phased out) from combat. All objects not on the battlefield or in the command zone that aren't represented by cards will cease to exist the next time state-based actions are checked (see rule 704, "State-Based Actions").
+If there are any triggered abilities that triggered before this process began but haven't been put onto the stack yet, those abilities cease to exist. They won't be put onto the stack. This rule does not apply to abilities that trigger during this process (see rule 713.2).
 
 713.1b
-Check state-based actions. No player gets priority, and no triggered abilities are put onto the stack.
+Exile every object on the stack, including the object that's resolving. Remove all creatures and planeswalkers (including those that are phased out) from combat. All objects not on the battlefield or in the command zone that aren't represented by cards will cease to exist the next time state-based actions are checked (see rule 704, "State-Based Actions").
 
 713.1c
+Check state-based actions. No player gets priority, and no triggered abilities are put onto the stack.
+
+713.1d
 The current phase and/or step ends. The game skips straight to the cleanup step; skip any phases or steps between this phase or step and the cleanup step. If an effect ends the turn during the cleanup step, a new cleanup step begins.
 
 713.2.
-No player gets priority during this process, so triggered abilities are not put onto the stack. If any triggered abilities have triggered between the spell or ability resolving and the cleanup step ending, those abilities are put onto the stack during the cleanup step, then the active player gets priority and players can cast spells and activate abilities. Then there will be another cleanup step before the turn finally ends. If no triggered abilities have triggered during this process, no player gets priority during the cleanup step. See rule 514, "Cleanup Step."
+No player gets priority during this process, so triggered abilities are not put onto the stack. If any triggered abilities have triggered since this process began, those abilities are put onto the stack during the cleanup step, then the active player gets priority and players can cast spells and activate abilities. Then there will be another cleanup step before the turn finally ends. If no triggered abilities have triggered during this process, no player gets priority during the cleanup step. See rule 514, "Cleanup Step."
 
 713.3.
 Even though the turn ends, "at the beginning of the end step" triggered abilities don't trigger because the end step is skipped.
@@ -6459,7 +6490,7 @@ A Planechase game may be a two-player game or a multiplayer game. The default mu
 In addition to the normal game materials, each player needs a planar deck of at least ten plane and/or phenomenon cards and the game needs one planar die. No more than two cards in a planar deck can be phenomenon cards. Each card in a planar deck must have a different English name. (See rule 309, "Planes," and rule 310, "Phenomena.")
 
 901.3a
-A planar die is a six-sided die. One face has the Planeswalker symbol {PW}. One face has the chaos symbol {C}. The other faces are blank.
+A planar die is a six-sided die. One face has the Planeswalker symbol {PW}. One face has the chaos symbol {CHAOS}. The other faces are blank.
 
 901.4.
 At the start of the game, each player shuffles his or her planar deck so that the cards are in a random order. Each deck is placed face down next to its owner's library. All plane and phenomenon cards remain in the command zone throughout the game, both while they're part of a planar deck and while they're face up.
@@ -6486,7 +6517,7 @@ Any time the active player has priority and the stack is empty, but only during 
 If the die roll is a blank face, nothing happens. The active player gets priority.
 
 901.9b
-If the die roll is the chaos symbol {C}, any ability of a face-up plane that starts "When you roll {C}" triggers and is put on the stack. The active player gets priority.
+If the die roll is the chaos symbol {CHAOS}, any ability of a face-up plane that starts "When you roll {CHAOS}" triggers and is put on the stack. The active player gets priority.
 
 901.9c
 If the die roll is the Planeswalker symbol {PW}, the "planeswalking ability" triggers and is put on the stack. The active player gets priority. (See rule 901.8.)
@@ -6645,18 +6676,15 @@ If mana would be added to a player's mana pool of a color that isn't in the colo
 A player may cast a commander he or she owns from the command zone. A commander cast from the command zone costs an additional {2} for each previous time the player casting it has cast it from the command zone that game.
 
 903.11.
-If a commander would be put into its owner's graveyard from anywhere, that player may put it into the command zone instead.
+If a commander would be exiled from anywhere or put into its owner's hand, graveyard, or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event. This is an exception to rule 614.5.
 
 903.12.
-If a commander would be put into the exile zone from anywhere, its owner may put it into the command zone instead.
-
-903.13.
 If a card is put into the exile zone face down from anywhere, and a player is allowed to look at that card in exile, the player must immediately do so. If it's a commander owned by another player, the player that looked at it turns it face up and puts it into the command zone.
 
-903.14.
+903.13.
 The Commander variant includes the following specification for winning and losing the game. All other rules for ending the game also apply. (See rule 104.)
 
-903.14a
+903.13a
 A player that's been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state-based action. See rule 704.)
 
 904. Archenemy
@@ -6967,10 +6995,10 @@ Changeling
 A characteristic-defining ability that grants the object it's on every creature type. See rule 702.72, "Changeling."
 
 Chaos Ability
-An ability of a plane card that triggers "Whenever you roll {C}" on the planar die in the Planechase casual variant. See rule 309.7.
+An ability of a plane card that triggers "Whenever you roll {CHAOS}" on the planar die in the Planechase casual variant. See rule 309.7.
 
 Chaos Symbol
-The chaos symbol {C} appears on the planar die and in some triggered abilities of plane cards in the Planechase casual variant. See rule 107.12.
+The chaos symbol {CHAOS} appears on the planar die and in some triggered abilities of plane cards in the Planechase casual variant. See rule 107.12.
 
 Characteristics
 Information that defines an object. See rule 109.3.
@@ -7556,7 +7584,7 @@ Loop
 A set of actions that could be repeated indefinitely. See rule 716, "Taking Shortcuts."
 
 Lose the Game
-There are several ways to lose the game. See rule 104, "Ending the Game," rule 810.8 (for additional rules for Two-Headed Giant games), rule 809.5 (for additional rules for Emperor games), and rule 903.14 (for an additional rule for Commander games).
+There are several ways to lose the game. See rule 104, "Ending the Game," rule 810.8 (for additional rules for Two-Headed Giant games), rule 809.5 (for additional rules for Emperor games), and rule 903.13 (for an additional rule for Commander games).
 
 Loyalty
 1. Part of a card that only planeswalkers have. A planeswalker card's loyalty is printed in its lower right corner. See rule 209, "Loyalty."
@@ -7607,6 +7635,9 @@ The number of cards in hand a player must discard down to during his or her clea
 Megamorph
 A variant of the morph ability that puts a +1/+1 counter on the creature as it turns face up. See rule 702.36, "Morph."
 
+Menace
+An evasion ability that makes creatures unblockable by a single creature. See rule 702.110, "Menace."
+
 Miracle
 A keyword ability that lets you cast a spell for a reduced cost if it's the first card you draw in a turn. See rule 702.93, "Miracle."
 
@@ -7629,10 +7660,7 @@ Monstrosity
 A keyword action that puts +1/+1 counters on a creature and makes it become monstrous. See rule 701.28, "Monstrosity."
 
 Monstrous
-A term that describes a creature whose ability including a monstrosity instruction has resolved. See rule 701.28, "Monstrosity."
-
-Moon Symbol
-A symbol found in the upper left corner of the back face of a double-faced card. See rule 711, "Double-Faced Cards."
+A designation given to a creature whose ability including a monstrosity instruction has resolved. See rule 701.28, "Monstrosity."
 
 Morph
 A keyword ability that lets a card be cast face down as a 2/2 creature. See rule 702.36, "Morph," and rule 707, "Face-Down Spells and Permanents."
@@ -7896,6 +7924,12 @@ Certain events can cause an attacking or blocking creature, or a planeswalker th
 Remove from the Game, Removed, Removed-from-the-Game Zone (Obsolete)
 "Remove [something] from the game" is an obsolete term for "exile [something]." "The removed card" is an obsolete term for "the exiled card." The removed-from-the-game zone is an obsolete term for the exile zone. Cards with that text have received errata in the Oracle card reference. See Exile.
 
+Renown
+A keyword ability that makes a creature stronger after it deals combat damage to a player. See rule 702.111, "Renown."
+
+Renowned
+A designation given to a permanent as a result of the renown ability. See rule 702.111, "Renown."
+
 Replacement Effect
 A kind of continuous effect that watches for a particular event that would happen and completely or partially replaces that event with a different event. See rule 614, "Replacement Effects."
 
@@ -8070,9 +8104,6 @@ Older creature cards were printed with "Summon [creature type]" on their type li
 Summoning Sickness Rule
 Informal term for a player's inability to attack with a creature or to activate its abilities that include the tap symbol or the untap symbol unless the creature has been under that player's control since the beginning of that player's most recent turn. See rule 302.6. See also Haste.
 
-Sun Symbol
-A symbol found in the upper left corner of the front face of a double-faced card. See rule 711, "Double-Faced Cards."
-
 Sunburst
 A keyword ability that can have a permanent enter the battlefield with +1/+1 counters or charge counters on it. See rule 702.43, "Sunburst."
 
@@ -8137,7 +8168,7 @@ Total Casting Cost (Obsolete)
 An obsolete term for converted mana cost. Cards printed with this text have received errata in the Oracle card reference.
 
 Total Cost
-What a player actually has to pay, in practical terms, to cast a spell or activated ability: the mana cost, activation cost, or alternative cost, plus all cost increases (including additional costs) and minus all cost reductions. See rule 601.2e.
+What a player actually has to pay, in practical terms, to cast a spell or activated ability: the mana cost, activation cost, or alternative cost, plus all cost increases (including additional costs) and minus all cost reductions. See rule 601.2f.
 
 Totem Armor
 A keyword ability that allows an Aura to protect the permanent it's enchanting. See rule 702.88, "Totem Armor."
@@ -8320,9 +8351,8 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are effective as of March 27, 2015.
+These rules are effective as of July 17, 2015.
 
 Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica: City of Guilds, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, Return to Ravnica, and Magic: The Gathering--Conspiracy are trademarks of Wizards of the Coast LLC in the USA and other countries. (C)2015 Wizards. U.S. Pat. No. RE 37,957.
-
 
 
