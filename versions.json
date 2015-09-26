@@ -283,5 +283,10 @@
     "setCode": "ORI",
     "setName": "Magic Origins",
     "creationDay": "2015-07-17"
+  },
+  {
+    "setCode": "BFZ",
+    "setName": "Battle for Zendikar",
+    "creationDay": "2015-09-26"
   }
 ]
