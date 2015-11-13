@@ -1,6 +1,6 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are effective as of September 26, 2015.
+These rules are effective as of November 13, 2015.
 
 Introduction
 
@@ -314,7 +314,7 @@ In a multiplayer game, the first time a player takes a mulligan, he or she draws
 In a multiplayer game using the shared team turns option, first each player on the starting team declares whether or not he or she will take a mulligan, then the players on each other team in turn order do the same. Teammates may consult while making their decisions. Then all mulligans are taken at the same time. A player may take a mulligan even after his or her teammate has decided to keep his or her opening hand.
 
 103.4e
-The Commander casual variant uses an alternate mulligan rule. Each time a player takes a mulligan, rather than shuffling his or her entire hand of cards into his or her library, that player exiles any number of cards from his or her hand face down. Then the player draws a number of cards equal to one less than the number of cards he or she exiled this way. Once a player keeps an opening hand, that player shuffles all cards he or she exiled this way into his or her library. After all players have kept an opening hand, each player in turn order whose hand contains fewer cards than that player's starting hand size may look at the top card of his or her library. If a player does, that player may put that card on the bottom of his or her library.
+The Commander casual variant uses an alternate mulligan rule. Each time a player takes a mulligan, rather than shuffling his or her entire hand of cards into his or her library, that player exiles any number of cards from his or her hand face down. Then the player draws a number of cards equal to one less than the number of cards he or she exiled this way. That player may look at all cards exiled this way while taking mulligans. Once a player keeps an opening hand, that player shuffles all cards he or she exiled this way into his or her library.
 
 103.5.
 Some cards allow a player to take actions with them from his or her opening hand. Once the mulligan process (see rule 103.4) is complete, the starting player may take any such actions in any order. Then each other player in turn order may do the same.
@@ -486,8 +486,11 @@ If an ability would produce one or more mana of an undefined type, it produces n
 Example: Meteor Crater has the ability "{T}: Choose a color of a permanent you control. Add one mana of that color to your mana pool." If you control no colored permanents, activating Meteor Crater's mana ability produces no mana.
 
 106.6.
-Some spells or abilities that produce mana restrict how that mana can be spent, or have an additional effect that affects the spell or ability that mana is spent on. This doesn't affect the mana's type.
+Some spells or abilities that produce mana restrict how that mana can be spent, have an additional effect that affects the spell or ability that mana is spent on, or create a delayed triggered ability (see rule 603.7a) that triggers when that mana is spent. This doesn't affect the mana's type.
 Example: A player's mana pool contains {1}{U} which can be spent only to pay cumulative upkeep costs. That player activates Doubling Cube's ability, which reads "{3}, {T}: Double the amount of each type of mana in your mana pool." The player's mana pool now has {2}{U}{U} in it, {1}{U} of which can be spent on anything.
+
+106.6a
+Some replacement effects increase the amount of mana produced by a spell or ability. In these cases, any restrictions or additional effects created by the spell or ability will apply to all mana produced. If the spell or ability creates a delayed triggered ability that triggers when the mana is spent, a separate delayed triggered ability is created for each mana produced.
 
 106.7.
 Some abilities produce mana based on the type of mana another permanent or permanents "could produce." The type of mana a permanent could produce at any time includes any type of mana that an ability of that permanent would produce if the ability were to resolve at that time, taking into account any applicable replacement effects in any possible order. Ignore whether any costs of the ability could or could not be paid. If that permanent wouldn't produce any mana under these conditions, or no type of mana can be defined this way, there's no type of mana it could produce.
@@ -3510,7 +3513,7 @@ Anything that happens in a game is an event. Multiple events may take place duri
 Example: If an attacking creature is blocked by two creatures, this is one event for a triggered ability that reads "Whenever [this creature] becomes blocked" but two events for a triggered ability that reads "Whenever [this creature] becomes blocked by a creature."
 
 700.2.
-A spell or ability is modal if it has two or more options in a bulleted list preceded by "Choose one --," "Choose two --," "Choose one or both --," "Choose one or more --," "[A specified player] chooses one --," or similar. Each of those options is a mode.
+A spell or ability is modal if it has two or more options in a bulleted list preceded by instructions for a player to choose a number of those options, such as "Choose one --." Each of those options is a mode. Modal cards printed prior to the Khans of Tarkir set didn't use bulleted lists for the modes; these cards have received errata in the Oracle card reference so the modes do appear in a bulleted list.
 
 700.2a
 The controller of a modal spell or activated ability chooses the mode(s) as part of casting that spell or activating that ability. If one of the modes would be illegal (due to an inability to choose legal targets, for example), that mode can't be chosen. (See rule 601.2b.)
@@ -3522,12 +3525,15 @@ The controller of a modal triggered ability chooses the mode(s) as part of putti
 If a spell or ability targets one or more targets only if a particular mode is chosen for it, its controller will need to choose those targets only if he or she chose that mode. Otherwise, the spell or ability is treated as though it did not have those targets. (See rule 601.2c.)
 
 700.2d
-Some spells and abilities specify that a player other than their controller chooses a mode for it. In that case, the other player does so when the spell or ability's controller normally would do so. If there is more than one other player who could make such a choice, the spell or ability's controller decides which of those players will make the choice.
+If an effect allows a particular mode to be chosen more than once and that mode requires a target, the same player or object may be chosen as the target for each of those modes, or different targets may be chosen.
 
 700.2e
-Modal spells and abilities may have different targeting requirements for each mode. Changing a spell or ability's target can't change its mode.
+Some spells and abilities specify that a player other than their controller chooses a mode for it. In that case, the other player does so when the spell or ability's controller normally would do so. If there is more than one other player who could make such a choice, the spell or ability's controller decides which of those players will make the choice.
 
 700.2f
+Modal spells and abilities may have different targeting requirements for each mode. Changing a spell or ability's target can't change its mode.
+
+700.2g
 A copy of a modal spell or ability copies the mode(s) chosen for it. The controller of the copy can't choose a different mode. (See rule 706.10.)
 
 700.3.
@@ -5271,6 +5277,15 @@ Ingest is a triggered ability. "Ingest" means "Whenever this creature deals comb
 702.114b
 If a creature has multiple instances of ingest, each triggers separately.
 
+702.115.
+Myriad
+
+702.115a
+Myriad is a triggered ability that may also create a delayed triggered ability. "Myriad" means "Whenever this creature attacks, for each opponent other than defending player, you may put a token that's a copy of this creature onto the battlefield tapped and attacking that player or a planeswalker he or she controls. If you put one or more tokens onto the battlefield this way, exile the tokens at end of combat."
+
+702.115b
+If a creature has multiple instances of myriad, each triggers separately.
+
 703. Turn-Based Actions
 
 703.1.
@@ -6694,7 +6709,7 @@ At the start of the game, each player puts his or her commander from his or her 
 Once the starting player has been determined, each player sets his or her life total to 40 and draws a hand of seven cards.
 
 903.8.
-The Commander variant uses an alternate mulligan rule. Each time a player takes a mulligan, rather than shuffling his or her entire hand of cards into his or her library, that player exiles any number of cards from his or her hand face down. Then the player draws a number of cards equal to one less than the number of cards he or she exiled this way. That player may look at all cards exiled this way while taking mulligans. Once a player keeps an opening hand, that player shuffles all cards he or she exiled this way into his or her library. After all players have kept an opening hand, each player in turn order whose hand contains fewer cards than that player's starting hand size may look at the top card of his or her library. If a player does, that player may put that card on the bottom of his or her library.
+The Commander variant uses an alternate mulligan rule. Each time a player takes a mulligan, rather than shuffling his or her entire hand of cards into his or her library, that player exiles any number of cards from his or her hand face down. Then the player draws a number of cards equal to one less than the number of cards he or she exiled this way. That player may look at all cards exiled this way while taking mulligans. Once a player keeps an opening hand, that player shuffles all cards he or she exiled this way into his or her library.
 
 903.9.
 If mana would be added to a player's mana pool of a color that isn't in the color identity of that player's commander, that amount of colorless mana is added to that player's mana pool instead.
@@ -7678,7 +7693,7 @@ Miracle
 A keyword ability that lets you cast a spell for a reduced cost if it's the first card you draw in a turn. See rule 702.93, "Miracle."
 
 Modal, Mode
-A spell or ability is "modal" if it has two or more options in a bulleted list preceded by "Choose one --," "Choose two --," "Choose one or both --," "Choose one or more --," "[A specified player] chooses one --," or similar. Each option is a "mode." See rule 700.2.
+A spell or ability is "modal" if it has two or more options in a bulleted list preceded by instructions for a player to choose a number of those options, such as "Choose one --." See rule 700.2.
 
 Modular
 A keyword ability that has a permanent enter the battlefield with +1/+1 counters on it and can move those counters to other artifact creatures. See rule 702.42, "Modular."
@@ -7725,6 +7740,9 @@ Multikicker is a variant of the kicker keyword ability. It represents an optiona
 
 Multiplayer Game
 A game that begins with more than two players. See section 8, "Multiplayer Rules."
+
+Myriad
+Myriad is a triggered ability that effectively lets a creature attack in all possible directions. See rule 702.115, "Myriad."
 
 Name
 A characteristic, and part of a card. A card's name is printed in its upper left corner. See rule 201, "Name."
@@ -8387,8 +8405,8 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are effective as of September 26, 2015.
+These rules are effective as of November 13, 2015.
 
-Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica: City of Guilds, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, Return to Ravnica, and Magic: The Gathering--Conspiracy are trademarks of Wizards of the Coast LLC in the USA and other countries. (C)2015 Wizards. U.S. Pat. No. RE 37,957.
+Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica: City of Guilds, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, Return to Ravnica, Khans of Tarkir, and Magic: The Gathering--Conspiracy are trademarks of Wizards of the Coast LLC in the USA and other countries. (C)2015 Wizards. U.S. Pat. No. RE 37,957.
 
 
