@@ -293,5 +293,10 @@
     "setCode": "C15",
     "setName": "Commander 2015",
     "creationDay": "2015-11-13"
+  },
+  {
+    "setCode": "OGW",
+    "setName": "Oath of the Gatewatch",
+    "creationDay": "2016-01-16"
   }
 ]

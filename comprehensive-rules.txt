@@ -1,6 +1,6 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are effective as of November 13, 2015.
+These rules are effective as of January 16, 2016.
 
 Introduction
 
@@ -313,9 +313,6 @@ In a multiplayer game, the first time a player takes a mulligan, he or she draws
 103.4d
 In a multiplayer game using the shared team turns option, first each player on the starting team declares whether or not he or she will take a mulligan, then the players on each other team in turn order do the same. Teammates may consult while making their decisions. Then all mulligans are taken at the same time. A player may take a mulligan even after his or her teammate has decided to keep his or her opening hand.
 
-103.4e
-The Commander casual variant uses an alternate mulligan rule. Each time a player takes a mulligan, rather than shuffling his or her entire hand of cards into his or her library, that player exiles any number of cards from his or her hand face down. Then the player draws a number of cards equal to one less than the number of cards he or she exiled this way. That player may look at all cards exiled this way while taking mulligans. Once a player keeps an opening hand, that player shuffles all cards he or she exiled this way into his or her library.
-
 103.5.
 Some cards allow a player to take actions with them from his or her opening hand. Once the mulligan process (see rule 103.4) is complete, the starting player may take any such actions in any order. Then each other player in turn order may do the same.
 
@@ -394,7 +391,7 @@ In a multiplayer game, an effect that states that a player wins the game instead
 In an Emperor game, a team loses the game if its emperor loses the game. (See rule 809.5.)
 
 104.3j
-In a Commander game, a player that's been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state-based action. See rule 704. Also see rule 903.13.)
+In a Commander game, a player that's been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state-based action. See rule 704. See also rule 903.11.)
 
 104.3k
 In a tournament, a player may lose the game as a result of a penalty given by a judge. See rule 100.6.
@@ -503,12 +500,15 @@ If an effect would add mana represented by a hybrid mana symbol to a player's ma
 If an effect would add mana represented by a Phyrexian mana symbol to a player's mana pool, one mana of the color of that symbol is added to that player's mana pool.
 
 106.10.
-To "tap a permanent for mana" is to activate a mana ability of that permanent that includes the {T} symbol in its activation cost. See rule 605, "Mana Abilities."
-
-106.10a
-An ability that triggers whenever a permanent "is tapped for mana" or "is tapped for mana [of a specified type]" triggers whenever such a mana ability resolves and produces mana or the specified type of mana.
+If an effect would add mana represented by a generic mana symbol to a player's mana pool, that much colorless mana is added to that player's mana pool.
 
 106.11.
+To "tap a permanent for mana" is to activate a mana ability of that permanent that includes the {T} symbol in its activation cost. See rule 605, "Mana Abilities."
+
+106.11a
+An ability that triggers whenever a permanent "is tapped for mana" or "is tapped for mana [of a specified type]" triggers whenever such a mana ability resolves and produces mana or the specified type of mana.
+
+106.12.
 One card (Drain Power) puts all mana from one player's mana pool into another player's mana pool. (Note that these may be the same player.) This empties the former player's mana pool and causes the mana emptied this way to be put into the latter player's mana pool. Which permanents, spells, and/or abilities produced that mana are unchanged, as are any restrictions or additional effects associated with any of that mana.
 
 107. Numbers and Symbols
@@ -561,16 +561,16 @@ All instances of X on an object have the same value at any given time.
 Some objects use the letter Y in addition to the letter X. Y follows the same rules as X.
 
 107.4.
-The mana symbols are {W}, {U}, {B}, {R}, {G}, and {X}; the numerals {0}, {1}, {2}, {3}, {4}, and so on; the hybrid symbols {W/U}, {W/B}, {U/B}, {U/R}, {B/R}, {B/G}, {R/G}, {R/W}, {G/W}, and {G/U}; the monocolored hybrid symbols {2/W}, {2/U}, {2/B}, {2/R}, and {2/G}; the Phyrexian mana symbols {W/P}, {U/P}, {B/P}, {R/P}, and {G/P}; and the snow symbol {S}.
+The mana symbols are {W}, {U}, {B}, {R}, {G}, and {C}; the numerical symbols {0}, {1}, {2}, {3}, {4}, and so on; the variable symbol {X}; the hybrid symbols {W/U}, {W/B}, {U/B}, {U/R}, {B/R}, {B/G}, {R/G}, {R/W}, {G/W}, and {G/U}; the monocolored hybrid symbols {2/W}, {2/U}, {2/B}, {2/R}, and {2/G}; the Phyrexian mana symbols {W/P}, {U/P}, {B/P}, {R/P}, and {G/P}; and the snow symbol {S}.
 
 107.4a
 There are five primary colored mana symbols: {W} is white, {U} blue, {B} black, {R} red, and {G} green. These symbols are used to represent colored mana, and also to represent colored mana in costs. Colored mana in costs can be paid only with the appropriate color of mana. See rule 202, "Mana Cost and Color."
 
 107.4b
-Numeral symbols (such as {1}) and variable symbols (such as {X}) represent generic mana in costs. Generic mana in costs can be paid with any type of mana. For more information about {X}, see rule 107.3.
+Numerical symbols (such as {1}) and variable symbols (such as {X}) represent generic mana in costs. Generic mana in costs can be paid with any type of mana. For more information about {X}, see rule 107.3.
 
 107.4c
-Numeral symbols (such as {1}) and variable symbols (such as {X}) can also represent colorless mana if they appear in the effect of a spell or ability that reads "add [mana symbol] to your mana pool" or something similar. (See rule 107.3e.)
+The colorless mana symbol {C} is used to represent one colorless mana, and also to represent a cost that can be paid only with one colorless mana.
 
 107.4d
 The symbol {0} represents zero mana and is used as a placeholder for a cost that can be paid with no resources. (See rule 117.5.)
@@ -631,7 +631,7 @@ Use the Oracle(TM) card reference when determining a card's wording. A card's Or
 When a rule or text on a card refers to a "card," it means only a Magic card. Most Magic games use only traditional Magic cards, which measure approximately 2.5 inches (6.3 cm) by 3.5 inches (8.8 cm). Certain formats also use nontraditional Magic cards, oversized cards that may have different backs. Tokens aren't considered cards--even a card that represents a token isn't considered a card for rules purposes.
 
 108.2a
-In the text of spells or abilities, the term "card" is used only to refer to a card that's not on the battlefield or on the stack, such as a creature card in a player's hand. For more information, see section 4, "Zones."
+In the text of spells or abilities, the term "card" is usually used to refer to a card that's not on the battlefield or on the stack, such as a creature card in a player's hand. The term "card" can also refer to a card in any zone that's moving "from anywhere." On rare occasions, the text of a spell or ability may refer to a nontoken permanent as a "card . . . on the battlefield." For more information, see section 4, "Zones."
 
 108.3.
 The owner of a card in the game is the player who started the game with it in his or her deck. If a card is brought into the game from outside the game rather than starting in a player's deck, its owner is the player who brought it into the game. If a card starts the game in the command zone, its owner is the player who put it into the command zone to start the game. Legal ownership of a card in the game is irrelevant to the game rules except for the rules for ante. (See rule 407.)
@@ -1127,15 +1127,21 @@ If an unpayable cost is increased by an effect or an additional cost is imposed,
 What a player actually needs to do to pay a cost may be changed or reduced by effects. If the mana component of a cost is reduced to nothing by cost reduction effects, it's considered to be {0}. Paying a cost changed or reduced by an effect counts as paying the original cost.
 
 117.7a
-If a cost is reduced by an amount of colored mana, but its colored mana component doesn't contain mana of that color, the cost is reduced by that amount of generic mana.
+Effects that reduce a cost by an amount of generic mana affect only the generic mana component of that cost. They can't affect the colored or colorless mana components of that cost.
 
 117.7b
-If a cost is reduced by an amount of colored mana that exceeds its mana component of that color, the cost's mana component of that color is reduced to nothing and the cost's generic mana component is reduced by the difference.
+If a cost is reduced by an amount of colored or colorless mana, but the cost doesn't require mana of that type, the cost is reduced by that amount of generic mana.
 
 117.7c
-If a cost is reduced by an amount of mana represented by a hybrid mana symbol, the player paying that cost chooses one half of that symbol at the time the cost reduction is applied (see rule 601.2f). If a colored half is chosen, the cost is reduced by one mana of that color. If a colorless half is chosen, the cost is reduced by an amount of generic mana equal to that half's number.
+If a cost is reduced by an amount of colored mana that exceeds its mana component of that color, the cost's mana component of that color is reduced to nothing and the cost's generic mana component is reduced by the difference.
 
 117.7d
+If a cost is reduced by an amount of colorless mana that exceeds its colorless mana component, the cost's colorless mana component is reduced to nothing and the cost's generic mana component is reduced by the difference.
+
+117.7e
+If a cost is reduced by an amount of mana represented by a hybrid mana symbol, the player paying that cost chooses one half of that symbol at the time the cost reduction is applied (see rule 601.2f). If a colored half is chosen, the cost is reduced by one mana of that color. If a colorless half is chosen, the cost is reduced by an amount of generic mana equal to that half's number.
+
+117.7f
 If a cost is reduced by an amount of mana represented by a Phyrexian mana symbol, the cost is reduced by one mana of that symbol's color.
 
 117.8.
@@ -1416,7 +1422,7 @@ Example: An ability reads "Target creature gets +2/+2 until end of turn. Destroy
 A card's mana cost is indicated by mana symbols near the top of the card. (See rule 107.4.) On most cards, these symbols are printed in the upper right corner. Some cards from the Future Sight set have alternate frames in which the mana symbols appear to the left of the illustration.
 
 202.1a
-The mana cost of an object represents what a player must spend from his or her mana pool to cast that card. Unless an object's mana cost includes Phyrexian mana symbols (see rule 107.4f), paying that mana cost requires matching the color of any colored mana symbols as well as paying the generic mana indicated in the cost.
+The mana cost of an object represents what a player must spend from his or her mana pool to cast that card. Unless an object's mana cost includes Phyrexian mana symbols (see rule 107.4f), paying that mana cost requires matching the type of any colored or colorless mana symbols as well as paying the generic mana indicated in the cost.
 
 202.1b
 Some objects have no mana cost. This normally includes all land cards, any other cards that have no mana symbols where their mana cost would appear, tokens (unless the effect that creates them specifies otherwise), and nontraditional Magic cards. Having no mana cost represents an unpayable cost (see rule 117.6). Note that lands are played without paying any costs (see rule 305, "Lands").
@@ -1611,7 +1617,7 @@ Reminder text is italicized text within parentheses that summarizes a rule that 
 Flavor text is italicized text that, like the illustration, adds artistic appeal to the game. It appears below the rules text.
 
 207.2c
-An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, constellation, converge, domain, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, rally, spell mastery, strive, sweep, tempting offer, threshold, and will of the council.
+An ability word appears in italics at the beginning of some abilities. Ability words are similar to keywords in that they tie together cards that have similar functionality, but they have no special rules meaning and no individual entries in the Comprehensive Rules. The ability words are battalion, bloodrush, channel, chroma, cohort, constellation, converge, domain, fateful hour, ferocious, formidable, grandeur, hellbent, heroic, imprint, inspired, join forces, kinship, landfall, lieutenant, metalcraft, morbid, parley, radiance, raid, rally, spell mastery, strive, sweep, tempting offer, threshold, and will of the council.
 
 207.3.
 Some cards have decorative icons in the background of their text boxes. For example, a guild icon appears in the text box of many Ravnica: City of Guilds(R) and Return to Ravnica(TM) block cards, and a faction icon appears in the text box of most Scars of Mirrodin(TM) block cards. Similarly, many promotional cards include decorative icons. These icons have no effect on game play.
@@ -1845,7 +1851,7 @@ Land subtypes are always a single word and are listed after a long dash. Land su
 Example: "Basic Land -- Mountain" means the card is a land with the subtype Mountain.
 
 305.6.
-The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the words "basic land type," it's referring to one of these subtypes. A land with a basic land type has the intrinsic ability "{T}: Add [mana symbol] to your mana pool," even if the text box doesn't actually contain that text or the object has no text box. For Plains, [mana symbol] is {W}; for Islands, {U}; for Swamps, {B}; for Mountains, {R}; and for Forests, {G}. See rule 107.4a. Also see rule 605, "Mana Abilities."
+The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the words "basic land type," it's referring to one of these subtypes. A land with a basic land type has the intrinsic ability "{T}: Add [mana symbol] to your mana pool," even if the text box doesn't actually contain that text or the object has no text box. For Plains, [mana symbol] is {W}; for Islands, {U}; for Swamps, {B}; for Mountains, {R}; and for Forests, {G}. See rule 107.4a. See also rule 605, "Mana Abilities."
 
 305.7.
 If an effect sets a land's subtype to one or more of the basic land types, the land no longer has its old land type. It loses all abilities generated from its rules text, its old land types, and any copy effects affecting that land, and it gains the appropriate mana ability for each new basic land type. Note that this doesn't remove any abilities that were granted to the land by other effects. Setting a land's subtype doesn't add or remove any card types (such as creature) or supertypes (such as basic, legendary, and snow) the land may have. If a land gains one or more land types in addition to its own, it keeps its land types and rules text, and it gains the new land types and mana abilities.
@@ -2942,7 +2948,7 @@ Some activated abilities and some triggered abilities are mana abilities, which 
 An activated ability is a mana ability if it meets all of the following criteria: it doesn't have a target, it could put mana into a player's mana pool when it resolves, and it's not a loyalty ability. (See rule 606, "Loyalty Abilities.")
 
 605.1b
-A triggered ability is a mana ability if it meets all of the following criteria: it doesn't have a target, it triggers from the resolution of an activated mana ability (see rule 106.10a), and it could put mana into a player's mana pool when it resolves.
+A triggered ability is a mana ability if it meets all of the following criteria: it doesn't have a target, it triggers from the resolution of an activated mana ability (see rule 106.11a), and it could put mana into a player's mana pool when it resolves.
 
 605.2.
 A mana ability remains a mana ability even if the game state doesn't allow it to produce mana.
@@ -3945,6 +3951,12 @@ If a manifested permanent that's represented by an instant or sorcery card would
 701.31f
 See rule 707, "Face-Down Spells and Permanents," for more information.
 
+701.32.
+Support
+
+701.32a
+"Support N" on a permanent means "Put a +1/+1 counter on each of up to N other target creatures." "Support N" on an instant or sorcery spell means "Put a +1/+1 counter on each of up to N target creatures."
+
 702. Keyword Abilities
 
 702.1.
@@ -4327,7 +4339,7 @@ Phasing
 Phasing is a static ability that modifies the rules of the untap step. During each player's untap step, before the active player untaps his or her permanents, all phased-in permanents with phasing that player controls "phase out." Simultaneously, all phased-out permanents that had phased out under that player's control "phase in."
 
 702.25b
-If a permanent phases out, its status changes to "phased out." Except for rules and effects that specifically mention phased-out permanents, a phased-out permanent is treated as though it does not exist. It can't affect or be affected by anything else in the game.
+If a permanent phases out, its status changes to "phased out." Except for rules and effects that specifically mention phased-out permanents, a phased-out permanent is treated as though it does not exist. It can't affect or be affected by anything else in the game. A permanent that phases out is removed from combat. (See rule 506.4.)
 Example: You control three creatures, one of which is phased out. You cast a spell that says "Draw a card for each creature you control." You draw two cards.
 Example: You control a phased-out creature. You cast a spell that says "Destroy all creatures." The phased-out creature is not destroyed.
 
@@ -4530,7 +4542,7 @@ If a spell has multiple instances of storm, each triggers separately.
 Affinity
 
 702.40a
-Affinity is a static ability that functions while the spell is on the stack. "Affinity for [text]" means "This spell costs you {1} less to cast for each [text] you control."
+Affinity is a static ability that functions while the spell with affinity is on the stack. "Affinity for [text]" means "This spell costs you {1} less to cast for each [text] you control."
 
 702.40b
 The affinity ability reduces only the amount of generic mana a spell's controller has to pay; it doesn't reduce how much colored mana that player has to pay.
@@ -5286,6 +5298,12 @@ Myriad is a triggered ability that may also create a delayed triggered ability. 
 702.115b
 If a creature has multiple instances of myriad, each triggers separately.
 
+702.116.
+Surge
+
+702.116a
+Surge is a static ability that functions while the spell with surge is on the stack. "Surge [cost]" means "You may pay [cost] rather than pay this spell's mana cost as you cast this spell if you or one of your teammates has cast another spell this turn." Paying a spell's surge cost follows the rules for paying alternative costs in rules 601.2b and 601.2f-h.
+
 703. Turn-Based Actions
 
 703.1.
@@ -5999,7 +6017,7 @@ When a player leaves the game, objects that player owns in the ante zone do not 
 In a Planechase game, if the player designated as the planar controller would leave the game, instead the next player in turn order that wouldn't leave the game becomes the planar controller, then the old planar controller leaves the game. See rule 309.5.
 
 800.5.
-In a multiplayer game, the first time a player takes a mulligan, he or she draws a new hand of seven cards rather than six cards. Subsequent hands decrease by one card as normal.
+In a multiplayer game, the first time a player takes a mulligan, he or she draws a new hand of as many cards as he or she had before. Subsequent hands decrease by one card as normal.
 
 800.6.
 In a multiplayer game other than a Two-Headed Giant game, the starting player doesn't skip the draw step of his or her first turn. In a Two-Headed Giant game, the team who plays first skips the draw step of their first turn. See rule 103.7.
@@ -6709,24 +6727,18 @@ At the start of the game, each player puts his or her commander from his or her 
 Once the starting player has been determined, each player sets his or her life total to 40 and draws a hand of seven cards.
 
 903.8.
-The Commander variant uses an alternate mulligan rule. Each time a player takes a mulligan, rather than shuffling his or her entire hand of cards into his or her library, that player exiles any number of cards from his or her hand face down. Then the player draws a number of cards equal to one less than the number of cards he or she exiled this way. That player may look at all cards exiled this way while taking mulligans. Once a player keeps an opening hand, that player shuffles all cards he or she exiled this way into his or her library.
-
-903.9.
-If mana would be added to a player's mana pool of a color that isn't in the color identity of that player's commander, that amount of colorless mana is added to that player's mana pool instead.
-
-903.10.
 A player may cast a commander he or she owns from the command zone. A commander cast from the command zone costs an additional {2} for each previous time the player casting it has cast it from the command zone that game.
 
-903.11.
+903.9.
 If a commander would be exiled from anywhere or put into its owner's hand, graveyard, or library from anywhere, its owner may put it into the command zone instead. This replacement effect may apply more than once to the same event. This is an exception to rule 614.5.
 
-903.12.
+903.10.
 If a card is put into the exile zone face down from anywhere, and a player is allowed to look at that card in exile, the player must immediately do so. If it's a commander owned by another player, the player that looked at it turns it face up and puts it into the command zone.
 
-903.13.
+903.11.
 The Commander variant includes the following specification for winning and losing the game. All other rules for ending the game also apply. (See rule 104.)
 
-903.13a
+903.11a
 A player that's been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state-based action. See rule 704.)
 
 904. Archenemy
@@ -7434,7 +7446,7 @@ General
 Any player in the Emperor multiplayer variant who isn't an emperor. See rule 809, "Emperor Variant."
 
 Generic Mana
-Mana in a cost not represented by colored mana symbols; it can be paid with mana of any type. See rule 107.4.
+Mana in a cost represented by numerical symbols (such as {1}) or variable symbols (such as {X}) that can be paid with mana of any type. See rule 107.4.
 
 Global Enchantment (Obsolete)
 An obsolete term for a non-Aura enchantment. Cards printed with this text have received errata in the Oracle card reference.
@@ -7635,7 +7647,7 @@ Loop
 A set of actions that could be repeated indefinitely. See rule 716, "Taking Shortcuts."
 
 Lose the Game
-There are several ways to lose the game. See rule 104, "Ending the Game," rule 810.8 (for additional rules for Two-Headed Giant games), rule 809.5 (for additional rules for Emperor games), and rule 903.13 (for an additional rule for Commander games).
+There are several ways to lose the game. See rule 104, "Ending the Game," rule 810.8 (for additional rules for Two-Headed Giant games), rule 809.5 (for additional rules for Emperor games), and rule 903.11 (for an additional rule for Commander games).
 
 Loyalty
 1. Part of a card that only planeswalkers have. A planeswalker card's loyalty is printed in its lower right corner. See rule 209, "Loyalty."
@@ -8167,8 +8179,14 @@ A characteristic that appears before the card type on a card's type line. Most c
 Supervillain Rumble
 A Free-for-All game in which each player is an archenemy. See rule 806, "Free-for-All," and rule 904, "Archenemy."
 
+Support
+A keyword action that lets you put +1/+1 counters on creatures. See rule 701.32, "Support."
+
+Surge
+A keyword ability that provides an alternative cost to cast a card if you or one of your teammates has cast another spell in the same turn. See rule 702.116, "Surge."
+
 Suspend
-A keyword ability that provides an alternate way to play a card. See rule 702.61, "Suspend." A card is "suspended" if it's in the exile zone, has suspend, and has a time counter on it.
+A keyword ability that provides an alternative way to play a card. See rule 702.61, "Suspend." A card is "suspended" if it's in the exile zone, has suspend, and has a time counter on it.
 
 Swamp
 One of the five basic land types. Any land with this subtype has the ability "{T}: Add {B} to your mana pool." See rule 305.6.
@@ -8388,7 +8406,7 @@ Credits
 Magic: The Gathering Original Game Design: Richard Garfield
 Comprehensive Rules Design and Development: Paul Barclay, Mark L. Gottlieb, Beth Moursund, Bill Rose, and Matt Tabak, with contributions from Charlie (Cat), John Carter, Elaine Chase, Laurie Cheers, Stephen D'Angelo, Dave DeLaney, Brady Dommermuth, Mike Donais, Skaff Elias, Mike Elliott, Richard Garfield, Dan Gray, Robert Gutschera, Collin Jackson, William Jockusch, Jeff Jordan, Yonemura Kaoru, Russell Linnemann, Jim Lin, Steve Lord, Sheldon Menery, Michael Phoenix, Mark Rosewater, David Sachs, Lee Sharpe, Eli Shiffrin, Henry Stern, Ingo Warnke, Tom Wylie, Donald X. Vaccarino, Thijs van Ommen, and Bryan Zembruski
 Editing: Del Laugel (lead), Tim Aten, and Glenn Jones
-Magic Rules Manager: Matt Tabak
+Magic Rules Management: Matt Tabak and Eli Shiffrin
 
 The Magic: The Gathering game was designed by Richard Garfield, with contributions from Charlie (Cat), Skaff Elias, Don Felice, Tom Fontaine, Jim Lin, Joel Mick, Chris Page, Dave Pettey, Barry "Bit" Reich, Bill Rose, and Elliott Segal. The mana symbols were designed by Christopher Rush.
 
@@ -8405,8 +8423,8 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are effective as of November 13, 2015.
+These rules are effective as of January 16, 2016.
 
-Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica: City of Guilds, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, Return to Ravnica, Khans of Tarkir, and Magic: The Gathering--Conspiracy are trademarks of Wizards of the Coast LLC in the USA and other countries. (C)2015 Wizards. U.S. Pat. No. RE 37,957.
+Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica: City of Guilds, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, Return to Ravnica, Khans of Tarkir, and Magic: The Gathering--Conspiracy are trademarks of Wizards of the Coast LLC in the USA and other countries. (C)2016 Wizards. U.S. Pat. No. RE 37,957.
 
 
