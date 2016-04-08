@@ -298,5 +298,10 @@
     "setCode": "OGW",
     "setName": "Oath of the Gatewatch",
     "creationDay": "2016-01-16"
+  },
+  {
+    "setCode": "SOI",
+    "setName": "Shadows over Innistrad",
+    "creationDay": "2016-04-08"
   }
 ]
