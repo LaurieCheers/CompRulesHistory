@@ -303,5 +303,10 @@
     "setCode": "SOI",
     "setName": "Shadows over Innistrad",
     "creationDay": "2016-04-08"
+  },
+  {
+    "setCode": "EMN",
+    "setName": "Eldritch Moon",
+    "creationDay": "2016-07-22"
   }
 ]
