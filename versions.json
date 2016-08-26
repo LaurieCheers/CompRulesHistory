@@ -308,5 +308,10 @@
     "setCode": "EMN",
     "setName": "Eldritch Moon",
     "creationDay": "2016-07-22"
+  },
+  {
+    "setCode": "CN2",
+    "setName": "Conspiracy: Take the Crown",
+    "creationDay": "2016-08-26"
   }
 ]
