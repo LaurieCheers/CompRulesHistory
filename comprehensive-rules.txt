@@ -1,6 +1,6 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are effective as of August 26, 2016.
+These rules are effective as of September 30, 2016.
 
 Introduction
 
@@ -625,6 +625,9 @@ The chaos symbol is {CHAOS}. It appears on one face of the planar die used in th
 107.13.
 A color indicator is a circular symbol that appears to the left of the type line on some cards. The color of the symbol defines the card's color or colors. See rule 202, "Mana Cost and Color."
 
+107.14.
+The energy symbol is {E}. It represents one energy counter. To pay {E}, a player removes one energy counter from himself or herself.
+
 108. Cards
 
 108.1.
@@ -735,7 +738,7 @@ A token is both owned and controlled by the player under whose control it entere
 
 110.5b
 The spell or ability that creates a token may define the values of any number of characteristics for the token. This becomes the token's "text." The characteristic values defined this way are functionally equivalent to the characteristic values that are printed on a card; for example, they define the token's copiable values. A token doesn't have any characteristics not defined by the spell or ability that created it.
-Example: Jade Mage has the ability "{2}{G}: Put a 1/1 green Saproling creature token onto the battlefield." The resulting token has no mana cost, supertype, rules text, or abilities.
+Example: Jade Mage has the ability "{2}{G}: Create a 1/1 green Saproling creature token." The resulting token has no mana cost, supertype, rules text, or abilities.
 
 110.5c
 A spell or ability that creates a token sets both its name and its subtype. If the spell or ability doesn't specify the name of the token, its name is the same as its subtype(s). A "Goblin Scout creature token," for example, is named "Goblin Scout" and has the creature subtypes Goblin and Scout. Once a token is on the battlefield, changing its name doesn't change its subtype, and vice versa.
@@ -1296,10 +1299,10 @@ Damage dealt to a creature or planeswalker doesn't destroy it. Likewise, the sou
 Example: A player casts Lightning Bolt, an instant that says "Lightning Bolt deals 3 damage to target creature or player," targeting a 2/2 creature. After Lightning Bolt deals 3 damage to that creature, the creature is destroyed as a state-based action. Neither Lightning Bolt nor the damage dealt by Lightning Bolt destroyed that creature.
 
 119.6.
-Damage marked on a creature remains until the cleanup step, even if that permanent stops being a creature. If the total damage marked on a creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a permanent is removed when it regenerates (see rule 701.12, "Regenerate") and during the cleanup step (see rule 514.2).
+Damage marked on a creature remains until the cleanup step, even if that permanent stops being a creature. If the total damage marked on a creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a permanent is removed when it regenerates (see rule 701.13, "Regenerate") and during the cleanup step (see rule 514.2).
 
 119.7.
-The source of damage is the object that dealt it. If an effect requires a player to choose a source of damage, he or she may choose a permanent; a spell on the stack (including a permanent spell); any object referred to by an object on the stack, by a prevention or replacement effect that's waiting to apply, or by a delayed triggered ability that's waiting to trigger (even if that object is no longer in the zone it used to be in); or, in certain casual variant games, a face-up card in the command zone. A source doesn't need to be capable of dealing damage to be a legal choice. See rule 609.7, "Sources of Damage."
+The source of damage is the object that dealt it. If an effect requires a player to choose a source of damage, he or she may choose a permanent; a spell on the stack (including a permanent spell); any object referred to by an object on the stack, by a prevention or replacement effect that's waiting to apply, or by a delayed triggered ability that's waiting to trigger (even if that object is no longer in the zone it used to be in); or a face-up object in the command zone. A source doesn't need to be capable of dealing damage to be a legal choice. See rule 609.7, "Sources of Damage."
 
 119.8.
 If a source would deal 0 damage, it does not deal damage at all. That means abilities that trigger on damage being dealt won't trigger. It also means that replacement effects that would increase the damage dealt by that source, or would have that source deal that damage to a different object or player, have no event to replace, so they have no effect.
@@ -1427,7 +1430,7 @@ Text that refers to the object it's on by name means just that particular object
 
 201.4a
 If an ability's effect grants another ability to an object, and that second ability refers to that first ability's source by name, the name refers only to the specific object that is that first ability's source, not to any other object with the same name. This is also true if the second ability is copied onto a new object.
-Example: Gutter Grime has an ability that reads "Whenever a nontoken creature you control dies, put a slime counter on Gutter Grime, then put a green Ooze creature token onto the battlefield with 'This creature's power and toughness are each equal to the number of slime counters on Gutter Grime.'" The ability granted to the token only looks at the Gutter Grime that created the token, not at any other Gutter Grime on the battlefield. A copy of that token would also have an ability that referred only to the Gutter Grime that created the original token.
+Example: Gutter Grime has an ability that reads "Whenever a nontoken creature you control dies, put a slime counter on Gutter Grime, then create a green Ooze creature token with 'This creature's power and toughness are each equal to the number of slime counters on Gutter Grime.'" The ability granted to the token only looks at the Gutter Grime that created the token, not at any other Gutter Grime on the battlefield. A copy of that token would also have an ability that referred only to the Gutter Grime that created the original token.
 
 201.4b
 If an ability of an object refers to that object by name, and an object with a different name gains that ability, each instance of the first name in the gained ability that refers to the first object by name should be treated as the second name.
@@ -1569,7 +1572,7 @@ Example: When choosing a creature type, "Merfolk" or "Wizard" is acceptable, but
 Many cards were printed with subtypes that are now obsolete. Many cards have retroactively received subtypes. Use the Oracle card reference to determine what a card's subtypes are. (See rule 108.1.)
 
 205.3g
-Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Clue, Contraption, Equipment (see rule 301.5), and Fortification (see rule 301.6).
+Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Clue, Contraption, Equipment (see rule 301.5), Fortification (see rule 301.6), and Vehicle (see rule 301.7).
 
 205.3h
 Enchantments have their own unique set of subtypes; these subtypes are called enchantment types. The enchantment types are Aura (see rule 303.4), Curse, and Shrine.
@@ -1579,14 +1582,14 @@ Lands have their own unique set of subtypes; these subtypes are called land type
      Of that list, Forest, Island, Mountain, Plains, and Swamp are the basic land types. See rule 305.6.
 
 205.3j
-Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Elspeth, Freyalise, Garruk, Gideon, Jace, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vraska, and Xenagos.
+Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Dovin, Elspeth, Freyalise, Garruk, Gideon, Jace, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Saheeli, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vraska, and Xenagos.
      If a player controls two or more planeswalkers that share a planeswalker type, that player chooses one of them, and the rest are put into their owners' graveyards. This "planeswalker uniqueness rule" is a state-based action. See rule 704.
 
 205.3k
 Instants and sorceries share their lists of subtypes; these subtypes are called spell types. The spell types are Arcane and Trap.
 
 205.3m
-Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Ally, Angel, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Serf, Serpent, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.
+Creatures and tribals share their lists of subtypes; these subtypes are called creature types. The creature types are Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Artificer, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.
 
 205.3n
 Planes have their own unique set of subtypes; these subtypes are called planar types. The planar types are Alara, Arkhos, Azgol, Belenon, Bolas's Meditation Realm, Dominaria, Equilor, Ergamon, Fabacin, Innistrad, Iquatana, Ir, Kaldheim, Kamigawa, Karsus, Kephalai, Kinshala, Kolbahan, Kyneth, Lorwyn, Luvion, Mercadia, Mirrodin, Moag, Mongseng, Muraganda, New Phyrexia, Phyrexia, Pyrulea, Rabiah, Rath, Ravnica, Regatha, Segovia, Serra's Realm, Shadowmoor, Shandalar, Ulgrotha, Valla, Vryn, Wildfire, Xerex, and Zendikar.
@@ -1676,10 +1679,17 @@ Example: Lost Order of Jarkeld has power and toughness each equal to 1+*. It has
 The card may have a static ability that creates a replacement effect that sets the creature's power and toughness to one of a number of specific values as it enters the battlefield or is turned face up. (See rule 614, "Replacement Effects.") Such an ability is worded "As [this creature] enters the battlefield . . . ," "As [this creature] is turned face up . . . ," or "[This creature] enters the battlefield as . . ." and lists two or more specific power and toughness values (and may also list additional characteristics). The characteristics chosen or determined with these effects affect the creature's copiable values. (See rule 706.2.) While the card isn't on the battlefield, its power and toughness are each considered to be 0.
 
 208.3.
-A noncreature permanent has no power or toughness, even if it's a card with a power and toughness printed on it (such as a Licid that's become an Aura).
+A noncreature permanent has no power or toughness, even if it's a card with a power and toughness printed on it (such as a Vehicle).
+
+208.3a
+If an effect would be created that affects the power and/or toughness of a noncreature permanent, that effect is created even though it doesn't do anything unless that permanent becomes a creature.
+Example: Veteran Motorist has the ability "Whenever Veteran Motorist crews a Vehicle, that Vehicle gets +1/+1 until end of turn," and it's tapped to pay the crew cost of a Vehicle. This triggered ability resolves while the Vehicle it crewed isn't yet a creature. The continuous effect is created and will apply to the Vehicle once it becomes a creature.
 
 208.4.
 Effects that set a creature's power and/or toughness to specific values may refer to that creature's "base power," "base toughness," or "base power and toughness." Other continuous effects may further modify the creature's power and toughness. See rule 613, "Interaction of Continuous Effects."
+
+208.5.
+If a creature somehow has no value for its power, its power is 0. The same is true for toughness.
 
 209. Loyalty
 
@@ -1764,6 +1774,15 @@ An ability of a permanent that refers to the "equipped creature" refers to whate
 301.6.
 Some artifacts have the subtype "Fortification." A Fortification can be attached to a land. It can't legally be attached to an object that isn't a land. Fortification's analog to the equip keyword ability is the fortify keyword ability. Rules 301.5a-e apply to Fortifications in relation to lands just as they apply to Equipment in relation to creatures, with one clarification relating to rule 301.5c: a Fortification that's also a creature (not a land) can't fortify a land. (See rule 702.66, "Fortify.")
 
+301.7.
+Some artifacts have the subtype "Vehicle." Vehicles have a crew ability, which allows them to become artifact creatures. See rule 702.121, "Crew."
+
+301.7a
+Each Vehicle has a printed power and toughness, but it has these characteristics only if it's also a creature. See rule 208.3.
+
+301.7b
+If a Vehicle becomes a creature, it immediately has its printed power and toughness. Other effects, including the effect that makes it a creature, may modify these values or set them to different values.
+
 302. Creatures
 
 302.1.
@@ -1795,7 +1814,7 @@ Creatures can attack and block. (See rule 508, "Declare Attackers Step," and rul
 A creature's activated ability with the tap symbol or the untap symbol in its activation cost can't be activated unless the creature has been under its controller's control continuously since his or her most recent turn began. A creature can't attack unless it has been under its controller's control continuously since his or her most recent turn began. This rule is informally called the "summoning sickness" rule.
 
 302.7.
-Damage dealt to a creature by a source with neither wither nor infect is marked on that creature (see rule 119.3). If the total damage marked on that creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a creature is removed when it regenerates (see rule 701.12, "Regenerate") and during the cleanup step (see rule 514.2).
+Damage dealt to a creature by a source with neither wither nor infect is marked on that creature (see rule 119.3). If the total damage marked on that creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a creature is removed when it regenerates (see rule 701.13, "Regenerate") and during the cleanup step (see rule 514.2).
 
 303. Enchantments
 
@@ -2010,7 +2029,7 @@ Each phenomenon card has a triggered ability that triggers when you encounter it
 A face-up phenomenon card that's turned face down becomes a new object.
 
 310.7.
-If a phenomenon card is face up in the command zone, and it isn't the source of a triggered ability that has triggered but not yet left the stack, the planar controller planeswalks the next time a player would receive priority. (This is a state-based action; see rule 704. See also rule 701.21, "Planeswalk.")
+If a phenomenon card is face up in the command zone, and it isn't the source of a triggered ability that has triggered but not yet left the stack, the planar controller planeswalks the next time a player would receive priority. (This is a state-based action; see rule 704. See also rule 701.22, "Planeswalk.")
 
 311. Vanguards
 
@@ -2113,7 +2132,7 @@ If a conspiracy, phenomenon, plane, scheme, or vanguard card would leave the com
 The order of objects in a library, in a graveyard, or on the stack can't be changed except when effects or rules allow it. The same is true for objects arranged in face-down piles in other zones. Other objects in other zones can be arranged however their owners wish, although who controls those objects, whether they're tapped or flipped, and what other objects are attached to them must remain clear to all players.
 
 400.6.
-If an object would move from one zone to another, determine what event is moving the object. If the object is moving to a public zone, all players look at it to see if it has any abilities that would affect the move. Then any appropriate replacement effects, whether they come from that object or from elsewhere, are applied to that event. If any effects or rules try to do two or more contradictory or mutually exclusive things to a particular object, that object's controller--or its owner if it has no controller--chooses which effect to apply, and what that effect does. (Note that multiple instances of the same thing may be mutually exclusive; for example, two simultaneous "destroy" effects.) Then the event moves the object.
+If an object would move from one zone to another, determine what event is moving the object. If the object is moving to a public zone and its owner will be able to look at it in that zone, its owner looks at it to see if it has any abilities that would affect the move. If the object is moving to the battlefield, each other player who will be able to look at it in that zone does so. Then any appropriate replacement effects, whether they come from that object or from elsewhere, are applied to that event. If any effects or rules try to do two or more contradictory or mutually exclusive things to a particular object, that object's controller--or its owner if it has no controller--chooses which effect to apply, and what that effect does. (Note that multiple instances of the same thing may be mutually exclusive; for example, two simultaneous "destroy" effects.) Then the event moves the object.
 
 400.7.
 An object that moves from one zone to another becomes a new object with no memory of, or relation to, its previous existence. There are eight exceptions to this rule:
@@ -2340,7 +2359,7 @@ When a step or phase ends, any unused mana left in a player's mana pool empties.
 When a phase or step ends, any effects scheduled to last "until end of" that phase or step expire. When a phase or step begins, any effects scheduled to last "until" that phase or step expire. Effects that last "until end of combat" expire at the end of the combat phase, not at the beginning of the end of combat step. Effects that last "until end of turn" are subject to special rules; see rule 514.2.
 
 500.6.
-When a phase or step begins, any abilities that trigger "at the beginning of" that phase or step are added to the stack.
+When a phase or step begins, any abilities that trigger "at the beginning of" that phase or step trigger. They are put on the stack the next time a player would receive priority. (See rule 116, "Timing and Priority.")
 
 500.7.
 Some effects can give a player extra turns. They do this by adding the turns directly after the specified turn. If a player is given multiple extra turns, the extra turns are added one at a time. If multiple players are given extra turns, the extra turns are added one at a time, in APNAP order (see rule 101.4). The most recently created turn will be taken first.
@@ -2376,12 +2395,12 @@ No player receives priority during the untap step, so no spells can be cast or r
 503. Upkeep Step
 
 503.1.
-First, any abilities that trigger at the beginning of the upkeep step and any abilities that triggered during the turn's untap step go on the stack. (See rule 603, "Handling Triggered Abilities.")
+The upkeep step has no turn-based actions. Once it begins, the active player gets priority. (See rule 116, "Timing and Priority.")
+
+503.1a
+Any abilities that triggered during the untap step and any abilities that triggered at the beginning of the upkeep are put onto the stack before the active player gets priority; the order in which they triggered doesn't matter. (See rule 603, "Handling Triggered Abilities.")
 
 503.2.
-Second, the active player gets priority. Players may cast spells and activate abilities.
-
-503.3.
 If a spell states that it may be cast only "after [a player's] upkeep step," and the turn has multiple upkeep steps, that spell may be cast any time after the first upkeep step ends.
 
 504. Draw Step
@@ -2390,10 +2409,7 @@ If a spell states that it may be cast only "after [a player's] upkeep step," and
 First, the active player draws a card. This turn-based action doesn't use the stack.
 
 504.2.
-Second, any abilities that trigger at the beginning of the draw step and any other abilities that have triggered go on the stack.
-
-504.3.
-Third, the active player gets priority. Players may cast spells and activate abilities.
+Second, the active player gets priority. (See rule 116, "Timing and Priority.")
 
 505. Main Phase
 
@@ -2407,24 +2423,21 @@ Only the first main phase of the turn is a precombat main phase. All other main 
 The main phase has no steps, so a main phase ends when all players pass in succession while the stack is empty. (See rule 500.2.)
 
 505.3.
-First, but only if the players are playing an Archenemy game (see rule 904), the active player is the archenemy, and it's the active player's precombat main phase, the active player sets the top card of his or her scheme deck in motion (see rule 701.22). This turn-based action doesn't use the stack.
+First, but only if the players are playing an Archenemy game (see rule 904), the active player is the archenemy, and it's the active player's precombat main phase, the active player sets the top card of his or her scheme deck in motion (see rule 701.23). This turn-based action doesn't use the stack.
 
 505.4.
-Second, any abilities that trigger at the beginning of the main phase go on the stack. (See rule 603, "Handling Triggered Abilities.")
+Second, the active player gets priority. (See rule 116, "Timing and Priority.")
 
-505.5.
-Third, the active player gets priority. Players may cast spells and activate abilities. The active player may play a land.
+505.4a
+The main phase is the only phase in which a player can normally cast artifact, creature, enchantment, planeswalker, and sorcery spells. The active player may cast these spells.
 
-505.5a
-The main phase is the only phase in which a player can normally cast artifact, creature, enchantment, planeswalker, and sorcery spells. Only the active player may cast these spells.
-
-505.5b
+505.4b
 During either main phase, the active player may play one land card from his or her hand if the stack is empty, if the player has priority, and if he or she hasn't played a land this turn (unless an effect states the player may play additional lands). This action doesn't use the stack. Neither the land nor the action of playing the land is a spell or ability, so it can't be countered, and players can't respond to it with instants or activated abilities. (See rule 305, "Lands.")
 
 506. Combat Phase
 
 506.1.
-The combat phase has five steps, which proceed in order: beginning of combat, declare attackers, declare blockers, combat damage, and end of combat. The declare blockers and combat damage steps are skipped if no creatures are declared as attackers or put onto the battlefield attacking (see rule 508.4). There are two combat damage steps if any attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4).
+The combat phase has five steps, which proceed in order: beginning of combat, declare attackers, declare blockers, combat damage, and end of combat. The declare blockers and combat damage steps are skipped if no creatures are declared as attackers or put onto the battlefield attacking (see rule 508.5). There are two combat damage steps if any attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4).
 
 506.2.
 During the combat phase, the active player is the attacking player; creatures that player controls may attack. During the combat phase of a two-player game, the nonactive player is the defending player; that player and planeswalkers he or she controls may be attacked.
@@ -2451,7 +2464,7 @@ If an effect would put a creature onto the battlefield attacking either a player
 If an effect would put a creature onto the battlefield blocking but the creature it would block isn't attacking either the first creature's controller or a planeswalker that player controls, that creature does enter the battlefield, but it's never considered to be a blocking creature.
 
 506.4.
-A permanent is removed from combat if it leaves the battlefield, if its controller changes, if it phases out, if an effect specifically removes it from combat, if it's a planeswalker that's being attacked and stops being a planeswalker, or if it's an attacking or blocking creature that regenerates (see rule 701.12) or stops being a creature. A creature that's removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. A planeswalker that's removed from combat stops being attacked.
+A permanent is removed from combat if it leaves the battlefield, if its controller changes, if it phases out, if an effect specifically removes it from combat, if it's a planeswalker that's being attacked and stops being a planeswalker, or if it's an attacking or blocking creature that regenerates (see rule 701.13) or stops being a creature. A creature that's removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. A planeswalker that's removed from combat stops being attacked.
 
 506.4a
 Once a creature has been declared as an attacking or blocking creature, spells or abilities that would have kept that creature from attacking or blocking don't remove the creature from combat.
@@ -2484,10 +2497,10 @@ Some spells state that they may be cast only "during combat" or "during a certai
 Some spells state that they may be cast "only before (or after) [a particular point in the combat phase]," but don't meet the additional criteria described in rule 506.6c. If a turn has multiple combat phases, such spells may be cast that turn only before (or after) the stated point of the first combat phase.
 
 506.6e
-If a spell states that it may be cast "only before [a particular point in the combat phase]," but the stated point doesn't exist within the relevant combat phase because the declare blockers step and the combat damage step are skipped (see rule 508.6), then the spell may be cast only before the declare attackers step ends. If the stated point doesn't exist because the relevant combat phase has been skipped, then the spell may be cast only before the precombat main phase ends.
+If a spell states that it may be cast "only before [a particular point in the combat phase]," but the stated point doesn't exist within the relevant combat phase because the declare blockers step and the combat damage step are skipped (see rule 508.5), then the spell may be cast only before the declare attackers step ends. If the stated point doesn't exist because the relevant combat phase has been skipped, then the spell may be cast only before the precombat main phase ends.
 
 506.6f
-If a spell states that it may be cast "only during combat after blockers are declared," but the declare blockers step is skipped that combat phase (see rule 508.6), then the spell may not be cast during that combat phase.
+If a spell states that it may be cast "only during combat after blockers are declared," but the declare blockers step is skipped that combat phase (see rule 508.5), then the spell may not be cast during that combat phase.
 
 506.6g
 Rules 506.6 and 506.6a-f apply to abilities that state that they may be activated only at certain times with respect to combat just as they apply to spells that state that they may be cast only at certain times with respect to combat.
@@ -2498,10 +2511,7 @@ Rules 506.6 and 506.6a-f apply to abilities that state that they may be activate
 First, if the game being played is a multiplayer game in which the active player's opponents don't all automatically become defending players, the active player chooses one of his or her opponents. That player becomes the defending player. This turn-based action doesn't use the stack. (See rule 506.2.)
 
 507.2.
-Second, any abilities that trigger at the beginning of combat go on the stack. (See rule 603, "Handling Triggered Abilities.")
-
-507.3.
-Third, the active player gets priority. Players may cast spells and activate abilities.
+Second, the active player gets priority. (See rule 116, "Timing and Priority.")
 
 508. Declare Attackers Step
 
@@ -2540,32 +2550,35 @@ Once the player has enough mana in his or her mana pool, he or she pays all cost
 508.1j
 Each chosen creature still controlled by the active player becomes an attacking creature. It remains an attacking creature until it's removed from combat or the combat phase ends, whichever comes first. See rule 506.4.
 
+508.1k
+Any abilities that trigger on attackers being declared trigger.
+
 508.2.
-Second, any abilities that triggered on attackers being declared go on the stack. (See rule 603, "Handling Triggered Abilities.")
+Second, the active player gets priority. (See rule 116, "Timing and Priority.")
 
 508.2a
 Abilities that trigger on a creature attacking trigger only at the point the creature is declared as an attacker. They will not trigger if a creature attacks and then that creature's characteristics change to match the ability's trigger condition.
 Example: A permanent has the ability "Whenever a green creature attacks, destroy that creature at end of combat." If a blue creature attacks and is later turned green, the ability will not trigger.
 
-508.3.
-Third, the active player gets priority. Players may cast spells and activate abilities.
+508.2b
+Any abilities that triggered on attackers being declared or that triggered during the process described in rules 508.1 are put onto the stack before the active player gets priority; the order in which they triggered doesn't matter. (See rule 603, "Handling Triggered Abilities.")
 
-508.4.
+508.3.
 If a creature is put onto the battlefield attacking, its controller chooses which defending player or which planeswalker a defending player controls it's attacking as it enters the battlefield (unless the effect that put it onto the battlefield specifies what it's attacking). Such creatures are "attacking" but, for the purposes of trigger events and effects, they never "attacked."
 
-508.4a
+508.3a
 If the effect that puts a creature onto the battlefield attacking specifies it's attacking a certain player, and that player is no longer in the game when the effect resolves, the creature is put onto the battlefield but is never considered an attacking creature. The same is true if the effect specifies a creature is put onto the battlefield attacking a planeswalker and that planeswalker is no longer on the battlefield or is no longer a planeswalker when the effect resolves.
 
-508.4b
+508.3b
 A creature that's put onto the battlefield attacking isn't affected by requirements or restrictions that apply to the declaration of attackers.
 
-508.5.
+508.4.
 If an ability of an attacking creature refers to a defending player, or a spell or ability refers to both an attacking creature and a defending player, then unless otherwise specified, the defending player it's referring to is the player that creature was attacking at the time it became an attacking creature that combat, or the controller of the planeswalker that creature was attacking at the time it became an attacking creature that combat.
 
-508.5a
+508.4a
 In a multiplayer game, any rule, object, or effect that refers to a "defending player" refers to one specific defending player, not to all of the defending players. If a spell or ability could apply to multiple attacking creatures, the appropriate defending player is individually determined for each of those attacking creatures. If there are multiple defending players that could be chosen, the controller of the spell or ability chooses one.
 
-508.6.
+508.5.
 If no creatures are declared as attackers or put onto the battlefield attacking, skip the declare blockers and combat damage steps.
 
 509. Declare Blockers Step
@@ -2600,6 +2613,9 @@ Each chosen creature still controlled by the defending player becomes a blocking
 509.1h
 An attacking creature with one or more creatures declared as blockers for it becomes a blocked creature; one with no creatures declared as blockers for it becomes an unblocked creature. This remains unchanged until the creature is removed from combat, an effect says that it becomes blocked or unblocked, or the combat phase ends, whichever comes first. A creature remains blocked even if all the creatures blocking it are removed from combat.
 
+509.1i
+Any abilities that trigger on blockers being declared trigger. See rule 509.4 for more information.
+
 509.2.
 Second, for each attacking creature that's become blocked, the active player announces that creature's damage assignment order, which consists of the creatures blocking it in an order of that player's choice. (During the combat damage step, an attacking creature can't assign combat damage to a creature that's blocking it unless each creature ahead of that blocking creature in its order is assigned lethal damage.) This turn-based action doesn't use the stack.
 Example: Vastwood Gorger is blocked by Llanowar Elves, Runeclaw Bear, and Serra Angel. Vastwood Gorger's controller announces the Vastwood Gorger's damage assignment order as Serra Angel, then Llanowar Elves, then Runeclaw Bear.
@@ -2614,39 +2630,42 @@ Third, for each blocking creature, the defending player announces that creature'
 During the declare blockers step, if an attacking creature is removed from combat or a spell or ability causes it to stop being blocked by a blocking creature, the attacking creature is removed from all relevant damage assignment orders. The relative order among the remaining attacking creatures is unchanged.
 
 509.4.
-Fourth, any abilities that triggered on blockers being declared go on the stack. (See rule 603, "Handling Triggered Abilities.")
+Fourth, the active player gets priority. (See rule 116, "Timing and Priority.")
 
 509.4a
+Any abilities that triggered on blockers being declared or that triggered during the process described in rules 509.1-3 are put onto the stack before the active player gets priority; the order in which they triggered doesn't matter. (See rule 603, "Handling Triggered Abilities.")
+
+509.5.
+Triggered abilities that trigger during the declare blockers step may have different trigger conditions.
+
+509.5a
 An ability that reads "Whenever [this creature] blocks, . . ." generally triggers only once each combat for that creature, even if it blocks multiple creatures. It triggers if the creature is declared as a blocker. It will also trigger if that creature becomes a blocker as the result of an effect, but only if it wasn't a blocking creature at that time. (See rule 509.1g.) It won't trigger if the creature is put onto the battlefield blocking.
 
-509.4b
+509.5b
 An ability that reads "Whenever [this creature] blocks a creature, . . ." triggers once for each attacking creature the creature with the ability blocks. It triggers if the creature is declared as a blocker. It will also trigger if an effect causes that creature to block an attacking creature, but only if it wasn't already blocking that attacking creature at that time. It won't trigger if the creature is put onto the battlefield blocking.
 
-509.4c
+509.5c
 An ability that reads "Whenever [this creature] becomes blocked, . . ." generally triggers only once each combat for that creature, even if it's blocked by multiple creatures. It will trigger if that creature becomes blocked by at least one creature declared as a blocker. It will also trigger if that creature becomes blocked by an effect or by a creature that's put onto the battlefield as a blocker, but only if the attacking creature was an unblocked creature at that time. (See rule 509.1h.)
 
-509.4d
+509.5d
 An ability that reads "Whenever [this creature] becomes blocked by a creature, . . ." triggers once for each creature that blocks the named creature. It triggers if a creature is declared as a blocker for the attacking creature. It will also trigger if an effect causes a creature to block the attacking creature, but only if it wasn't already blocking that attacking creature at that time. In addition, it will trigger if a creature is put onto the battlefield blocking that creature. It won't trigger if the creature becomes blocked by an effect rather than a creature.
 
-509.4e
+509.5e
 If an ability triggers when a creature blocks or becomes blocked by a particular number of creatures, the ability triggers if the creature blocks or is blocked by that many creatures when blockers are declared. Effects that add or remove blockers can also cause such abilities to trigger. This applies to abilities that trigger on a creature blocking or being blocked by at least a certain number of creatures as well.
 
-509.4f
+509.5f
 If an ability triggers when a creature with certain characteristics blocks, it will trigger only if the creature has those characteristics at the point blockers are declared, or at the point an effect causes it to block. If an ability triggers when a creature with certain characteristics becomes blocked, it will trigger only if the creature has those characteristics at the point it becomes a blocked creature. If an ability triggers when a creature becomes blocked by a creature with certain characteristics, it will trigger only if the latter creature has those characteristics at the point it becomes a blocking creature. None of those abilities will trigger if the relevant creature's characteristics change to match the ability's trigger condition later on.
 Example: A creature has the ability "Whenever this creature becomes blocked by a white creature, destroy that creature at end of combat." If the creature becomes blocked by a black creature that is later turned white, the ability will not trigger.
 
-509.4g
+509.5g
 An ability that reads "Whenever [this creature] attacks and isn't blocked, . . ." triggers if no creatures are declared as blockers for that creature. It will trigger even if the creature was never declared as an attacker (for example, if it entered the battlefield attacking). It won't trigger if the attacking creature is blocked and then all its blockers are removed from combat.
-
-509.5.
-Fifth, the active player gets priority. Players may cast spells and activate abilities.
 
 509.6.
 If a spell or ability causes a creature on the battlefield to block an attacking creature, the active player announces the blocking creature's placement in the attacking creature's damage assignment order. The relative order among the remaining blocking creatures is unchanged. Then the defending player announces the attacking creature's placement in the blocking creature's damage assignment order. The relative order among the remaining attacking creatures is unchanged. This is done as part of the blocking effect.
 
 509.7.
 If a creature is put onto the battlefield blocking, its controller chooses which attacking creature it's blocking as it enters the battlefield (unless the effect that put it onto the battlefield specifies what it's blocking), then the active player announces the new creature's placement in the blocked creature's damage assignment order. The relative order among the remaining blocking creatures is unchanged. A creature put onto the battlefield this way is "blocking" but, for the purposes of trigger events and effects, it never "blocked."
-Example: Giant Spider is blocked by Canyon Minotaur. The defending player casts Flash Foliage, which puts a Saproling token onto the battlefield blocking the Giant Spider. Giant Spider's controller announces the Giant Spider's damage assignment order as the Saproling token, then Canyon Minotaur.
+Example: Giant Spider is blocked by Canyon Minotaur. The defending player casts Flash Foliage, which creates a Saproling creature token blocking the Giant Spider. Giant Spider's controller announces the Giant Spider's damage assignment order as the Saproling token, then Canyon Minotaur.
 
 509.7a
 If the effect that puts a creature onto the battlefield blocking specifies it's blocking a certain creature and that creature is no longer attacking, the creature is put onto the battlefield but is never considered a blocking creature. The same is true if the controller of the creature that's put onto the battlefield blocking isn't a defending player for the specified attacking creature.
@@ -2683,21 +2702,21 @@ Second, all combat damage that's been assigned is dealt simultaneously. This tur
 Example: Squadron Hawk (a 1/1 creature with flying) and Goblin Piker (a 2/1 creature) are attacking. Mogg Fanatic (a 1/1 creature with the ability "Sacrifice Mogg Fanatic: Mogg Fanatic deals 1 damage to target creature or player") blocks the Goblin Piker. The defending player sacrifices Mogg Fanatic during the declare blockers step to deal 1 damage to the Squadron Hawk. The Hawk is destroyed. The Piker deals and is dealt no combat damage this turn. If the defending player instead left Mogg Fanatic on the battlefield, the Fanatic and the Piker would have dealt lethal damage to one another, but the Squadron Hawk couldn't have been dealt damage.
 
 510.3.
-Third, any abilities that triggered on damage being assigned or dealt go on the stack. (See rule 603, "Handling Triggered Abilities.")
+Third, the active player gets priority. (See rule 116, "Timing and Priority.")
+
+510.3a
+Any abilities that triggered on damage being dealt or while state-based actions are performed afterward are put onto the stack before the active player gets priority; the order in which they triggered doesn't matter. (See rule 603, "Handling Triggered Abilities.")
 
 510.4.
-Fourth, the active player gets priority. Players may cast spells and activate abilities.
-
-510.5.
 If at least one attacking or blocking creature has first strike (see rule 702.7) or double strike (see rule 702.4) as the combat damage step begins, the only creatures that assign combat damage in that step are those with first strike or double strike. After that step, instead of proceeding to the end of combat step, the phase gets a second combat damage step. The only creatures that assign combat damage in that step are the remaining attackers and blockers that had neither first strike nor double strike as the first combat damage step began, as well as the remaining attackers and blockers that currently have double strike. After that step, the phase proceeds to the end of combat step.
 
 511. End of Combat Step
 
 511.1.
-First, all "at end of combat" abilities trigger and go on the stack. (See rule 603, "Handling Triggered Abilities.")
+The end of combat step has no turn-based actions. Once it begins, the active player gets priority. (See rule 116, "Timing and Priority.")
 
 511.2.
-Second, the active player gets priority. Players may cast spells and activate abilities.
+Abilities that trigger "at end of combat" trigger as the end of combat damage step begins. Abilities that last "until end of combat" expire at the end of the combat phase.
 
 511.3.
 As soon as the end of combat step ends, all creatures and planeswalkers are removed from combat. After the end of combat step ends, the combat phase is over and the postcombat main phase begins (see rule 505).
@@ -2710,15 +2729,12 @@ The ending phase consists of two steps: end and cleanup.
 513. End Step
 
 513.1.
-First, all abilities that trigger "at the beginning of the end step" or "at the beginning of the next end step" go on the stack. (See rule 603, "Handling Triggered Abilities.")
+The end step has no turn-based actions. Once it begins, the active player gets priority. (See rule 116, "Timing and Priority.")
 
 513.1a
-Previously, abilities that trigger at the beginning of the end step were printed with the trigger condition "at end of turn." Cards that were printed with that text have received errata in the Oracle card reference to say "at the beginning of the end step" or "at the beginning of the next end step."
+Previously, abilities that triggered at the beginning of the end step were printed with the trigger condition "at end of turn." Cards that were printed with that text have received errata in the Oracle card reference to say "at the beginning of the end step" or "at the beginning of the next end step."
 
 513.2.
-Second, the active player gets priority. Players may cast spells and activate abilities.
-
-513.3.
 If a permanent with an ability that triggers "at the beginning of the end step" enters the battlefield during this step, that ability won't trigger until the next turn's end step. Likewise, if a delayed triggered ability that triggers "at the beginning of the next end step" is created during this step, that ability won't trigger until the next turn's end step. In other words, the step doesn't "back up" so those abilities can go on the stack. This rule applies only to triggered abilities; it doesn't apply to continuous effects whose durations say "until end of turn" or "this turn." (See rule 514, "Cleanup Step.")
 
 514. Cleanup Step
@@ -2754,7 +2770,7 @@ To cast a spell is to take it from where it is (usually the hand), put it on the
 To propose the casting of a spell, a player first moves that card (or that copy of a card) from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. The spell remains on the stack until it's countered, it resolves, or an effect moves it elsewhere.
 
 601.2b
-If the spell is modal, the player announces the mode choice (see rule 700.2). If the player wishes to splice any cards onto the spell (see rule 702.46), he or she reveals those cards in his or her hand. If the spell has alternative or additional costs that will be paid as it's being cast such as buyback or kicker costs (see rules 117.8 and 117.9), the player announces his or her intentions to pay any or all of those costs (see rule 601.2f). A player can't apply two alternative methods of casting or two alternative costs to a single spell. If the spell has a variable cost that will be paid as it's being cast (such as an {X} in its mana cost; see rule 107.3), the player announces the value of that variable. If a cost that will be paid as the spell is being cast includes hybrid mana symbols, the player announces the nonhybrid equivalent cost he or she intends to pay. If a cost that will be paid as the spell is being cast includes Phyrexian mana symbols, the player announces whether he or she intends to pay 2 life or the corresponding colored mana cost for each of those symbols. Previously made choices (such as choosing to cast a spell with flashback from a graveyard or choosing to cast a creature with morph face down) may restrict the player's options when making these choices.
+If the spell is modal, the player announces the mode choice (see rule 700.2). If the player wishes to splice any cards onto the spell (see rule 702.46), he or she reveals those cards in his or her hand. If the spell has alternative or additional costs that will be paid as it's being cast such as buyback or kicker costs (see rules 117.8 and 117.9), the player announces his or her intentions to pay any or all of those costs (see rule 601.2f). A player can't apply two alternative methods of casting or two alternative costs to a single spell. If the spell has a variable cost that will be paid as it's being cast (such as an {X} in its mana cost; see rule 107.3), the player announces the value of that variable. If the value of that variable is defined in the text of the spell by a choice that player would make later in the announcement or resolution of the spell, that player makes that choice at this time instead of that later time. If a cost that will be paid as the spell is being cast includes hybrid mana symbols, the player announces the nonhybrid equivalent cost he or she intends to pay. If a cost that will be paid as the spell is being cast includes Phyrexian mana symbols, the player announces whether he or she intends to pay 2 life or the corresponding colored mana cost for each of those symbols. Previously made choices (such as choosing to cast a spell with flashback from a graveyard or choosing to cast a creature with morph face down) may restrict the player's options when making these choices.
 
 601.2c
 The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. A spell may require some targets only if an alternative or additional cost (such as a buyback or kicker cost), or a particular mode, was chosen for it; otherwise, the spell is cast as though it did not require those targets. If the spell has a variable number of targets, the player announces how many targets he or she will choose before he or she announces those targets. In some cases, the number of targets will be defined by the spell's text. Once the number of targets the spell has is determined, that number doesn't change, even if the information used to determine the number of targets does. The same target can't be chosen multiple times for any one instance of the word "target" on the spell. However, if the spell uses the word "target" in multiple places, the same object, player, or zone can be chosen once for each instance of the word "target" (as long as it fits the targeting criteria). If any effects say that an object or player must be chosen as a target, the player chooses targets so that he or she obeys the maximum possible number of such effects without violating any rules or effects that say that an object or player can't be chosen as a target. The chosen players, objects, and/or zones each become a target of that spell. (Any abilities that trigger when those players, objects, and/or zones become the target of a spell trigger at this point; they'll wait to be put on the stack until the spell has finished being cast.)
@@ -2861,7 +2877,7 @@ Activated abilities that read "Activate this ability only any time you could cas
 603. Handling Triggered Abilities
 
 603.1.
-Triggered abilities have a trigger condition and an effect. They are written as "[Trigger condition], [effect]," and begin with the word "when," "whenever," or "at." They can also be expressed as "[When/Whenever/At] [trigger event], [effect]."
+Triggered abilities have a trigger condition and an effect. They are written as "[When/Whenever/At] [trigger condition or event], [effect]."
 
 603.2.
 Whenever a game event or game state matches a triggered ability's trigger event, that ability automatically triggers. The ability doesn't do anything at this point.
@@ -2873,7 +2889,7 @@ Because they aren't cast or activated, triggered abilities can trigger even when
 When a phase or step begins, all abilities that trigger "at the beginning of" that phase or step trigger.
 
 603.2c
-An ability triggers only once each time its trigger event occurs. However, it can trigger repeatedly if one event contains multiple occurrences. See also rule 509.4.
+An ability triggers only once each time its trigger event occurs. However, it can trigger repeatedly if one event contains multiple occurrences.
 Example: A permanent has an ability whose trigger condition reads, "Whenever a land is put into a graveyard from the battlefield, . . . ." If someone casts a spell that destroys all lands, the ability will trigger once for each land put into the graveyard during the spell's resolution.
 
 603.2d
@@ -3074,7 +3090,7 @@ If an object has an activated or triggered ability printed on it that instructs 
 If an object has an ability printed on it that generates a replacement effect which causes one or more cards to be exiled and an ability printed on it that refers either to "the exiled cards" or to cards "exiled with [this object]," these abilities are linked. The second ability refers only to cards in the exile zone that were put there as a direct result of a replacement event caused by the first ability. See rule 614, "Replacement Effects."
 
 607.2c
-If an object has an activated or triggered ability printed on it that puts one or more objects onto the battlefield and an ability printed on it that refers to objects "put onto the battlefield with [this object]," those abilities are linked. The second can refer only to objects put onto the battlefield as a result of the first.
+If an object has an activated or triggered ability printed on it that puts one or more objects onto the battlefield and an ability printed on it that refers to objects "put onto the battlefield with [this object]" or "created with [this object]," those abilities are linked. The second can refer only to objects put onto the battlefield as a result of the first.
 
 607.2d
 If an object has an ability printed on it that causes a player to "choose a [value]" or "name a card" and an ability printed on it that refers to "the chosen [value]," "the last chosen [value]," or "the named card," those abilities are linked. The second ability refers only to a choice made as a result of the first ability.
@@ -3200,7 +3216,7 @@ Some continuous effects are replacement effects or prevention effects. See rules
 Some effects apply to damage from a source--for example, "The next time a red source of your choice would deal damage to you this turn, prevent that damage."
 
 609.7a
-If an effect requires a player to choose a source of damage, he or she may choose a permanent; a spell on the stack (including a permanent spell); any object referred to by an object on the stack, by a replacement or prevention effect that's waiting to apply, or by a delayed triggered ability that's waiting to trigger (even if that object is no longer in the zone it used to be in); or, for certain casual variant games, a face-up card in the command zone. A source doesn't need to be capable of dealing damage to be a legal choice. The source is chosen when the effect is created. If the player chooses a permanent, the effect will apply to the next damage dealt by that permanent, regardless of whether it's combat damage or damage dealt as the result of a spell or ability. If the player chooses a permanent spell, the effect will apply to any damage dealt by that spell and any damage dealt by the permanent that spell becomes when it resolves.
+If an effect requires a player to choose a source of damage, he or she may choose a permanent; a spell on the stack (including a permanent spell); any object referred to by an object on the stack, by a replacement or prevention effect that's waiting to apply, or by a delayed triggered ability that's waiting to trigger (even if that object is no longer in the zone it used to be in); or a face-up object in the command zone. A source doesn't need to be capable of dealing damage to be a legal choice. The source is chosen when the effect is created. If the player chooses a permanent, the effect will apply to the next damage dealt by that permanent, regardless of whether it's combat damage or damage dealt as the result of a spell or ability. If the player chooses a permanent spell, the effect will apply to any damage dealt by that spell and any damage dealt by the permanent that spell becomes when it resolves.
 
 609.7b
 Some effects from resolved spells and abilities prevent or replace damage from sources with certain properties, such as a creature or a source of a particular color. When the source would deal damage, the "shield" rechecks the source's properties. If the properties no longer match, the damage isn't prevented or replaced. If for any reason the shield prevents no damage or replaces no damage, the shield isn't used up.
@@ -3211,7 +3227,7 @@ Some effects from static abilities prevent or replace damage from sources with c
 610. One-Shot Effects
 
 610.1.
-A one-shot effect does something just once and doesn't have a duration. Examples include dealing damage, destroying a permanent, putting a token onto the battlefield, and moving an object from one zone to another.
+A one-shot effect does something just once and doesn't have a duration. Examples include dealing damage, destroying a permanent, creating a token, and moving an object from one zone to another.
 
 610.2.
 Some one-shot effects create a delayed triggered ability, which instructs a player to do something later in the game (usually at a specific time) rather than as the spell or ability that's creating the one-shot effect resolves. See rule 603.7.
@@ -3224,6 +3240,10 @@ If the specified event has already occurred when the initial one-shot effect wou
 
 610.3b
 An object returned to the battlefield this way returns under its owner's control unless otherwise specified.
+
+610.3c
+If multiple one-shot effects are created this way immediately after one or more simultaneous events, those one-shot effects are also simultaneous.
+Example: Two Banisher Priests have each exiled a card. All creatures are destroyed at the same time by Day of Judgment. The two exiled cards are returned to the battlefield at the same time.
 
 611. Continuous Effects
 
@@ -3451,7 +3471,7 @@ If a replacement effect would replace an event, but that event never happens, th
 If a source would deal 0 damage, it does not deal damage at all. Replacement effects that would increase the damage dealt by that source, or would have that source deal that damage to a different object or player, have no event to replace, so they have no effect.
 
 614.8.
-Regeneration is a destruction-replacement effect. The word "instead" doesn't appear on the card but is implicit in the definition of regeneration. "Regenerate [permanent]" means "The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and tap it. If it's an attacking or blocking creature, remove it from combat." Abilities that trigger from damage being dealt still trigger even if the permanent regenerates. See rule 701.12.
+Regeneration is a destruction-replacement effect. The word "instead" doesn't appear on the card but is implicit in the definition of regeneration. "Regenerate [permanent]" means "The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and tap it. If it's an attacking or blocking creature, remove it from combat." Abilities that trigger from damage being dealt still trigger even if the permanent regenerates. See rule 701.13.
 
 614.9.
 Some effects replace damage dealt to one creature, planeswalker, or player with the same damage dealt to another creature, planeswalker, or player; such effects are called redirection effects. If either creature or planeswalker is no longer on the battlefield when the damage would be redirected, or is no longer a creature or planeswalker when the damage would be redirected, the effect does nothing. If damage would be redirected to or from a player who has left the game, the effect does nothing.
@@ -3476,7 +3496,7 @@ If an effect would have a player both draw a card and perform an additional acti
 
 614.12.
 Some replacement effects modify how a permanent enters the battlefield. (See rules 614.1c-d.) Such effects may come from the permanent itself if they affect only that permanent (as opposed to a general subset of permanents that includes it). They may also come from other sources. To determine which replacement effects apply and how they apply, check the characteristics of the permanent as it would exist on the battlefield, taking into account replacement effects that have already modified how it enters the battlefield (see rule 616.1), continuous effects generated by the resolution of spells or abilities that changed the permanent's characteristics on the stack (see rule 400.7a), and continuous effects from the permanent's own static abilities, but ignoring continuous effects from any other source that would affect it.
-Example: Voice of All says "As Voice of All enters the battlefield, choose a color" and "Voice of All has protection from the chosen color." An effect creates a token that's a copy of Voice of All. As that token is put onto the battlefield, its controller chooses a color for it.
+Example: Voice of All says "As Voice of All enters the battlefield, choose a color" and "Voice of All has protection from the chosen color." An effect creates a token that's a copy of Voice of All. As that token is created, the token's controller chooses a color for it.
 Example: Yixlid Jailer says "Cards in graveyards lose all abilities." Scarwood Treefolk says "Scarwood Treefolk enters the battlefield tapped." A Scarwood Treefolk that's put onto the battlefield from a graveyard enters the battlefield tapped.
 Example: Orb of Dreams is an artifact that says "Permanents enter the battlefield tapped." It won't affect itself, so Orb of Dreams enters the battlefield untapped.
 
@@ -3637,7 +3657,7 @@ One card (City in a Bottle) refers to permanents and cards with the same name as
 One card (Golgothian Sylex) refers to permanents with the same name as a card originally printed in the Antiquities(TM) expansion. Those cards are Amulet of Kroog, Argivian Archaeologist, Argivian Blacksmith, Argothian Pixies, Argothian Treefolk, Armageddon Clock, Artifact Blast, Artifact Possession, Artifact Ward, Ashnod's Altar, Ashnod's Battle Gear, Ashnod's Transmogrant, Atog, Battering Ram, Bronze Tablet, Candelabra of Tawnos, Circle of Protection: Artifacts, Citanul Druid, Clay Statue, Clockwork Avian, Colossus of Sardia, Coral Helm, Crumble, Cursed Rack, Damping Field, Detonate, Drafna's Restoration, Dragon Engine, Dwarven Weaponsmith, Energy Flux, Feldon's Cane, Gaea's Avenger, Gate to Phyrexia, Goblin Artisans, Golgothian Sylex, Grapeshot Catapult, Haunting Wind, Hurkyl's Recall, Ivory Tower, Jalum Tome, Martyrs of Korlis, Mightstone, Millstone, Mishra's Factory, Mishra's War Machine, Mishra's Workshop, Obelisk of Undoing, Onulet, Orcish Mechanics, Ornithopter, Phyrexian Gremlins, Power Artifact, Powerleech, Priest of Yawgmoth, Primal Clay, The Rack, Rakalite, Reconstruction, Reverse Polarity, Rocket Launcher, Sage of Lat-Nam, Shapeshifter, Shatterstorm, Staff of Zegon, Strip Mine, Su-Chi, Tablet of Epityr, Tawnos's Coffin, Tawnos's Wand, Tawnos's Weaponry, Tetravus, Titania's Song, Transmute Artifact, Triskelion, Urza's Avenger, Urza's Chalice, Urza's Mine, Urza's Miter, Urza's Power Plant, Urza's Tower, Wall of Spears, Weakstone, Xenic Poltergeist, Yawgmoth Demon, and Yotian Soldier.
 
 700.6c
-One card (Apocalypse Chime) refers to permanents with the same name as a card originally printed in the Homelands(TM) expansion. Those cards are Abbey Gargoyles; Abbey Matron; ther Storm; Aliban's Tower; Ambush; Ambush Party; Anaba Ancestor; Anaba Bodyguard; Anaba Shaman; Anaba Spirit Crafter; An-Havva Constable; An-Havva Inn; An-Havva Township; An-Zerrin Ruins; Apocalypse Chime; Autumn Willow; Aysen Abbey; Aysen Bureaucrats; Aysen Crusader; Aysen Highway; Baki's Curse; Baron Sengir; Beast Walkers; Black Carriage; Broken Visage; Carapace; Castle Sengir; Cemetery Gate; Chain Stasis; Chandler; Clockwork Gnomes; Clockwork Steed; Clockwork Swarm; Coral Reef; Dark Maze; Daughter of Autumn; Death Speakers; Didgeridoo; Drudge Spell; Dry Spell; Dwarven Pony; Dwarven Sea Clan; Dwarven Trader; Ebony Rhino; Eron the Relentless; Evaporate; Faerie Noble; Feast of the Unicorn; Feroz's Ban; Folk of An-Havva; Forget; Funeral March; Ghost Hounds; Giant Albatross; Giant Oyster; Grandmother Sengir; Greater Werewolf; Hazduhr the Abbot; Headstone; Heart Wolf; Hungry Mist; Ihsan's Shade; Irini Sengir; Ironclaw Curse; Jinx; Joven; Joven's Ferrets; Joven's Tools; Koskun Falls; Koskun Keep; Labyrinth Minotaur; Leaping Lizard; Leeches; Mammoth Harness; Marjhan; Memory Lapse; Merchant Scroll; Mesa Falcon; Mystic Decree; Narwhal; Orcish Mine; Primal Order; Prophecy; Rashka the Slayer; Reef Pirates; Renewal; Retribution; Reveka, Wizard Savant; Root Spider; Roots; Roterothopter; Rysorian Badger; Samite Alchemist; Sea Sprite; Sea Troll; Sengir Autocrat; Sengir Bats; Serra Aviary; Serra Bestiary; Serra Inquisitors; Serra Paladin; Serrated Arrows; Shrink; Soraya the Falconer; Spectral Bears; Timmerian Fiends; Torture; Trade Caravan; Truce; Veldrane of Sengir; Wall of Kelp; Willow Faerie; Willow Priestess; Winter Sky; and Wizards' School.
+One card (Apocalypse Chime) refers to permanents with the same name as a card originally printed in the Homelands(TM) expansion. Those cards are Abbey Gargoyles; Abbey Matron; Aether Storm; Aliban's Tower; Ambush; Ambush Party; Anaba Ancestor; Anaba Bodyguard; Anaba Shaman; Anaba Spirit Crafter; An-Havva Constable; An-Havva Inn; An-Havva Township; An-Zerrin Ruins; Apocalypse Chime; Autumn Willow; Aysen Abbey; Aysen Bureaucrats; Aysen Crusader; Aysen Highway; Baki's Curse; Baron Sengir; Beast Walkers; Black Carriage; Broken Visage; Carapace; Castle Sengir; Cemetery Gate; Chain Stasis; Chandler; Clockwork Gnomes; Clockwork Steed; Clockwork Swarm; Coral Reef; Dark Maze; Daughter of Autumn; Death Speakers; Didgeridoo; Drudge Spell; Dry Spell; Dwarven Pony; Dwarven Sea Clan; Dwarven Trader; Ebony Rhino; Eron the Relentless; Evaporate; Faerie Noble; Feast of the Unicorn; Feroz's Ban; Folk of An-Havva; Forget; Funeral March; Ghost Hounds; Giant Albatross; Giant Oyster; Grandmother Sengir; Greater Werewolf; Hazduhr the Abbot; Headstone; Heart Wolf; Hungry Mist; Ihsan's Shade; Irini Sengir; Ironclaw Curse; Jinx; Joven; Joven's Ferrets; Joven's Tools; Koskun Falls; Koskun Keep; Labyrinth Minotaur; Leaping Lizard; Leeches; Mammoth Harness; Marjhan; Memory Lapse; Merchant Scroll; Mesa Falcon; Mystic Decree; Narwhal; Orcish Mine; Primal Order; Prophecy; Rashka the Slayer; Reef Pirates; Renewal; Retribution; Reveka, Wizard Savant; Root Spider; Roots; Roterothopter; Rysorian Badger; Samite Alchemist; Sea Sprite; Sea Troll; Sengir Autocrat; Sengir Bats; Serra Aviary; Serra Bestiary; Serra Inquisitors; Serra Paladin; Serrated Arrows; Shrink; Soraya the Falconer; Spectral Bears; Timmerian Fiends; Torture; Trade Caravan; Truce; Veldrane of Sengir; Wall of Kelp; Willow Faerie; Willow Priestess; Winter Sky; and Wizards' School.
 
 701. Keyword Actions
 
@@ -3684,377 +3704,396 @@ To counter a spell or ability means to cancel it, removing it from the stack. It
 The player who cast a countered spell or activated a countered ability doesn't get a "refund" of any costs that were paid.
 
 701.6.
-Destroy
+Create
 
 701.6a
-To destroy a permanent, move it from the battlefield to its owner's graveyard.
+To create one or more tokens with certain characteristics, put the specified number of tokens with the specified characteristics onto the battlefield.
 
 701.6b
-The only ways a permanent can be destroyed are as a result of an effect that uses the word "destroy" or as a result of the state-based actions that check for lethal damage (see rule 704.5g) or damage from a source with deathtouch (see rule 704.5h). If a permanent is put into its owner's graveyard for any other reason, it hasn't been "destroyed."
-
-701.6c
-A regeneration effect replaces a destruction event. See rule 701.12, "Regenerate."
+Previously, an effect that created tokens instructed a player to "put [those tokens] onto the battlefield." Cards that were printed with that text have received errata in the Oracle card reference so they now "create" those tokens.
 
 701.7.
-Discard
+Destroy
 
 701.7a
-To discard a card, move it from its owner's hand to that player's graveyard.
+To destroy a permanent, move it from the battlefield to its owner's graveyard.
 
 701.7b
-By default, effects that cause a player to discard a card allow the affected player to choose which card to discard. Some effects, however, require a random discard or allow another player to choose which card is discarded.
+The only ways a permanent can be destroyed are as a result of an effect that uses the word "destroy" or as a result of the state-based actions that check for lethal damage (see rule 704.5g) or damage from a source with deathtouch (see rule 704.5h). If a permanent is put into its owner's graveyard for any other reason, it hasn't been "destroyed."
 
 701.7c
-If a card is discarded, but an effect causes it to be put into a hidden zone instead of into its owner's graveyard without being revealed, all values of that card's characteristics are considered to be undefined. If a card is discarded this way to pay a cost that specifies a characteristic about the discarded card, that cost payment is illegal; the game returns to the moment before the cost was paid (see rule 720, "Handling Illegal Actions").
+A regeneration effect replaces a destruction event. See rule 701.13, "Regenerate."
 
 701.8.
-Exchange
+Discard
 
 701.8a
+To discard a card, move it from its owner's hand to that player's graveyard.
+
+701.8b
+By default, effects that cause a player to discard a card allow the affected player to choose which card to discard. Some effects, however, require a random discard or allow another player to choose which card is discarded.
+
+701.8c
+If a card is discarded, but an effect causes it to be put into a hidden zone instead of into its owner's graveyard without being revealed, all values of that card's characteristics are considered to be undefined. If a card is discarded this way to pay a cost that specifies a characteristic about the discarded card, that cost payment is illegal; the game returns to the moment before the cost was paid (see rule 720, "Handling Illegal Actions").
+
+701.9.
+Exchange
+
+701.9a
 A spell or ability may instruct players to exchange something (for example, life totals or control of two permanents) as part of its resolution. When such a spell or ability resolves, if the entire exchange can't be completed, no part of the exchange occurs.
 Example: If a spell attempts to exchange control of two target creatures but one of those creatures is destroyed before the spell resolves, the spell does nothing to the other creature.
 
-701.8b
+701.9b
 When control of two permanents is exchanged, if those permanents are controlled by different players, each of those players simultaneously gains control of the permanent that was controlled by the other player. If, on the other hand, those permanents are controlled by the same player, the exchange effect does nothing.
 
-701.8c
+701.9c
 When life totals are exchanged, each player gains or loses the amount of life necessary to equal the other player's previous life total. Replacement effects may modify these gains and losses, and triggered abilities may trigger on them.
 
-701.8d
+701.9d
 Some spells or abilities may instruct a player to exchange cards in one zone with cards in a different zone (for example, exiled cards and cards in a player's hand). These spells and abilities work the same as other "exchange" spells and abilities, except they can exchange the cards only if all the cards are owned by the same player.
 
-701.8e
+701.9e
 If a card in one zone is exchanged with a card in a different zone, and either of them is attached to an object, that card stops being attached to that object and the other card becomes attached to that object.
 
-701.8f
+701.9f
 If a spell or ability instructs a player to simply exchange two zones, and one of the zones is empty, the cards in the zones are still exchanged.
 
-701.8g
+701.9g
 A spell or ability may instruct a player to exchange two numerical values. In such an exchange, each value becomes equal to the previous value of the other. If either of those values is a life total, the affected player gains or loses the amount of life necessary to equal the other value. Replacement effects may modify this gain or loss, and triggered abilities may trigger on it. If either of those values is a power or toughness, a continuous effect is created setting that power or toughness to the other value (see rule 613.3b). This rule does not apply to spells and abilities that switch a creature's power and toughness.
 
-701.9.
+701.10.
 Exile
 
-701.9a
+701.10a
 To exile an object, move it to the exile zone from wherever it is. See rule 406, "Exile."
 
-701.10.
+701.11.
 Fight
 
-701.10a
+701.11a
 A spell or ability may instruct a creature to fight another creature or it may instruct two creatures to fight each other. Each of those creatures deals damage equal to its power to the other creature.
 
-701.10b
+701.11b
 If a creature instructed to fight is no longer on the battlefield or is no longer a creature, no damage is dealt. If a creature is an illegal target for a resolving spell or ability that instructs it to fight, no damage is dealt.
 
-701.10c
+701.11c
 If a creature fights itself, it deals damage equal to its power to itself twice.
 
-701.10d
+701.11d
 The damage dealt when a creature fights isn't combat damage.
 
-701.11.
+701.12.
 Play
 
-701.11a
+701.12a
 To play a land means to put it onto the battlefield from the zone it's in (usually the hand). A player may play a land if he or she has priority, it's the main phase of his or her turn, the stack is empty, and he or she hasn't played a land this turn. Playing a land is a special action (see rule 115), so it doesn't use the stack; it simply happens. Putting a land onto the battlefield as the result of a spell or ability isn't the same as playing a land. See rule 305, "Lands."
 
-701.11b
+701.12b
 To play a card means to play that card as a land or to cast that card as a spell, whichever is appropriate.
 
-701.11c
+701.12c
 Some effects instruct a player to "play" with a certain aspect of the game changed, such as "Play with the top card of your library revealed." "Play" in this sense means to play the Magic game.
 
-701.11d
+701.12d
 Previously, the action of casting a spell, or casting a card as a spell, was referred to on cards as "playing" that spell or that card. Cards that were printed with that text have received errata in the Oracle card reference so they now refer to "casting" that spell or that card.
 
-701.11e
+701.12e
 Previously, the action of using an activated ability was referred to on cards as "playing" that ability. Cards that were printed with that text have received errata in the Oracle card reference so they now refer to "activating" that ability.
 
-701.12.
+701.13.
 Regenerate
 
-701.12a
+701.13a
 If the effect of a resolving spell or ability regenerates a permanent, it creates a replacement effect that protects the permanent the next time it would be destroyed this turn. In this case, "Regenerate [permanent]" means "The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and tap it. If it's an attacking or blocking creature, remove it from combat."
 
-701.12b
+701.13b
 If the effect of a static ability regenerates a permanent, it replaces destruction with an alternate effect each time that permanent would be destroyed. In this case, "Regenerate [permanent]" means "Instead remove all damage marked on [permanent] and tap it. If it's an attacking or blocking creature, remove it from combat."
 
-701.12c
+701.13c
 Neither activating an ability that creates a regeneration shield nor casting a spell that creates a regeneration shield is the same as regenerating a permanent. Effects that say that a permanent can't be regenerated don't prevent such abilities from being activated or such spells from being cast; rather, they prevent regeneration shields from having any effect.
 
-701.13.
+701.14.
 Reveal
 
-701.13a
+701.14a
 To reveal a card, show that card to all players for a brief time. If an effect causes a card to be revealed, it remains revealed for as long as necessary to complete the parts of the effect that card is relevant to. If the cost to cast a spell or activate an ability includes revealing a card, the card remains revealed from the time the spell or ability is announced until the time it leaves the stack.
 
-701.13b
+701.14b
 Revealing a card doesn't cause it to leave the zone it's in.
 
-701.14.
-Sacrifice
+701.14c
+If cards in a player's library are shuffled or otherwise reordered, any revealed cards that are reordered stop being revealed and become new objects.
 
-701.14a
-To sacrifice a permanent, its controller moves it from the battlefield directly to its owner's graveyard. A player can't sacrifice something that isn't a permanent, or something that's a permanent he or she doesn't control. Sacrificing a permanent doesn't destroy it, so regeneration or other effects that replace destruction can't affect this action.
+701.14d
+Some effects instruct a player to look at one or more cards. Looking at a card follows the same rules as revealing a card, except that the card is shown only to the specified player.
 
 701.15.
-Search
+Sacrifice
 
 701.15a
+To sacrifice a permanent, its controller moves it from the battlefield directly to its owner's graveyard. A player can't sacrifice something that isn't a permanent, or something that's a permanent he or she doesn't control. Sacrificing a permanent doesn't destroy it, so regeneration or other effects that replace destruction can't affect this action.
+
+701.16.
+Scry
+
+701.16a
+To "scry N" means to look at the top N cards of your library, put any number of them on the bottom of your library in any order and the rest on top of your library in any order.
+
+701.16b
+If a player is instructed to scry 0, no scry event occurs. Abilities that trigger whenever a player scries won't trigger.
+
+701.17.
+Search
+
+701.17a
 To search for a card in a zone, look at all cards in that zone (even if it's a hidden zone) and find a card that matches the given description.
 
-701.15b
+701.17b
 If a player is searching a hidden zone for cards with a stated quality, such as a card with a certain card type or color, that player isn't required to find some or all of those cards even if they're present in that zone.
 Example: Splinter says "Exile target artifact. Search its controller's graveyard, hand, and library for all cards with the same name as that artifact and exile them. That player then shuffles his or her library." A player casts Splinter targeting Howling Mine (an artifact). Howling Mine's controller has another Howling Mine in her graveyard and two more in her library. Splinter's controller must find the Howling Mine in the graveyard, but may choose to find zero, one, or two of the Howling Mines in the library.
 
-701.15c
+701.17c
 If a player is instructed to search a hidden zone for cards that match an undefined quality, that player may still search that zone but can't find any cards.
 Example: Lobotomy says "Target player reveals his or her hand, then you choose a card other than a basic land card from it. Search that player's graveyard, hand, and library for all cards with the same name as the chosen card and exile them. Then that player shuffles his or her library." If the target player has no cards in his or her hand when Lobotomy resolves, the player who cast Lobotomy searches the specified zones but doesn't exile any cards.
 
-701.15d
+701.17d
 If a player is searching a hidden zone simply for a quantity of cards, such as "a card" or "three cards," that player must find that many cards (or as many as possible, if the zone doesn't contain enough cards).
 
-701.15e
+701.17e
 If the effect that contains the search instruction doesn't also contain instructions to reveal the found card(s), then they're not revealed.
 
-701.15f
+701.17f
 If searching a zone is replaced with searching a portion of that zone, any other instructions that refer to searching the zone still apply. Any abilities that trigger on a library being searched will trigger.
 Example: Aven Mindcensor says, in part, "If an opponent would search a library, that player searches the top four cards of that library instead." Veteran Explorer says "When Veteran Explorer dies, each player may search his or her library for up to two basic land cards and put them onto the battlefield. Then each player who searched his or her library this way shuffles it." An opponent who searched the top four cards of his or her library because of Veteran Explorer's ability would shuffle the entire library.
 
-701.16.
+701.18.
 Shuffle
 
-701.16a
+701.18a
 To shuffle a library or a face-down pile of cards, randomize the cards within it so that no player knows their order.
 
-701.16b
+701.18b
 Some effects cause a player to search a library for a card or cards, shuffle that library, then put the found card or cards in a certain position in that library. Even though the found card or cards never leave that library, they aren't included in the shuffle. Rather, all the cards in that library except those are shuffled. Abilities that trigger when a library is shuffled will still trigger. See also rule 401, "Library."
 
-701.16c
+701.18c
 If an effect would cause a player to shuffle one or more specific objects into a library, that library is shuffled even if none of those objects are in the zone they're expected to be in or an effect causes all of those objects to be moved to another zone or remain in their current zone.
 Example: Guile says, in part, "When Guile is put into a graveyard from anywhere, shuffle it into its owner's library." It's put into a graveyard and its ability triggers, then a player exiles it from that graveyard in response. When the ability resolves, the library is shuffled.
 Example: Black Sun's Zenith says, in part, "Shuffle Black Sun's Zenith into its owner's library." Black Sun's Zenith is in a graveyard, has gained flashback (due to Recoup, perhaps), and is cast from that graveyard. Black Sun's Zenith will be exiled, and its owner's library will be shuffled.
 
-701.16d
+701.18d
 If an effect would cause a player to shuffle a set of objects into a library, that library is shuffled even if there are no objects in that set.
 Example: Loaming Shaman says "When Loaming Shaman enters the battlefield, target player shuffles any number of target cards from his or her graveyard into his or her library." It enters the battlefield, its ability triggers, and no cards are targeted. When the ability resolves, the targeted player will still have to shuffle his or her library.
 
-701.16e
+701.18e
 If an effect causes a player to shuffle a library containing zero or one cards, abilities that trigger when a library is shuffled will still trigger.
 
-701.16f
+701.18f
 If two or more effects cause a library to be shuffled multiple times simultaneously, abilities that trigger when that library is shuffled will trigger that many times.
 
-701.17.
+701.19.
 Tap and Untap
 
-701.17a
+701.19a
 To tap a permanent, turn it sideways from an upright position. Only untapped permanents can be tapped.
 
-701.17b
+701.19b
 To untap a permanent, rotate it back to the upright position from a sideways position. Only tapped permanents can be untapped.
 
-701.18.
-Scry
-
-701.18a
-To "scry N" means to look at the top N cards of your library, put any number of them on the bottom of your library in any order and the rest on top of your library in any order.
-
-701.18b
-If a player is instructed to scry 0, no scry event occurs. Abilities that trigger whenever a player scries won't trigger.
-
-701.19.
+701.20.
 Fateseal
 
-701.19a
+701.20a
 To "fateseal N" means to look at the top N cards of an opponent's library, put any number of them on the bottom of that library in any order and the rest on top of that library in any order.
 
-701.20.
+701.21.
 Clash
 
-701.20a
+701.21a
 To clash, a player reveals the top card of his or her library. That player may then put that card on the bottom of his or her library.
 
-701.20b
+701.21b
 "Clash with an opponent" means "Choose an opponent. You and that opponent each clash."
 
-701.20c
+701.21c
 A player wins a clash if that player revealed a card with a higher converted mana cost than all other cards revealed in that clash.
 
-701.21.
+701.22.
 Planeswalk
 
-701.21a
+701.22a
 A player may planeswalk only during a Planechase game. Only the planar controller may planeswalk. See rule 901, "Planechase."
 
-701.21b
+701.22b
 To planeswalk is to put each face-up plane card and phenomenon card on the bottom of its owner's planar deck face down, then move the top card of your planar deck off that planar deck and turn it face up.
 
-701.21c
+701.22c
 A player may planeswalk as the result of the "planeswalking ability" (see rule 901.8), because the owner of a face-up plane card or phenomenon card leaves the game (see rule 901.10), or because a phenomenon's triggered ability leaves the stack (see rule 704.5x). Abilities may also instruct a player to planeswalk.
 
-701.21d
+701.22d
 The plane card that's turned face up is the plane the player planeswalks to. The plane card that's turned face down or that leaves the game is the plane the player planeswalks away from. The same is true with respect to phenomena.
 
-701.22.
+701.23.
 Set in Motion
 
-701.22a
+701.23a
 Only a scheme card may be set in motion, and only during an Archenemy game. Only the archenemy may set a scheme card in motion. See rule 312, "Schemes," and rule 904, "Archenemy."
 
-701.22b
+701.23b
 To set a scheme in motion, move it off the top of your scheme deck and turn it face up.
 
-701.22c
+701.23c
 Schemes may only be set in motion one at a time. If a player is instructed to set multiple schemes in motion, that player sets a scheme in motion that many times.
 
-701.23.
+701.24.
 Abandon
 
-701.23a
+701.24a
 Only a face-up ongoing scheme card may be abandoned, and only during an Archenemy game. See rule 312, "Schemes," and rule 904, "Archenemy."
 
-701.23b
+701.24b
 To abandon a scheme, turn it face down and put it on the bottom of its owner's scheme deck.
 
-701.24.
+701.25.
 Proliferate
 
-701.24a
+701.25a
 To proliferate means to choose any number of permanents and/or players that have a counter, then give each exactly one additional counter of a kind that permanent or player already has.
 
-701.24b
+701.25b
 If a permanent or player chosen this way has more than one kind of counter, the player who is proliferating chooses which kind of counter to add.
 
-701.24c
+701.25c
 To proliferate in a Two-Headed Giant game means to choose any number of permanents and/or teams that have a counter, then give each exactly one additional counter of a kind that permanent or team already has. See rule 810, "Two-Headed Giant Variant."
 
-701.25.
+701.26.
 Transform
 
-701.25a
+701.26a
 To transform a permanent, turn it over so that its other face is up. Only permanents represented by double-faced cards can transform. (See rule 711, "Double-Faced Cards.")
 
-701.25b
+701.26b
 Although transforming a permanent uses the same physical action as turning a permanent face up or face down, they are different game actions. Abilities that trigger when a permanent is turned face down won't trigger when that permanent transforms, and so on.
 
-701.25c
+701.26c
 If a spell or ability instructs a player to transform a permanent that isn't represented by a double-faced card, nothing happens.
 
-701.25d
+701.26d
 If a spell or ability instructs a player to transform a permanent, and the face that permanent would transform into is represented by an instant or sorcery card face, nothing happens.
 
-701.25e
+701.26e
 Some triggered abilities trigger when an object "transforms into" an object with a specified characteristic. Such an ability triggers if the object transforms and has the specified characteristic immediately after it transforms.
 
-701.25f
+701.26f
 If an activated or triggered ability of a permanent that isn't a delayed triggered ability of that permanent tries to transform it, the permanent transforms only if it hasn't transformed since the ability was put onto the stack. If a delayed triggered ability of a permanent tries to transform that permanent, the permanent transforms only if it hasn't transformed since that delayed triggered ability was created. In either case, if the permanent has already transformed, the instruction to transform is ignored. This is a change from previous rules.
 
-701.26.
+701.27.
 Detain
 
-701.26a
+701.27a
 Certain spells and abilities can detain a permanent. Until the next turn of the controller of that spell or ability, that permanent can't attack or block and its activated abilities can't be activated.
 
-701.27.
+701.28.
 Populate
 
-701.27a
-To populate means to choose a creature token you control and put a token onto the battlefield that's a copy of that creature token.
-
-701.27b
-If you control no creature tokens when instructed to populate, you won't put a token onto the battlefield.
-
-701.28.
-Monstrosity
-
 701.28a
-"Monstrosity N" means "If this permanent isn't monstrous, put N +1/+1 counters on it and it becomes monstrous."
+To populate means to choose a creature token you control and create a token that's a copy of that creature token.
 
 701.28b
-Monstrous is a designation that has no rules meaning other than to act as a marker that the monstrosity action and other spells and abilities can identify. Only permanents can be or become monstrous. Once a permanent becomes monstrous, it stays monstrous until it leaves the battlefield. Monstrous is neither an ability nor part of the permanent's copiable values.
-
-701.28c
-If a permanent's ability instructs a player to "monstrosity X," other abilities of that permanent may also refer to X. The value of X in those abilities is equal to the value of X as that permanent became monstrous.
+If you control no creature tokens when instructed to populate, you won't create a token.
 
 701.29.
-Vote
+Monstrosity
 
 701.29a
-Some spells and abilities instruct players to vote for one choice from a list of options to determine some aspect of the effect of that spell or ability. To vote, each player, starting with a specified player and proceeding in turn order, chooses one of those choices.
+"Monstrosity N" means "If this permanent isn't monstrous, put N +1/+1 counters on it and it becomes monstrous."
 
 701.29b
-The listed choices may be objects, words with no rules meaning that are each connected to a different effect, or other variables relevant to the resolution of the spell or ability.
+Monstrous is a designation that has no rules meaning other than to act as a marker that the monstrosity action and other spells and abilities can identify. Only permanents can be or become monstrous. Once a permanent becomes monstrous, it stays monstrous until it leaves the battlefield. Monstrous is neither an ability nor part of the permanent's copiable values.
 
 701.29c
-If the text of a spell or ability refers to "voting," it refers only to an actual vote, not to any spell or ability that involves the players making choices or decisions without using the word "vote."
-
-701.29d
-If an effect gives a player multiple votes, those votes all happen at the same time the player would otherwise have voted.
+If a permanent's ability instructs a player to "monstrosity X," other abilities of that permanent may also refer to X. The value of X in those abilities is equal to the value of X as that permanent became monstrous.
 
 701.30.
-Bolster
+Vote
 
 701.30a
-"Bolster N" means "Choose a creature you control with the least toughness or tied for least toughness among creatures you control. Put N +1/+1 counters on that creature."
+Some spells and abilities instruct players to vote for one choice from a list of options to determine some aspect of the effect of that spell or ability. To vote, each player, starting with a specified player and proceeding in turn order, chooses one of those choices.
+
+701.30b
+The listed choices may be objects, words with no rules meaning that are each connected to a different effect, or other variables relevant to the resolution of the spell or ability.
+
+701.30c
+If the text of a spell or ability refers to "voting," it refers only to an actual vote, not to any spell or ability that involves the players making choices or decisions without using the word "vote."
+
+701.30d
+If an effect gives a player multiple votes, those votes all happen at the same time the player would otherwise have voted.
 
 701.31.
-Manifest
+Bolster
 
 701.31a
-To manifest a card, turn it face down. It becomes a 2/2 face-down creature card with no text, no name, no subtypes, and no mana cost. Put that card onto the battlefield face down. That permanent is a manifested permanent as long as it remains face down. The effect defining its characteristics works while the card is face down and ends when it's turned face up.
-
-701.31b
-Any time you have priority, you may turn a manifested permanent you control face up. This is a special action that doesn't use the stack (see rule 115.2b). To do this, show all players that the card representing that permanent is a creature card and what that card's mana cost is, pay that cost, then turn the permanent face up. The effect defining its characteristics while it was face down ends, and it regains its normal characteristics. (If the card representing that permanent isn't a creature card or it doesn't have a mana cost, it can't be turned face up this way.)
-
-701.31c
-If a card with morph is manifested, its controller may turn that card face up using either the procedure described in rule 702.36e to turn a face-down permanent with morph face up or the procedure described above to turn a manifested permanent face up.
-
-701.31d
-If an effect instructs a player to manifest multiple cards from his or her library, those cards are manifested one at a time.
-
-701.31e
-If a manifested permanent that's represented by an instant or sorcery card would turn face up, its controller reveals it and leaves it face down. Abilities that trigger whenever a permanent is turned face up won't trigger.
-
-701.31f
-See rule 707, "Face-Down Spells and Permanents," for more information.
+"Bolster N" means "Choose a creature you control with the least toughness or tied for least toughness among creatures you control. Put N +1/+1 counters on that creature."
 
 701.32.
-Support
+Manifest
 
 701.32a
-"Support N" on a permanent means "Put a +1/+1 counter on each of up to N other target creatures." "Support N" on an instant or sorcery spell means "Put a +1/+1 counter on each of up to N target creatures."
+To manifest a card, turn it face down. It becomes a 2/2 face-down creature card with no text, no name, no subtypes, and no mana cost. Put that card onto the battlefield face down. That permanent is a manifested permanent as long as it remains face down. The effect defining its characteristics works while the card is face down and ends when it's turned face up.
+
+701.32b
+Any time you have priority, you may turn a manifested permanent you control face up. This is a special action that doesn't use the stack (see rule 115.2b). To do this, show all players that the card representing that permanent is a creature card and what that card's mana cost is, pay that cost, then turn the permanent face up. The effect defining its characteristics while it was face down ends, and it regains its normal characteristics. (If the card representing that permanent isn't a creature card or it doesn't have a mana cost, it can't be turned face up this way.)
+
+701.32c
+If a card with morph is manifested, its controller may turn that card face up using either the procedure described in rule 702.36e to turn a face-down permanent with morph face up or the procedure described above to turn a manifested permanent face up.
+
+701.32d
+If an effect instructs a player to manifest multiple cards from his or her library, those cards are manifested one at a time.
+
+701.32e
+If a manifested permanent that's represented by an instant or sorcery card would turn face up, its controller reveals it and leaves it face down. Abilities that trigger whenever a permanent is turned face up won't trigger.
+
+701.32f
+See rule 707, "Face-Down Spells and Permanents," for more information.
 
 701.33.
-Investigate
+Support
 
 701.33a
-"Investigate" means "Put a colorless Clue artifact token onto the battlefield. It has '{2}, Sacrifice this artifact: Draw a card.'"
+"Support N" on a permanent means "Put a +1/+1 counter on each of up to N other target creatures." "Support N" on an instant or sorcery spell means "Put a +1/+1 counter on each of up to N target creatures."
 
 701.34.
-Meld
+Investigate
 
 701.34a
+"Investigate" means "Create a colorless Clue artifact token with '{2}, Sacrifice this artifact: Draw a card.'"
+
+701.35.
+Meld
+
+701.35a
 Meld is a keyword action that appears in an ability on one card in a meld pair. (See rule 712, "Meld Cards.") To meld the two cards in a meld pair, put them onto the battlefield with their back faces up and combined. The resulting permanent is a single object represented by two cards.
 
-701.34b
+701.35b
 Only two cards belonging to the same meld pair can be melded. Tokens, cards that aren't meld cards, or meld cards that don't form a meld pair can't be melded.
 
-701.34c
+701.35c
 If an effect instructs a player to meld cards that can't be melded, they stay in their current zone.
 Example: A player owns and controls Midnight Scavengers and a token that's a copy of Graf Rats. At the beginning of combat, both are exiled but can't be melded. Midnight Scavengers remains exiled and the exiled token ceases to exist.
 
-701.35.
+701.36.
 Goad
 
-701.35a
+701.36a
 Certain spells and abilities can goad a creature. Until the next turn of the controller of that spell or ability, that creature attacks each combat if able and attacks a player other than that player if able.
 
 702. Keyword Abilities
 
 702.1.
 Most abilities describe exactly what they do in the card's rules text. Some, though, are very common or would require too much space to define on the card. In these cases, the object lists only the name of the ability as a "keyword"; sometimes reminder text summarizes the game rule.
+
+702.1a
+If an effect refers to a "[keyword ability] cost," it refers only to the variable costs for that keyword.
+Example: Varolz, the Scar-Striped has the following ability: "Each creature card in your graveyard has scavenge. The scavenge cost is equal to its mana cost." A creature card's scavenge cost is an amount of mana equal to its mana cost, and the activation cost of the scavenge ability is that amount of mana plus "Exile this card from your graveyard."
 
 702.2.
 Deathtouch
@@ -4601,7 +4640,7 @@ Megamorph is a variant of the morph ability. "Megamorph [cost]" means "You may c
 To cast a card using its morph ability, turn it face down. It becomes a 2/2 face-down creature card with no text, no name, no subtypes, and no mana cost. Any effects or prohibitions that would apply to casting a card with these characteristics (and not the face-up card's characteristics) are applied to casting this card. These values are the copiable values of that object's characteristics. (See rule 613, "Interaction of Continuous Effects," and rule 706, "Copying Objects.") Put it onto the stack (as a face-down spell with the same characteristics), and pay {3} rather than pay its mana cost. This follows the rules for paying alternative costs. You can use a morph ability to cast a card from any zone from which you could normally play it. When the spell resolves, it enters the battlefield with the same characteristics the spell had. The morph effect applies to the face-down object wherever it is, and it ends when the permanent is turned face up.
 
 702.36d
-You can't cast a card face down if it doesn't have a morph ability.
+You can't normally cast a card face down. A morph ability allows you to do so.
 
 702.36e
 Any time you have priority, you may turn a face-down permanent you control with a morph ability face up. This is a special action; it doesn't use the stack (see rule 115). To do this, show all players what the permanent's morph cost would be if it were face up, pay that cost, then turn the permanent face up. (If the permanent wouldn't have a morph cost if it were face up, it can't be turned face up this way.) The morph effect on it ends, and it regains its normal characteristics. Any abilities relating to the permanent entering the battlefield don't trigger when it's turned face up and don't have any effect, because the permanent has already entered the battlefield.
@@ -4869,6 +4908,9 @@ Suspend is a keyword that represents three abilities. The first is a static abil
 A card is "suspended" if it's in the exile zone, has suspend, and has a time counter on it.
 
 702.61c
+While determining if you could begin to cast a card with suspend, take into consideration any effects that would prohibit that card from being cast.
+
+702.61d
 Casting a spell as an effect of its suspend ability follows the rules for paying alternative costs in rules 601.2b and 601.2f-h.
 
 702.62.
@@ -5144,7 +5186,7 @@ If a creature has multiple instances of battle cry, each triggers separately.
 Living Weapon
 
 702.91a
-Living weapon is a triggered ability. "Living weapon" means "When this Equipment enters the battlefield, put a 0/0 black Germ creature token onto the battlefield, then attach this Equipment to it."
+Living weapon is a triggered ability. "Living weapon" means "When this Equipment enters the battlefield, create a 0/0 black Germ creature token, then attach this Equipment to it."
 
 702.92.
 Undying
@@ -5265,7 +5307,7 @@ If a spell's controller chooses to pay its bestow cost, that player chooses a le
 
 702.102c
 The check for whether a spell can legally be cast happens after its controller has chosen whether to pay its bestow cost; see rule 601.2e.
-Example: ther Storm is an enchantment with the ability "Creature spells can't be cast." This effect doesn't stop a creature card with bestow from being cast for its bestow cost because the spell is an Aura enchantment spell, not an enchantment creature spell, when the game checks whether the spell is illegal.
+Example: Aether Storm is an enchantment with the ability "Creature spells can't be cast." This effect doesn't stop a creature card with bestow from being cast for its bestow cost because the spell is an Aura enchantment spell, not an enchantment creature spell, when the game checks whether the spell is illegal.
 
 702.102d
 As an Aura spell with bestow begins resolving, if its target is illegal, the effect making it an Aura spell ends. It continues resolving as a creature spell and will be put onto the battlefield under the control of the spell's controller. This is an exception to rule 608.3a.
@@ -5394,7 +5436,7 @@ If a creature has multiple instances of ingest, each triggers separately.
 Myriad
 
 702.115a
-Myriad is a triggered ability that may also create a delayed triggered ability. "Myriad" means "Whenever this creature attacks, for each opponent other than defending player, you may put a token that's a copy of this creature onto the battlefield tapped and attacking that player or a planeswalker he or she controls. If you put one or more tokens onto the battlefield this way, exile the tokens at end of combat."
+Myriad is a triggered ability that may also create a delayed triggered ability. "Myriad" means "Whenever this creature attacks, for each opponent other than defending player, you may create a token that's a copy of this creature that's tapped and attacking that player or a planeswalker he or she controls. If one or more tokens are created this way, exile the tokens at end of combat."
 
 702.115b
 If a creature has multiple instances of myriad, each triggers separately.
@@ -5441,6 +5483,27 @@ Melee is a triggered ability. "Melee" means "Whenever this creature attacks, it 
 702.120b
 If a creature has multiple instances of melee, each triggers separately.
 
+702.121.
+Crew
+
+702.121a
+Crew is an activated ability of Vehicle cards. "Crew N" means "Tap any number of untapped creatures you control with total power N or greater: This permanent becomes an artifact creature until end of turn."
+
+702.121b
+A creature "crews a Vehicle" when it's tapped to pay the cost to activate a Vehicle's crew ability.
+
+702.121c
+If an effect states that a creature "can't crew Vehicles," that creature can't be tapped to pay the crew cost of a Vehicle.
+
+702.122.
+Fabricate
+
+702.122a
+Fabricate is a triggered ability. "Fabricate N" means "When this permanent enters the battlefield, you may put N +1/+1 counters on it. If you don't, create N 1/1 colorless Servo artifact creature tokens."
+
+702.122b
+If a permanent has multiple instances of fabricate, each triggers separately.
+
 703. Turn-Based Actions
 
 703.1.
@@ -5468,7 +5531,7 @@ Immediately after the phasing action has been completed during the untap step, t
 Immediately after the draw step begins, the active player draws a card. See rule 504.1.
 
 703.4d
-In an Archenemy game (see rule 904), immediately after the archenemy's precombat main phase begins, that player sets the top card of his or her scheme deck in motion. See rule 701.22.
+In an Archenemy game (see rule 904), immediately after the archenemy's precombat main phase begins, that player sets the top card of his or her scheme deck in motion. See rule 701.23.
 
 703.4e
 Immediately after the beginning of combat step begins, if the game being played is a multiplayer game in which the active player's opponents don't all automatically become defending players, the active player chooses one of his or her opponents. That player becomes the defending player. See rule 507.1.
@@ -5609,7 +5672,7 @@ A coin used in a flip must be a two-sided object with easily distinguished sides
 706. Copying Objects
 
 706.1.
-Some objects become or turn another object into a "copy" of a spell, permanent, or card. Some effects put a token onto the battlefield that's a copy of another object. (Certain older cards were printed with the phrase "search for a copy." This section doesn't cover those cards, which have received new text in the Oracle card reference.)
+Some objects become or turn another object into a "copy" of a spell, permanent, or card. Some effects create a token that's a copy of another object. (Certain older cards were printed with the phrase "search for a copy." This section doesn't cover those cards, which have received new text in the Oracle card reference.)
 
 706.2.
 When copying an object, the copy acquires the copiable values of the original object's characteristics and, for an object on the stack, choices made when casting or activating it (mode, targets, the value of X, whether it was kicked, how it will affect multiple targets, and so on). The "copiable values" are the values derived from the text printed on the object (that text being name, mana cost, color indicator, card type, subtype, supertype, rules text, power, toughness, and/or loyalty), as modified by other copy effects, by its face-down status, and by "as . . . enters the battlefield" and "as . . . is turned face up" abilities that set power and toughness (and may also set additional characteristics). Other effects (including type-changing and text-changing effects), status, and counters are not copied.
@@ -5742,7 +5805,7 @@ In every zone except the stack, split cards have two sets of characteristics and
 If a player casts a split card without using fuse, that player chooses which half of that split card he or she is casting before putting it onto the stack. Only that half is evaluated to see if it can be cast. Only that half is considered to be put onto the stack.
 
 708.2b
-If a player casts a split card with fuse from his or her hand, in addition to choosing either half as described above, the player may choose to cast both halves, resulting in a fused split spell. Both halves are evaluated to see if the spell can be cast. If either half can't be cast, then both halves can't be cast as a single spell.
+If a player casts a split card with fuse from his or her hand, in addition to choosing either half as described above, the player may choose to cast both halves, resulting in a fused split spell with the combined characteristics of both halves. Only the fused split spell is evaluated to see if it can be cast.
 
 708.3.
 Each split card that consists of two halves with different colored mana symbols in their mana costs is a multicolored card while it's not a spell on the stack. While it's a spell on the stack, it's only the color or colors of the half or halves being cast.
@@ -5756,7 +5819,7 @@ Example: Spell Blast says "Counter target spell with converted mana cost X." If 
 
 708.5a
 If a spell or ability uses the converted mana cost of a split card not on the stack to determine part of its effect, but it doesn't perform a comparison using those values, it uses the sum of the two converted mana costs.
-Example: Infernal Genesis has an ability that reads, "At the beginning of each player's upkeep, that player puts the top card of his or her library into his or her graveyard. Then he or she puts X 1/1 black Minion creature tokens onto the battlefield, where X is that card's converted mana cost." If the top card of your library is Assault/Battery, which has converted mana costs of 1 and 4, when this ability resolves, you put five creature tokens onto the battlefield.
+Example: Infernal Genesis has an ability that reads, "At the beginning of each player's upkeep, that player puts the top card of his or her library into his or her graveyard. Then he or she creates X 1/1 black Minion creature tokens, where X is that card's converted mana cost." If the top card of your library is Assault/Battery, which has converted mana costs of 1 and 4, when this ability resolves, you create five creature tokens.
 Example: Living Lore has an ability that exiles an instant or sorcery card and another ability that reads, "Living Lore's power and toughness are each equal to the exiled card's converted mana cost." If Assault/Battery is exiled with the first ability, Living Lore's power and toughness are 5/5.
 
 708.6.
@@ -5832,7 +5895,7 @@ In every zone other than the battlefield, a leveler card has the power and tough
 711. Double-Faced Cards
 
 711.1.
-A double-faced card has a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. Each face may have abilities that allow the card to "transform," or turn over to its other face. Tokens and cards with a Magic card back can't transform. (See rule 701.25, "Transform.")
+A double-faced card has a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. Each face may have abilities that allow the card to "transform," or turn over to its other face. Tokens and cards with a Magic card back can't transform. (See rule 701.26, "Transform.")
 
 711.1a
 A double-faced card's front face is marked by a front-face symbol in its upper left corner. On Magic Origins double-faced cards, the front-face symbol is a modified Planeswalker icon. On cards in the Innistrad block and Shadows over Innistrad set, as well as on Ulrich of the Krallenhorde in the Eldritch Moon set, the front-face symbol is a sun. On other Eldritch Moon double-faced cards, the front-face symbol is a full moon.
@@ -5862,7 +5925,7 @@ While a double-faced card is outside the game, in a zone other than the battlefi
 While a double-faced permanent's back face is up, it has only the characteristics of its back face. However, its converted mana cost is calculated using the mana cost of its front face. This is a change from previous rules. If a permanent is copying the back face of a double-faced card (even if the card representing that copy is itself a double-faced card), the converted mana cost of that permanent is 0.
 
 711.5.
-Only permanents represented by double-faced cards can transform. (See rule 701.25, "Transform.") If a spell or ability instructs a player to transform any permanent that isn't represented by a double-faced card, nothing happens.
+Only permanents represented by double-faced cards can transform. (See rule 701.26, "Transform.") If a spell or ability instructs a player to transform any permanent that isn't represented by a double-faced card, nothing happens.
 Example: A Clone enters the battlefield as a copy of Wildblood Pack (the back face of a double-faced card). The Clone will be a copy of the Wildblood Pack. Because the Clone is itself not a double-faced card, it can't transform.
 Example: A player casts Cytoshape, causing a Kruin Outlaw (the front face of a double-faced card) to become a copy of Elite Vanguard (a 2/1 Human Soldier creature) until end of turn. The player then casts Moonmist, which reads, in part, "Transform all Humans." Because the copy of Elite Vanguard is a double-faced card, it will transform. The resulting permanent will have its back face up, but it will still be a copy of Elite Vanguard that turn.
 
@@ -5909,7 +5972,7 @@ There are three specific meld pairs. Each meld pair consists of two specific car
 A meld card isn't a double-faced card. It can't transform or enter the battlefield transformed. (See rule 711, "Double-Faced Cards.")
 
 712.2.
-One card in each meld pair has an ability that exiles both that object and its counterpart and melds them. To meld the two cards in a meld pair, put them onto the battlefield with their back faces up and combined (see rule 701.34, "Meld"). The resulting permanent is a single object represented by two cards.
+One card in each meld pair has an ability that exiles both that object and its counterpart and melds them. To meld the two cards in a meld pair, put them onto the battlefield with their back faces up and combined (see rule 701.35, "Meld"). The resulting permanent is a single object represented by two cards.
 
 712.3.
 The front face of each meld card and the combined face formed by a meld pair each has its own set of characteristics.
@@ -5944,6 +6007,9 @@ Example: Mimic Vat is an artifact that reads, in part, "Whenever a nontoken crea
 712.4d
 If multiple replacement effects could be applied to the event of a melded permanent leaving the battlefield or being put into the new zone, applying one of those replacement effects to one of the two cards affects both cards. If the melded permanent is a commander, it may be exempt from this rule; see rule 903.9a.
 Example: Leyline of the Void is an enchantment that reads, in part, "If a card would be put into an opponent's graveyard from anywhere, exile it instead." Wheel of Sun and Moon is an Aura with enchant player and the ability "If a card would be put into enchanted player's graveyard from anywhere, instead that card is revealed and put on the bottom of its owner's library." If the controller of Chittering Host is affected by both cards' effects, that player chooses one effect to apply to the event and Midnight Scavengers and Graf Rats are both moved to the appropriate zone.
+
+712.4e
+If an effect needs to know the number of objects that changed zones, a melded permanent among those objects counts as one object that moved. If the effect needs to know the number of cards that changed zones, that melded permanent counts as two cards that moved.
 
 712.5.
 Players who are allowed to look at a meld card may look at its half of the combined back face. Players may access Oracle text for the other member of the meld pair and the combined face at any time (see rule 108.1).
@@ -6064,7 +6130,7 @@ There are two inherent triggered abilities associated with being the monarch. Th
 Only one player can be the monarch at a time. As a player becomes the monarch, the current monarch ceases to be the monarch.
 
 716.4.
-If the monarch leaves the game, the active player becomes the monarch at the same time as that player leaves the game. If the leaving monarch is the active player, the next player in turn order becomes the monarch.
+If the monarch leaves the game, the active player becomes the monarch at the same time as that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order becomes the monarch.
 
 717. Restarting the Game
 
@@ -6169,7 +6235,7 @@ Taking a shortcut follows the following procedure.
 
 719.2a
 At any point in the game, the player with priority may suggest a shortcut by describing a sequence of game choices, for all players, that may be legally taken based on the current game state and the predictable results of the sequence of choices. This sequence may be a non-repetitive series of choices, a loop that repeats a specified number of times, multiple loops, or nested loops, and may even cross multiple turns. It can't include conditional actions, where the outcome of a game event determines the next action a player takes. The ending point of this sequence must be a place where a player has priority, though it need not be the player proposing the shortcut.
-Example: A player controls a creature enchanted by Presence of Gond, which grants the creature the ability "{T}: Put a 1/1 green Elf Warrior creature token onto the battlefield," and another player controls Intruder Alarm, which reads, in part, "Whenever a creature enters the battlefield, untap all creatures." When the player has priority, he may suggest "I'll create a million tokens," indicating the sequence of activating the creature's ability, all players passing priority, letting the creature's ability resolve and put a token onto the battlefield (which causes Intruder Alarm's ability to trigger), Intruder Alarm's controller putting that triggered ability on the stack, all players passing priority, Intruder Alarm's triggered ability resolving, all players passing priority until the player proposing the shortcut has priority, and repeating that sequence 999,999 more times, ending just after the last token-creating ability resolves.
+Example: A player controls a creature enchanted by Presence of Gond, which grants the creature the ability "{T}: Create a 1/1 green Elf Warrior creature token," and another player controls Intruder Alarm, which reads, in part, "Whenever a creature enters the battlefield, untap all creatures." When the player has priority, he or she may suggest "I'll create a million tokens," indicating the sequence of activating the creature's ability, all players passing priority, letting the creature's ability resolve and create a token (which causes Intruder Alarm's ability to trigger), Intruder Alarm's controller putting that triggered ability on the stack, all players passing priority, Intruder Alarm's triggered ability resolving, all players passing priority until the player proposing the shortcut has priority, and repeating that sequence 999,999 more times, ending just after the last token-creating ability resolves.
 
 719.2b
 Each other player, in turn order starting after the player who suggested the shortcut, may either accept the proposed sequence, or shorten it by naming a place where he or she will make a game choice that's different than what's been proposed. (The player doesn't need to specify at this time what the new choice will be.) This place becomes the new ending point of the proposed sequence.
@@ -6220,10 +6286,10 @@ When a player leaves the game, all objects (see rule 109) owned by that player l
 Example: Alex casts Mind Control, an Aura that reads, "You control enchanted creature," on Bianca's Assault Griffin. If Alex leaves the game, so does Mind Control, and Assault Griffin reverts to Bianca's control. If, instead, Bianca leaves the game, so does Assault Griffin, and Mind Control is put into Alex's graveyard.
 Example: Alex casts Act of Treason, which reads, in part, "Gain control of target creature until end of turn," targeting Bianca's Runeclaw Bears. If Alex leaves the game, Act of Treason's change-of-control effect ends and Runeclaw Bears reverts to Bianca's control.
 Example: Alex casts Bribery, which reads, "Search target opponent's library for a creature card and put that card onto the battlefield under your control. Then that player shuffles his or her library," targeting Bianca. Alex puts Serra Angel onto the battlefield from Bianca's library. If Bianca leaves the game, Serra Angel also leaves the game. If, instead, Alex leaves the game, Serra Angel is exiled.
-Example: Alex controls Genesis Chamber, which reads, "Whenever a nontoken creature enters the battlefield, if Genesis Chamber is untapped, that creature's controller puts a 1/1 colorless Myr artifact creature token onto the battlefield." If Alex leaves the game, all such Myr tokens that entered the battlefield under Alex's control leave the game, and all such Myr tokens that entered the battlefield under any other player's control remain in the game.
+Example: Alex controls Genesis Chamber, which reads, "Whenever a nontoken creature enters the battlefield, if Genesis Chamber is untapped, that creature's controller creates a 1/1 colorless Myr artifact creature token." If Alex leaves the game, all such Myr tokens that entered the battlefield under Alex's control leave the game, and all such Myr tokens that entered the battlefield under any other player's control remain in the game.
 
 800.4b
-If an object would change to the control of a player who has left the game, it doesn't. If a token would enter the battlefield under the control of a player who has left the game, no token is created. If a player would be controlled by a player who has left the game, he or she isn't.
+If an object would change to the control of a player who has left the game, it doesn't. If a token would be created under the control of a player who has left the game, no token is created. If an object would be put onto the battlefield or onto the stack under the control of a player who has left the game, that object remains in its current zone. If a player would be controlled by a player who has left the game, he or she isn't.
 
 800.4c
 If an effect that gives a player still in the game control of an object ends, there is no other effect giving control of that object to another player in the game, and the object entered the battlefield under the control of a player who has left the game, the object is exiled. This is not a state-based action. It happens as soon as the control-changing effect ends.
@@ -6808,7 +6874,7 @@ Any abilities of a face-up plane card or phenomenon card in the command zone fun
 A face-up plane card or phenomenon card that's turned face down becomes a new object.
 
 901.8.
-Planechase games have an inherent triggered ability known as the "planeswalking ability." The full text of this ability is "Whenever you roll {PW}, planeswalk." (See rule 701.21, "Planeswalk.") This ability has no source and is controlled by the player whose planar die roll caused it to trigger. This is an exception to rule 112.8.
+Planechase games have an inherent triggered ability known as the "planeswalking ability." The full text of this ability is "Whenever you roll {PW}, planeswalk." (See rule 701.22, "Planeswalk.") This ability has no source and is controlled by the player whose planar die roll caused it to trigger. This is an exception to rule 112.8.
 
 901.9.
 Any time the active player has priority and the stack is empty, but only during a main phase of his or her turn, that player may roll the planar die. Taking this action costs a player an amount of mana equal to the number of times he or she has previously taken this action on that turn. This is a special action and doesn't use the stack. Note that this number won't be equal to the number of times the player has rolled the planar die that turn if an effect has caused the player to roll the planar die that turn. (See rule 115.2f.)
@@ -6832,7 +6898,7 @@ If a plane leaves the game while a "planeswalking ability" is on the stack, that
 Abilities from phenomena owned by a player who left the game remain on the stack controlled by the new planar controller.
 
 901.11.
-After the game has started, if a player moves the top card of his or her planar deck off that planar deck and turns it face up, that player has "planeswalked." Continuous effects with durations that last until a player planeswalks end. Abilities that trigger when a player planeswalks trigger. See rule 701.21.
+After the game has started, if a player moves the top card of his or her planar deck off that planar deck and turns it face up, that player has "planeswalked." Continuous effects with durations that last until a player planeswalks end. Abilities that trigger when a player planeswalks trigger. See rule 701.22.
 
 901.11a
 A player may planeswalk as the result of the "planeswalking ability" (see rule 901.8), because the owner of a face-up plane card or phenomenon card leaves the game (see rule 901.10), or because a phenomenon's triggered ability leaves the stack (see rule 704.5x). Abilities may also instruct a player to planeswalk.
@@ -7017,13 +7083,13 @@ The owner of a scheme card is the player who started the game with it in the com
 Any abilities of a face-up scheme card in the command zone function from that zone. The card's static abilities affect the game, its triggered abilities may trigger, and its activated abilities may be activated.
 
 904.9.
-Immediately after the archenemy's precombat main phase begins during each of his or her turns, that player moves the top card of his or her scheme deck off that scheme deck and turns it face up. This is called "setting that scheme in motion." (See rule 701.22.) This turn-based action doesn't use the stack. Abilities of that scheme card that trigger "When you set this scheme in motion" trigger.
+Immediately after the archenemy's precombat main phase begins during each of his or her turns, that player moves the top card of his or her scheme deck off that scheme deck and turns it face up. This is called "setting that scheme in motion." (See rule 701.23.) This turn-based action doesn't use the stack. Abilities of that scheme card that trigger "When you set this scheme in motion" trigger.
 
 904.10.
 If a non-ongoing scheme card is face up in the command zone, and it isn't the source of a triggered ability that has triggered but not yet left the stack, that scheme card is turned face down and put on the bottom of its owner's scheme deck the next time a player would receive priority. (This is a state-based action. See rule 704.)
 
 904.11.
-Once an ongoing scheme card is set in motion, it remains face up in the command zone until an ability causes it to be abandoned (see rule 701.23).
+Once an ongoing scheme card is set in motion, it remains face up in the command zone until an ability causes it to be abandoned (see rule 701.24).
 
 904.12.
 Supervillain Rumble Option
@@ -7083,7 +7149,7 @@ Once the starting player has been determined, each player sets his or her life t
 Glossary
 
 Abandon
-To turn a face-up ongoing scheme card face down and put it on the bottom of its owner's scheme deck. See rule 701.23, "Abandon."
+To turn a face-up ongoing scheme card face down and put it on the bottom of its owner's scheme deck. See rule 701.24, "Abandon."
 
 Ability
 1. Text on an object that explains what that object does or can do.
@@ -7250,7 +7316,7 @@ Bloodthirst
 A keyword ability that can have a creature enter the battlefield with +1/+1 counters on it. See rule 702.53, "Bloodthirst."
 
 Bolster
-A keyword action that puts +1/+1 counters on the weakest creature a player controls. See rule 701.30, "Bolster."
+A keyword action that puts +1/+1 counters on the weakest creature a player controls. See rule 701.31, "Bolster."
 
 Booster Pack
 A group of unopened Magic cards from a particular expansion. Booster packs are used in Limited formats. See rule 100.2b.
@@ -7313,7 +7379,7 @@ Cipher
 A keyword ability that allows you to encode a card on a creature and cast that card whenever that creature deals combat damage to a player. See rule 702.98, "Cipher."
 
 Clash
-To have a mini-contest involving the top cards of players' libraries. See rule 701.20, "Clash."
+To have a mini-contest involving the top cards of players' libraries. See rule 701.21, "Clash."
 
 Cleanup Step
 Part of the turn. This step is the second and final step of the ending phase. See rule 514, "Cleanup Step."
@@ -7402,11 +7468,17 @@ Counter
 Counts As (Obsolete)
 Some older cards were printed with text stating that the card "counts as" something. Cards printed with this text have received errata in the Oracle card reference to state that the card actually is that thing.
 
+Create
+To create a token is to put a token onto the battlefield. See rule 701.6, "Create."
+
 Creature
 A card type. A creature is a permanent. See rule 302, "Creatures."
 
 Creature Type
 A subtype that's correlated to the creature card type and the tribal card type. See rule 302, "Creatures," and rule 308, "Tribals." See rule 205.3m for the list of creature types.
+
+Crew
+A keyword ability that lets you tap creatures to turn a Vehicle into an artifact creature. See rule 301, "Artifacts," and rule 702.121, "Crew."
 
 Cumulative Upkeep
 A keyword ability that imposes an increasing cost to keep a permanent on the battlefield. See rule 702.23, "Cumulative Upkeep."
@@ -7466,10 +7538,10 @@ Deploy Creatures Option
 An option that may be used in certain multiplayer variants to pass control of creatures between teammates. See rule 804, "Deploy Creatures Option."
 
 Destroy
-To move a permanent from the battlefield to its owner's graveyard. See rule 701.6, "Destroy."
+To move a permanent from the battlefield to its owner's graveyard. See rule 701.7, "Destroy."
 
 Detain
-A keyword action that temporarily stops a permanent from attacking, blocking, or having its activated abilities activated. See rule 701.26, "Detain."
+A keyword action that temporarily stops a permanent from attacking, blocking, or having its activated abilities activated. See rule 701.27, "Detain."
 
 Dethrone
 A keyword ability that puts a +1/+1 counter on a creature when it attacks the player with the most life. See rule 702.104, "Dethrone."
@@ -7487,7 +7559,7 @@ Dies
 A creature "dies" if it is put into a graveyard from the battlefield. See rule 700.4.
 
 Discard
-To move a card from its owner's hand to that player's graveyard. See rule 701.7, "Discard."
+To move a card from its owner's hand to that player's graveyard. See rule 701.8, "Discard."
 
 Double-Faced Cards
 Cards with two faces, one on each side of the card, and no Magic card back. See rule 711, "Double-Faced Cards."
@@ -7563,6 +7635,9 @@ To "end the turn" as the result of an effect is to perform an expedited process 
 Ending Phase
 Part of the turn. This phase is the fifth and final phase of the turn. See rule 512, "Ending Phase."
 
+Energy Symbol
+The energy symbol {E} represents one energy counter. To pay {E}, a player removes one energy counter from himself or herself.
+
 Enters the Battlefield
 A nontoken permanent "enters the battlefield" when it's moved onto the battlefield from another zone. A token "enters the battlefield" when it's created. See rules 403.3, 603.6a, 603.6e, and 614.12.
 
@@ -7597,7 +7672,7 @@ Exalted
 A keyword ability that can make a creature better in combat. See rule 702.82, "Exalted."
 
 Exchange
-To swap two things, such as objects, sets of objects, or life totals. See rule 701.8, "Exchange."
+To swap two things, such as objects, sets of objects, or life totals. See rule 701.9, "Exchange."
 
 Exile
 1. A zone. Exile is essentially a holding area for cards. It used to be known as the "removed-from-the-game" zone.
@@ -7616,6 +7691,9 @@ A keyword ability that lets you gain life and have opponents lose life whenever 
 Extra Turn
 A turn created by an effect of a spell or ability. See rule 500.7. For rules about extra turns in a multiplayer game using the shared team turns option, see 805.8. For rules about extra turns in a Grand Melee game, see rule 807.4.
 
+Fabricate
+A keyword ability that lets you choose whether to create Servo tokens or put +1/+1 counters on a creature. See rule 702.122, "Fabricate."
+
 Face Down
 1. A card is "face down" if it's physically positioned so the card back is showing. Cards in some zones are normally kept face down. See section 4, "Zones."
 2. A status a permanent may have. See rule 110.6 and rule 702.36, "Morph."
@@ -7629,13 +7707,13 @@ Fading
 A keyword ability that limits how long a permanent remains on the battlefield. See rule 702.31, "Fading."
 
 Fateseal
-To manipulate some of the cards on top of an opponent's library. See rule 701.19, "Fateseal."
+To manipulate some of the cards on top of an opponent's library. See rule 701.20, "Fateseal."
 
 Fear
 A keyword ability that restricts how a creature may be blocked. See rule 702.35, "Fear."
 
 Fight
-When two creatures fight, each deals damage equal to its power to the other. See rule 701.10, "Fight."
+When two creatures fight, each deals damage equal to its power to the other. See rule 701.11, "Fight."
 
 First Strike
 A keyword ability that lets a creature deal its combat damage before other creatures. See rule 702.7, "First Strike."
@@ -7704,7 +7782,7 @@ Global Enchantment (Obsolete)
 An obsolete term for a non-Aura enchantment. Cards printed with this text have received errata in the Oracle card reference.
 
 Goad
-A keyword action that forces a creature to attack and to attack another player if able. See rule 701.35, "Goad."
+A keyword action that forces a creature to attack and to attack another player if able. See rule 701.36, "Goad."
 
 Graft
 A keyword ability that has a permanent enter the battlefield with +1/+1 counters on it and can move those counters to other creatures. See rule 702.57, "Graft."
@@ -7807,7 +7885,7 @@ Intimidate
 A keyword ability that restricts how a creature may be blocked. See rule 702.13, "Intimidate."
 
 Investigate
-A keyword action that creates a Clue artifact token. See rule 701.33, "Investigate."
+A keyword action that creates a Clue artifact token. See rule 701.34, "Investigate."
 
 Island
 One of the five basic land types. Any land with this subtype has the ability "{T}: Add {U} to your mana pool." See rule 305.6.
@@ -7896,7 +7974,7 @@ Linked Abilities
 Two abilities printed on the same object such that one of them causes actions to be taken or objects to be affected and the other one directly refers to those actions or objects. See rule 607, "Linked Abilities."
 
 Living Weapon
-A keyword ability that causes a creature token to be put onto the battlefield along with the Equipment with the ability. See rule 702.91, "Living Weapon."
+A keyword ability that creates a creature token and then attaches the Equipment with the ability to that token. See rule 702.91, "Living Weapon."
 
 Local Enchantment (Obsolete)
 An obsolete term for an Aura. Cards printed with this text have received errata in the Oracle card reference.
@@ -7945,7 +8023,7 @@ Mana Symbol
 An icon that represents mana or a mana cost. See rule 107.4.
 
 Manifest
-A keyword action that puts a card onto the battlefield face down as a 2/2 creature. See rule 701.31, "Manifest," and rule 707, "Face-Down Spells and Permanents."
+A keyword action that puts a card onto the battlefield face down as a 2/2 creature. See rule 701.32, "Manifest," and rule 707, "Face-Down Spells and Permanents."
 
 Match
 A multiplayer game or a two-player series of games (usually best-two-of-three) played in a tournament. See rule 100.6.
@@ -7957,7 +8035,7 @@ Megamorph
 A variant of the morph ability that puts a +1/+1 counter on the creature as it turns face up. See rule 702.36, "Morph."
 
 Meld
-To turn two members of a meld pair so their back faces are up and combined into one oversized Magic card. See rule 701.34, "Meld."
+To turn two members of a meld pair so their back faces are up and combined into one oversized Magic card. See rule 701.35, "Meld."
 
 Meld Cards
 Cards with a Magic card face on one side and half of an oversized Magic card face on the other. See rule 712, "Meld Cards."
@@ -7990,10 +8068,10 @@ Monocolored Hybrid Mana Symbols
 See Hybrid Mana Symbols.
 
 Monstrosity
-A keyword action that puts +1/+1 counters on a creature and makes it become monstrous. See rule 701.28, "Monstrosity."
+A keyword action that puts +1/+1 counters on a creature and makes it become monstrous. See rule 701.29, "Monstrosity."
 
 Monstrous
-A designation given to a creature whose ability including a monstrosity instruction has resolved. See rule 701.28, "Monstrosity."
+A designation given to a creature whose ability including a monstrosity instruction has resolved. See rule 701.29, "Monstrosity."
 
 Morph
 A keyword ability that lets a card be cast face down as a 2/2 creature. See rule 702.36, "Morph," and rule 707, "Face-Down Spells and Permanents."
@@ -8148,7 +8226,7 @@ Planechase
 A casual variant in which plane cards and phenomenon cards add additional abilities and randomness to the game. See rule 901, "Planechase."
 
 Planeswalk
-To put each face-up plane card or phenomenon card on the bottom of its owner's planar deck face down, then move the top card of your planar deck off that planar deck and turn it face up in a Planechase game. See rule 701.21, "Planeswalk."
+To put each face-up plane card or phenomenon card on the bottom of its owner's planar deck face down, then move the top card of your planar deck off that planar deck and turn it face up in a Planechase game. See rule 701.22, "Planeswalk."
 
 Planeswalker
 A card type. A planeswalker is a permanent. See rule 306, "Planeswalkers."
@@ -8185,7 +8263,7 @@ Poly Artifact (Obsolete)
 An obsolete term that appeared on the type line of artifacts with activated abilities that didn't cause the artifact to be tapped as a cost. Cards printed with this text have received errata in the Oracle card reference to simply say "Artifact."
 
 Populate
-A keyword action that creates a copy of a creature token you control. See rule 701.27, "Populate."
+A keyword action that creates a copy of a creature token you control. See rule 701.28, "Populate."
 
 Postcombat Main Phase
 A main phase that occurs after a combat phase. See Main Phase.
@@ -8207,7 +8285,7 @@ Priority
 Which player can take actions at any given time is determined by a system of "priority." See rule 116, "Timing and Priority."
 
 Proliferate
-To give an additional counter to any number of players and/or permanents that already have a counter. See rule 701.24, "Proliferate."
+To give an additional counter to any number of players and/or permanents that already have a counter. See rule 701.25, "Proliferate."
 
 Protection
 A keyword ability that provides a range of benefits against objects with a specific quality. See rule 702.16, "Protection."
@@ -8246,7 +8324,7 @@ Redirection Effect
 A kind of replacement effect that causes damage that would be dealt to one creature, planeswalker, or player to be dealt instead to another creature, planeswalker, or player. See rule 614.9.
 
 Regenerate
-To replace a permanent's destruction with an alternate sequence of events. See rule 701.12, "Regenerate."
+To replace a permanent's destruction with an alternate sequence of events. See rule 701.13, "Regenerate."
 
 Reinforce
 A keyword ability that lets a player put +1/+1 counters on a creature. See rule 702.76, "Reinforce."
@@ -8291,7 +8369,7 @@ Retrace
 A keyword ability that lets a player cast a card from his or her graveyard. See rule 702.80, "Retrace."
 
 Reveal
-To show a card to all players for a brief time. See rule 701.13, "Reveal."
+To show a card to all players for a brief time. See rule 701.14, "Reveal."
 
 Ripple
 A keyword ability that may let a player cast extra cards from his or her library for no cost. See rule 702.59, "Ripple."
@@ -8300,7 +8378,7 @@ Rules Text
 A characteristic that defines a card's abilities. See rule 207.1.
 
 Sacrifice
-To move a permanent you control to its owner's graveyard. See rule 701.14, "Sacrifice."
+To move a permanent you control to its owner's graveyard. See rule 701.15, "Sacrifice."
 
 Scavenge
 A keyword ability that allows you to exile a creature card from your graveyard to put +1/+1 counters on a creature. See rule 702.96, "Scavenge."
@@ -8309,16 +8387,16 @@ Scheme
 A card type seen only on nontraditional Magic cards in the Archenemy casual variant. A scheme card is not a permanent. See rule 312, "Schemes."
 
 Scry
-To manipulate some of the cards on top of your library. See rule 701.18, "Scry."
+To manipulate some of the cards on top of your library. See rule 701.16, "Scry."
 
 Search
-To look at all cards in a stated zone and possibly find a card that matches a given description. See rule 701.15, "Search."
+To look at all cards in a stated zone and possibly find a card that matches a given description. See rule 701.17, "Search."
 
 Set Aside (Obsolete)
 "Set [something] aside" is an obsolete term for "exile [something]." Cards with that text have received errata in the Oracle card reference. See Exile.
 
 Set in Motion
-To move a scheme card off the top of your scheme deck and turn it face up. See rule 701.22, "Set in Motion."
+To move a scheme card off the top of your scheme deck and turn it face up. See rule 701.23, "Set in Motion."
 
 Shadow
 A keyword ability that restricts how a creature may be blocked and which creatures it can block. See rule 702.27, "Shadow."
@@ -8453,7 +8531,7 @@ Supervillain Rumble
 A Free-for-All game in which each player is an archenemy. See rule 806, "Free-for-All," and rule 904, "Archenemy."
 
 Support
-A keyword action that lets you put +1/+1 counters on creatures. See rule 701.32, "Support."
+A keyword action that lets you put +1/+1 counters on creatures. See rule 701.33, "Support."
 
 Surge
 A keyword ability that provides an alternative cost to cast a card if you or one of your teammates has cast another spell in the same turn. See rule 702.116, "Surge."
@@ -8471,10 +8549,10 @@ Swampwalk
 See Landwalk.
 
 Tap
-To turn a permanent sideways from an upright position. See rule 701.17, "Tap and Untap."
+To turn a permanent sideways from an upright position. See rule 701.19, "Tap and Untap."
 
 Tapped
-A status a permanent may have. See rule 110.6 and rule 701.17, "Tap and Untap." See also Untapped.
+A status a permanent may have. See rule 110.6 and rule 701.19, "Tap and Untap." See also Untapped.
 
 Tap Symbol
 The tap symbol {T} in an activation cost means "Tap this permanent." See rule 107.5.
@@ -8538,7 +8616,7 @@ Transfigure
 A keyword ability that lets a player search his or her library for a replacement creature card. See rule 702.70, "Transfigure."
 
 Transform
-To turn a double-faced card so its other face is up. See rule 701.25, "Transform."
+To turn a double-faced card so its other face is up. See rule 701.26, "Transform."
 
 Transmute
 A keyword ability that lets a player search his or her library for a replacement card. See rule 702.52, "Transmute."
@@ -8611,7 +8689,7 @@ Unless
 A word used to indicate a certain style of cost. See rule 117.12a.
 
 Untap
-To rotate a permanent back to the upright position from a sideways position. See rule 701.17, "Tap and Untap."
+To rotate a permanent back to the upright position from a sideways position. See rule 701.19, "Tap and Untap."
 
 Untap Step
 Part of the turn. This step is the first step of the beginning phase. See rule 502, "Untap Step."
@@ -8620,7 +8698,7 @@ Untap Symbol
 The untap symbol {Q} in an activation cost means "Untap this permanent." See rule 107.6.
 
 Untapped
-A default status a permanent may have. See rule 110.6 and rule 701.17, "Tap and Untap." See also Tapped.
+A default status a permanent may have. See rule 110.6 and rule 701.19, "Tap and Untap." See also Tapped.
 
 Upkeep Step
 Part of the turn. This step is the second step of the beginning phase. See rule 503, "Upkeep Step."
@@ -8635,11 +8713,14 @@ A keyword ability that limits how long a permanent remains on the battlefield. S
 Variant
 An additional set of rules that determines the style of a multiplayer game. See rule 800.2.
 
+Vehicle
+An artifact subtype. Vehicles can become artifact creatures. See rule 301, "Artifacts," and rule 702.121, "Crew."
+
 Vigilance
 A keyword ability that lets a creature attack without tapping. See rule 702.20, "Vigilance."
 
 Vote
-Some cards instruct players to vote from among given options. See rule 701.29, "Vote."
+Some cards instruct players to vote from among given options. See rule 701.30, "Vote."
 
 Wall
 A creature type with no particular rules meaning. Older cards with the Wall creature type but without defender had an unwritten ability that precluded them from attacking. Those cards have received errata in the Oracle card reference to have defender. Some older cards that referenced the Wall creature type have also received errata. See Defender.
@@ -8678,7 +8759,7 @@ Credits
 
 Magic: The Gathering Original Game Design: Richard Garfield
 Comprehensive Rules Design and Development: Paul Barclay, Mark L. Gottlieb, Beth Moursund, Bill Rose, and Matt Tabak, with contributions from Charlie Californiatino, John Carter, Elaine Chase, Laurie Cheers, Stephen D'Angelo, Dave DeLaney, Brady Dommermuth, Mike Donais, Skaff Elias, Mike Elliott, Richard Garfield, Dan Gray, Robert Gutschera, Collin Jackson, William Jockusch, Jeff Jordan, Yonemura Kaoru, Russell Linnemann, Jim Lin, Steve Lord, Sheldon Menery, Michael Phoenix, Mark Rosewater, David Sachs, Lee Sharpe, Eli Shiffrin, Henry Stern, Donald X. Vaccarino, Thijs van Ommen, Ingo Warnke, Tom Wylie, and Bryan Zembruski
-Editing: Del Laugel (lead), Tim Aten, and Glenn Jones
+Editing: Del Laugel (lead) and Glenn Jones
 Magic Rules Management: Matt Tabak and Eli Shiffrin
 
 The Magic: The Gathering game was designed by Richard Garfield, with contributions from Charlie Californiatino, Skaff Elias, Don Felice, Tom Fontaine, Jim Lin, Joel Mick, Chris Page, Dave Pettey, Barry "Bit" Reich, Bill Rose, and Elliott Segal. The mana symbols were designed by Christopher Rush.
@@ -8696,9 +8777,8 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are effective as of August 26, 2016.
+These rules are effective as of September 30, 2016.
 
 Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica: City of Guilds, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, Innistrad, Return to Ravnica, Khans of Tarkir, Magic Origins, Shadows over Innistrad, Eldritch Moon, and Magic: The Gathering--Conspiracy are trademarks of Wizards of the Coast LLC in the USA and other countries. (C)2016 Wizards. U.S. Pat. No. RE 37,957.
-
 
 

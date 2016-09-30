@@ -313,5 +313,10 @@
     "setCode": "CN2",
     "setName": "Conspiracy: Take the Crown",
     "creationDay": "2016-08-26"
+  },
+  {
+    "setCode": "KLD",
+    "setName": "Kaladesh",
+    "creationDay": "2016-09-30"
   }
 ]
