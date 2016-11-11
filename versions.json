@@ -318,5 +318,10 @@
     "setCode": "KLD",
     "setName": "Kaladesh",
     "creationDay": "2016-09-30"
+  },
+  {
+    "setCode": "C16",
+    "setName": "Commander 2016",
+    "creationDay": "2016-11-11"
   }
 ]
