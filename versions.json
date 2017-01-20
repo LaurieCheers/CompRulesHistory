@@ -323,5 +323,10 @@
     "setCode": "C16",
     "setName": "Commander 2016",
     "creationDay": "2016-11-11"
+  },
+  {
+    "setCode": "AER",
+    "setName": "Aether Revolt",
+    "creationDay": "2017-01-20"
   }
 ]
