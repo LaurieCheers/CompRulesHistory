@@ -328,5 +328,10 @@
     "setCode": "AER",
     "setName": "Aether Revolt",
     "creationDay": "2017-01-20"
+  },
+  {
+    "setCode": "AKH",
+    "setName": "Amonkhet",
+    "creationDay": "2017-04-28"
   }
 ]
