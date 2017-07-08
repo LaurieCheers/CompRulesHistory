@@ -338,5 +338,10 @@
     "setCode": "CMA",
     "setName": "Commander Anthology",
     "creationDay": "2017-06-05"
+  },
+  {
+    "setCode": "HOU",
+    "setName": "Hour of Devastation",
+    "creationDay": "2017-07-08"
   }
 ]
