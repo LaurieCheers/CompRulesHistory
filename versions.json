@@ -343,5 +343,10 @@
     "setCode": "HOU",
     "setName": "Hour of Devastation",
     "creationDay": "2017-07-08"
+  },
+  {
+    "setCode": "C17",
+    "setName": "Commander 2017",
+    "creationDay": "2017-08-25"
   }
 ]
