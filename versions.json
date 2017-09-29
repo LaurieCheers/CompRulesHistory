@@ -348,5 +348,10 @@
     "setCode": "C17",
     "setName": "Commander 2017",
     "creationDay": "2017-08-25"
+  },
+  {
+    "setCode": "XLN",
+    "setName": "Ixalan",
+    "creationDay": "2017-09-29"
   }
 ]
