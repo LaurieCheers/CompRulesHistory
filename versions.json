@@ -353,5 +353,10 @@
     "setCode": "XLN",
     "setName": "Ixalan",
     "creationDay": "2017-09-29"
+  },
+  {
+    "setCode": "RIX",
+    "setName": "Rivals of Ixalan",
+    "creationDay": "2018-01-19"
   }
 ]
