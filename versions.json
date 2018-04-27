@@ -358,5 +358,10 @@
     "setCode": "RIX",
     "setName": "Rivals of Ixalan",
     "creationDay": "2018-01-19"
+  },
+  {
+    "setCode": "DOM",
+    "setName": "Dominaria",
+    "creationDay": "2018-04-27"
   }
 ]
