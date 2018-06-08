@@ -363,5 +363,10 @@
     "setCode": "DOM",
     "setName": "Dominaria",
     "creationDay": "2018-04-27"
+  },
+  {
+    "setCode": "BBD",
+    "setName": "Battlebond",
+    "creationDay": "2018-06-08"
   }
 ]
