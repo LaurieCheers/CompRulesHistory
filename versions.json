@@ -373,5 +373,10 @@
     "setCode": "M19",
     "setName": "Core Set 2019",
     "creationDay": "2018-07-13"
+  },
+  {
+    "setCode": "GRN",
+    "setName": "Guilds of Ravnica",
+    "creationDay": "2018-10-05"
   }
 ]
