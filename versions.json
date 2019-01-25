@@ -378,5 +378,10 @@
     "setCode": "GRN",
     "setName": "Guilds of Ravnica",
     "creationDay": "2018-10-05"
+  },
+  {
+    "setCode": "RNA",
+    "setName": "Ravnica Allegiance",
+    "creationDay": "2019-01-25"
   }
 ]
