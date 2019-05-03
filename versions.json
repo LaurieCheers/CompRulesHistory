@@ -383,5 +383,10 @@
     "setCode": "RNA",
     "setName": "Ravnica Allegiance",
     "creationDay": "2019-01-25"
+  },
+  {
+    "setCode": "WAR",
+    "setName": "War of the Spark",
+    "creationDay": "2019-05-03"
   }
 ]
