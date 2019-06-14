@@ -388,5 +388,10 @@
     "setCode": "WAR",
     "setName": "War of the Spark",
     "creationDay": "2019-05-03"
+  },
+  {
+    "setCode": "MH1",
+    "setName": "Modern Horizons",
+    "creationDay": "2019-06-14"
   }
 ]
