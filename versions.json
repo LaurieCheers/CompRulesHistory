@@ -393,5 +393,10 @@
     "setCode": "MH1",
     "setName": "Modern Horizons",
     "creationDay": "2019-06-14"
+  },
+  {
+    "setCode": "M20",
+    "setName": "Core Set 2020",
+    "creationDay": "2019-07-12"
   }
 ]
