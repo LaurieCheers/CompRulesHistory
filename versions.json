@@ -403,5 +403,10 @@
     "setCode": "C19",
     "setName": "Commander 2019",
     "creationDay": "2019-08-23"
+  },
+  {
+    "setCode": "ELD",
+    "setName": "Throne of Eldraine",
+    "creationDay": "2019-10-04"
   }
 ]
