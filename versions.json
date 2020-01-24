@@ -408,5 +408,10 @@
     "setCode": "ELD",
     "setName": "Throne of Eldraine",
     "creationDay": "2019-10-04"
+  },
+  {
+    "setCode": "THB",
+    "setName": "Theros Beyond Death",
+    "creationDay": "2020-01-24"
   }
 ]
