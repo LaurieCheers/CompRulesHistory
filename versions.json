@@ -413,5 +413,10 @@
     "setCode": "THB",
     "setName": "Theros Beyond Death",
     "creationDay": "2020-01-24"
+  },
+  {
+    "setCode": "IKO",
+    "setName": "Ikoria",
+    "creationDay": "2020-04-17"
   }
 ]
