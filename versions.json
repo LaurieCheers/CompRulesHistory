@@ -418,5 +418,10 @@
     "setCode": "IKO",
     "setName": "Ikoria",
     "creationDay": "2020-04-17"
+  },
+  {
+    "setCode": "IKO_2",
+    "setName": "Companion Change",
+    "creationDay": "2020-06-01"
   }
 ]
