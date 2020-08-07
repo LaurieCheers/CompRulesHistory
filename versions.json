@@ -428,5 +428,10 @@
     "setCode": "M21",
     "setName": "Core Set 2021",
     "creationDay": "2020-07-03"
+  },
+  {
+    "setCode": "2XM",
+    "setName": "Double Masters",
+    "creationDay": "2020-08-07"
   }
 ]
