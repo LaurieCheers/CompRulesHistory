@@ -448,5 +448,10 @@
     "setCode": "KHM",
     "setName": "Kaldheim",
     "creationDay": "2021-02-05"
+  },
+  {
+    "setCode": "KHM_2",
+    "setName": "Cascade Update",
+    "creationDay": "2021-02-15"
   }
 ]
