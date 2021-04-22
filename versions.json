@@ -453,5 +453,10 @@
     "setCode": "KHM_2",
     "setName": "Cascade Update",
     "creationDay": "2021-02-15"
+  },
+  {
+    "setCode": "STX",
+    "setName": "Strixhaven",
+    "creationDay": "2021-04-22"
   }
 ]
