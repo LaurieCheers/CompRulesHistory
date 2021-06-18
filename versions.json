@@ -458,5 +458,10 @@
     "setCode": "STX",
     "setName": "Strixhaven",
     "creationDay": "2021-04-22"
+  },
+  {
+    "setCode": "MH2",
+    "setName": "Modern Horizons 2",
+    "creationDay": "2021-06-18"
   }
 ]
