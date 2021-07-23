@@ -463,5 +463,10 @@
     "setCode": "MH2",
     "setName": "Modern Horizons 2",
     "creationDay": "2021-06-18"
+  },
+  {
+    "setCode": "AFR",
+    "setName": "Adventures in the Forgotten Realms",
+    "creationDay": "2021-07-23"
   }
 ]
