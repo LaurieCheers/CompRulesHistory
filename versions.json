@@ -468,5 +468,10 @@
     "setCode": "AFR",
     "setName": "Adventures in the Forgotten Realms",
     "creationDay": "2021-07-23"
+  },
+  {
+    "setCode": "MID",
+    "setName": "Innistrad: Midnight Hunt",
+    "creationDay": "2021-09-24"
   }
 ]
