@@ -473,5 +473,10 @@
     "setCode": "MID",
     "setName": "Innistrad: Midnight Hunt",
     "creationDay": "2021-09-24"
+  },
+  {
+    "setCode": "VOW",
+    "setName": "Innistrad: Crimson Vow",
+    "creationDay": "2021-11-15"
   }
 ]
