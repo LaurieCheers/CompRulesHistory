@@ -478,5 +478,10 @@
     "setCode": "VOW",
     "setName": "Innistrad: Crimson Vow",
     "creationDay": "2021-11-15"
+  },
+  {
+    "setCode": "NEO",
+    "setName": "Kamigawa: Neon Dynasty",
+    "creationDay": "2022-02-18"
   }
 ]
