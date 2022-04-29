@@ -483,5 +483,10 @@
     "setCode": "NEO",
     "setName": "Kamigawa: Neon Dynasty",
     "creationDay": "2022-02-18"
+  },
+  {
+    "setCode": "SNC",
+    "setName": "Streets of New Capenna",
+    "creationDay": "2022-04-29"
   }
 ]
