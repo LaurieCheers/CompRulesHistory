@@ -498,5 +498,10 @@
     "setCode": "2X2",
     "setName": "Double Masters 2022",
     "creationDay": "2022-07-08"
+  },
+  {
+    "setCode": "DMU",
+    "setName": "Dominaria United",
+    "creationDay": "2022-09-01"
   }
 ]
