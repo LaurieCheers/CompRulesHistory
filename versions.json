@@ -503,5 +503,10 @@
     "setCode": "DMU",
     "setName": "Dominaria United",
     "creationDay": "2022-09-01"
+  },
+  {
+    "setCode": "UNF",
+    "setName": "Unfinity",
+    "creationDay": "2022-10-10"
   }
 ]
