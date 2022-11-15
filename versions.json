@@ -508,5 +508,10 @@
     "setCode": "UNF",
     "setName": "Unfinity",
     "creationDay": "2022-10-10"
+  },
+  {
+    "setCode": "BRO",
+    "setName": "The Brothers’ War",
+    "creationDay": "2022-11-15"
   }
 ]
