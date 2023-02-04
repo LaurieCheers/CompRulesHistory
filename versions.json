@@ -513,5 +513,10 @@
     "setCode": "BRO",
     "setName": "The Brothers’ War",
     "creationDay": "2022-11-15"
+  },
+  {
+    "setCode": "ONE",
+    "setName": "Phyrexia: All Will Be One",
+    "creationDay": "2023-02-04"
   }
 ]
