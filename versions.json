@@ -518,5 +518,10 @@
     "setCode": "ONE",
     "setName": "Phyrexia: All Will Be One",
     "creationDay": "2023-02-04"
+  },
+  {
+    "setCode": "MOM",
+    "setName": "March of the Machine",
+    "creationDay": "2023-04-08"
   }
 ]
