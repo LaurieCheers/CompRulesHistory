@@ -523,5 +523,10 @@
     "setCode": "MOM",
     "setName": "March of the Machine",
     "creationDay": "2023-04-08"
+  },
+  {
+    "setCode": "LTR",
+    "setName": "The Lord of the Rings: Tales of Middle-earth",
+    "creationDay": "2023-06-16"
   }
 ]
