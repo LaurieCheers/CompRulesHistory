@@ -528,5 +528,10 @@
     "setCode": "LTR",
     "setName": "The Lord of the Rings: Tales of Middle-earth",
     "creationDay": "2023-06-16"
+  },
+  {
+    "setCode": "WOE",
+    "setName": "Wilds of Eldraine",
+    "creationDay": "2023-08-29"
   }
 ]
