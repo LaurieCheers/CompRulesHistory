@@ -538,5 +538,10 @@
     "setCode": "WHO",
     "setName": "Doctor Who",
     "creationDay": "2023-10-13"
+  },
+  {
+    "setCode": "LCI",
+    "setName": "The Lost Caverns of Ixalan",
+    "creationDay": "2023-11-16"
   }
 ]
