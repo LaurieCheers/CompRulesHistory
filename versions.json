@@ -543,5 +543,10 @@
     "setCode": "LCI",
     "setName": "The Lost Caverns of Ixalan",
     "creationDay": "2023-11-16"
+  },
+  {
+    "setCode": "MKM",
+    "setName": "Murders at Karlov Manor",
+    "creationDay": "2024-02-07"
   }
 ]
