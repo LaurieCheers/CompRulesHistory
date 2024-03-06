@@ -548,5 +548,10 @@
     "setCode": "MKM",
     "setName": "Murders at Karlov Manor",
     "creationDay": "2024-02-07"
+  },
+  {
+    "setCode": "PIP",
+    "setName": "Fallout",
+    "creationDay": "2024-03-06"
   }
 ]
