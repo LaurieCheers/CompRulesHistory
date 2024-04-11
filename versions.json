@@ -553,5 +553,10 @@
     "setCode": "PIP",
     "setName": "Fallout",
     "creationDay": "2024-03-06"
+  },
+  {
+    "setCode": "OTJ",
+    "setName": "Outlaws of Thunder Junction",
+    "creationDay": "2024-04-11"
   }
 ]
