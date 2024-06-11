@@ -558,5 +558,10 @@
     "setCode": "OTJ",
     "setName": "Outlaws of Thunder Junction",
     "creationDay": "2024-04-11"
+  },
+  {
+    "setCode": "MH3",
+    "setName": "Modern Horizons 3",
+    "creationDay": "2024-06-11"
   }
 ]
