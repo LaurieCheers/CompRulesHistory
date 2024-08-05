@@ -563,5 +563,10 @@
     "setCode": "MH3",
     "setName": "Modern Horizons 3",
     "creationDay": "2024-06-11"
+  },
+  {
+    "setCode": "BLB",
+    "setName": "Bloomburrow",
+    "creationDay": "2024-08-05"
   }
 ]
