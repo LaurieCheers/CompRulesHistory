@@ -568,5 +568,10 @@
     "setCode": "BLB",
     "setName": "Bloomburrow",
     "creationDay": "2024-08-05"
+  },
+  {
+    "setCode": "DSK",
+    "setName": "Duskmourn: House of Horror",
+    "creationDay": "2024-09-18"
   }
 ]
