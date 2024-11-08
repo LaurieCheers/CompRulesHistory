@@ -573,5 +573,10 @@
     "setCode": "DSK",
     "setName": "Duskmourn: House of Horror",
     "creationDay": "2024-09-18"
+  },
+  {
+    "setCode": "FDN",
+    "setName": "Foundations",
+    "creationDay": "2024-11-08"
   }
 ]
