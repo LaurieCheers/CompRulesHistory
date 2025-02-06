@@ -578,5 +578,10 @@
     "setCode": "FDN",
     "setName": "Foundations",
     "creationDay": "2024-11-08"
+  },
+  {
+    "setCode": "DFT",
+    "setName": "Aetherdrift",
+    "creationDay": "2025-02-06"
   }
 ]
