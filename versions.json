@@ -588,5 +588,10 @@
     "setCode": "TDM",
     "setName": "Tarkir: Dragonstorm",
     "creationDay": "2025-04-03"
+  },
+  {
+    "setCode": "FIN",
+    "setName": "Final Fantasy",
+    "creationDay": "2025-06-04"
   }
 ]
