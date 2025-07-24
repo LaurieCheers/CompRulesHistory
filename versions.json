@@ -593,5 +593,10 @@
     "setCode": "FIN",
     "setName": "Final Fantasy",
     "creationDay": "2025-06-04"
+  },
+  {
+    "setCode": "EOE",
+    "setName": "Edge of Eternities",
+    "creationDay": "2025-07-24"
   }
 ]
