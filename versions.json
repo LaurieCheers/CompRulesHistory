@@ -598,5 +598,10 @@
     "setCode": "EOE",
     "setName": "Edge of Eternities",
     "creationDay": "2025-07-24"
+  },
+  {
+    "setCode": "SPM",
+    "setName": "Marvel's Spider-Man",
+    "creationDay": "2025-09-17"
   }
 ]
