@@ -608,5 +608,10 @@
     "setCode": "TLA",
     "setName": "Avatar: The Last Airbender",
     "creationDay": "2025-11-18"
+  },
+  {
+    "setCode": "ECL",
+    "setName": "Lorwyn Eclipsed",
+    "creationDay": "2026-01-22"
   }
 ]
