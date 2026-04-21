@@ -618,5 +618,10 @@
     "setCode": "TMT",
     "setName": "Teenage Mutant Ninja Turtles",
     "creationDay": "2026-02-23"
+  },
+  {
+    "setCode": "SOS",
+    "setName": "Secrets of Strixhaven",
+    "creationDay": "2026-04-21"
   }
 ]
