@@ -623,5 +623,10 @@
     "setCode": "SOS",
     "setName": "Secrets of Strixhaven",
     "creationDay": "2026-04-21"
+  },
+  {
+    "setCode": "MSH",
+    "setName": "Marvel Super Heroes",
+    "creationDay": "2026-06-28"
   }
 ]
