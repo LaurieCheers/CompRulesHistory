@@ -1,6 +1,6 @@
 Magic: The Gathering Comprehensive Rules
 
-These rules are effective as of June 19, 2026.
+These rules are effective as of August 7, 2026.
 
 Introduction
 
@@ -1663,6 +1663,9 @@ One or more finality counters on a permanent create a single replacement effect 
 122.1i
 One or more rad counters on a player cause a triggered ability to trigger at the beginning of that player's precombat main phase. See rule 728, "Rad Counters."
 
+122.1j
+A hone counter on an Equipment gives +1/+0 to any creature that Equipment is attached to.
+
 122.2.
 Counters on an object are not retained if that object moves from one zone to another. The counters are not "removed"; they simply cease to exist. See rule 400.7.
 
@@ -2031,8 +2034,7 @@ An object's supertype is independent of its card type and subtype, even though s
 Example: An ability reads, "All lands are 1/1 creatures that are still lands." If any of the affected lands were legendary, they are still legendary.
 
 205.4c
-Any land with the supertype "basic" is a basic land. Any land that doesn't have this supertype is a nonbasic land, even if it has a basic land type.
-     Cards printed in sets prior to the Eighth Edition core set didn't use the word "basic" to indicate a basic land. Cards from those sets with the following names are basic lands and have received errata in the Oracle card reference accordingly: Forest, Island, Mountain, Plains, Swamp, Snow-Covered Forest, Snow-Covered Island, Snow-Covered Mountain, Snow-Covered Plains, and Snow-Covered Swamp.
+Any land with the supertype "basic" is a basic land. Any land that doesn't have this supertype is a nonbasic land, even if it has a basic land type.     Cards printed in sets prior to the Eighth Edition core set didn't use the word "basic" to indicate a basic land. Cards from those sets with the following names are basic lands and have received errata in the Oracle card reference accordingly: Forest, Island, Mountain, Plains, Swamp, Snow-Covered Forest, Snow-Covered Island, Snow-Covered Mountain, Snow-Covered Plains, and Snow-Covered Swamp.
 
 205.4d
 Any permanent with the supertype "legendary" is subject to the state-based action for legendary permanents, also called the "legend rule" (see rule 704.5j).
@@ -2550,45 +2552,48 @@ Battles can be attacked. (See rule 508, "Declare Attackers Step.")
 Damage dealt to a battle results in that many defense counters being removed from it.
 
 310.7.
-If a battle's defense is 0 and it isn't the source of an ability which has triggered but not yet left the stack, it's put into its owner's graveyard. (This is a state-based action. See rule 704.)
+If a Siege battle's defense is 0 and it isn't the source of an ability which has triggered but not yet left the stack, it's put into its owner's graveyard. (This is a state-based action. See rule 704.)
 
 310.8.
-Each battle has a player designated as its protector.
-
-310.8a
-As a battle enters the battlefield, its controller chooses a player to be its protector. Which players may be chosen as its protector are determined by its battle type (see rule 310.11). If it has no battle types, its controller becomes its protector.
-
-310.8b
-A battle's protector can never attack it. A battle can be attacked by any attacking player for whom its protector is a defending player. Notably, a Siege battle can be attacked by its own controller.
-
-310.8c
-A battle's protector may block creatures attacking that battle with creatures they control. Creatures controlled by other players can't block those attackers.
-
-310.8d
-If a battle's protector is a different player than its controller, all rules and effects that refer to the "defending player" relative to a battle that is being attacked refer to that battle's protector rather than its controller. See rule 508.5.
-
-310.8e
-If a rule or effect refers to the player who protects a battle, it means the player who is that battle's protector.
-
-310.8f
-A battle can have only one protector at a time. A battle's protector stops being its protector if another player becomes its protector.
-
-310.8g
-A battle's protector doesn't change if it stops being a battle or it becomes a copy of another battle.
+If a non-Siege battle's defense is 0, it's put into its owner's graveyard. (This is a state-based action. See rule 704.)
 
 310.9.
-A battle can't be attached to players or permanents, even if it is also an Aura, Equipment, or Fortification. If a battle is somehow attached to a permanent, it becomes unattached. This is a state-based action (see rule 704).
+Each battle has a player designated as its protector.
+
+310.9a
+As a battle enters the battlefield, its controller chooses a player to be its protector. Which players may be chosen as its protector are determined by its battle type (see rule 310.12). If it has no battle types, only its controller can be its protector.
+
+310.9b
+A battle's protector can never attack it. A battle can be attacked by any attacking player for whom its protector is a defending player. Notably, a Siege battle can be attacked by its own controller.
+
+310.9c
+A battle's protector may block creatures attacking that battle with creatures they control. Creatures controlled by other players can't block those attackers.
+
+310.9d
+If a battle's protector is a different player than its controller, all rules and effects that refer to the "defending player" relative to a battle that is being attacked refer to that battle's protector rather than its controller. See rule 508.5.
+
+310.9e
+If a rule or effect refers to the player who protects a battle, it means the player who is that battle's protector.
+
+310.9f
+A battle can have only one protector at a time. A battle's protector stops being its protector if another player becomes its protector.
+
+310.9g
+A battle's protector doesn't change if it stops being a battle or it becomes a copy of another battle.
 
 310.10.
-If a battle that isn't being attacked has no player designated as its protector, or its protector is a player who can't be its protector based on its battle type, its controller chooses an appropriate player to be its protector. If no player can be chosen this way, the battle is put into its owner's graveyard. This is a state-based action (see rule 704).
+A battle can't be attached to players or permanents, even if it is also an Aura, Equipment, or Fortification. If a battle is somehow attached to a permanent, it becomes unattached. This is a state-based action (see rule 704).
 
 310.11.
-All currently existing battles have the subtype Siege. Sieges are subject to special rules.
+If a battle that isn't being attacked has no player designated as its protector, or its protector is a player who can't be its protector, its controller chooses an appropriate player to be its protector. If no player can be chosen this way, the battle is put into its owner's graveyard. This is a state-based action (see rule 704).
 
-310.11a
+310.12.
+Some battles have the subtype Siege. Sieges are subject to special rules.
+
+310.12a
 As a Siege enters the battlefield, its controller must choose its protector from among their opponents. Only an opponent of a Siege's controller can be its protector.
 
-310.11b
+310.12b
 Sieges have the intrinsic ability "When the last defense counter is removed from this permanent, exile it, then you may cast it transformed without paying its mana cost."
 
 311. Planes
@@ -3130,7 +3135,7 @@ If an effect would put a creature that's also a battle onto the battlefield atta
 If a resolving spell or ability would cause a battle to become an attacking or blocking creature, that part of the effect does nothing.
 
 506.4.
-A permanent is removed from combat if it leaves the battlefield, if its controller changes, if it phases out, if an effect specifically removes it from combat, if it's a planeswalker that's being attacked and stops being a planeswalker, if it's a battle that's being attacked and stops being a battle, or if it's an attacking or blocking creature that regenerates (see rule 701.19), stops being a creature, or becomes a battle. A creature that's removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. A planeswalker or battle that's removed from combat stops being attacked.
+A permanent is removed from combat if it leaves the battlefield, if its controller or protector changes, if it phases out, if an effect specifically removes it from combat, if it's a planeswalker that's being attacked and stops being a planeswalker, if it's a battle that's being attacked and stops being a battle, or if it's an attacking or blocking creature that regenerates (see rule 701.19), stops being a creature, or becomes a battle. A creature that's removed from combat stops being an attacking, blocking, blocked, and/or unblocked creature. A planeswalker or battle that's removed from combat stops being attacked.
 
 506.4a
 Once a creature has been declared as an attacking or blocking creature, spells or abilities that would have kept that creature from attacking or blocking don't remove the creature from combat.
@@ -3313,8 +3318,7 @@ First, the defending player declares blockers. This turn-based action doesn't us
 The defending player chooses which creatures they control, if any, will block. The chosen creatures must be untapped and they can't also be battles. For each of the chosen creatures, the defending player chooses one creature for it to block that's attacking that player, a planeswalker they control, or a battle they protect.
 
 509.1b
-The defending player checks each creature they control to see whether it's affected by any restrictions (effects that say a creature can't block, or that it can't block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.
-     A restriction may be created by an evasion ability (a static ability an attacking creature has that restricts what can block it). If an attacking creature gains or loses an evasion ability after a legal block has been declared, it doesn't affect that block. Different evasion abilities are cumulative.
+The defending player checks each creature they control to see whether it's affected by any restrictions (effects that say a creature can't block, or that it can't block unless some condition is met). If any restrictions are being disobeyed, the declaration of blockers is illegal.     A restriction may be created by an evasion ability (a static ability an attacking creature has that restricts what can block it). If an attacking creature gains or loses an evasion ability after a legal block has been declared, it doesn't affect that block. Different evasion abilities are cumulative.
 Example: An attacking creature with flying and shadow can't be blocked by a creature with flying but without shadow.
 
 509.1c
@@ -3795,7 +3799,7 @@ Unlike spells and other kinds of abilities, static abilities can't use an object
 Some activated abilities and some triggered abilities are mana abilities, which are subject to special rules. Only abilities that meet either of the following two sets of criteria are mana abilities, regardless of what other effects they may generate or what timing restrictions (such as "Activate only as an instant") they may have.
 
 605.1a
-An activated ability is a mana ability if it meets all of the following criteria: it doesn't require a target (see rule 115.6), it could add mana to a player's mana pool when it resolves, and it's not a loyalty ability. (See rule 606, "Loyalty Abilities.")
+An activated ability is a mana ability if it meets all of the following criteria: it doesn't require a target (see rule 115.6), it could add mana to a player's mana pool when it resolves, it's not a loyalty ability (see rule 606, "Loyalty Abilities"), and its cost and effect don't move any card to or from a library. Do not take into account replacement effects that may apply, other than self-replacement effects, when evaluating these criteria.
 
 605.1b
 A triggered ability is a mana ability if it meets all of the following criteria: it doesn't require a target (see rule 115.6), it triggers from the activation or resolution of an activated mana ability (see rule 605.1a) or from mana being added to a player's mana pool, and it could add mana to a player's mana pool when it resolves.
@@ -5527,6 +5531,12 @@ Heal
 
 701.69a
 To heal damage already dealt to a permanent, remove that marked damage from that permanent. If an effect states that damage already dealt to a permanent "is healed," that permanent's controller removes all marked damage from that permanent.
+
+701.70.
+Recruit
+
+701.70a
+"Recruit" means "Draw a card, then discard a card. If you discarded a nonland card this way, create a 1/1 white Human Soldier creature token."
 
 702. Keyword Abilities
 
@@ -7857,6 +7867,18 @@ Abilities may refer to a spell cast "using teamwork" or similar. Such phrases re
 702.194c
 If part of a spell's ability has its effect only if teamwork was used to cast it, and that part of the ability includes any targets, the spell's controller chooses those targets only if teamwork was used to cast that spell. Otherwise, the spell is cast as if it did not have those targets. See rule 601.2c.
 
+702.195.
+Storied
+
+702.195a
+Storied is a static ability. It means "Any time you control three or more permanents that are artifacts, Sagas, and/or legendary and you don't have an enduring story, you have an enduring story for the rest of the game."
+
+702.195b
+Enduring story is a designation that has no rules meaning other than to act as a marker that other rules and effects can identify. Any number of players may have the enduring story designation at the same time.
+
+702.195c
+After a player gets an enduring story, continuous effects are reapplied before the game checks to see if the game state or preceding events have matched any trigger conditions.
+
 703. Turn-Based Actions
 
 703.1.
@@ -7998,19 +8020,21 @@ If a player's venture marker is on the bottommost room of a dungeon card, and th
 If a permanent with space sculptor and any creatures without a sector designation are on the battlefield, each player who controls one or more of those creatures and doesn't control a permanent with space sculptor chooses a sector designation for each of those creatures they control. Then, each other player who controls one or more of those creatures chooses a sector designation for each of those creatures they control. See rule 702.158, "Space Sculptor."
 
 704.5v
-If a battle has defense 0 and it isn't the source of an ability that has triggered but not yet left the stack, it's put into its owner's graveyard.
+If a Siege battle has defense 0 and it isn't the source of an ability that has triggered but not yet left the stack, it's put into its owner's graveyard.
 
 704.5w
-If a battle has no player in the game designated as its protector and no attacking creatures are currently attacking that battle, that battle's controller chooses an appropriate player to be its protector based on its battle type. If no player can be chosen this way, the battle is put into its owner's graveyard. See rule 310, "Battles."
+If a non-Siege battle has defense 0, it's put into its owner's graveyard.
 
 704.5x
-If a Siege's controller is also its designated protector, that player chooses an opponent to become its protector. If no player can be chosen this way, the battle is put into its owner's graveyard. See rule 310, "Battles."
+If a battle has no player in the game designated as its protector and no attacking creatures are currently attacking that battle, that battle's controller chooses an appropriate player to be its protector based on its battle type. If the battle has no battle type, its controller must be chosen. If no player can be chosen this way, the battle is put into its owner's graveyard. See rule 310, "Battles."
 
 704.5y
-If a permanent has more than one Role controlled by the same player attached to it, each of those Roles except the one with the most recent timestamp is put into its owner's graveyard.
+If a battle's protector is a player who can't be its protector, that battle's controller chooses an appropriate player to become its protector. If no player can be chosen this way, the battle is put into its owner's graveyard. See rule 310, "Battles."
 
 704.5z
-If a player controls a permanent with start your engines! and that player has no speed, that player's speed becomes 1. See rule 702.179, "Start Your Engines!"
+If a permanent has more than one Role controlled by the same player attached to it, each of those Roles except the one with the most recent timestamp is put into its owner's graveyard.
+
+704.5aa If a player controls a permanent with start your engines! and that player has no speed, that player's speed becomes 1. See rule 702.179, "Start Your Engines!"
 
 704.6.
 Some variant games include additional state-based actions that aren't normally applicable:
@@ -8882,7 +8906,7 @@ Although preparation cards are printed with multiple sets of characteristics, ea
 Preparation cards can't be cast using the alternative characteristics found within their inset frames. Rather, these characteristics are used to define characteristics of copies which may be cast.
 
 722.3a
-Some spells and abilities cause a permanent with a prepare spell to become prepared or state that a permanent enters prepared. If that permanent has the alternative characteristics of a prepare spell, this gives the permanent the "prepared" designation. Prepared is a designation that acts as a marker which rules and effects can identify. A permanent can't gain this designation unless it has a prepare spell, Additionally, a permanent can't gain this designation if the permanent already has it.
+Some spells and abilities cause a permanent with a prepare spell to become prepared or state that a permanent enters prepared. If that permanent has the alternative characteristics of a prepare spell, this gives the permanent the "prepared" designation. Prepared is a designation that acts as a marker which rules and effects can identify. A permanent can't gain this designation unless it has a prepare spell. Additionally, a permanent can't gain this designation if the permanent already has it.
 
 722.3b
 A rule or effect may cause a permanent to become "unprepared." This removes the prepared designation from that permanent.
@@ -10238,9 +10262,7 @@ Abandon
 To turn a face-up ongoing scheme card face down and put it on the bottom of its owner's scheme deck. See rule 701.33, "Abandon."
 
 Ability
-1. Text on an object that explains what that object does or can do.
-2. An activated or triggered ability on the stack. This kind of ability is an object.
-See rule 113, "Abilities," and section 6, "Spells, Abilities, and Effects."
+1. Text on an object that explains what that object does or can do.2. An activated or triggered ability on the stack. This kind of ability is an object.See rule 113, "Abilities," and section 6, "Spells, Abilities, and Effects."
 
 Ability Word
 An italicized word with no rules meaning that ties together abilities on different cards that have similar functionality. See rule 207.2c.
@@ -10312,9 +10334,7 @@ Annihilator
 A keyword ability that can make a creature particularly brutal when it attacks. See rule 702.86, "Annihilator."
 
 Ante
-1. A zone used only when playing "for keeps."
-2. To put a card into the ante zone.
-See rule 407, "Ante."
+1. A zone used only when playing "for keeps."2. To put a card into the ante zone.See rule 407, "Ante."
 
 Any Target
 A spell or ability may require "any target." "Any target" is the same as "target creature, player, planeswalker, or battle." See rule 115.4.
@@ -10323,8 +10343,7 @@ APNAP Order
 See Active Player, Nonactive Player Order.
 
 Archenemy
-1. A casual variant in which a team of players faces off against a single opponent strengthened with powerful scheme cards. See rule 904, "Archenemy."
-2. A player in an Archenemy game who is playing with a scheme deck.
+1. A casual variant in which a team of players faces off against a single opponent strengthened with powerful scheme cards. See rule 904, "Archenemy."2. A player in an Archenemy game who is playing with a scheme deck.
 
 Archenemy Commander
 A Commander game that follows a modified version of the Archenemy rules. See rule 903, "Commander," and rule 904, "Archenemy."
@@ -10576,8 +10595,7 @@ Collector Number
 A number printed on most cards that has no effect on game play. See rule 213, "Information Below the Text Box."
 
 Color
-1. A characteristic of an object. See rule 105, "Colors," and rule 202, "Mana Cost and Color."
-2. An attribute mana may have. See rule 106, "Mana."
+1. A characteristic of an object. See rule 105, "Colors," and rule 202, "Mana Cost and Color."2. An attribute mana may have. See rule 106, "Mana."
 
 Color Identity
 A set of colors that determines what cards may be included in a deck for the Commander casual variant. See rule 903.4.
@@ -10586,8 +10604,7 @@ Color Indicator
 A characteristic of an object. See rule 105, "Colors," and rule 204, "Color Indicator."
 
 Colorless
-1. An object with no color is colorless. Colorless is not a color. See rule 105, "Colors," and rule 202, "Mana Cost and Color."
-2. A type of mana. See rule 106, "Mana," and rule 107.4c.
+1. An object with no color is colorless. Colorless is not a color. See rule 105, "Colors," and rule 202, "Mana Cost and Color."2. A type of mana. See rule 106, "Mana," and rule 107.4c.
 
 Combat Damage
 Damage dealt during the combat damage step by attacking creatures and blocking creatures as a consequence of combat. See rule 510, "Combat Damage Step."
@@ -10602,8 +10619,7 @@ Command
 A zone for certain specialized objects that have an overarching effect on the game, yet are not permanents and cannot be destroyed. See rule 408, "Command."
 
 Commander
-1. A casual variant in which each deck is led by a legendary card (usually a creature). See rule 903, "Commander."
-2. A designation given to one legendary card in each player's deck in the Commander casual variant.
+1. A casual variant in which each deck is led by a legendary card (usually a creature). See rule 903, "Commander."2. A designation given to one legendary card in each player's deck in the Commander casual variant.
 
 Commander Draft
 A casual variant in which players participate in a booster draft and then play multiplayer games. See rule 903.13, "Commander Draft."
@@ -10666,16 +10682,13 @@ Copiable Values
 Values of an object's characteristics that are checked by copy effects. See rules 613.2, 707.2, and 707.3.
 
 Copy
-1. To create a new object whose copiable values have been set to those of another object.
-2. An object whose copiable values have been set to those of another object.
-See rule 707, "Copying Objects."
+1. To create a new object whose copiable values have been set to those of another object.2. An object whose copiable values have been set to those of another object.See rule 707, "Copying Objects."
 
 Cost
 An action or payment necessary to take another action or to stop another action from taking place. See rule 118, "Costs."
 
 Counter
-1. To cancel a spell or ability so it doesn't resolve and none of its effects occur. See rule 701.6, "Counter."
-2. A marker placed on an object or player that modifies its characteristics or interacts with a rule or ability. See rule 122, "Counters."
+1. To cancel a spell or ability so it doesn't resolve and none of its effects occur. See rule 701.6, "Counter."2. A marker placed on an object or player that modifies its characteristics or interacts with a rule or ability. See rule 122, "Counters."
 
 Counts As (Obsolete)
 Some older cards were printed with text stating that the card "counts as" something. Cards printed with this text have received errata in the Oracle card reference to state that the card actually is that thing.
@@ -10830,8 +10843,7 @@ Draft Round
 Part of a draft in which each player opens an unopened booster pack and the cards in those booster packs are drafted. See rules 905.1a and 905.1b.
 
 Draw
-1. To put the top card of a player's library into their hand as a turn-based action or as the result of an effect that uses the word "draw." See rule 121, "Drawing a Card."
-2. The result of a game in which neither player wins or loses. See rule 104.4.
+1. To put the top card of a player's library into their hand as a turn-based action or as the result of an effect that uses the word "draw." See rule 121, "Drawing a Card."2. The result of a game in which neither player wins or loses. See rule 104.4.
 
 Draw Step
 Part of the turn. This step is the third and final step of the beginning phase. See rule 504, "Draw Step."
@@ -10908,6 +10920,9 @@ Part of the turn. This phase is the fifth and final phase of the turn. See rule 
 Endure
 A keyword ability that lets you choose put +1/+1 counters on a creature or create a Spirit creature token. See rule 702.62, "Endure."
 
+Enduring Story
+A designation a player can have. The storied keyword causes a player to get this designation once they control three permanents that are artifacts, Sagas, and/or legendary. See rule 702.195, "Storied."
+
 Energy Symbol
 The energy symbol {E} represents one energy counter. To pay {E}, a player removes one energy counter from themselves.
 
@@ -10969,9 +10984,7 @@ Exhaust
 An activated ability that may be activated only once. See rule 702.177, "Exhaust."
 
 Exile
-1. A zone. Exile is essentially a holding area for cards. It used to be known as the "removed-from-the-game" zone.
-2. To put an object into the exile zone from whatever zone it's currently in. An "exiled" card is one that's been put into the exile zone.
-See rule 406, "Exile."
+1. A zone. Exile is essentially a holding area for cards. It used to be known as the "removed-from-the-game" zone.2. To put an object into the exile zone from whatever zone it's currently in. An "exiled" card is one that's been put into the exile zone.See rule 406, "Exile."
 
 Expansion Symbol
 A card's expansion symbol is a small icon normally printed below the right edge of the illustration that has no effect on game play. See rule 206, "Expansion Symbol."
@@ -10998,13 +11011,10 @@ Face a Villainous Choice
 A keyword action that causes a player to choose one of two listed choices. See rule 701.55, "Face a Villainous Choice."
 
 Face Down
-1. A card is "face down" if it's physically positioned so the card back is showing. Cards in some zones are normally kept face down. See section 4, "Zones."
-2. A status a permanent may have. See rule 110.5 and rule 702.37, "Morph."
-3. Face-down spells have additional rules. See rule 708, "Face-Down Spells and Permanents," and rule 702.37, "Morph."
+1. A card is "face down" if it's physically positioned so the card back is showing. Cards in some zones are normally kept face down. See section 4, "Zones."2. A status a permanent may have. See rule 110.5 and rule 702.37, "Morph."3. Face-down spells have additional rules. See rule 708, "Face-Down Spells and Permanents," and rule 702.37, "Morph."
 
 Face Up
-1. A card is "face up" if it's physically positioned so the card front is showing. Cards in some zones are normally kept face up. See section 4, "Zones."
-2. A default status a permanent may have. See rule 110.5 and rule 702.37, "Morph."
+1. A card is "face up" if it's physically positioned so the card front is showing. Cards in some zones are normally kept face up. See section 4, "Zones."2. A default status a permanent may have. See rule 110.5 and rule 702.37, "Morph."
 
 Fading
 A keyword ability that limits how long a permanent remains on the battlefield. See rule 702.32, "Fading."
@@ -11136,14 +11146,10 @@ Gravestorm
 A keyword ability that creates copies of a spell. See rule 702.69, "Gravestorm."
 
 Graveyard
-1. A zone. A player's graveyard is their discard pile.
-2. All the cards in a player's graveyard.
-See rule 404, "Graveyard."
+1. A zone. A player's graveyard is their discard pile.2. All the cards in a player's graveyard.See rule 404, "Graveyard."
 
 Hand
-1. A zone. A player's hand is where that player holds cards they have drawn but not played yet.
-2. All the cards in a player's hand.
-See rule 402, "Hand."
+1. A zone. A player's hand is where that player holds cards they have drawn but not played yet.2. All the cards in a player's hand.See rule 402, "Hand."
 
 Hand Modifier
 A characteristic that only vanguards have. See rule 211, "Hand Modifier."
@@ -11180,6 +11186,9 @@ A keyword ability that lets a player store a secret card. See rule 702.75, "Hide
 
 Historic
 An object is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. See rule 700.6.
+
+Hone Counter
+A counter on an Equipment that gives the equipped creature +1/+0. See rule 122, "Counters."
 
 Horsemanship
 A keyword ability that restricts how a creature may be blocked. See rule 702.31, "Horsemanship."
@@ -11248,8 +11257,7 @@ Infect
 A keyword ability that affects how an object deals damage to creatures and players. See rule 702.90, "Infect."
 
 Infinity
-1. An artifact subtype.
-2.  is a keyword found on Infinity cards that grants an ability as long as that permanent is harnessed. See rule 702.186, " (Infinity)," and rule 701.64, "Harness."
+1. An artifact subtype.2.  is a keyword found on Infinity cards that grants an ability as long as that permanent is harnessed. See rule 702.186, " (Infinity)," and rule 701.64, "Harness."
 
 Ingest
 A keyword ability that can exile the top card of a player's library. See rule 702.115, "Ingest."
@@ -11357,9 +11365,7 @@ Leveler Cards
 Cards with striated text boxes and three power/toughness boxes. See rule 711, "Leveler Cards."
 
 Library
-1. A zone. A player's library is where that player draws cards from.
-2. All the cards in a player's library.
-See rule 401, "Library."
+1. A zone. A player's library is where that player draws cards from.2. All the cards in a player's library.See rule 401, "Library."
 
 Life, Life Total
 Each player has an amount of "life," represented by that player's "life total." Life may be gained or lost. See rule 119, "Life."
@@ -11404,8 +11410,7 @@ Lose the Game
 There are several ways to lose the game. See rule 104, "Ending the Game," rule 810.8 (for additional rules for Two-Headed Giant games), rule 809.5 (for additional rules for Emperor games), and rule 903.10 (for an additional rule for Commander games).
 
 Loyalty
-1. Part of a card that only planeswalker cards have. A planeswalker card's loyalty is printed in its lower right corner. See rule 209, "Loyalty."
-2. A characteristic that only planeswalkers have. See rule 306.5.
+1. Part of a card that only planeswalker cards have. A planeswalker card's loyalty is printed in its lower right corner. See rule 209, "Loyalty."2. A characteristic that only planeswalkers have. See rule 306.5.
 
 Loyalty Ability
 An activated ability with a loyalty symbol in its cost. See rule 606, "Loyalty Abilities."
@@ -11456,8 +11461,7 @@ Match
 A multiplayer game or a two-player series of games (usually best-two-of-three) played in a tournament. See rule 100.6.
 
 Max Speed
-1. A player has max speed if their speed is 4. See rule 702.179, "Start Your Engines!"
-2. A keyword ability that grants an ability to the permanent or card it's on only if that permanent's controller (or that card's owner, if it isn't on the battlefield) has a speed of 4. See rule 702.178, "Max Speed."
+1. A player has max speed if their speed is 4. See rule 702.179, "Start Your Engines!"2. A keyword ability that grants an ability to the permanent or card it's on only if that permanent's controller (or that card's owner, if it isn't on the battlefield) has a speed of 4. See rule 702.178, "Max Speed."
 
 Maximum Hand Size
 The number of cards in hand a player must discard down to during their cleanup step. See rule 402.2 and 514.1.
@@ -11671,8 +11675,7 @@ Persist
 A keyword ability that can return a creature from the graveyard to the battlefield. See rule 702.79, "Persist."
 
 Phase
-1. A subsection of a turn. See section 5, "Turn Structure."
-2. A permanent "phases in" when its status changes from phased out to phased in. A permanent "phases out" when its status changes from phased in to phased out. See rule 702.26, "Phasing."
+1. A subsection of a turn. See section 5, "Turn Structure."2. A permanent "phases in" when its status changes from phased out to phased in. A permanent "phases out" when its status changes from phased in to phased out. See rule 702.26, "Phasing."
 
 Phased In, Phased Out
 A status a permanent may have. Phased-in is the default status. Phased-out permanents are treated as though they do not exist. See rule 110.5 and rule 702.26, "Phasing." ("Phased-out" was a zone in older versions of the rules.)
@@ -11732,11 +11735,7 @@ Planeswalker Uniqueness Rule (Obsolete)
 Older versions of the rules stated that a player who controlled two or more planeswalkers with the same planeswalker type would put all but one of those planeswalkers into their owners' graveyards. This rule was called the "planeswalker uniqueness rule" and no longer exists.
 
 Play
-1. To play a land is to put a land onto the battlefield as a special action. See rule 116, "Special Actions," and rule 305, "Lands."
-2. To play a card is to play that card as a land or cast that card as a spell, whichever is appropriate. See rule 601, "Casting Spells."
-3. (Obsolete) Casting a spell used to be known as playing a spell. Cards with that text have received errata in the Oracle card reference. See Cast.
-4. (Obsolete) Activating an activated ability used to be known as playing an activated ability. Cards with that text have received errata in the Oracle card reference. See Activate.
-5. (Obsolete) The battlefield used to be known as the in-play zone. Cards that were printed with text that contains the phrases "in play," "from play," "into play," or the like are referring to the battlefield and have received errata in the Oracle card reference. See Battlefield.
+1. To play a land is to put a land onto the battlefield as a special action. See rule 116, "Special Actions," and rule 305, "Lands."2. To play a card is to play that card as a land or cast that card as a spell, whichever is appropriate. See rule 601, "Casting Spells."3. (Obsolete) Casting a spell used to be known as playing a spell. Cards with that text have received errata in the Oracle card reference. See Cast.4. (Obsolete) Activating an activated ability used to be known as playing an activated ability. Cards with that text have received errata in the Oracle card reference. See Activate.5. (Obsolete) The battlefield used to be known as the in-play zone. Cards that were printed with text that contains the phrases "in play," "from play," "into play," or the like are referring to the battlefield and have received errata in the Oracle card reference. See Battlefield.
 
 Player
 One of the people in the game. See rule 102, "Players."
@@ -11766,8 +11765,7 @@ Postcombat Main Phase
 A main phase that occurs after a combat phase. See Main Phase.
 
 Power
-1. Part of a card that only creature cards have. A creature card's power is printed before the slash in its lower right corner. See rule 208, "Power/Toughness."
-2. A characteristic that only creatures have. See rule 302.4.
+1. Part of a card that only creature cards have. A creature card's power is printed before the slash in its lower right corner. See rule 208, "Power/Toughness."2. A characteristic that only creatures have. See rule 302.4.
 
 Powerstone Token
 A Powerstone token is a colorless artifact token with "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell." For more information about predefined tokens, see rule 111.10.
@@ -11803,7 +11801,7 @@ Proliferate
 To give an additional counter to any number of players and/or permanents of each kind they already have. See rule 701.34, "Proliferate."
 
 Protect, Protector
-Each battle has a player designated as its protector, and that player protects that battle. See rule 310.8.
+Each battle has a player designated as its protector, and that player protects that battle. See rule 310.9.
 
 Protection
 A keyword ability that provides a range of benefits against objects with a specific quality. See rule 702.16, "Protection."
@@ -11852,6 +11850,9 @@ A keyword ability that allows an Equipment creature to temporarily stop being a 
 
 Recover
 A keyword ability that lets a player return a card from their graveyard to their hand. See rule 702.59, "Recover."
+
+Recruit
+A keyword action that lets a player draw a card, discard a card, and then create a creature token if a nonland card was discarded. See rule 701.70, "Recruit."
 
 Redirect (Obsolete)
 Some older cards were printed with the term "redirect" to indicate a redirection effect. Such cards have received errata in the Oracle card reference so they explicitly state that damage that would be dealt to one object or player is dealt "instead" to another. See Redirection Effect.
@@ -12005,7 +12006,7 @@ Sideboard
 Extra cards that may be used to modify a deck between games of a match. See rules 100.4.
 
 Siege
-A battle subtype. Only an opponent of a Siege's controller can be its protector. When the last defense counter is removed, its controller exiles the Siege, then they may cast it transformed without paying its mana cost. See rule 310.11.
+A battle subtype. Only an opponent of a Siege's controller can be its protector. When the last defense counter is removed, its controller exiles the Siege, then they may cast it transformed without paying its mana cost. See rule 310.12.
 
 Silver-Bordered
 Cards in certain sets and certain promotional cards are printed with a silver border. Silver-bordered cards are intended for casual play and may have features and text that aren't covered by these rules.
@@ -12032,8 +12033,7 @@ Snow-Covered (Obsolete)
 Some older cards were printed with the term "snow-covered" in their rules text. Except when referencing card names, such cards have received errata in the Oracle card reference to reference the supertype "snow" instead. See Snow.
 
 Solved
-1. A designation a Case may have, allowing its last ability to affect the game. See rule 719, "Case Cards."
-2. A keyword ability of Case cards that affects the game only if the Case has the solved designation. See rule 702.169, "Solved."
+1. A designation a Case may have, allowing its last ability to affect the game. See rule 719, "Case Cards."2. A keyword ability of Case cards that affects the game only if the Case has the solved designation. See rule 702.169, "Solved."
 
 Sorcery
 A card type. A sorcery is not a permanent. See rule 307, "Sorceries."
@@ -12139,6 +12139,9 @@ A kicker variant that can add a sticker to the spell with the ability and give a
 
 Sticker Sheet
 The collection of stickers found on an insert in Unfinity booster packs. See rule 123, "Stickers."
+
+Storied
+A keyword causing a player to get the enduring story designation once they control three or more permanents that are artifacts, Sagas, and/or legendary. See rule 702.195, "Storied."
 
 Storm
 A keyword ability that creates copies of a spell. See rule 702.40, "Storm."
@@ -12255,8 +12258,7 @@ Totem Armor (Obsolete)
 An obsolete keyword ability that has been renamed. See rule 702.89, "Umbra Armor."
 
 Toughness
-1. Part of a card that only creature cards have. A creature card's toughness is printed after the slash in its lower right corner. See rule 208, "Power/Toughness."
-2. A characteristic that only creatures have. See rule 302.4.
+1. Part of a card that only creature cards have. A creature card's toughness is printed after the slash in its lower right corner. See rule 208, "Power/Toughness."2. A characteristic that only creatures have. See rule 302.4.
 
 Tournament
 An organized play activity where players compete against other players. See rule 100.6.
@@ -12325,8 +12327,7 @@ Two-Headed Giant Variant
 A multiplayer variant played among two-player teams that each have a shared life total and take a simultaneous turn. See rule 810, "Two-Headed Giant Variant."
 
 Type
-1. An object's card type or, more broadly, its card type, subtype, and/or supertype. See rule 205, "Type Line," and section 3, "Card Types."
-2. An attribute mana has. See rule 106, "Mana."
+1. An object's card type or, more broadly, its card type, subtype, and/or supertype. See rule 205, "Type Line," and section 3, "Card Types."2. An attribute mana has. See rule 106, "Mana."
 
 Type Icon
 An icon that appears in the upper left of some Future Sight cards that has no effect on game play. See rule 107.10.
@@ -12395,8 +12396,7 @@ Upkeep Step
 Part of the turn. This step is the second step of the beginning phase. See rule 503, "Upkeep Step."
 
 Vanguard
-1. A casual variant in which each player plays the role of a famous character. See rule 902, "Vanguard."
-2. A card type seen only on nontraditional Magic cards in the Vanguard casual variant. A vanguard card is not a permanent. See rule 313, "Vanguards."
+1. A casual variant in which each player plays the role of a famous character. See rule 902, "Vanguard."2. A card type seen only on nontraditional Magic cards in the Vanguard casual variant. A vanguard card is not a permanent. See rule 313, "Vanguards."
 
 Vanishing
 A keyword ability that limits how long a permanent remains on the battlefield. See rule 702.63, "Vanishing."
@@ -12499,13 +12499,13 @@ Thanks to all our project team members and the many others too numerous to menti
 
 
 
-These rules are effective as of June 19, 2026.
+These rules are effective as of August 7, 2026.
 
 Published by Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, their respective logos, Mirrodin, Kamigawa, Lorwyn, Zendikar, Innistrad, Ravnica, Khans of Tarkir, Magic Origins, Magic: The Gathering--Conspiracy, Ixalan, Unfinity, Dominaria, Ikoria, Kaldheim, Baldur's Gate, The Brothers' War, and Planeswalker Decks are trademarks of Wizards of the Coast LLC in the USA and other countries. (C)2026 Wizards. U.S. Pat. No. RE 37,957.
 
 Astartes, C'tan, Custodes, Necron, Primarch, and Tyranid (R) & (C) Games Workshop Limited 2022. All Rights Reserved.
 
-(C) 2023 Middle-earth Enterprises. Tales of Middle-earth and The Lord of the Rings and the names of the characters, events, items and places therein, are trademarks of Middle-earth Enterprises, LLC used under license by Wizards of the Coast LLC. All rights reserved.
+(C) 2026 Middle-earth Enterprises. Tales of Middle-earth, The Lord of the Rings, The Hobbit and the names of the characters, events, items and places therein, are trademarks of Middle-earth Enterprises, LLC used under license by Wizards of the Coast LLC. All rights reserved.
 
 BBC, DOCTOR WHO, TARDIS, DALEK, CYBERMAN and K-9 (word marks and devices) are trade marks of the British Broadcasting Corporation and are used under licence. BBC logo (C) BBC 1996.
 

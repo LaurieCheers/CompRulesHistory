@@ -628,5 +628,10 @@
     "setCode": "MSH",
     "setName": "Marvel Super Heroes",
     "creationDay": "2026-06-28"
+  },
+  {
+    "setCode": "HOB",
+    "setName": "The Hobbit",
+    "creationDay": "2026-08-03"
   }
 ]
