@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Keep the archived rules document on stable LF line endings across platforms,
+# so version-to-version diffs reflect real rule changes, not EOL churn.
+comprehensive-rules.txt text eol=lf
